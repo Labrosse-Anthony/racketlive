@@ -1,0 +1,74 @@
+.tournoi-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.tournoi-card:hover {
+  border-color: #2e7d32;
+}
+
+.tournoi-card__lien {
+  display: block;
+  padding: 0.9rem 1rem;
+  color: inherit;
+  text-decoration: none;
+}
+
+.tournoi-card__lien:focus-visible {
+  outline: 3px solid #f9a825;
+  outline-offset: 2px;
+  border-radius: 10px;
+}
+
+.tournoi-card__titre {
+  margin: 0 0 0.25rem;
+  font-size: 1.1rem;
+}
+
+.tournoi-card__info {
+  margin: 0;
+  color: #555555;
+  font-size: 0.9rem;
+}
+
+.tournoi-card__badges {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 0.6rem;
+}
+
+.tournoi-card__dotation {
+  margin-left: auto;
+  color: #555555;
+  font-size: 0.85rem;
+}
+
+.badge {
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.badge--atp {
+  background: #e3f2fd;
+  color: #0d47a1;
+}
+
+.badge--wta {
+  background: #fce4ec;
+  color: #880e4f;
+}
+
+.badge--grand-chelem {
+  background: #fff8e1;
+  color: #7a5c00;
+}
+
+.badge--surface {
+  background: #eeeeee;
+  color: #444444;
+}
