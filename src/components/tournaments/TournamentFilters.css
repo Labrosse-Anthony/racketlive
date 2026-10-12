@@ -1,0 +1,39 @@
+.filtres {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.filtres__champ {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-size: 0.85rem;
+  color: #555555;
+}
+
+.filtres__champ select {
+  padding: 0.5rem;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  background: #ffffff;
+  font-size: 1rem;
+}
+
+.filtres__reset {
+  grid-column: 1 / -1;
+  padding: 0.5rem;
+  border: 1px solid #2e7d32;
+  border-radius: 6px;
+  background: #ffffff;
+  color: #2e7d32;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .filtres {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
