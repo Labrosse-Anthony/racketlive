@@ -1,0 +1,72 @@
+.navbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background: #ffffff;
+  border-top: 1px solid #dddddd;
+}
+
+/* Le nom de l'appli est caché sur mobile */
+.navbar__brand {
+  display: none;
+}
+
+.navbar__list {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: #555555;
+  font-size: 0.75rem;
+}
+
+.navbar__icon {
+  font-size: 1.4rem;
+}
+
+/* Page courante */
+.navbar__link.active {
+  color: #2e7d32;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    position: sticky;
+    top: 0;
+    bottom: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+    border-top: none;
+    border-bottom: 1px solid #dddddd;
+  }
+
+  .navbar__brand {
+    display: block;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  .navbar__list {
+    gap: 1rem;
+  }
+
+  .navbar__link {
+    flex-direction: row;
+    gap: 0.5rem;
+    font-size: 1rem;
+  }
+}
