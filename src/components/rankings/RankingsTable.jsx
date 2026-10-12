@@ -11,7 +11,7 @@ function Evolution({ valeur }) {
   return <span className="evolution evolution--same">–</span>
 }
 
-function RankingsTable({ joueurs, rangDepart = 1 }) {
+function RankingsTable({ joueurs }) {
   return (
     <div className="rankings-table__wrapper">
       <table className="rankings-table">
@@ -27,9 +27,9 @@ function RankingsTable({ joueurs, rangDepart = 1 }) {
           </tr>
         </thead>
         <tbody>
-          {joueurs.map((joueur, index) => (
+          {joueurs.map((joueur ) => (
             <tr key={joueur.id}>
-              <td>{rangDepart + index}</td>
+              <td>{joueur.rang}</td>
               <td>
                 <Evolution valeur={joueur.evolution} />
               </td>

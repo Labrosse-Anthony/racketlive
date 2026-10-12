@@ -1,0 +1,31 @@
+.classements__onglets {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.onglet {
+  flex: 1;
+  padding: 0.6rem 0.5rem;
+  border: 1px solid #2e7d32;
+  border-radius: 6px;
+  background: #ffffff;
+  color: #2e7d32;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.onglet--actif {
+  background: #2e7d32;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.classements__recherche {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
