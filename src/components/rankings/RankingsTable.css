@@ -1,0 +1,37 @@
+.rankings-table__wrapper {
+  overflow-x: auto;
+}
+
+.rankings-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.rankings-table th,
+.rankings-table td {
+  padding: 0.6rem 0.5rem;
+  text-align: left;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.rankings-table th {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: #555555;
+}
+
+.rankings-table__nombre {
+  text-align: right !important;
+}
+
+.evolution--up {
+  color: #2e7d32;
+}
+
+.evolution--down {
+  color: #c62828;
+}
+
+.evolution--same {
+  color: #777777;
+}
