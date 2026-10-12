@@ -1,0 +1,14 @@
+/* Réglages de base, on les enrichira plus tard */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+}
+
+main {
+  padding: 1rem;
+}
