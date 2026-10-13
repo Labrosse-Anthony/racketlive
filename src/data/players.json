@@ -1,0 +1,62 @@
+{
+  "1": {
+    "naissance": "1998-03-14",
+    "taille": 188,
+    "main": "droite",
+    "stats": { "victoires": 38, "defaites": 9, "titresSaison": 2, "titresCarriere": 12 },
+    "derniersResultats": [
+      { "tournoiId": 9, "tournoi": "Roland-Garros", "tour": "Finale", "adversaire": { "id": 2, "nom": "Mateo Alvarez", "pays": "ES" }, "victoire": false, "score": "6-3 6-7 6-2 6-4" },
+      { "tournoiId": 5, "tournoi": "Masters de Monte-Carlo", "tour": "Quart de finale", "adversaire": { "id": 4, "nom": "Luca Ferrante", "pays": "IT" }, "victoire": false, "score": "4-6 6-3 6-4" },
+      { "tournoiId": 1, "tournoi": "Open d'Australie", "tour": "Finale", "adversaire": { "id": 2, "nom": "Mateo Alvarez", "pays": "ES" }, "victoire": true, "score": "6-4 3-6 7-5 6-3" }
+    ],
+    "prochainsMatchs": [
+      { "tournoiId": 10, "tournoi": "Tournoi de Halle", "tour": "1er tour", "date": "2027-06-15", "adversaire": { "id": 8, "nom": "Daniel Novak", "pays": "CZ" } },
+      { "tournoiId": 12, "tournoi": "Wimbledon", "tour": "1er tour", "date": "2027-06-29", "adversaire": { "id": 9, "nom": "Kenji Aoki", "pays": "JP" } }
+    ]
+  },
+  "2": {
+    "naissance": "1999-07-02",
+    "taille": 185,
+    "main": "droite",
+    "stats": { "victoires": 41, "defaites": 8, "titresSaison": 3, "titresCarriere": 15 },
+    "derniersResultats": [
+      { "tournoiId": 9, "tournoi": "Roland-Garros", "tour": "Finale", "adversaire": { "id": 1, "nom": "Lucas Marchand", "pays": "FR" }, "victoire": true, "score": "6-3 6-7 6-2 6-4" },
+      { "tournoiId": 5, "tournoi": "Masters de Monte-Carlo", "tour": "Demi-finale", "adversaire": { "id": 4, "nom": "Luca Ferrante", "pays": "IT" }, "victoire": false, "score": "6-4 7-5" },
+      { "tournoiId": 4, "tournoi": "Indian Wells", "tour": "Finale", "adversaire": { "id": 3, "nom": "Jonas Berger", "pays": "DE" }, "victoire": true, "score": "7-6 6-4" }
+    ],
+    "prochainsMatchs": [
+      { "tournoiId": 10, "tournoi": "Tournoi de Halle", "tour": "1er tour", "date": "2027-06-15", "adversaire": { "id": 5, "nom": "Oliver Hughes", "pays": "GB" } },
+      { "tournoiId": 12, "tournoi": "Wimbledon", "tour": "1er tour", "date": "2027-06-29", "adversaire": { "id": 6, "nom": "Ethan Walker", "pays": "US" } }
+    ]
+  },
+  "101": {
+    "naissance": "2000-01-21",
+    "taille": 175,
+    "main": "droite",
+    "stats": { "victoires": 36, "defaites": 7, "titresSaison": 3, "titresCarriere": 9 },
+    "derniersResultats": [
+      { "tournoiId": 9, "tournoi": "Roland-Garros", "tour": "Finale", "adversaire": { "id": 103, "nom": "Emma Johnson", "pays": "US" }, "victoire": true, "score": "6-2 6-4" },
+      { "tournoiId": 6, "tournoi": "Open de Madrid", "tour": "Finale", "adversaire": { "id": 105, "nom": "Mia Richter", "pays": "DE" }, "victoire": true, "score": "6-4 6-2" },
+      { "tournoiId": 1, "tournoi": "Open d'Australie", "tour": "Finale", "adversaire": { "id": 102, "nom": "Sofia Morales", "pays": "ES" }, "victoire": false, "score": "6-3 6-4" }
+    ],
+    "prochainsMatchs": [
+      { "tournoiId": 11, "tournoi": "Open de Bad Homburg", "tour": "1er tour", "date": "2027-06-22", "adversaire": { "id": 110, "nom": "Elena Popescu", "pays": "RO" } },
+      { "tournoiId": 12, "tournoi": "Wimbledon", "tour": "1er tour", "date": "2027-06-29", "adversaire": { "id": 112, "nom": "Zoe Campbell", "pays": "AU" } }
+    ]
+  },
+  "102": {
+    "naissance": "1999-11-09",
+    "taille": 172,
+    "main": "gauche",
+    "stats": { "victoires": 33, "defaites": 10, "titresSaison": 2, "titresCarriere": 7 },
+    "derniersResultats": [
+      { "tournoiId": 9, "tournoi": "Roland-Garros", "tour": "Demi-finale", "adversaire": { "id": 103, "nom": "Emma Johnson", "pays": "US" }, "victoire": false, "score": "6-4 6-3" },
+      { "tournoiId": 6, "tournoi": "Open de Madrid", "tour": "Quart de finale", "adversaire": { "id": 105, "nom": "Mia Richter", "pays": "DE" }, "victoire": false, "score": "7-5 6-4" },
+      { "tournoiId": 1, "tournoi": "Open d'Australie", "tour": "Finale", "adversaire": { "id": 101, "nom": "Chloé Laurent", "pays": "FR" }, "victoire": true, "score": "6-3 6-4" }
+    ],
+    "prochainsMatchs": [
+      { "tournoiId": 11, "tournoi": "Open de Bad Homburg", "tour": "1er tour", "date": "2027-06-22", "adversaire": { "id": 109, "nom": "Camille Roche", "pays": "FR" } },
+      { "tournoiId": 12, "tournoi": "Wimbledon", "tour": "1er tour", "date": "2027-06-29", "adversaire": { "id": 108, "nom": "Olivia Brown", "pays": "GB" } }
+    ]
+  }
+}

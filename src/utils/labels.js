@@ -25,4 +25,19 @@ export const PAYS = {
   NL: 'Pays-Bas',
   QA: 'Qatar',
   US: 'États-Unis',
+  AR: 'Argentine',
+  BR: 'Brésil',
+  CH: 'Suisse',
+  CZ: 'Tchéquie',
+  GR: 'Grèce',
+  HR: 'Croatie',
+  NO: 'Norvège',
+  PL: 'Pologne',
+  RO: 'Roumanie',
+  SE: 'Suède',
+}
+
+export const MAINS = {
+  droite: 'Droite',
+  gauche: 'Gauche',
 }

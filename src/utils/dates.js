@@ -14,3 +14,26 @@ export function formaterPeriode(debut, fin) {
   const texteFin = lireDate(fin).toLocaleDateString('fr-FR', complet)
   return `${texteDebut} – ${texteFin}`
 }
+
+export function calculerAge(naissance) {
+  const aujourdhui = new Date()
+  const date = lireDate(naissance)
+
+  let age = aujourdhui.getFullYear() - date.getFullYear()
+
+  const anniversairePasse =
+    aujourdhui.getMonth() > date.getMonth() ||
+    (aujourdhui.getMonth() === date.getMonth() &&
+      aujourdhui.getDate() >= date.getDate())
+
+  if (!anniversairePasse) age--
+  return age
+}
+
+export function formaterDate(texte) {
+  return lireDate(texte).toLocaleDateString('fr-FR', {
+    weekday: 'long',
+    day: 'numeric',
+    month: 'long',
+  })
+}
