@@ -1,0 +1,25 @@
+{
+  "1": [
+    { "tour": "Finale", "categorie": "Messieurs", "vainqueur": { "id": 1, "nom": "Lucas Marchand", "pays": "FR" }, "perdant": { "id": 2, "nom": "Mateo Alvarez", "pays": "ES" }, "score": "6-4 3-6 7-5 6-3" },
+    { "tour": "Finale", "categorie": "Dames", "vainqueur": { "id": 102, "nom": "Sofia Morales", "pays": "ES" }, "perdant": { "id": 101, "nom": "Chloé Laurent", "pays": "FR" }, "score": "6-3 6-4" }
+  ],
+  "4": [
+    { "tour": "Finale", "vainqueur": { "id": 2, "nom": "Mateo Alvarez", "pays": "ES" }, "perdant": { "id": 3, "nom": "Jonas Berger", "pays": "DE" }, "score": "7-6 6-4" },
+    { "tour": "Demi-finale", "vainqueur": { "id": 2, "nom": "Mateo Alvarez", "pays": "ES" }, "perdant": { "id": 4, "nom": "Luca Ferrante", "pays": "IT" }, "score": "6-3 6-4" },
+    { "tour": "Demi-finale", "vainqueur": { "id": 3, "nom": "Jonas Berger", "pays": "DE" }, "perdant": { "id": 5, "nom": "Oliver Hughes", "pays": "GB" }, "score": "6-4 3-6 6-2" }
+  ],
+  "5": [
+    { "tour": "Finale", "vainqueur": { "id": 4, "nom": "Luca Ferrante", "pays": "IT" }, "perdant": { "id": 10, "nom": "Tomas Rivera", "pays": "AR" }, "score": "6-2 6-3" },
+    { "tour": "Demi-finale", "vainqueur": { "id": 4, "nom": "Luca Ferrante", "pays": "IT" }, "perdant": { "id": 2, "nom": "Mateo Alvarez", "pays": "ES" }, "score": "6-4 7-5" },
+    { "tour": "Demi-finale", "vainqueur": { "id": 10, "nom": "Tomas Rivera", "pays": "AR" }, "perdant": { "id": 11, "nom": "Felix Dubois", "pays": "FR" }, "score": "6-3 6-7 6-4" }
+  ],
+  "6": [
+    { "tour": "Finale", "vainqueur": { "id": 101, "nom": "Chloé Laurent", "pays": "FR" }, "perdant": { "id": 105, "nom": "Mia Richter", "pays": "DE" }, "score": "6-4 6-2" },
+    { "tour": "Demi-finale", "vainqueur": { "id": 101, "nom": "Chloé Laurent", "pays": "FR" }, "perdant": { "id": 104, "nom": "Anna Kowalska", "pays": "PL" }, "score": "6-1 6-3" },
+    { "tour": "Demi-finale", "vainqueur": { "id": 105, "nom": "Mia Richter", "pays": "DE" }, "perdant": { "id": 107, "nom": "Ayumi Tanaka", "pays": "JP" }, "score": "7-5 6-4" }
+  ],
+  "9": [
+    { "tour": "Finale", "categorie": "Messieurs", "vainqueur": { "id": 2, "nom": "Mateo Alvarez", "pays": "ES" }, "perdant": { "id": 1, "nom": "Lucas Marchand", "pays": "FR" }, "score": "6-3 6-7 6-2 6-4" },
+    { "tour": "Finale", "categorie": "Dames", "vainqueur": { "id": 101, "nom": "Chloé Laurent", "pays": "FR" }, "perdant": { "id": 103, "nom": "Emma Johnson", "pays": "US" }, "score": "6-2 6-4" }
+  ]
+}

@@ -2,14 +2,11 @@ import { Link } from 'react-router-dom'
 import { drapeau } from '../../utils/flags.js'
 import { formaterPeriode } from '../../utils/dates.js'
 import { CIRCUITS, SURFACES, PAYS } from '../../utils/labels.js'
+import { formaterEuros } from '../../utils/format.js'
 import './TournamentCard.css'
 
 function TournamentCard({ tournoi }) {
-  const dotation = tournoi.dotation.toLocaleString('fr-FR', {
-    style: 'currency',
-    currency: 'EUR',
-    maximumFractionDigits: 0,
-  })
+  const dotation = formaterEuros(tournoi.dotation)
 
   return (
     <article className="tournoi-card">
