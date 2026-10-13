@@ -50,6 +50,10 @@
   font-size: 1.05rem;
 }
 
+.joueur__favori {
+  margin-left: auto;
+}
+
 @media (min-width: 768px) {
   .joueur__infos {
     grid-template-columns: repeat(3, 1fr);

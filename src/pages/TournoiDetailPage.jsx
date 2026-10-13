@@ -9,6 +9,7 @@ import { drapeau } from '../utils/flags.js'
 import { formaterPeriode } from '../utils/dates.js'
 import { formaterEuros } from '../utils/format.js'
 import { CIRCUITS, SURFACES, PAYS } from '../utils/labels.js'
+import FavoriteButton from '../components/ui/FavoriteButton.jsx'
 import './TournoiDetailPage.css'
 
 function TournoiDetailPage() {
@@ -54,7 +55,10 @@ function TournoiDetailPage() {
         ← Retour au calendrier
       </Link>
 
-      <h1>{tournoi.nom}</h1>
+      <div className="tournoi-detail__titre">
+        <h1>{tournoi.nom}</h1>
+        <FavoriteButton type="tournois" id={tournoi.id} nom={tournoi.nom} />
+      </div>
 
       <div className="tournoi-detail__badges">
         <span className={`badge badge--${tournoi.circuit}`}>

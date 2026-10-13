@@ -72,3 +72,17 @@
   background: #eeeeee;
   color: #444444;
 }
+
+.tournoi-card {
+  position: relative;
+}
+
+.tournoi-card__favori {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+}
+
+.tournoi-card__lien {
+  padding-right: 3.5rem;
+}

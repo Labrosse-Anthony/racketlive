@@ -1,7 +1,9 @@
-import { drapeau } from '../../utils/flags.js'
 import { Link } from 'react-router-dom'
+import { drapeau } from '../../utils/flags.js'
+import FavoriteButton from '../ui/FavoriteButton.jsx'
 import './RankingsTable.css'
 
+// Affiche l'évolution du classement : ▲ gagné, ▼ perdu, – inchangé
 function Evolution({ valeur }) {
   if (valeur > 0) {
     return <span className="evolution evolution--up">▲ {valeur}</span>
@@ -25,10 +27,13 @@ function RankingsTable({ joueurs }) {
             <th scope="col" className="rankings-table__nombre">
               Points
             </th>
+            <th scope="col">
+              <span className="visuellement-cache">Favori</span>
+            </th>
           </tr>
         </thead>
         <tbody>
-          {joueurs.map((joueur ) => (
+          {joueurs.map((joueur) => (
             <tr key={joueur.id}>
               <td>{joueur.rang}</td>
               <td>
@@ -46,6 +51,9 @@ function RankingsTable({ joueurs }) {
               </td>
               <td className="rankings-table__nombre">
                 {joueur.points.toLocaleString('fr-FR')}
+              </td>
+              <td>
+                <FavoriteButton type="joueurs" id={joueur.id} nom={joueur.nom} />
               </td>
             </tr>
           ))}

@@ -48,6 +48,18 @@
   font-size: 1.05rem;
 }
 
+.tournoi-detail__titre {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.tournoi-detail__titre h1 {
+  margin: 0;
+}
+
 @media (min-width: 768px) {
   .tournoi-detail__infos {
     grid-template-columns: 1fr 1fr;

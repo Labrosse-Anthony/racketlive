@@ -8,6 +8,7 @@ import { calculerAge } from '../utils/dates.js'
 import { CIRCUITS, PAYS, MAINS } from '../utils/labels.js'
 import PlayerResults from '../components/players/PlayerResults.jsx'
 import PlayerUpcoming from '../components/players/PlayerUpcoming.jsx'
+import FavoriteButton from '../components/ui/FavoriteButton.jsx'
 import './JoueurPage.css'
 
 function JoueurPage() {
@@ -60,6 +61,9 @@ function JoueurPage() {
           <span className={`badge badge--${joueur.circuit}`}>
             {CIRCUITS[joueur.circuit]}
           </span>
+        </div>
+        <div className="joueur__favori">
+          <FavoriteButton type="joueurs" id={joueur.id} nom={joueur.nom} />
         </div>
       </header>
 
