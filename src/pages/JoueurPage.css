@@ -1,0 +1,57 @@
+.joueur__retour {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: #2e7d32;
+  text-decoration: none;
+}
+
+.joueur__retour:hover {
+  text-decoration: underline;
+}
+
+.joueur__retour:focus-visible {
+  outline: 3px solid #f9a825;
+  outline-offset: 2px;
+}
+
+.joueur__entete {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.joueur__nom {
+  margin: 0 0 0.3rem;
+}
+
+.joueur__infos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  margin: 0 0 1.5rem;
+}
+
+.joueur__infos > div {
+  padding: 0.75rem 1rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.joueur__infos dt {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: #555555;
+}
+
+.joueur__infos dd {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+@media (min-width: 768px) {
+  .joueur__infos {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

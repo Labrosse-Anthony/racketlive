@@ -1,4 +1,5 @@
 import { drapeau } from '../../utils/flags.js'
+import { Link } from 'react-router-dom'
 import './RankingsTable.css'
 
 function Evolution({ valeur }) {
@@ -33,7 +34,11 @@ function RankingsTable({ joueurs }) {
               <td>
                 <Evolution valeur={joueur.evolution} />
               </td>
-              <td>{joueur.nom}</td>
+              <td>
+                <Link to={`/joueurs/${joueur.id}`} className="rankings-table__lien">
+                  {joueur.nom}
+                </Link>
+              </td>
               <td>
                 <span role="img" aria-label={joueur.pays}>
                   {drapeau(joueur.pays)}

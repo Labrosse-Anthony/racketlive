@@ -35,3 +35,18 @@
 .evolution--same {
   color: #777777;
 }
+
+.rankings-table__lien {
+  color: inherit;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.rankings-table__lien:hover {
+  text-decoration: underline;
+}
+
+.rankings-table__lien:focus-visible {
+  outline: 3px solid #f9a825;
+  outline-offset: 2px;
+}
