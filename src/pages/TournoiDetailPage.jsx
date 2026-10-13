@@ -1,6 +1,10 @@
 import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
-import { getTournamentById } from '../services/api/tournamentsApi.js'
+import {
+  getTournamentById,
+  getTournamentResults,
+} from '../services/api/tournamentsApi.js'
+import TournamentResults from '../components/tournaments/TournamentResults.jsx'
 import { drapeau } from '../utils/flags.js'
 import { formaterPeriode } from '../utils/dates.js'
 import { formaterEuros } from '../utils/format.js'
@@ -15,10 +19,12 @@ function TournoiDetailPage() {
   useEffect(() => {
     let annule = false
 
-    getTournamentById(id).then((tournoi) => {
-      if (annule) return
-      setDonnees({ id, tournoi })
-    })
+    Promise.all([getTournamentById(id), getTournamentResults(id)]).then(
+      ([tournoi, resultats]) => {
+        if (annule) return
+        setDonnees({ id, tournoi, resultats })
+      },
+    )
 
     return () => {
       annule = true
@@ -82,6 +88,9 @@ function TournoiDetailPage() {
           <dd>{formaterEuros(tournoi.dotation)}</dd>
         </div>
       </dl>
+
+      <h2>Résultats</h2>
+      <TournamentResults resultats={donnees.resultats} />
     </article>
   )
 }
