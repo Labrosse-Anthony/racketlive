@@ -1,0 +1,22 @@
+.calendrier__bascule {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.calendrier__bouton {
+  flex: 1;
+  padding: 0.6rem 0.5rem;
+  border: 1px solid #2e7d32;
+  border-radius: 6px;
+  background: #ffffff;
+  color: #2e7d32;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.calendrier__bouton--actif {
+  background: #2e7d32;
+  color: #ffffff;
+  font-weight: bold;
+}

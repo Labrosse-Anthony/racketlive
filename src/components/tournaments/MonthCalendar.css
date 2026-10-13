@@ -1,0 +1,73 @@
+.mois__navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+}
+
+.mois__navigation button {
+  width: 44px;
+  height: 44px;
+  border: 1px solid #2e7d32;
+  border-radius: 6px;
+  background: #ffffff;
+  color: #2e7d32;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.mois__titre {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.mois__grille {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 2px;
+  margin-bottom: 0.75rem;
+}
+
+.mois__jour-nom {
+  padding: 0.25rem 0;
+  text-align: center;
+  font-size: 0.75rem;
+  color: #777777;
+}
+
+.mois__case {
+  min-height: 3.2rem;
+  padding: 0.2rem 0.3rem;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  font-size: 0.8rem;
+}
+
+.mois__points {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+  margin-top: 2px;
+}
+
+.point {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.point--atp {
+  background: #1565c0;
+}
+
+.point--wta {
+  background: #ad1457;
+}
+
+.point--grand-chelem {
+  background: #f9a825;
+}
+
+.mois__legende {
+  margin: 0 0 1rem;
+}

@@ -3,6 +3,8 @@ import { getTournaments } from '../services/api/tournamentsApi.js'
 import { PAYS } from '../utils/labels.js'
 import TournamentFilters from '../components/tournaments/TournamentFilters.jsx'
 import TournamentList from '../components/tournaments/TournamentList.jsx'
+import MonthCalendar from '../components/tournaments/MonthCalendar.jsx'
+import './CalendrierPage.css'
 
 const FILTRES_VIDES = { circuit: '', surface: '', pays: '', mois: '' }
 
@@ -10,6 +12,8 @@ function CalendrierPage() {
   const [tournois, setTournois] = useState([])
   const [chargement, setChargement] = useState(true)
   const [filtres, setFiltres] = useState(FILTRES_VIDES)
+  const [vue, setVue] = useState('liste')
+  const [moisAffiche, setMoisAffiche] = useState({ annee: 2027, mois: 0 })
 
   useEffect(() => {
     getTournaments().then((donnees) => {
@@ -24,6 +28,18 @@ function CalendrierPage() {
 
   function effacerFiltres() {
     setFiltres(FILTRES_VIDES)
+  }
+
+  function changerVue(nouvelleVue) {
+    setVue(nouvelleVue)
+    if (nouvelleVue === 'calendrier') {
+      setFiltres({ ...filtres, mois: '' })
+    }
+  }
+
+  function changerMois(decalage) {
+    const date = new Date(moisAffiche.annee, moisAffiche.mois + decalage, 1)
+    setMoisAffiche({ annee: date.getFullYear(), mois: date.getMonth() })
   }
 
   const codesPays = [...new Set(tournois.map((tournoi) => tournoi.pays))].sort(
@@ -48,20 +64,55 @@ function CalendrierPage() {
     <section>
       <h1>Calendrier des tournois</h1>
 
+      <div className="calendrier__bascule">
+        <button
+          className={
+            vue === 'liste'
+              ? 'calendrier__bouton calendrier__bouton--actif'
+              : 'calendrier__bouton'
+          }
+          aria-pressed={vue === 'liste'}
+          onClick={() => changerVue('liste')}
+        >
+          Liste
+        </button>
+        <button
+          className={
+            vue === 'calendrier'
+              ? 'calendrier__bouton calendrier__bouton--actif'
+              : 'calendrier__bouton'
+          }
+          aria-pressed={vue === 'calendrier'}
+          onClick={() => changerVue('calendrier')}
+        >
+          Calendrier
+        </button>
+      </div>
+
       <TournamentFilters
         filtres={filtres}
         codesPays={codesPays}
         onChange={changerFiltre}
         onReset={effacerFiltres}
+        afficherMois={vue === 'liste'}
       />
 
-      {chargement ? (
-        <p>Chargement…</p>
-      ) : (
+      {chargement && <p>Chargement…</p>}
+
+      {!chargement && vue === 'liste' && (
         <>
           <p aria-live="polite">{tournoisFiltres.length} tournoi(s)</p>
           <TournamentList tournois={tournoisFiltres} />
         </>
+      )}
+
+      {!chargement && vue === 'calendrier' && (
+        <MonthCalendar
+          annee={moisAffiche.annee}
+          mois={moisAffiche.mois}
+          tournois={tournoisFiltres}
+          onChangeMois={changerMois}
+        />
       )}
     </section>
   )
