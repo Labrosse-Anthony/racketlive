@@ -6,6 +6,8 @@ import PlayerStats from '../components/players/PlayerStats.jsx'
 import { drapeau } from '../utils/flags.js'
 import { calculerAge } from '../utils/dates.js'
 import { CIRCUITS, PAYS, MAINS } from '../utils/labels.js'
+import PlayerResults from '../components/players/PlayerResults.jsx'
+import PlayerUpcoming from '../components/players/PlayerUpcoming.jsx'
 import './JoueurPage.css'
 
 function JoueurPage() {
@@ -99,6 +101,12 @@ function JoueurPage() {
         <>
           <h2>Statistiques</h2>
           <PlayerStats stats={details.stats} />
+
+          <h2>Derniers résultats</h2>
+          <PlayerResults resultats={details.derniersResultats} />
+
+          <h2>Prochains matchs</h2>
+          <PlayerUpcoming matchs={details.prochainsMatchs} />
         </>
       ) : (
         <p>Les informations détaillées de ce joueur seront disponibles prochainement.</p>
