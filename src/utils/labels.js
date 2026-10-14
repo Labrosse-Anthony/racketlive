@@ -11,6 +11,12 @@ export const SURFACES = {
   indoor: 'Indoor (salle)',
 }
 
+export const CATEGORIES = {
+  1000: 'Masters 1000',
+  500: '500',
+  250: '250',
+}
+
 export const PAYS = {
   AU: 'Australie',
   CA: 'Canada',
