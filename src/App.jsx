@@ -1,11 +1,13 @@
+import { lazy } from 'react'
 import { Routes, Route, Navigate } from 'react-router-dom'
 import Layout from './components/layout/Layout.jsx'
-import CalendrierPage from './pages/CalendrierPage.jsx'
-import TournoiDetailPage from './pages/TournoiDetailPage.jsx'
-import ClassementsPage from './pages/ClassementsPage.jsx'
-import JoueurPage from './pages/JoueurPage.jsx'
-import FavorisPage from './pages/FavorisPage.jsx'
-import NotFoundPage from './pages/NotFoundPage.jsx'
+
+const CalendrierPage = lazy(() => import('./pages/CalendrierPage.jsx'))
+const TournoiDetailPage = lazy(() => import('./pages/TournoiDetailPage.jsx'))
+const ClassementsPage = lazy(() => import('./pages/ClassementsPage.jsx'))
+const JoueurPage = lazy(() => import('./pages/JoueurPage.jsx'))
+const FavorisPage = lazy(() => import('./pages/FavorisPage.jsx'))
+const NotFoundPage = lazy(() => import('./pages/NotFoundPage.jsx'))
 
 function App() {
   return (

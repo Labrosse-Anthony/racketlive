@@ -4,7 +4,6 @@ import { formaterPeriode } from '../../utils/dates.js'
 import { formaterEuros } from '../../utils/format.js'
 import { CIRCUITS, SURFACES, PAYS } from '../../utils/labels.js'
 import FavoriteButton from '../ui/FavoriteButton.jsx'
-import { usePageTitle } from '../hooks/usePageTitle.js'
 import './TournamentCard.css'
 
 function TournamentCard({ tournoi }) {

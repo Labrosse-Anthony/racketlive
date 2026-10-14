@@ -1,5 +1,4 @@
 import TournamentCard from './TournamentCard.jsx'
-import { usePageTitle } from '../hooks/usePageTitle.js'
 import './TournamentList.css'
 
 function TournamentList({ tournois }) {

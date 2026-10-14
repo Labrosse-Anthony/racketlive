@@ -23,7 +23,8 @@ function ecrire(favoris) {
   try {
     localStorage.setItem(CLE_STOCKAGE, JSON.stringify(favoris))
   } catch {
-
+    // Stockage plein ou indisponible : on ignore, l'appli continue de fonctionner
+    return
   }
 }
 

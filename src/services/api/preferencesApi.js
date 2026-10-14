@@ -13,6 +13,7 @@ export function saveTheme(theme) {
   try {
     localStorage.setItem(CLE_THEME, theme)
   } catch {
-
+    // Stockage indisponible : on ignore, le thème marchera quand même pour cette visite
+    return
   }
 }

@@ -6,9 +6,6 @@ function ThemeToggle() {
 
   return (
     <button type="button" className="navbar__link" onClick={basculer}>
-      <span className="navbar__icon" aria-hidden="true">
-        {sombre ? '☀️' : '🌙'}
-      </span>
       <span>{sombre ? 'Mode clair' : 'Mode sombre'}</span>
     </button>
   )

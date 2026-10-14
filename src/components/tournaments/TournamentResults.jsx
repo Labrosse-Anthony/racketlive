@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom'
 import { drapeau } from '../../utils/flags.js'
-import { usePageTitle } from '../hooks/usePageTitle.js'
 import './TournamentResults.css'
 
 function Joueur({ joueur, gagnant = false }) {

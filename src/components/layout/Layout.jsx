@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react'
+import { Suspense, useEffect, useRef } from 'react'
 import { Outlet, useLocation } from 'react-router-dom'
 import Navbar from './Navbar.jsx'
 import './Layout.css'
@@ -28,7 +28,9 @@ function Layout() {
         tabIndex={-1}
         ref={contenuRef}
       >
-        <Outlet />
+        <Suspense fallback={<p>Chargement…</p>}>
+          <Outlet />
+        </Suspense>
       </main>
     </div>
   )

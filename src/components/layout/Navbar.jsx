@@ -11,7 +11,6 @@ const liens = [
 function Navbar() {
   return (
     <nav className="navbar" aria-label="Navigation principale">
-      {/* Le nom est écrit "Racket" + "Live" : le CSS le met en majuscules comme sur le logo */}
       <Link to="/calendrier" className="navbar__brand">
         Racket<span className="navbar__brand-live">Live</span>
       </Link>

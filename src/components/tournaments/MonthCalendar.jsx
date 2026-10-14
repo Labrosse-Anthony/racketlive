@@ -1,6 +1,5 @@
 import { NOMS_MOIS } from '../../utils/dates.js'
 import TournamentList from './TournamentList.jsx'
-import { usePageTitle } from '../hooks/usePageTitle.js'
 import './MonthCalendar.css'
 
 const INITIALES_JOURS = ['L', 'M', 'M', 'J', 'V', 'S', 'D']
