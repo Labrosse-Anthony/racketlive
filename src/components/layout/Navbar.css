@@ -1,3 +1,64 @@
+.entete {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.5rem 1rem;
+  background: var(--navy);
+  border-bottom: 1px solid rgb(255 255 255 / 0.12);
+}
+
+.entete :focus-visible {
+  outline-color: var(--lime);
+}
+
+.entete__marque {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  color: #ffffff;
+  font-size: 1.15rem;
+  font-weight: 800;
+  font-style: italic;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.entete__logo {
+  display: block;
+  border-radius: 8px;
+}
+
+.entete__marque-live {
+  color: var(--lime);
+}
+
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  padding: 0;
+  border: 1px solid rgb(255 255 255 / 0.3);
+  border-radius: 50%;
+  background: transparent;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.theme-toggle:hover {
+  background: rgb(255 255 255 / 0.12);
+}
+
+.theme-toggle svg {
+  width: 22px;
+  height: 22px;
+}
+
 .navbar {
   position: fixed;
   bottom: 0;
@@ -6,20 +67,6 @@
   z-index: 10;
   background: var(--surface);
   border-top: 1px solid var(--border);
-}
-
-.navbar__brand {
-  display: none;
-  color: var(--brand);
-  font-size: 1.3rem;
-  font-weight: 800;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
-.navbar__brand-live {
-  color: var(--primary);
 }
 
 .navbar__list {
@@ -60,20 +107,19 @@
 }
 
 @media (min-width: 768px) {
-  .navbar {
-    position: sticky;
-    top: 0;
-    bottom: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  .entete {
     padding: 0 1.5rem;
-    border-top: none;
-    border-bottom: 1px solid var(--border);
   }
 
-  .navbar__brand {
-    display: block;
+  .entete__marque {
+    font-size: 1.3rem;
+  }
+
+  .navbar {
+    position: static;
+    margin-left: auto;
+    background: none;
+    border-top: none;
   }
 
   .navbar__list {
@@ -83,7 +129,17 @@
   .navbar__link {
     flex-direction: row;
     gap: 0.5rem;
-    padding: 0.9rem 1rem;
+    padding: 1.1rem 1rem;
     font-size: 1rem;
+    color: rgb(255 255 255 / 0.8);
+  }
+
+  .navbar__link:hover {
+    color: #ffffff;
+  }
+
+  .navbar__link.active {
+    color: var(--lime);
+    box-shadow: inset 0 -3px 0 var(--lime);
   }
 }
