@@ -1,11 +1,12 @@
 import { Link, NavLink } from 'react-router-dom'
+import NavIcon from './NavIcon.jsx'
 import ThemeToggle from './ThemeToggle.jsx'
 import './Navbar.css'
 
 const liens = [
-  { to: '/calendrier', texte: 'Tournois' },
-  { to: '/classements', texte: 'Classements' },
-  { to: '/favoris', texte: 'Favoris' },
+  { to: '/calendrier', texte: 'Tournois', icone: 'calendrier' },
+  { to: '/classements', texte: 'Classements', icone: 'classements' },
+  { to: '/favoris', texte: 'Favoris', icone: 'favoris' },
 ]
 
 function Navbar() {
@@ -29,8 +30,8 @@ function Navbar() {
           {liens.map((lien) => (
             <li key={lien.to}>
               <NavLink to={lien.to} className="navbar__link">
-                <span className="navbar__icon" aria-hidden="true">
-                  {lien.icone}
+                <span className="navbar__icon">
+                  <NavIcon nom={lien.icone} />
                 </span>
                 <span>{lien.texte}</span>
               </NavLink>
