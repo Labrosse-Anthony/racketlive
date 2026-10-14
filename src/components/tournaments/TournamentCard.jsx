@@ -26,6 +26,11 @@ function TournamentCard({ tournoi }) {
           <span className={`badge badge--${tournoi.circuit}`}>
             {CIRCUITS[tournoi.circuit]}
           </span>
+          {tournoi.categorie && (
+            <span className="badge badge--categorie">
+              {CIRCUITS[tournoi.circuit]} {tournoi.categorie}
+            </span>
+          )}
           <span className="badge badge--surface">
             {SURFACES[tournoi.surface]}
           </span>

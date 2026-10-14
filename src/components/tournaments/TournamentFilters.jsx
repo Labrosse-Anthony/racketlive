@@ -1,6 +1,6 @@
 import { drapeau } from '../../utils/flags.js'
 import { NOMS_MOIS } from '../../utils/dates.js'
-import { CIRCUITS, SURFACES, PAYS } from '../../utils/labels.js'
+import { CIRCUITS, SURFACES, PAYS, CATEGORIES } from '../../utils/labels.js'
 import './TournamentFilters.css'
 
 function Choix({ nom, label, valeur, options, onChange }) {
@@ -23,7 +23,13 @@ function versOptions(objet) {
   return Object.entries(objet).map(([valeur, texte]) => ({ valeur, texte }))
 }
 
-function TournamentFilters({ filtres, codesPays, onChange, onReset }) {
+function TournamentFilters({
+  filtres,
+  codesPays,
+  onChange,
+  onReset,
+  afficherMois = true,
+}) {
   const optionsPays = codesPays.map((code) => ({
     valeur: code,
     texte: `${drapeau(code)} ${PAYS[code]}`,
@@ -35,7 +41,6 @@ function TournamentFilters({ filtres, codesPays, onChange, onReset }) {
     texte,
   }))
 
-  // Y a-t-il au moins un filtre actif ?
   const filtreActif = Object.values(filtres).some((valeur) => valeur !== '')
 
   return (
@@ -45,6 +50,13 @@ function TournamentFilters({ filtres, codesPays, onChange, onReset }) {
         label="Circuit"
         valeur={filtres.circuit}
         options={versOptions(CIRCUITS)}
+        onChange={onChange}
+      />
+      <Choix
+        nom="categorie"
+        label="Catégorie"
+        valeur={filtres.categorie}
+        options={versOptions(CATEGORIES)}
         onChange={onChange}
       />
       <Choix
@@ -61,13 +73,15 @@ function TournamentFilters({ filtres, codesPays, onChange, onReset }) {
         options={optionsPays}
         onChange={onChange}
       />
-      <Choix
-        nom="mois"
-        label="Mois"
-        valeur={filtres.mois}
-        options={optionsMois}
-        onChange={onChange}
-      />
+      {afficherMois && (
+        <Choix
+          nom="mois"
+          label="Mois"
+          valeur={filtres.mois}
+          options={optionsMois}
+          onChange={onChange}
+        />
+      )}
       {filtreActif && (
         <button className="filtres__reset" onClick={onReset}>
           Effacer les filtres

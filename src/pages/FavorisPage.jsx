@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useFavorites } from '../hooks/useFavorites.js'
+import { usePageTitle } from '../hooks/usePageTitle.js'
 import { getTournaments } from '../services/api/tournamentsApi.js'
 import { getPlayersByIds } from '../services/api/playersApi.js'
 import PlayerCard from '../components/players/PlayerCard.jsx'
@@ -8,7 +9,10 @@ import TournamentList from '../components/tournaments/TournamentList.jsx'
 import './FavorisPage.css'
 
 function FavorisPage() {
+  usePageTitle('Mes favoris')
+
   const { favoris, pret, estFavori } = useFavorites()
+
   const [tournois, setTournois] = useState(null)
   const [joueurs, setJoueurs] = useState(null)
 

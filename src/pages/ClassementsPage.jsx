@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { getRanking } from '../services/api/rankingsApi.js'
+import { usePageTitle } from '../hooks/usePageTitle.js'
 import RankingsTable from '../components/rankings/RankingsTable.jsx'
 import Pagination from '../components/ui/Pagination.jsx'
 import './ClassementsPage.css'
@@ -7,6 +8,8 @@ import './ClassementsPage.css'
 const JOUEURS_PAR_PAGE = 8
 
 function ClassementsPage() {
+  usePageTitle('Classements')
+
   const [circuit, setCircuit] = useState('atp')
   const [joueurs, setJoueurs] = useState([])
   const [chargement, setChargement] = useState(true)

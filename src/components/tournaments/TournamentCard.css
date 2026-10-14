@@ -86,3 +86,9 @@
 .tournoi-card__lien {
   padding-right: 3.5rem;
 }
+
+.badge--categorie {
+  border: 1px solid var(--border-strong);
+  background: var(--surface);
+  color: var(--text);
+}

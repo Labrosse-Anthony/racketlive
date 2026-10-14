@@ -1,14 +1,17 @@
 import { useEffect, useState } from 'react'
 import { getTournaments } from '../services/api/tournamentsApi.js'
 import { PAYS } from '../utils/labels.js'
+import { usePageTitle } from '../hooks/usePageTitle.js'
 import TournamentFilters from '../components/tournaments/TournamentFilters.jsx'
 import TournamentList from '../components/tournaments/TournamentList.jsx'
 import MonthCalendar from '../components/tournaments/MonthCalendar.jsx'
 import './CalendrierPage.css'
 
-const FILTRES_VIDES = { circuit: '', surface: '', pays: '', mois: '' }
+const FILTRES_VIDES = { circuit: '', categorie: '', surface: '', pays: '', mois: '' }
 
 function CalendrierPage() {
+  usePageTitle('Calendrier des tournois')
+
   const [tournois, setTournois] = useState([])
   const [chargement, setChargement] = useState(true)
   const [filtres, setFiltres] = useState(FILTRES_VIDES)
@@ -48,6 +51,7 @@ function CalendrierPage() {
 
   const tournoisFiltres = tournois.filter((tournoi) => {
     if (filtres.circuit && tournoi.circuit !== filtres.circuit) return false
+    if (filtres.categorie && tournoi.categorie !== filtres.categorie) return false
     if (filtres.surface && tournoi.surface !== filtres.surface) return false
     if (filtres.pays && tournoi.pays !== filtres.pays) return false
 

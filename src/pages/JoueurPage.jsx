@@ -1,14 +1,15 @@
 import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { getPlayerById } from '../services/api/playersApi.js'
+import { usePageTitle } from '../hooks/usePageTitle.js'
 import PlayerAvatar from '../components/players/PlayerAvatar.jsx'
 import PlayerStats from '../components/players/PlayerStats.jsx'
-import { drapeau } from '../utils/flags.js'
-import { calculerAge } from '../utils/dates.js'
-import { CIRCUITS, PAYS, MAINS } from '../utils/labels.js'
 import PlayerResults from '../components/players/PlayerResults.jsx'
 import PlayerUpcoming from '../components/players/PlayerUpcoming.jsx'
 import FavoriteButton from '../components/ui/FavoriteButton.jsx'
+import { drapeau } from '../utils/flags.js'
+import { calculerAge } from '../utils/dates.js'
+import { CIRCUITS, PAYS, MAINS } from '../utils/labels.js'
 import './JoueurPage.css'
 
 function JoueurPage() {
@@ -31,6 +32,8 @@ function JoueurPage() {
 
   const chargement = donnees === null || donnees.id !== id
   const joueur = donnees === null ? null : donnees.joueur
+
+  usePageTitle(joueur ? joueur.nom : 'Joueur')
 
   if (chargement) {
     return <p>Chargement…</p>
