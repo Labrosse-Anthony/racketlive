@@ -1,16 +1,20 @@
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
+import ThemeToggle from './ThemeToggle.jsx'
 import './Navbar.css'
 
 const liens = [
-  { to: '/calendrier', icone: '📅', texte: 'Tournois' },
-  { to: '/classements', icone: '🏆', texte: 'Classements' },
-  { to: '/favoris', icone: '❤️', texte: 'Favoris' },
+  { to: '/calendrier', texte: 'Tournois' },
+  { to: '/classements', texte: 'Classements' },
+  { to: '/favoris', texte: 'Favoris' },
 ]
 
 function Navbar() {
   return (
     <nav className="navbar" aria-label="Navigation principale">
-      <span className="navbar__brand">RacketLive 🎾</span>
+      {/* Le nom est écrit "Racket" + "Live" : le CSS le met en majuscules comme sur le logo */}
+      <Link to="/calendrier" className="navbar__brand">
+        Racket<span className="navbar__brand-live">Live</span>
+      </Link>
       <ul className="navbar__list">
         {liens.map((lien) => (
           <li key={lien.to}>
@@ -22,6 +26,9 @@ function Navbar() {
             </NavLink>
           </li>
         ))}
+        <li>
+          <ThemeToggle />
+        </li>
       </ul>
     </nav>
   )

@@ -1,6 +1,7 @@
 import { drapeau } from '../../utils/flags.js'
 import { NOMS_MOIS } from '../../utils/dates.js'
 import { CIRCUITS, SURFACES, PAYS } from '../../utils/labels.js'
+import { usePageTitle } from '../hooks/usePageTitle.js'
 import './TournamentFilters.css'
 
 function Choix({ nom, label, valeur, options, onChange }) {

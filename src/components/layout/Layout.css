@@ -1,11 +1,20 @@
-.layout__content {
-  padding: 1rem 1rem 5rem;
+.layout__content:focus {
+  outline: none;
 }
 
-@media (min-width: 768px) {
-  .layout__content {
-    padding: 1.5rem;
-    max-width: 960px;
-    margin: 0 auto;
-  }
+.lien-evitement {
+  position: absolute;
+  top: -4rem;
+  left: 1rem;
+  z-index: 20;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  background: var(--primary);
+  color: var(--on-primary);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.lien-evitement:focus {
+  top: 1rem;
 }
