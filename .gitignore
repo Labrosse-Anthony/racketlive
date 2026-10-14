@@ -1,6 +1,18 @@
-# Variables d'environnement (clés d'API) : ne jamais les envoyer sur GitHub
+# Dépendances installées par npm
+node_modules
+
+# Fichiers générés par le build (npm run build)
+dist
+dist-ssr
+*.local
+
+# Secrets : ne jamais envoyer sur GitHub
 .env
 .env.*
 
-# Compteur de requêtes de l'API tennis (local)
+# Compteur de quota de l'API (propre à ta machine)
 scripts/.compteur-api.json
+
+# Fichiers du système et journaux
+.DS_Store
+*.log

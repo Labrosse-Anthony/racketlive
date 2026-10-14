@@ -1,1 +1,0 @@
-import{n as e,r as t}from"./index-CBATg6Jz.js";var n=e();function r(){return(0,n.jsxs)(`section`,{children:[(0,n.jsx)(`h1`,{children:`Page introuvable`}),(0,n.jsx)(`p`,{children:`Cette page n'existe pas.`}),(0,n.jsx)(t,{to:`/calendrier`,children:`Retour au calendrier`})]})}export{r as default};
