@@ -1,6 +1,9 @@
 :root {
   color-scheme: light;
 
+  --navy: #001c59;
+  --lime: #b8e01c;
+
   --bg: #f4f7f5;
   --surface: #ffffff;
   --text: #14202e;
@@ -8,14 +11,13 @@
   --border: #dfe5e1;
   --border-strong: #8a8a8a;
 
-  --brand: #0b2a6b;
-  --primary: #2e7d32;
+  --brand: var(--navy);
+  --primary: #3f6f12;
   --on-primary: #ffffff;
   --danger: #c62828;
   --danger-soft: #fdecea;
   --focus: #0d47a1;
 
-  /* Circuits : points du calendrier */
   --atp: #1565c0;
   --wta: #ad1457;
   --gc: #b88400;
@@ -42,8 +44,8 @@
   --border-strong: #6b7f99;
 
   --brand: #e8eef7;
-  --primary: #8bc34a;
-  --on-primary: #0b1626;
+  --primary: var(--lime);
+  --on-primary: var(--navy);
   --danger: #ef5350;
   --danger-soft: #3b1f26;
   --focus: #ffd54f;
