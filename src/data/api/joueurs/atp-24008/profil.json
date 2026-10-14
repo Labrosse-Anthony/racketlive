@@ -1,0 +1,57 @@
+{
+  "recupereLe": "2026-10-14T17:17:10.241Z",
+  "donnees": {
+    "playerStatus": "Active",
+    "coach": "Alexander Zverev Sr.",
+    "id": 24008,
+    "name": "Alexander Zverev",
+    "birthday": "1997-04-20T00:00:00.000Z",
+    "countryAcr": "GER",
+    "currentRank": 2,
+    "progress": 0,
+    "points": 9720,
+    "height": null,
+    "wikidata_id": null,
+    "country": {
+      "name": "Germany",
+      "acronym": "GER"
+    },
+    "information": {
+      "id": 24008,
+      "turnedPro": "2013",
+      "weight": "90",
+      "height": "198",
+      "birthplace": "Hamburg, Germany",
+      "residence": "Monte Carlo, Monaco",
+      "plays": "Right-Handed, Two-Handed Backhand",
+      "coach": "Alexander Zverev Sr.",
+      "site": null,
+      "twitter": "https://www.atptour.com/en/players/alexander-zverev/z355/overview",
+      "page": "https://x.com/AlexZverev",
+      "instagram": "https://www.instagram.com/alexzverev123",
+      "facebook": "https://www.facebook.com/alexzverev12345"
+    },
+    "rankingDate": "2026-10-05T00:00:00.000Z",
+    "form": [
+      "w",
+      "w",
+      "w",
+      "l",
+      "w",
+      "w",
+      "w",
+      "l",
+      "w",
+      "w",
+      "w"
+    ],
+    "curRank": {
+      "position": 2,
+      "date": "2026-10-05T00:00:00.000Z"
+    },
+    "bestRank": {
+      "position": 2,
+      "date": "2026-10-05T00:00:00.000Z"
+    }
+  }
+}

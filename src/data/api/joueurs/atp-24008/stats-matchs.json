@@ -1,0 +1,33 @@
+{
+  "recupereLe": "2026-10-14T17:17:12.174Z",
+  "donnees": {
+    "serviceStats": {
+      "acesGm": 7458,
+      "doubleFaultsGm": 3116,
+      "firstServeGm": 47529,
+      "firstServeOfGm": 71245,
+      "winningOnFirstServeGm": 35418,
+      "winningOnFirstServeOfGm": 47529,
+      "winningOnSecondServeGm": 12140,
+      "winningOnSecondServeOfGm": 23708
+    },
+    "rtnStats": {
+      "acesGm": 4516,
+      "doubleFaultsGm": 2560,
+      "firstServeGm": 46555,
+      "firstServeOfGm": 75263,
+      "winningOnFirstServeGm": 32505,
+      "winningOnFirstServeOfGm": 46555,
+      "winningOnSecondServeGm": 13940,
+      "winningOnSecondServeOfGm": 28695
+    },
+    "breakPointsServeStats": {
+      "breakPointFacedGm": 4825,
+      "breakPointSavedGm": 2968
+    },
+    "breakPointsRtnStats": {
+      "breakPointChanceGm": 6966,
+      "breakPointWonGm": 2831
+    }
+  }
+}

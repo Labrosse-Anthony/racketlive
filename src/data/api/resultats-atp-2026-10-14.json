@@ -1,0 +1,4005 @@
+{
+  "recupereLe": "2026-10-14T17:15:27.313Z",
+  "donnees": [
+    {
+      "id": "186517135",
+      "matchId": "186517135",
+      "date": "2026-10-14T15:05:00.000Z",
+      "roundId": 4,
+      "player1Id": 115999,
+      "player2Id": 132852,
+      "tournamentId": 22100,
+      "match_winner": 115999,
+      "result": "6-2 6-1",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 115999,
+        "name": "Max Alcala Gurri/Nikolas Sanchez-Izquierdo",
+        "countryAcr": "N/A"
+      },
+      "player2": {
+        "id": 132852,
+        "name": "Sumit Nagal/Zsombor Piros",
+        "countryAcr": "N/A"
+      },
+      "tournament": {
+        "id": 22100,
+        "name": "Maia Challenger",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "POR",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/186517135/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "186517147",
+      "matchId": "186517147",
+      "date": "2026-10-14T14:10:00.000Z",
+      "roundId": 5,
+      "player1Id": 83554,
+      "player2Id": 47259,
+      "tournamentId": 22101,
+      "match_winner": 83554,
+      "result": "7-6(10) 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.51",
+      "odd2": "2.35",
+      "player1": {
+        "id": 83554,
+        "name": "Sascha Gueymard Wayenburg",
+        "countryAcr": "FRA"
+      },
+      "player2": {
+        "id": 47259,
+        "name": "Clement Tabur",
+        "countryAcr": "FRA"
+      },
+      "tournament": {
+        "id": 22101,
+        "name": "Roanne Challenger",
+        "courtId": 3,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "FRA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/186517147/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "185113166",
+      "matchId": "185113166",
+      "date": "2026-10-14T14:00:00.000Z",
+      "roundId": 4,
+      "player1Id": 63021,
+      "player2Id": 69536,
+      "tournamentId": 22100,
+      "match_winner": 63021,
+      "result": "6-3 6-0",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.22",
+      "odd2": "3.74",
+      "player1": {
+        "id": 63021,
+        "name": "Francesco Passaro",
+        "countryAcr": "ITA"
+      },
+      "player2": {
+        "id": 69536,
+        "name": "Tiago Torres",
+        "countryAcr": "POR"
+      },
+      "tournament": {
+        "id": 22100,
+        "name": "Maia Challenger",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "POR",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/185113166/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "186517175",
+      "matchId": "186517175",
+      "date": "2026-10-14T13:30:00.000Z",
+      "roundId": 4,
+      "player1Id": 107280,
+      "player2Id": 132858,
+      "tournamentId": 22101,
+      "match_winner": 107280,
+      "result": "7-6(1) 7-6(3)",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.68",
+      "odd2": "1.99",
+      "player1": {
+        "id": 107280,
+        "name": "David Stevenson/Marcus Willis",
+        "countryAcr": "N/A"
+      },
+      "player2": {
+        "id": 132858,
+        "name": "Vlad Victor Cornea/Sadio Doumbia",
+        "countryAcr": "N/A"
+      },
+      "tournament": {
+        "id": 22101,
+        "name": "Roanne Challenger",
+        "courtId": 3,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "FRA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/186517175/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "185113118",
+      "matchId": "185113118",
+      "date": "2026-10-14T13:05:00.000Z",
+      "roundId": 5,
+      "player1Id": 26925,
+      "player2Id": 76010,
+      "tournamentId": 22099,
+      "match_winner": 26925,
+      "result": "7-5 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.58",
+      "odd2": "2.2",
+      "player1": {
+        "id": 26925,
+        "name": "Michael Mmoh",
+        "countryAcr": "USA"
+      },
+      "player2": {
+        "id": 76010,
+        "name": "Daniel Rincon",
+        "countryAcr": "ESP"
+      },
+      "tournament": {
+        "id": 22099,
+        "name": "Olbia Challenger",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "ITA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/185113118/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "185113180",
+      "matchId": "185113180",
+      "date": "2026-10-14T13:00:00.000Z",
+      "roundId": 4,
+      "player1Id": 119251,
+      "player2Id": 118625,
+      "tournamentId": 22100,
+      "match_winner": 119251,
+      "result": "6-4 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 119251,
+        "name": "Milos Karol/Andrew Paulson",
+        "countryAcr": "N/A"
+      },
+      "player2": {
+        "id": 118625,
+        "name": "Inigo Cervantes/Denys Molchanov",
+        "countryAcr": "N/A"
+      },
+      "tournament": {
+        "id": 22100,
+        "name": "Maia Challenger",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "POR",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/185113180/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "183709267",
+      "matchId": "183709267",
+      "date": "2026-10-14T12:45:00.000Z",
+      "roundId": 4,
+      "player1Id": 132294,
+      "player2Id": 124827,
+      "tournamentId": 22099,
+      "match_winner": 132294,
+      "result": "6-0 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 132294,
+        "name": "Daniel Cukierman/Fernando Romboli",
+        "countryAcr": "N/A"
+      },
+      "player2": {
+        "id": 124827,
+        "name": "Francesco Maestrelli/Stefano Travaglia",
+        "countryAcr": "N/A"
+      },
+      "tournament": {
+        "id": 22099,
+        "name": "Olbia Challenger",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "ITA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/183709267/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "185113161",
+      "matchId": "185113161",
+      "date": "2026-10-14T12:35:00.000Z",
+      "roundId": 5,
+      "player1Id": 11981,
+      "player2Id": 57304,
+      "tournamentId": 22100,
+      "match_winner": 11981,
+      "result": "7-5 7-5",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.29",
+      "odd2": "3.2",
+      "player1": {
+        "id": 11981,
+        "name": "Lorenzo Giustino",
+        "countryAcr": "ITA"
+      },
+      "player2": {
+        "id": 57304,
+        "name": "Michael Vrbensky",
+        "countryAcr": "CZE"
+      },
+      "tournament": {
+        "id": 22100,
+        "name": "Maia Challenger",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "POR",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/185113161/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "183709350",
+      "matchId": "183709350",
+      "date": "2026-10-14T12:20:00.000Z",
+      "roundId": 4,
+      "player1Id": 129164,
+      "player2Id": 132695,
+      "tournamentId": 22101,
+      "match_winner": 129164,
+      "result": "6-4 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.57",
+      "odd2": "2.16",
+      "player1": {
+        "id": 129164,
+        "name": "Felix Balshaw/Matteo Martineau",
+        "countryAcr": "N/A"
+      },
+      "player2": {
+        "id": 132695,
+        "name": "Arjun Kadhe/Jody Maginley",
+        "countryAcr": "N/A"
+      },
+      "tournament": {
+        "id": 22101,
+        "name": "Roanne Challenger",
+        "courtId": 3,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "FRA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/183709350/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "185114491",
+      "matchId": "185114491",
+      "date": "2026-10-14T12:18:00.000Z",
+      "roundId": 5,
+      "player1Id": 101156,
+      "player2Id": 71188,
+      "tournamentId": 22150,
+      "match_winner": 101156,
+      "result": "w/o",
+      "result_type": "walkover",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 101156,
+        "name": "Flynn Thomas",
+        "countryAcr": "SUI"
+      },
+      "player2": {
+        "id": 71188,
+        "name": "Giles Hussey",
+        "countryAcr": "GBR"
+      },
+      "tournament": {
+        "id": 22150,
+        "name": "M15 Offenbach",
+        "courtId": 3,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "GER",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/185114491/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "183709390",
+      "matchId": "183709390",
+      "date": "2026-10-14T12:10:00.000Z",
+      "roundId": 5,
+      "player1Id": 54146,
+      "player2Id": 32764,
+      "tournamentId": 22103,
+      "match_winner": 54146,
+      "result": "1-6 6-3 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "2.51",
+      "odd2": "1.45",
+      "player1": {
+        "id": 54146,
+        "name": "Buvaysar Gadamauri",
+        "countryAcr": "BEL"
+      },
+      "player2": {
+        "id": 32764,
+        "name": "Enrico Dalla Valle",
+        "countryAcr": "ITA"
+      },
+      "tournament": {
+        "id": 22103,
+        "name": "San Gregorio di Catania Challenger",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "ITA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/183709390/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "185114791",
+      "matchId": "185114791",
+      "date": "2026-10-14T12:05:00.000Z",
+      "roundId": 4,
+      "player1Id": 73197,
+      "player2Id": 60922,
+      "tournamentId": 22155,
+      "match_winner": 73197,
+      "result": "6-2 6-1",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.089",
+      "odd2": "5.5",
+      "player1": {
+        "id": 73197,
+        "name": "Tanguy Genier",
+        "countryAcr": "SUI"
+      },
+      "player2": {
+        "id": 60922,
+        "name": "Dean Thurner",
+        "countryAcr": "GER"
+      },
+      "tournament": {
+        "id": 22155,
+        "name": "M15 Szabolcsveresmart",
+        "courtId": 3,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "HUN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/185114791/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "185114925",
+      "matchId": "185114925",
+      "date": "2026-10-14T12:05:00.000Z",
+      "roundId": 4,
+      "player1Id": 49285,
+      "player2Id": 77562,
+      "tournamentId": 22158,
+      "match_winner": 49285,
+      "result": "6-3 7-6(4)",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.165",
+      "odd2": "4.15",
+      "player1": {
+        "id": 49285,
+        "name": "Matyas Fuele",
+        "countryAcr": "HUN"
+      },
+      "player2": {
+        "id": 77562,
+        "name": "Thomas Kostka",
+        "countryAcr": "FRA"
+      },
+      "tournament": {
+        "id": 22158,
+        "name": "M15 Heraklion",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "GRE",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/185114925/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "185114609",
+      "matchId": "185114609",
+      "date": "2026-10-14T11:59:00.000Z",
+      "roundId": 4,
+      "player1Id": 132670,
+      "player2Id": 49061,
+      "tournamentId": 22152,
+      "match_winner": 132670,
+      "result": "3-0 ret.",
+      "result_type": "retired",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 132670,
+        "name": "Tymon Litwic",
+        "countryAcr": "POL"
+      },
+      "player2": {
+        "id": 49061,
+        "name": "Essa Qabazard",
+        "countryAcr": "KUW"
+      },
+      "tournament": {
+        "id": 22152,
+        "name": "M15 Sharm ElSheikh",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "EGY",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/185114609/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "183655987",
+      "matchId": "183655987",
+      "date": "2026-10-14T11:55:00.000Z",
+      "roundId": 7,
+      "player1Id": 29935,
+      "player2Id": 37741,
+      "tournamentId": 21356,
+      "match_winner": 29935,
+      "result": "7-6(5) 6-4",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.45",
+      "odd2": "2.73",
+      "player1": {
+        "id": 29935,
+        "name": "Tommy Paul",
+        "countryAcr": "USA"
+      },
+      "player2": {
+        "id": 37741,
+        "name": "Zizou Bergs",
+        "countryAcr": "BEL"
+      },
+      "tournament": {
+        "id": 21356,
+        "name": "Shanghai Rolex Masters - Shanghai",
+        "courtId": 1,
+        "date": "2026-10-05T00:00:00.000Z",
+        "rankId": 3,
+        "countryAcr": "CHN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/183655987/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "182305422",
+      "matchId": "182305422",
+      "date": "2026-10-14T11:45:00.000Z",
+      "roundId": 5,
+      "player1Id": 85851,
+      "player2Id": 26922,
+      "tournamentId": 22100,
+      "match_winner": 85851,
+      "result": "6-4 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.168",
+      "odd2": "4.333",
+      "player1": {
+        "id": 85851,
+        "name": "Luka Mikrut",
+        "countryAcr": "CRO"
+      },
+      "player2": {
+        "id": 26922,
+        "name": "Sumit Nagal",
+        "countryAcr": "IND"
+      },
+      "tournament": {
+        "id": 22100,
+        "name": "Maia Challenger",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "POR",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/182305422/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "183709325",
+      "matchId": "183709325",
+      "date": "2026-10-14T11:45:00.000Z",
+      "roundId": 4,
+      "player1Id": 76298,
+      "player2Id": 55828,
+      "tournamentId": 22101,
+      "match_winner": 76298,
+      "result": "7-6(6) 7-6(3)",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 76298,
+        "name": "Jerome Kym",
+        "countryAcr": "SUI"
+      },
+      "player2": {
+        "id": 55828,
+        "name": "Clement Chidekh",
+        "countryAcr": "FRA"
+      },
+      "tournament": {
+        "id": 22101,
+        "name": "Roanne Challenger",
+        "courtId": 3,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "FRA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/183709325/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "182305434",
+      "matchId": "182305434",
+      "date": "2026-10-14T11:30:00.000Z",
+      "roundId": 5,
+      "player1Id": 47021,
+      "player2Id": 51853,
+      "tournamentId": 22100,
+      "match_winner": 47021,
+      "result": "6-3 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 47021,
+        "name": "Zsombor Piros",
+        "countryAcr": "HUN"
+      },
+      "player2": {
+        "id": 51853,
+        "name": "Pol Martin Tiffon",
+        "countryAcr": "ESP"
+      },
+      "tournament": {
+        "id": 22100,
+        "name": "Maia Challenger",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "POR",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/182305434/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "185114769",
+      "matchId": "185114769",
+      "date": "2026-10-14T11:30:00.000Z",
+      "roundId": 4,
+      "player1Id": 54812,
+      "player2Id": 120340,
+      "tournamentId": 22154,
+      "match_winner": 54812,
+      "result": "6-1 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.005",
+      "odd2": "9.6",
+      "player1": {
+        "id": 54812,
+        "name": "Maxence Bertimon",
+        "countryAcr": "FRA"
+      },
+      "player2": {
+        "id": 120340,
+        "name": "Marko Savija",
+        "countryAcr": "SRB"
+      },
+      "tournament": {
+        "id": 22154,
+        "name": "M15 Bol",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "CRO",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/185114769/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "185114711",
+      "matchId": "185114711",
+      "date": "2026-10-14T11:17:00.000Z",
+      "roundId": 4,
+      "player1Id": 78057,
+      "player2Id": 22115,
+      "tournamentId": 22154,
+      "match_winner": 78057,
+      "result": "6-4 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 78057,
+        "name": "Bozo Barun",
+        "countryAcr": "CRO"
+      },
+      "player2": {
+        "id": 22115,
+        "name": "Matej Sabanov",
+        "countryAcr": "CRO"
+      },
+      "tournament": {
+        "id": 22154,
+        "name": "M15 Bol",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "CRO",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/185114711/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "185114741",
+      "matchId": "185114741",
+      "date": "2026-10-14T11:05:00.000Z",
+      "roundId": 4,
+      "player1Id": 56831,
+      "player2Id": 97066,
+      "tournamentId": 22154,
+      "match_winner": 56831,
+      "result": "6-2 6-4",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 56831,
+        "name": "Deney Wassermann",
+        "countryAcr": "NED"
+      },
+      "player2": {
+        "id": 97066,
+        "name": "Nico Hipfl",
+        "countryAcr": "AUT"
+      },
+      "tournament": {
+        "id": 22154,
+        "name": "M15 Bol",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "CRO",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/185114741/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "185114743",
+      "matchId": "185114743",
+      "date": "2026-10-14T11:05:00.000Z",
+      "roundId": 4,
+      "player1Id": 62414,
+      "player2Id": 97612,
+      "tournamentId": 22154,
+      "match_winner": 62414,
+      "result": "6-2 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 62414,
+        "name": "Felix Romeo",
+        "countryAcr": "BEL"
+      },
+      "player2": {
+        "id": 97612,
+        "name": "Alex Kuperstein",
+        "countryAcr": "USA"
+      },
+      "tournament": {
+        "id": 22154,
+        "name": "M15 Bol",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "CRO",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/185114743/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "182305407",
+      "matchId": "182305407",
+      "date": "2026-10-14T11:00:00.000Z",
+      "roundId": 4,
+      "player1Id": 79077,
+      "player2Id": 98012,
+      "tournamentId": 22099,
+      "match_winner": 79077,
+      "result": "6-3 6-7(5) 10-4",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 79077,
+        "name": "Sander Gille/Sem Verbeek",
+        "countryAcr": "N/A"
+      },
+      "player2": {
+        "id": 98012,
+        "name": "Jan Kumstat/Maxim Mrva",
+        "countryAcr": "N/A"
+      },
+      "tournament": {
+        "id": 22099,
+        "name": "Olbia Challenger",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "ITA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/182305407/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "182305558",
+      "matchId": "182305558",
+      "date": "2026-10-14T11:00:00.000Z",
+      "roundId": 4,
+      "player1Id": 132849,
+      "player2Id": 104154,
+      "tournamentId": 22103,
+      "match_winner": 132849,
+      "result": "4-6 6-3 10-5",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 132849,
+        "name": "Sandro Kopp/Yanaki Milev",
+        "countryAcr": "N/A"
+      },
+      "player2": {
+        "id": 104154,
+        "name": "Dominik Recek/Daniel Siniakov",
+        "countryAcr": "N/A"
+      },
+      "tournament": {
+        "id": 22103,
+        "name": "San Gregorio di Catania Challenger",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "ITA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/182305558/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "185114642",
+      "matchId": "185114642",
+      "date": "2026-10-14T10:53:00.000Z",
+      "roundId": 4,
+      "player1Id": 96542,
+      "player2Id": 120954,
+      "tournamentId": 22152,
+      "match_winner": 96542,
+      "result": "6-4 6-1",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.59",
+      "odd2": "2.13",
+      "player1": {
+        "id": 96542,
+        "name": "Saveliy Ivanov",
+        "countryAcr": "RUS"
+      },
+      "player2": {
+        "id": 120954,
+        "name": "Jan Sadzik",
+        "countryAcr": "POL"
+      },
+      "tournament": {
+        "id": 22152,
+        "name": "M15 Sharm ElSheikh",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "EGY",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/185114642/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "185114277",
+      "matchId": "185114277",
+      "date": "2026-10-14T10:51:00.000Z",
+      "roundId": 4,
+      "player1Id": 111528,
+      "player2Id": 27012,
+      "tournamentId": 22145,
+      "match_winner": 111528,
+      "result": "6-2 6-1",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 111528,
+        "name": "Daniel Domingos",
+        "countryAcr": "ANG"
+      },
+      "player2": {
+        "id": 27012,
+        "name": "Lawrence Bataljin",
+        "countryAcr": "AUS"
+      },
+      "tournament": {
+        "id": 22145,
+        "name": "M25 Luanda",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "ANG",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/185114277/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "185114284",
+      "matchId": "185114284",
+      "date": "2026-10-14T10:51:00.000Z",
+      "roundId": 4,
+      "player1Id": 40605,
+      "player2Id": 96296,
+      "tournamentId": 22145,
+      "match_winner": 40605,
+      "result": "6-3 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 40605,
+        "name": "Dan Added",
+        "countryAcr": "FRA"
+      },
+      "player2": {
+        "id": 96296,
+        "name": "Andrea Motta",
+        "countryAcr": "ITA"
+      },
+      "tournament": {
+        "id": 22145,
+        "name": "M25 Luanda",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "ANG",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/185114284/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "182305385",
+      "matchId": "182305385",
+      "date": "2026-10-14T10:50:00.000Z",
+      "roundId": 5,
+      "player1Id": 84060,
+      "player2Id": 40187,
+      "tournamentId": 22099,
+      "match_winner": 84060,
+      "result": "6-3 6-4",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 84060,
+        "name": "Maks Kasnikowski",
+        "countryAcr": "POL"
+      },
+      "player2": {
+        "id": 40187,
+        "name": "Andrea Guerrieri",
+        "countryAcr": "ITA"
+      },
+      "tournament": {
+        "id": 22099,
+        "name": "Olbia Challenger",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "ITA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/182305385/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "185114278",
+      "matchId": "185114278",
+      "date": "2026-10-14T10:43:00.000Z",
+      "roundId": 4,
+      "player1Id": 83553,
+      "player2Id": 36275,
+      "tournamentId": 22145,
+      "match_winner": 83553,
+      "result": "6-4 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.33",
+      "odd2": "2.875",
+      "player1": {
+        "id": 83553,
+        "name": "Dorian Tremblay",
+        "countryAcr": "FRA"
+      },
+      "player2": {
+        "id": 36275,
+        "name": "Courtney John Lock",
+        "countryAcr": "ZIM"
+      },
+      "tournament": {
+        "id": 22145,
+        "name": "M25 Luanda",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "ANG",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/185114278/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "185114293",
+      "matchId": "185114293",
+      "date": "2026-10-14T10:43:00.000Z",
+      "roundId": 4,
+      "player1Id": 108932,
+      "player2Id": 116163,
+      "tournamentId": 22145,
+      "match_winner": 108932,
+      "result": "6-0 6-0",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.02",
+      "odd2": "8.4",
+      "player1": {
+        "id": 108932,
+        "name": "Allan Gatoto",
+        "countryAcr": "BDI"
+      },
+      "player2": {
+        "id": 116163,
+        "name": "Emerson Pedro",
+        "countryAcr": "ANG"
+      },
+      "tournament": {
+        "id": 22145,
+        "name": "M25 Luanda",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "ANG",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/185114293/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "185114490",
+      "matchId": "185114490",
+      "date": "2026-10-14T10:43:00.000Z",
+      "roundId": 5,
+      "player1Id": 96297,
+      "player2Id": 62419,
+      "tournamentId": 22150,
+      "match_winner": 96297,
+      "result": "6-4 6-0",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.4",
+      "odd2": "2.6",
+      "player1": {
+        "id": 96297,
+        "name": "Guillaume Dalmasso",
+        "countryAcr": "FRA"
+      },
+      "player2": {
+        "id": 62419,
+        "name": "Lewie Lane",
+        "countryAcr": "GER"
+      },
+      "tournament": {
+        "id": 22150,
+        "name": "M15 Offenbach",
+        "courtId": 3,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "GER",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/185114490/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "180901573",
+      "matchId": "180901573",
+      "date": "2026-10-14T10:35:00.000Z",
+      "roundId": 4,
+      "player1Id": 35651,
+      "player2Id": 132846,
+      "tournamentId": 22099,
+      "match_winner": 35651,
+      "result": "6-0 6-1",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.132",
+      "odd2": "4.65",
+      "player1": {
+        "id": 35651,
+        "name": "Maximo Gonzalez/Andres Molteni",
+        "countryAcr": "N/A"
+      },
+      "player2": {
+        "id": 132846,
+        "name": "Niki Kaliyanda Poonacha/David Vega Hernandez",
+        "countryAcr": "N/A"
+      },
+      "tournament": {
+        "id": 22099,
+        "name": "Olbia Challenger",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "ITA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/180901573/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "185114820",
+      "matchId": "185114820",
+      "date": "2026-10-14T10:35:00.000Z",
+      "roundId": 4,
+      "player1Id": 56820,
+      "player2Id": 129740,
+      "tournamentId": 22155,
+      "match_winner": 56820,
+      "result": "6-0 6-1",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 56820,
+        "name": "Rafael Kis Balazs",
+        "countryAcr": "HUN"
+      },
+      "player2": {
+        "id": 129740,
+        "name": "Filip Czyrek",
+        "countryAcr": "POL"
+      },
+      "tournament": {
+        "id": 22155,
+        "name": "M15 Szabolcsveresmart",
+        "courtId": 3,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "HUN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/185114820/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "185114947",
+      "matchId": "185114947",
+      "date": "2026-10-14T10:35:00.000Z",
+      "roundId": 4,
+      "player1Id": 95462,
+      "player2Id": 108208,
+      "tournamentId": 22158,
+      "match_winner": 95462,
+      "result": "6-0 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.32",
+      "odd2": "2.92",
+      "player1": {
+        "id": 95462,
+        "name": "Benjamin Gusic Wan",
+        "countryAcr": "GBR"
+      },
+      "player2": {
+        "id": 108208,
+        "name": "Patrick Jozwicki",
+        "countryAcr": "AUT"
+      },
+      "tournament": {
+        "id": 22158,
+        "name": "M15 Heraklion",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "GRE",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/185114947/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "180901718",
+      "matchId": "180901718",
+      "date": "2026-10-14T10:30:00.000Z",
+      "roundId": 4,
+      "player1Id": 132525,
+      "player2Id": 115787,
+      "tournamentId": 22103,
+      "match_winner": 132525,
+      "result": "6-4 6-1",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 132525,
+        "name": "Oleksandr Ovcharenko/Kai Wehnelt",
+        "countryAcr": "N/A"
+      },
+      "player2": {
+        "id": 115787,
+        "name": "Lorenzo Angelini/Sebastiano Cocola",
+        "countryAcr": "N/A"
+      },
+      "tournament": {
+        "id": 22103,
+        "name": "San Gregorio di Catania Challenger",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "ITA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/180901718/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "185114433",
+      "matchId": "185114433",
+      "date": "2026-10-14T10:22:00.000Z",
+      "roundId": 5,
+      "player1Id": 86692,
+      "player2Id": 31562,
+      "tournamentId": 22149,
+      "match_winner": 86692,
+      "result": "5-0 ret.",
+      "result_type": "retired",
+      "best_of": null,
+      "odd1": "1.63",
+      "odd2": "2.06",
+      "player1": {
+        "id": 86692,
+        "name": "Matthew William Donald",
+        "countryAcr": "CZE"
+      },
+      "player2": {
+        "id": 31562,
+        "name": "Giovanni Oradini",
+        "countryAcr": "ITA"
+      },
+      "tournament": {
+        "id": 22149,
+        "name": "M25 Santa Margherita di Pula",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "ITA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/185114433/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "185114567",
+      "matchId": "185114567",
+      "date": "2026-10-14T10:21:00.000Z",
+      "roundId": 4,
+      "player1Id": 124200,
+      "player2Id": 106588,
+      "tournamentId": 22151,
+      "match_winner": 124200,
+      "result": "6-3 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 124200,
+        "name": "Felix Roussel",
+        "countryAcr": "CAN"
+      },
+      "player2": {
+        "id": 106588,
+        "name": "Pablo Aunion",
+        "countryAcr": "ESP"
+      },
+      "tournament": {
+        "id": 22151,
+        "name": "M15 Monastir",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "TUN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/185114567/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "185114584",
+      "matchId": "185114584",
+      "date": "2026-10-14T10:21:00.000Z",
+      "roundId": 4,
+      "player1Id": 81959,
+      "player2Id": 118119,
+      "tournamentId": 22151,
+      "match_winner": 81959,
+      "result": "6-3 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.174",
+      "odd2": "4.05",
+      "player1": {
+        "id": 81959,
+        "name": "Luca Castagnola",
+        "countryAcr": "ITA"
+      },
+      "player2": {
+        "id": 118119,
+        "name": "Josh Manuel",
+        "countryAcr": "GBR"
+      },
+      "tournament": {
+        "id": 22151,
+        "name": "M15 Monastir",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "TUN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/185114584/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "179497836",
+      "matchId": "179497836",
+      "date": "2026-10-14T10:10:00.000Z",
+      "roundId": 4,
+      "player1Id": 132697,
+      "player2Id": 117600,
+      "tournamentId": 22100,
+      "match_winner": 132697,
+      "result": "6-3 6-1",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 132697,
+        "name": "Tiago Pereira/Benjamin Winter Lopez",
+        "countryAcr": "N/A"
+      },
+      "player2": {
+        "id": 117600,
+        "name": "Admir Kalender/Nino Serdarusic",
+        "countryAcr": "N/A"
+      },
+      "tournament": {
+        "id": 22100,
+        "name": "Maia Challenger",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "POR",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/179497836/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "182305444",
+      "matchId": "182305444",
+      "date": "2026-10-14T10:10:00.000Z",
+      "roundId": 4,
+      "player1Id": 83314,
+      "player2Id": 81189,
+      "tournamentId": 22100,
+      "match_winner": 83314,
+      "result": "6-4 4-6 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 83314,
+        "name": "Lukas Neumayer",
+        "countryAcr": "AUT"
+      },
+      "player2": {
+        "id": 81189,
+        "name": "Elmer Moller",
+        "countryAcr": "DEN"
+      },
+      "tournament": {
+        "id": 22100,
+        "name": "Maia Challenger",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "POR",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/182305444/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "180901580",
+      "matchId": "180901580",
+      "date": "2026-10-14T10:05:00.000Z",
+      "roundId": 4,
+      "player1Id": 95464,
+      "player2Id": 27358,
+      "tournamentId": 22100,
+      "match_winner": 95464,
+      "result": "6-2 6-1",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 95464,
+        "name": "Matej Dodig",
+        "countryAcr": "CRO"
+      },
+      "player2": {
+        "id": 27358,
+        "name": "Pedro Martinez Portero",
+        "countryAcr": "ESP"
+      },
+      "tournament": {
+        "id": 22100,
+        "name": "Maia Challenger",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "POR",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/180901580/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "180901616",
+      "matchId": "180901616",
+      "date": "2026-10-14T10:05:00.000Z",
+      "roundId": 4,
+      "player1Id": 94966,
+      "player2Id": 29180,
+      "tournamentId": 22101,
+      "match_winner": 94966,
+      "result": "7-5 7-6(5)",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "2.4",
+      "odd2": "1.49",
+      "player1": {
+        "id": 94966,
+        "name": "Matisse Bobichon",
+        "countryAcr": "FRA"
+      },
+      "player2": {
+        "id": 29180,
+        "name": "Billy Harris",
+        "countryAcr": "GBR"
+      },
+      "tournament": {
+        "id": 22101,
+        "name": "Roanne Challenger",
+        "courtId": 3,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "FRA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/180901616/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "185114789",
+      "matchId": "185114789",
+      "date": "2026-10-14T10:05:00.000Z",
+      "roundId": 4,
+      "player1Id": 97214,
+      "player2Id": 51272,
+      "tournamentId": 22155,
+      "match_winner": 97214,
+      "result": "7-6(13) 2-6 7-6(0)",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 97214,
+        "name": "Vardan Manukyan",
+        "countryAcr": "RUS"
+      },
+      "player2": {
+        "id": 51272,
+        "name": "Michael Gloeckler",
+        "countryAcr": "AUT"
+      },
+      "tournament": {
+        "id": 22155,
+        "name": "M15 Szabolcsveresmart",
+        "courtId": 3,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "HUN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/185114789/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "185114800",
+      "matchId": "185114800",
+      "date": "2026-10-14T10:05:00.000Z",
+      "roundId": 4,
+      "player1Id": 64238,
+      "player2Id": 91447,
+      "tournamentId": 22155,
+      "match_winner": 64238,
+      "result": "6-2 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 64238,
+        "name": "Pietro Orlando Fellin",
+        "countryAcr": "ITA"
+      },
+      "player2": {
+        "id": 91447,
+        "name": "Andriy Poritskyy",
+        "countryAcr": "UKR"
+      },
+      "tournament": {
+        "id": 22155,
+        "name": "M15 Szabolcsveresmart",
+        "courtId": 3,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "HUN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/185114800/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "180901619",
+      "matchId": "180901619",
+      "date": "2026-10-14T10:02:00.000Z",
+      "roundId": 4,
+      "player1Id": 55252,
+      "player2Id": 35296,
+      "tournamentId": 22101,
+      "match_winner": 55252,
+      "result": "7-5 7-5",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 55252,
+        "name": "Otto Virtanen",
+        "countryAcr": "FIN"
+      },
+      "player2": {
+        "id": 35296,
+        "name": "Remy Bertola",
+        "countryAcr": "SUI"
+      },
+      "tournament": {
+        "id": 22101,
+        "name": "Roanne Challenger",
+        "courtId": 3,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "FRA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/180901619/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "179497941",
+      "matchId": "179497941",
+      "date": "2026-10-14T10:00:00.000Z",
+      "roundId": 4,
+      "player1Id": 132850,
+      "player2Id": 113516,
+      "tournamentId": 22103,
+      "match_winner": 132850,
+      "result": "6-3 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 132850,
+        "name": "Dimitris Sakellaridis/John Sperle",
+        "countryAcr": "N/A"
+      },
+      "player2": {
+        "id": 113516,
+        "name": "Michele Ribecai/Gabriele Volpi",
+        "countryAcr": "N/A"
+      },
+      "tournament": {
+        "id": 22103,
+        "name": "San Gregorio di Catania Challenger",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "ITA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/179497941/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "180848278",
+      "matchId": "180848278",
+      "date": "2026-10-14T10:00:00.000Z",
+      "roundId": 7,
+      "player1Id": 22807,
+      "player2Id": 30470,
+      "tournamentId": 21356,
+      "match_winner": 22807,
+      "result": "6-4 7-5",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.55",
+      "odd2": "2.43",
+      "player1": {
+        "id": 22807,
+        "name": "Daniil Medvedev",
+        "countryAcr": "RUS"
+      },
+      "player2": {
+        "id": 30470,
+        "name": "Stefanos Tsitsipas",
+        "countryAcr": "GRE"
+      },
+      "tournament": {
+        "id": 21356,
+        "name": "Shanghai Rolex Masters - Shanghai",
+        "courtId": 1,
+        "date": "2026-10-05T00:00:00.000Z",
+        "rankId": 3,
+        "countryAcr": "CHN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/180848278/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "179497946",
+      "matchId": "179497946",
+      "date": "2026-10-14T09:35:00.000Z",
+      "roundId": 4,
+      "player1Id": 132705,
+      "player2Id": 132704,
+      "tournamentId": 22103,
+      "match_winner": 132705,
+      "result": "6-4 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.444",
+      "odd2": "2.46",
+      "player1": {
+        "id": 132705,
+        "name": "Charles Barry/Pedro Vives Marcos",
+        "countryAcr": "N/A"
+      },
+      "player2": {
+        "id": 132704,
+        "name": "Oliver Johansson/Eleftherios Neos",
+        "countryAcr": "N/A"
+      },
+      "tournament": {
+        "id": 22103,
+        "name": "San Gregorio di Catania Challenger",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "ITA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/179497946/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "185114449",
+      "matchId": "185114449",
+      "date": "2026-10-14T09:30:00.000Z",
+      "roundId": 5,
+      "player1Id": 66254,
+      "player2Id": 90393,
+      "tournamentId": 22149,
+      "match_winner": 66254,
+      "result": "6-2 6-1",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 66254,
+        "name": "Jonas Forejtek",
+        "countryAcr": "CZE"
+      },
+      "player2": {
+        "id": 90393,
+        "name": "Gabriele Crivellaro",
+        "countryAcr": "ITA"
+      },
+      "tournament": {
+        "id": 22149,
+        "name": "M25 Santa Margherita di Pula",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "ITA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/185114449/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "185114759",
+      "matchId": "185114759",
+      "date": "2026-10-14T09:25:00.000Z",
+      "roundId": 4,
+      "player1Id": 127134,
+      "player2Id": 110208,
+      "tournamentId": 22154,
+      "match_winner": 127134,
+      "result": "6-2 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "2.13",
+      "odd2": "1.59",
+      "player1": {
+        "id": 127134,
+        "name": "Henry Best",
+        "countryAcr": "GBR"
+      },
+      "player2": {
+        "id": 110208,
+        "name": "Piet Luis Pinter",
+        "countryAcr": "AUT"
+      },
+      "tournament": {
+        "id": 22154,
+        "name": "M15 Bol",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "CRO",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/185114759/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "185114716",
+      "matchId": "185114716",
+      "date": "2026-10-14T09:21:00.000Z",
+      "roundId": 4,
+      "player1Id": 35036,
+      "player2Id": 54965,
+      "tournamentId": 22154,
+      "match_winner": 35036,
+      "result": "6-2 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.113",
+      "odd2": "5",
+      "player1": {
+        "id": 35036,
+        "name": "Geoffrey Blancaneaux",
+        "countryAcr": "FRA"
+      },
+      "player2": {
+        "id": 54965,
+        "name": "Charles Bertimon",
+        "countryAcr": "FRA"
+      },
+      "tournament": {
+        "id": 22154,
+        "name": "M15 Bol",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "CRO",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/185114716/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "185114729",
+      "matchId": "185114729",
+      "date": "2026-10-14T09:21:00.000Z",
+      "roundId": 4,
+      "player1Id": 83308,
+      "player2Id": 86473,
+      "tournamentId": 22154,
+      "match_winner": 83308,
+      "result": "6-2 6-4",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 83308,
+        "name": "Jeffrey Von Der Schulenburg",
+        "countryAcr": "SUI"
+      },
+      "player2": {
+        "id": 86473,
+        "name": "Josip Simundza",
+        "countryAcr": "CRO"
+      },
+      "tournament": {
+        "id": 22154,
+        "name": "M15 Bol",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "CRO",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/185114729/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "185114738",
+      "matchId": "185114738",
+      "date": "2026-10-14T09:21:00.000Z",
+      "roundId": 4,
+      "player1Id": 95896,
+      "player2Id": 95474,
+      "tournamentId": 22154,
+      "match_winner": 95896,
+      "result": "6-3 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.26",
+      "odd2": "3.28",
+      "player1": {
+        "id": 95896,
+        "name": "Carles Cordoba",
+        "countryAcr": "ESP"
+      },
+      "player2": {
+        "id": 95474,
+        "name": "Nik Mikovic",
+        "countryAcr": "SLO"
+      },
+      "tournament": {
+        "id": 22154,
+        "name": "M15 Bol",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "CRO",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/185114738/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "179497763",
+      "matchId": "179497763",
+      "date": "2026-10-14T09:17:00.000Z",
+      "roundId": 4,
+      "player1Id": 129609,
+      "player2Id": 132835,
+      "tournamentId": 22098,
+      "match_winner": 129609,
+      "result": "4-6 6-4 10-4",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 129609,
+        "name": "Thijmen Loof/Kaito Uesugi",
+        "countryAcr": "N/A"
+      },
+      "player2": {
+        "id": 132835,
+        "name": "Jason Murray Kubler/Tristan Schoolkate",
+        "countryAcr": "N/A"
+      },
+      "tournament": {
+        "id": 22098,
+        "name": "Jinan Challenger",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "CHN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/179497763/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "178093988",
+      "matchId": "178093988",
+      "date": "2026-10-14T09:15:00.000Z",
+      "roundId": 4,
+      "player1Id": 132832,
+      "player2Id": 55843,
+      "tournamentId": 22098,
+      "match_winner": 132832,
+      "result": "6-3 6-4",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.112",
+      "odd2": "5",
+      "player1": {
+        "id": 132832,
+        "name": "Evan King/Ryan Seggerman",
+        "countryAcr": "N/A"
+      },
+      "player2": {
+        "id": 55843,
+        "name": "Jie Cui/Fajing Sun",
+        "countryAcr": "N/A"
+      },
+      "tournament": {
+        "id": 22098,
+        "name": "Jinan Challenger",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "CHN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/178093988/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "185114431",
+      "matchId": "185114431",
+      "date": "2026-10-14T09:15:00.000Z",
+      "roundId": 5,
+      "player1Id": 80945,
+      "player2Id": 29829,
+      "tournamentId": 22149,
+      "match_winner": 80945,
+      "result": "6-2 4-6 6-0",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.48",
+      "odd2": "2.36",
+      "player1": {
+        "id": 80945,
+        "name": "Branko Djuric",
+        "countryAcr": "SRB"
+      },
+      "player2": {
+        "id": 29829,
+        "name": "Johan Nikles",
+        "countryAcr": "SUI"
+      },
+      "tournament": {
+        "id": 22149,
+        "name": "M25 Santa Margherita di Pula",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "ITA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/185114431/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "180902704",
+      "matchId": "180902704",
+      "date": "2026-10-14T09:13:00.000Z",
+      "roundId": 4,
+      "player1Id": 79634,
+      "player2Id": 81146,
+      "tournamentId": 22145,
+      "match_winner": 79634,
+      "result": "6-1 6-0",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.003",
+      "odd2": "9.8",
+      "player1": {
+        "id": 79634,
+        "name": "Eliakim Coulibaly",
+        "countryAcr": "CIV"
+      },
+      "player2": {
+        "id": 81146,
+        "name": "Guelord Kayombo",
+        "countryAcr": "COD"
+      },
+      "tournament": {
+        "id": 22145,
+        "name": "M25 Luanda",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "ANG",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/180902704/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "185114283",
+      "matchId": "185114283",
+      "date": "2026-10-14T09:13:00.000Z",
+      "roundId": 4,
+      "player1Id": 96547,
+      "player2Id": 88219,
+      "tournamentId": 22145,
+      "match_winner": 96547,
+      "result": "6-2 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 96547,
+        "name": "Jack Loge",
+        "countryAcr": "BEL"
+      },
+      "player2": {
+        "id": 88219,
+        "name": "Nikita Ianin",
+        "countryAcr": "RUS"
+      },
+      "tournament": {
+        "id": 22145,
+        "name": "M25 Luanda",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "ANG",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/185114283/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "179497781",
+      "matchId": "179497781",
+      "date": "2026-10-14T09:05:00.000Z",
+      "roundId": 5,
+      "player1Id": 12097,
+      "player2Id": 61857,
+      "tournamentId": 22099,
+      "match_winner": 12097,
+      "result": "6-2 7-5",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "3.48",
+      "odd2": "1.25",
+      "player1": {
+        "id": 12097,
+        "name": "Stefano Travaglia",
+        "countryAcr": "ITA"
+      },
+      "player2": {
+        "id": 61857,
+        "name": "Valentin Royer",
+        "countryAcr": "FRA"
+      },
+      "tournament": {
+        "id": 22099,
+        "name": "Olbia Challenger",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "ITA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/179497781/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "179497800",
+      "matchId": "179497800",
+      "date": "2026-10-14T09:05:00.000Z",
+      "roundId": 4,
+      "player1Id": 132843,
+      "player2Id": 130698,
+      "tournamentId": 22099,
+      "match_winner": 132843,
+      "result": "6-4 3-6 12-10",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 132843,
+        "name": "Daniel Masur/Tim Ruehl",
+        "countryAcr": "N/A"
+      },
+      "player2": {
+        "id": 130698,
+        "name": "Robert Cash/Alexander Erler",
+        "countryAcr": "N/A"
+      },
+      "tournament": {
+        "id": 22099,
+        "name": "Olbia Challenger",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "ITA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/179497800/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "180902707",
+      "matchId": "180902707",
+      "date": "2026-10-14T09:05:00.000Z",
+      "roundId": 4,
+      "player1Id": 54208,
+      "player2Id": 105029,
+      "tournamentId": 22145,
+      "match_winner": 54208,
+      "result": "6-1 6-4",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.003",
+      "odd2": "9.8",
+      "player1": {
+        "id": 54208,
+        "name": "Florent Bax",
+        "countryAcr": "FRA"
+      },
+      "player2": {
+        "id": 105029,
+        "name": "Adam Bajurko",
+        "countryAcr": "POL"
+      },
+      "tournament": {
+        "id": 22145,
+        "name": "M25 Luanda",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "ANG",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/180902707/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "180902713",
+      "matchId": "180902713",
+      "date": "2026-10-14T09:05:00.000Z",
+      "roundId": 4,
+      "player1Id": 75660,
+      "player2Id": 116101,
+      "tournamentId": 22145,
+      "match_winner": 75660,
+      "result": "6-0 6-1",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 75660,
+        "name": "Alec Beckley",
+        "countryAcr": "RSA"
+      },
+      "player2": {
+        "id": 116101,
+        "name": "Justino Rodrigues",
+        "countryAcr": "ANG"
+      },
+      "tournament": {
+        "id": 22145,
+        "name": "M25 Luanda",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "ANG",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/180902713/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "180902912",
+      "matchId": "180902912",
+      "date": "2026-10-14T09:05:00.000Z",
+      "roundId": 5,
+      "player1Id": 21524,
+      "player2Id": 96544,
+      "tournamentId": 22150,
+      "match_winner": 21524,
+      "result": "6-2 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 21524,
+        "name": "Jelle Sels",
+        "countryAcr": "NED"
+      },
+      "player2": {
+        "id": 96544,
+        "name": "Lars Goran Verwerft",
+        "countryAcr": "BEL"
+      },
+      "tournament": {
+        "id": 22150,
+        "name": "M15 Offenbach",
+        "courtId": 3,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "GER",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/180902912/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "185114483",
+      "matchId": "185114483",
+      "date": "2026-10-14T09:05:00.000Z",
+      "roundId": 5,
+      "player1Id": 100616,
+      "player2Id": 33166,
+      "tournamentId": 22150,
+      "match_winner": 100616,
+      "result": "3-6 7-6(0) 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 100616,
+        "name": "David Eichenseher",
+        "countryAcr": "GER"
+      },
+      "player2": {
+        "id": 33166,
+        "name": "Tim Handel",
+        "countryAcr": "GER"
+      },
+      "tournament": {
+        "id": 22150,
+        "name": "M15 Offenbach",
+        "courtId": 3,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "GER",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/185114483/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "185114495",
+      "matchId": "185114495",
+      "date": "2026-10-14T09:05:00.000Z",
+      "roundId": 5,
+      "player1Id": 100215,
+      "player2Id": 85987,
+      "tournamentId": 22150,
+      "match_winner": 100215,
+      "result": "5-7 6-4 6-4",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 100215,
+        "name": "Mika Petkovic",
+        "countryAcr": "GER"
+      },
+      "player2": {
+        "id": 85987,
+        "name": "Julien Penzlin",
+        "countryAcr": "GER"
+      },
+      "tournament": {
+        "id": 22150,
+        "name": "M15 Offenbach",
+        "courtId": 3,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "GER",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/185114495/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "185114500",
+      "matchId": "185114500",
+      "date": "2026-10-14T09:05:00.000Z",
+      "roundId": 5,
+      "player1Id": 79860,
+      "player2Id": 88931,
+      "tournamentId": 22150,
+      "match_winner": 79860,
+      "result": "6-3 5-7 6-4",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 79860,
+        "name": "Calvin Mueller",
+        "countryAcr": "GER"
+      },
+      "player2": {
+        "id": 88931,
+        "name": "Yannik Kelm",
+        "countryAcr": "GER"
+      },
+      "tournament": {
+        "id": 22150,
+        "name": "M15 Offenbach",
+        "courtId": 3,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "GER",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/185114500/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "179497803",
+      "matchId": "179497803",
+      "date": "2026-10-14T09:03:00.000Z",
+      "roundId": 4,
+      "player1Id": 132847,
+      "player2Id": 132848,
+      "tournamentId": 22099,
+      "match_winner": 132847,
+      "result": "6-3 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.39",
+      "odd2": "2.63",
+      "player1": {
+        "id": 132847,
+        "name": "David Poljak/Niels Visker",
+        "countryAcr": "N/A"
+      },
+      "player2": {
+        "id": 132848,
+        "name": "Mats Hermans/N. Vijay Sundar Prashanth",
+        "countryAcr": "N/A"
+      },
+      "tournament": {
+        "id": 22099,
+        "name": "Olbia Challenger",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "ITA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/179497803/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "185114467",
+      "matchId": "185114467",
+      "date": "2026-10-14T08:52:00.000Z",
+      "roundId": 5,
+      "player1Id": 54380,
+      "player2Id": 111954,
+      "tournamentId": 22149,
+      "match_winner": 54380,
+      "result": "6-2 6-0",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.88",
+      "odd2": "1.76",
+      "player1": {
+        "id": 54380,
+        "name": "Tommaso Compagnucci",
+        "countryAcr": "ITA"
+      },
+      "player2": {
+        "id": 111954,
+        "name": "Pierluigi Basile",
+        "countryAcr": "ITA"
+      },
+      "tournament": {
+        "id": 22149,
+        "name": "M25 Santa Margherita di Pula",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "ITA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/185114467/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "180902960",
+      "matchId": "180902960",
+      "date": "2026-10-14T08:43:00.000Z",
+      "roundId": 4,
+      "player1Id": 108501,
+      "player2Id": 88217,
+      "tournamentId": 22151,
+      "match_winner": 108501,
+      "result": "4-6 6-4 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 108501,
+        "name": "Mathys Picard",
+        "countryAcr": "FRA"
+      },
+      "player2": {
+        "id": 88217,
+        "name": "Alvaro Peiro Serrano",
+        "countryAcr": "ESP"
+      },
+      "tournament": {
+        "id": 22151,
+        "name": "M15 Monastir",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "TUN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/180902960/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "180903009",
+      "matchId": "180903009",
+      "date": "2026-10-14T08:43:00.000Z",
+      "roundId": 4,
+      "player1Id": 112203,
+      "player2Id": 37283,
+      "tournamentId": 22152,
+      "match_winner": 112203,
+      "result": "7-6(5) 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.65",
+      "odd2": "2.03",
+      "player1": {
+        "id": 112203,
+        "name": "Kacper Knitter",
+        "countryAcr": "POL"
+      },
+      "player2": {
+        "id": 37283,
+        "name": "Vladislav Melnic",
+        "countryAcr": "ROU"
+      },
+      "tournament": {
+        "id": 22152,
+        "name": "M15 Sharm ElSheikh",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "EGY",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/180903009/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "180903044",
+      "matchId": "180903044",
+      "date": "2026-10-14T08:43:00.000Z",
+      "roundId": 4,
+      "player1Id": 37720,
+      "player2Id": 120956,
+      "tournamentId": 22152,
+      "match_winner": 37720,
+      "result": "6-2 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.141",
+      "odd2": "4.5",
+      "player1": {
+        "id": 37720,
+        "name": "Constantin Bittoun Kouzmine",
+        "countryAcr": "FRA"
+      },
+      "player2": {
+        "id": 120956,
+        "name": "Jan Wygona",
+        "countryAcr": "POL"
+      },
+      "tournament": {
+        "id": 22152,
+        "name": "M15 Sharm ElSheikh",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "EGY",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/180903044/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "180903062",
+      "matchId": "180903062",
+      "date": "2026-10-14T08:43:00.000Z",
+      "roundId": 4,
+      "player1Id": 114738,
+      "player2Id": 132158,
+      "tournamentId": 22152,
+      "match_winner": 114738,
+      "result": "6-3 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 114738,
+        "name": "Rihards Neimanis",
+        "countryAcr": "LAT"
+      },
+      "player2": {
+        "id": 132158,
+        "name": "Dylan Bairo",
+        "countryAcr": "SVK"
+      },
+      "tournament": {
+        "id": 22152,
+        "name": "M15 Sharm ElSheikh",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "EGY",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/180903062/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "185114444",
+      "matchId": "185114444",
+      "date": "2026-10-14T08:43:00.000Z",
+      "roundId": 5,
+      "player1Id": 35225,
+      "player2Id": 71631,
+      "tournamentId": 22149,
+      "match_winner": 35225,
+      "result": "6-4 5-7 6-4",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 35225,
+        "name": "Alexander Weis",
+        "countryAcr": "ITA"
+      },
+      "player2": {
+        "id": 71631,
+        "name": "Giuseppe La Vela",
+        "countryAcr": "ITA"
+      },
+      "tournament": {
+        "id": 22149,
+        "name": "M25 Santa Margherita di Pula",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "ITA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/185114444/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "178094090",
+      "matchId": "178094090",
+      "date": "2026-10-14T08:35:00.000Z",
+      "roundId": 4,
+      "player1Id": 73196,
+      "player2Id": 58005,
+      "tournamentId": 22101,
+      "match_winner": 73196,
+      "result": "6-2 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.533",
+      "odd2": "2.3",
+      "player1": {
+        "id": 73196,
+        "name": "Dominic Stricker",
+        "countryAcr": "SUI"
+      },
+      "player2": {
+        "id": 58005,
+        "name": "Philip Henning",
+        "countryAcr": "RSA"
+      },
+      "tournament": {
+        "id": 22101,
+        "name": "Roanne Challenger",
+        "courtId": 3,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "FRA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/178094090/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "178094112",
+      "matchId": "178094112",
+      "date": "2026-10-14T08:35:00.000Z",
+      "roundId": 4,
+      "player1Id": 113595,
+      "player2Id": 122652,
+      "tournamentId": 22101,
+      "match_winner": 113595,
+      "result": "6-4 6-4",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 113595,
+        "name": "Daniel De Jonge/Jannik Opitz",
+        "countryAcr": "N/A"
+      },
+      "player2": {
+        "id": 122652,
+        "name": "Guido Andreozzi/Manuel Guinard",
+        "countryAcr": "N/A"
+      },
+      "tournament": {
+        "id": 22101,
+        "name": "Roanne Challenger",
+        "courtId": 3,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "FRA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/178094112/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "178094160",
+      "matchId": "178094160",
+      "date": "2026-10-14T08:35:00.000Z",
+      "roundId": 5,
+      "player1Id": 30856,
+      "player2Id": 55290,
+      "tournamentId": 22103,
+      "match_winner": 30856,
+      "result": "6-4 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 30856,
+        "name": "Zdenek Kolar",
+        "countryAcr": "CZE"
+      },
+      "player2": {
+        "id": 55290,
+        "name": "Filip Cristian Jianu",
+        "countryAcr": "ROU"
+      },
+      "tournament": {
+        "id": 22103,
+        "name": "San Gregorio di Catania Challenger",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "ITA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/178094160/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "178094177",
+      "matchId": "178094177",
+      "date": "2026-10-14T08:35:00.000Z",
+      "roundId": 5,
+      "player1Id": 73608,
+      "player2Id": 99973,
+      "tournamentId": 22103,
+      "match_winner": 73608,
+      "result": "6-4 6-1",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 73608,
+        "name": "Felix Gill",
+        "countryAcr": "GBR"
+      },
+      "player2": {
+        "id": 99973,
+        "name": "Izan Almazan Valiente",
+        "countryAcr": "ESP"
+      },
+      "tournament": {
+        "id": 22103,
+        "name": "San Gregorio di Catania Challenger",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "ITA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/178094177/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "180902959",
+      "matchId": "180902959",
+      "date": "2026-10-14T08:35:00.000Z",
+      "roundId": 4,
+      "player1Id": 36276,
+      "player2Id": 87755,
+      "tournamentId": 22151,
+      "match_winner": 36276,
+      "result": "6-1 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 36276,
+        "name": "Kris Van Wyk",
+        "countryAcr": "RSA"
+      },
+      "player2": {
+        "id": 87755,
+        "name": "Maximilian Figl",
+        "countryAcr": "ITA"
+      },
+      "tournament": {
+        "id": 22151,
+        "name": "M15 Monastir",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "TUN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/180902959/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "180902965",
+      "matchId": "180902965",
+      "date": "2026-10-14T08:35:00.000Z",
+      "roundId": 4,
+      "player1Id": 66500,
+      "player2Id": 93403,
+      "tournamentId": 22151,
+      "match_winner": 66500,
+      "result": "6-3 4-6 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.47",
+      "odd2": "2.39",
+      "player1": {
+        "id": 66500,
+        "name": "Samir Hamza Reguig",
+        "countryAcr": "ALG"
+      },
+      "player2": {
+        "id": 93403,
+        "name": "Adam Lynch",
+        "countryAcr": "USA"
+      },
+      "tournament": {
+        "id": 22151,
+        "name": "M15 Monastir",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "TUN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/180902965/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "180902972",
+      "matchId": "180902972",
+      "date": "2026-10-14T08:35:00.000Z",
+      "roundId": 4,
+      "player1Id": 81961,
+      "player2Id": 104655,
+      "tournamentId": 22151,
+      "match_winner": 81961,
+      "result": "6-4 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 81961,
+        "name": "Rocco Piatti",
+        "countryAcr": "MON"
+      },
+      "player2": {
+        "id": 104655,
+        "name": "Mario Arce Fernandez",
+        "countryAcr": "ESP"
+      },
+      "tournament": {
+        "id": 22151,
+        "name": "M15 Monastir",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "TUN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/180902972/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "180903008",
+      "matchId": "180903008",
+      "date": "2026-10-14T08:35:00.000Z",
+      "roundId": 4,
+      "player1Id": 121188,
+      "player2Id": 33182,
+      "tournamentId": 22152,
+      "match_winner": 121188,
+      "result": "6-2 2-6 6-1",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 121188,
+        "name": "Anton Arzhankin",
+        "countryAcr": "RUS"
+      },
+      "player2": {
+        "id": 33182,
+        "name": "Koray Kirci",
+        "countryAcr": "TUR"
+      },
+      "tournament": {
+        "id": 22152,
+        "name": "M15 Sharm ElSheikh",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "EGY",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/180903008/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "178040861",
+      "matchId": "178040861",
+      "date": "2026-10-14T08:30:00.000Z",
+      "roundId": 9,
+      "player1Id": 130699,
+      "player2Id": 131416,
+      "tournamentId": 21356,
+      "match_winner": 130699,
+      "result": "6-3 6-4",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.81",
+      "odd2": "1.87",
+      "player1": {
+        "id": 130699,
+        "name": "Francisco Cabral/James Tracy",
+        "countryAcr": "N/A"
+      },
+      "player2": {
+        "id": 131416,
+        "name": "Robert Galloway/Andre Goransson",
+        "countryAcr": "N/A"
+      },
+      "tournament": {
+        "id": 21356,
+        "name": "Shanghai Rolex Masters - Shanghai",
+        "courtId": 1,
+        "date": "2026-10-05T00:00:00.000Z",
+        "rankId": 3,
+        "countryAcr": "CHN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/178040861/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "176690262",
+      "matchId": "176690262",
+      "date": "2026-10-14T08:10:00.000Z",
+      "roundId": 4,
+      "player1Id": 87060,
+      "player2Id": 127360,
+      "tournamentId": 22098,
+      "match_winner": 87060,
+      "result": "7-5 6-1",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.49",
+      "odd2": "2.34",
+      "player1": {
+        "id": 87060,
+        "name": "Siddhant Banthia/Ajeet Rai",
+        "countryAcr": "N/A"
+      },
+      "player2": {
+        "id": 127360,
+        "name": "Chuan En Hsu/Andre Ilagan",
+        "countryAcr": "N/A"
+      },
+      "tournament": {
+        "id": 22098,
+        "name": "Jinan Challenger",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "CHN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/176690262/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "180902808",
+      "matchId": "180902808",
+      "date": "2026-10-14T08:10:00.000Z",
+      "roundId": 4,
+      "player1Id": 99687,
+      "player2Id": 46164,
+      "tournamentId": 22148,
+      "match_winner": 99687,
+      "result": "7-6(3) 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "4.2",
+      "odd2": "1.163",
+      "player1": {
+        "id": 99687,
+        "name": "Ye Hongyu",
+        "countryAcr": "CHN"
+      },
+      "player2": {
+        "id": 46164,
+        "name": "Tsung-Hao Huang",
+        "countryAcr": "TPE"
+      },
+      "tournament": {
+        "id": 22148,
+        "name": "M25 Qian Daohu",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "CHN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/180902808/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "180903181",
+      "matchId": "180903181",
+      "date": "2026-10-14T08:05:00.000Z",
+      "roundId": 4,
+      "player1Id": 76650,
+      "player2Id": 51964,
+      "tournamentId": 22155,
+      "match_winner": 76650,
+      "result": "6-4 6-1",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 76650,
+        "name": "Leyton Rivera",
+        "countryAcr": "NOR"
+      },
+      "player2": {
+        "id": 51964,
+        "name": "Peter Sallay",
+        "countryAcr": "HUN"
+      },
+      "tournament": {
+        "id": 22155,
+        "name": "M15 Szabolcsveresmart",
+        "courtId": 3,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "HUN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/180903181/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "180903190",
+      "matchId": "180903190",
+      "date": "2026-10-14T08:05:00.000Z",
+      "roundId": 4,
+      "player1Id": 62486,
+      "player2Id": 97207,
+      "tournamentId": 22155,
+      "match_winner": 62486,
+      "result": "6-1 6-4",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.088",
+      "odd2": "5.55",
+      "player1": {
+        "id": 62486,
+        "name": "Wojciech Marek",
+        "countryAcr": "POL"
+      },
+      "player2": {
+        "id": 97207,
+        "name": "Trisztan Gubi",
+        "countryAcr": "HUN"
+      },
+      "tournament": {
+        "id": 22155,
+        "name": "M15 Szabolcsveresmart",
+        "courtId": 3,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "HUN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/180903190/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "185114792",
+      "matchId": "185114792",
+      "date": "2026-10-14T08:05:00.000Z",
+      "roundId": 4,
+      "player1Id": 47534,
+      "player2Id": 60923,
+      "tournamentId": 22155,
+      "match_winner": 47534,
+      "result": "3-6 6-3 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.05",
+      "odd2": "6.8",
+      "player1": {
+        "id": 47534,
+        "name": "Arvid Nordquist",
+        "countryAcr": "SWE"
+      },
+      "player2": {
+        "id": 60923,
+        "name": "Noah Thurner",
+        "countryAcr": "GER"
+      },
+      "tournament": {
+        "id": 22155,
+        "name": "M15 Szabolcsveresmart",
+        "courtId": 3,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "HUN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/185114792/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "185114311",
+      "matchId": "185114311",
+      "date": "2026-10-14T07:53:00.000Z",
+      "roundId": 4,
+      "player1Id": 78906,
+      "player2Id": 40825,
+      "tournamentId": 22146,
+      "match_winner": 78906,
+      "result": "6-1 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 78906,
+        "name": "Samir Banerjee",
+        "countryAcr": "USA"
+      },
+      "player2": {
+        "id": 40825,
+        "name": "Manish Sureshkumar",
+        "countryAcr": "IND"
+      },
+      "tournament": {
+        "id": 22146,
+        "name": "M25 Solapur",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "IND",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/185114311/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "180903115",
+      "matchId": "180903115",
+      "date": "2026-10-14T07:43:00.000Z",
+      "roundId": 4,
+      "player1Id": 68977,
+      "player2Id": 50870,
+      "tournamentId": 22154,
+      "match_winner": 68977,
+      "result": "7-6(4) 6-1",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.25",
+      "odd2": "3.34",
+      "player1": {
+        "id": 68977,
+        "name": "Noah Lopez",
+        "countryAcr": "SUI"
+      },
+      "player2": {
+        "id": 50870,
+        "name": "Karlo Kajin",
+        "countryAcr": "CRO"
+      },
+      "tournament": {
+        "id": 22154,
+        "name": "M15 Bol",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "CRO",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/180903115/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "180903140",
+      "matchId": "180903140",
+      "date": "2026-10-14T07:43:00.000Z",
+      "roundId": 4,
+      "player1Id": 88054,
+      "player2Id": 100737,
+      "tournamentId": 22154,
+      "match_winner": 88054,
+      "result": "6-2 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.46",
+      "odd2": "2.41",
+      "player1": {
+        "id": 88054,
+        "name": "Iannis Miletich",
+        "countryAcr": "ARG"
+      },
+      "player2": {
+        "id": 100737,
+        "name": "Mak Mikovic",
+        "countryAcr": "SLO"
+      },
+      "tournament": {
+        "id": 22154,
+        "name": "M15 Bol",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "CRO",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/180903140/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "176690259",
+      "matchId": "176690259",
+      "date": "2026-10-14T07:40:00.000Z",
+      "roundId": 4,
+      "player1Id": 132833,
+      "player2Id": 115242,
+      "tournamentId": 22098,
+      "match_winner": 132833,
+      "result": "6-3 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 132833,
+        "name": "Jay Dylan Hara Friend/Ray Ho",
+        "countryAcr": "N/A"
+      },
+      "player2": {
+        "id": 115242,
+        "name": "Pruchya Isarow/Aoran Wang",
+        "countryAcr": "N/A"
+      },
+      "tournament": {
+        "id": 22098,
+        "name": "Jinan Challenger",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "CHN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/176690259/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "180903167",
+      "matchId": "180903167",
+      "date": "2026-10-14T07:35:00.000Z",
+      "roundId": 4,
+      "player1Id": 79061,
+      "player2Id": 126860,
+      "tournamentId": 22154,
+      "match_winner": 79061,
+      "result": "6-3 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 79061,
+        "name": "Kristijan Juhas",
+        "countryAcr": "SRB"
+      },
+      "player2": {
+        "id": 126860,
+        "name": "Heorhii Shylov",
+        "countryAcr": "UKR"
+      },
+      "tournament": {
+        "id": 22154,
+        "name": "M15 Bol",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "CRO",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/180903167/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "180902801",
+      "matchId": "180902801",
+      "date": "2026-10-14T07:25:00.000Z",
+      "roundId": 4,
+      "player1Id": 85075,
+      "player2Id": 21177,
+      "tournamentId": 22148,
+      "match_winner": 85075,
+      "result": "6-2 7-5",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.57",
+      "odd2": "2.16",
+      "player1": {
+        "id": 85075,
+        "name": "Yaroslav Demin",
+        "countryAcr": "RUS"
+      },
+      "player2": {
+        "id": 21177,
+        "name": "Filip Peliwo",
+        "countryAcr": "CAN"
+      },
+      "tournament": {
+        "id": 22148,
+        "name": "M25 Qian Daohu",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "CHN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/180902801/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "176691710",
+      "matchId": "176691710",
+      "date": "2026-10-14T07:13:00.000Z",
+      "roundId": 4,
+      "player1Id": 105035,
+      "player2Id": 63498,
+      "tournamentId": 22152,
+      "match_winner": 105035,
+      "result": "6-3 1-0 ret.",
+      "result_type": "retired",
+      "best_of": null,
+      "odd1": "1.3",
+      "odd2": "3.04",
+      "player1": {
+        "id": 105035,
+        "name": "Aaron Funk",
+        "countryAcr": "GER"
+      },
+      "player2": {
+        "id": 63498,
+        "name": "Pijus Vaitiekunas",
+        "countryAcr": "LTU"
+      },
+      "tournament": {
+        "id": 22152,
+        "name": "M15 Sharm ElSheikh",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "EGY",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/176691710/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "180903028",
+      "matchId": "180903028",
+      "date": "2026-10-14T07:13:00.000Z",
+      "roundId": 4,
+      "player1Id": 106116,
+      "player2Id": 99740,
+      "tournamentId": 22152,
+      "match_winner": 106116,
+      "result": "7-6(2) 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.27",
+      "odd2": "3.2",
+      "player1": {
+        "id": 106116,
+        "name": "Tudor Batin",
+        "countryAcr": "ROU"
+      },
+      "player2": {
+        "id": 99740,
+        "name": "Ivan Gretskiy",
+        "countryAcr": "RUS"
+      },
+      "tournament": {
+        "id": 22152,
+        "name": "M15 Sharm ElSheikh",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "EGY",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/180903028/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "175233353",
+      "matchId": "175233353",
+      "date": "2026-10-14T07:10:00.000Z",
+      "roundId": 9,
+      "player1Id": 123648,
+      "player2Id": 63508,
+      "tournamentId": 21356,
+      "match_winner": 123648,
+      "result": "6-4 6-4",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "2.22",
+      "odd2": "1.57",
+      "player1": {
+        "id": 123648,
+        "name": "Theo Arribage/Albano Olivetti",
+        "countryAcr": "N/A"
+      },
+      "player2": {
+        "id": 63508,
+        "name": "Kevin Krawietz/Tim Puetz",
+        "countryAcr": "N/A"
+      },
+      "tournament": {
+        "id": 21356,
+        "name": "Shanghai Rolex Masters - Shanghai",
+        "courtId": 1,
+        "date": "2026-10-05T00:00:00.000Z",
+        "rankId": 3,
+        "countryAcr": "CHN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/175233353/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "180902739",
+      "matchId": "180902739",
+      "date": "2026-10-14T07:10:00.000Z",
+      "roundId": 4,
+      "player1Id": 55841,
+      "player2Id": 83312,
+      "tournamentId": 22146,
+      "match_winner": 55841,
+      "result": "5-7 6-2 7-6(6)",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.129",
+      "odd2": "4.7",
+      "player1": {
+        "id": 55841,
+        "name": "Dhakshineswar Suresh",
+        "countryAcr": "IND"
+      },
+      "player2": {
+        "id": 83312,
+        "name": "Dev Javia",
+        "countryAcr": "IND"
+      },
+      "tournament": {
+        "id": 22146,
+        "name": "M25 Solapur",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "IND",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/180902739/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "180902810",
+      "matchId": "180902810",
+      "date": "2026-10-14T07:10:00.000Z",
+      "roundId": 4,
+      "player1Id": 59423,
+      "player2Id": 50250,
+      "tournamentId": 22148,
+      "match_winner": 59423,
+      "result": "6-4 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.18",
+      "odd2": "3.96",
+      "player1": {
+        "id": 59423,
+        "name": "Arthur Weber",
+        "countryAcr": "FRA"
+      },
+      "player2": {
+        "id": 50250,
+        "name": "Yuta Kikuchi",
+        "countryAcr": "JPN"
+      },
+      "tournament": {
+        "id": 22148,
+        "name": "M25 Qian Daohu",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "CHN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/180902810/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "176690240",
+      "matchId": "176690240",
+      "date": "2026-10-14T07:06:00.000Z",
+      "roundId": 5,
+      "player1Id": 56211,
+      "player2Id": 42971,
+      "tournamentId": 22098,
+      "match_winner": 56211,
+      "result": "6-3 3-6 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "2.61",
+      "odd2": "1.42",
+      "player1": {
+        "id": 56211,
+        "name": "Keegan Smith",
+        "countryAcr": "USA"
+      },
+      "player2": {
+        "id": 42971,
+        "name": "Vit Kopriva",
+        "countryAcr": "CZE"
+      },
+      "tournament": {
+        "id": 22098,
+        "name": "Jinan Challenger",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "CHN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/176690240/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "176691737",
+      "matchId": "176691737",
+      "date": "2026-10-14T07:05:00.000Z",
+      "roundId": 4,
+      "player1Id": 81115,
+      "player2Id": 121797,
+      "tournamentId": 22152,
+      "match_winner": 81115,
+      "result": "6-3 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.073",
+      "odd2": "5.95",
+      "player1": {
+        "id": 81115,
+        "name": "Amr Elsayed",
+        "countryAcr": "EGY"
+      },
+      "player2": {
+        "id": 121797,
+        "name": "Mikhail Khodorchenko",
+        "countryAcr": "RUS"
+      },
+      "tournament": {
+        "id": 22152,
+        "name": "M15 Sharm ElSheikh",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "EGY",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/176691737/odds?type=atp&source=game"
+      }
+    }
+  ]
+}

@@ -1,3 +1,6 @@
 # Variables d'environnement (clés d'API) : ne jamais les envoyer sur GitHub
 .env
 .env.*
+
+# Compteur de requêtes de l'API tennis (local)
+scripts/.compteur-api.json

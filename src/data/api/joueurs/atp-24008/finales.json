@@ -1,0 +1,2532 @@
+{
+  "recupereLe": "2026-10-14T17:17:15.027Z",
+  "donnees": [
+    {
+      "id": "1298995",
+      "matchId": "1298995",
+      "date": "2026-09-20T00:00:00.000Z",
+      "roundId": 16,
+      "player1Id": 24008,
+      "player2Id": 85899,
+      "tournamentId": 22118,
+      "match_winner": 24008,
+      "result": "6-2 6-4",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.087",
+      "odd2": "5.95",
+      "player1": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "player2": {
+        "id": 85899,
+        "name": "Dino Prizmic",
+        "countryAcr": "CRO"
+      },
+      "tournament": {
+        "id": 22118,
+        "name": "Davis Cup, World Group, Q2, GER-CRO 3-1",
+        "courtId": 3,
+        "date": "2026-09-14T00:00:00.000Z",
+        "rankId": 5,
+        "countryAcr": "GER",
+        "prize": null,
+        "court": {
+          "id": 3,
+          "name": "I.hard"
+        },
+        "rank": {
+          "id": 5,
+          "name": "Davis/Fed Cup"
+        },
+        "country": {
+          "name": "Germany",
+          "acronym": "GER"
+        }
+      }
+    },
+    {
+      "id": "1245489",
+      "matchId": "1245489",
+      "date": "2026-09-13T00:00:00.000Z",
+      "roundId": 12,
+      "player1Id": 24008,
+      "player2Id": 87562,
+      "tournamentId": 21349,
+      "match_winner": 24008,
+      "result": "6-3 7-6(2) 5-7 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.67",
+      "odd2": "2.22",
+      "player1": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "player2": {
+        "id": 87562,
+        "name": "Ben Shelton",
+        "countryAcr": "USA"
+      },
+      "tournament": {
+        "id": 21349,
+        "name": "U.S. Open - New York",
+        "courtId": 1,
+        "date": "2026-08-31T00:00:00.000Z",
+        "rankId": 4,
+        "countryAcr": "USA",
+        "prize": "$48.9M",
+        "court": {
+          "id": 1,
+          "name": "Hard"
+        },
+        "rank": {
+          "id": 4,
+          "name": "Grand Slam"
+        },
+        "country": {
+          "name": "United States",
+          "acronym": "USA"
+        }
+      }
+    },
+    {
+      "id": "1244170",
+      "matchId": "1244170",
+      "date": "2026-07-12T00:00:00.000Z",
+      "roundId": 12,
+      "player1Id": 47275,
+      "player2Id": 24008,
+      "tournamentId": 21337,
+      "match_winner": 47275,
+      "result": "6-7(7) 7-6(2) 6-3 6-4",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.25",
+      "odd2": "4.2",
+      "player1": {
+        "id": 47275,
+        "name": "Jannik Sinner",
+        "countryAcr": "ITA"
+      },
+      "player2": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "tournament": {
+        "id": 21337,
+        "name": "Wimbledon - London",
+        "courtId": 5,
+        "date": "2026-06-29T00:00:00.000Z",
+        "rankId": 4,
+        "countryAcr": "GBR",
+        "prize": "L64.2M",
+        "court": {
+          "id": 5,
+          "name": "Grass"
+        },
+        "rank": {
+          "id": 4,
+          "name": "Grand Slam"
+        },
+        "country": {
+          "name": "Great Britain",
+          "acronym": "GBR"
+        }
+      }
+    },
+    {
+      "id": "1243607",
+      "matchId": "1243607",
+      "date": "2026-06-07T00:00:00.000Z",
+      "roundId": 12,
+      "player1Id": 24008,
+      "player2Id": 67546,
+      "tournamentId": 21329,
+      "match_winner": 24008,
+      "result": "6-1 4-6 6-4 6-7(5) 6-1",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "player2": {
+        "id": 67546,
+        "name": "Flavio Cobolli",
+        "countryAcr": "ITA"
+      },
+      "tournament": {
+        "id": 21329,
+        "name": "French Open - Paris",
+        "courtId": 2,
+        "date": "2026-05-25T00:00:00.000Z",
+        "rankId": 4,
+        "countryAcr": "FRA",
+        "prize": "$29.1M",
+        "court": {
+          "id": 2,
+          "name": "Clay"
+        },
+        "rank": {
+          "id": 4,
+          "name": "Grand Slam"
+        },
+        "country": {
+          "name": "France",
+          "acronym": "FRA"
+        }
+      }
+    },
+    {
+      "id": "1243017",
+      "matchId": "1243017",
+      "date": "2026-05-03T00:00:00.000Z",
+      "roundId": 12,
+      "player1Id": 47275,
+      "player2Id": 24008,
+      "tournamentId": 21325,
+      "match_winner": 47275,
+      "result": "6-1 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.24",
+      "odd2": "4.3",
+      "player1": {
+        "id": 47275,
+        "name": "Jannik Sinner",
+        "countryAcr": "ITA"
+      },
+      "player2": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "tournament": {
+        "id": 21325,
+        "name": "Mutua Madrid Open - Madrid",
+        "courtId": 2,
+        "date": "2026-04-20T00:00:00.000Z",
+        "rankId": 3,
+        "countryAcr": "ESP",
+        "prize": "8.235M",
+        "court": {
+          "id": 2,
+          "name": "Clay"
+        },
+        "rank": {
+          "id": 3,
+          "name": "Masters series"
+        },
+        "country": {
+          "name": "Spain",
+          "acronym": "ESP"
+        }
+      }
+    },
+    {
+      "id": "1174530",
+      "matchId": "1174530",
+      "date": "2025-10-26T00:00:00.000Z",
+      "roundId": 12,
+      "player1Id": 47275,
+      "player2Id": 24008,
+      "tournamentId": 20371,
+      "match_winner": 47275,
+      "result": "3-6 6-3 7-5",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.106",
+      "odd2": "6.65",
+      "player1": {
+        "id": 47275,
+        "name": "Jannik Sinner",
+        "countryAcr": "ITA"
+      },
+      "player2": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "tournament": {
+        "id": 20371,
+        "name": "Erste Bank Open - Vienna",
+        "courtId": 3,
+        "date": "2025-10-20T00:00:00.000Z",
+        "rankId": 2,
+        "countryAcr": "AUT",
+        "prize": "2.898M",
+        "court": {
+          "id": 3,
+          "name": "I.hard"
+        },
+        "rank": {
+          "id": 2,
+          "name": "Main tour"
+        },
+        "country": {
+          "name": "Austria",
+          "acronym": "AUT"
+        }
+      }
+    },
+    {
+      "id": "1172185",
+      "matchId": "1172185",
+      "date": "2025-06-15T00:00:00.000Z",
+      "roundId": 12,
+      "player1Id": 29932,
+      "player2Id": 24008,
+      "tournamentId": 20343,
+      "match_winner": 29932,
+      "result": "6-3 7-6(0)",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 29932,
+        "name": "Taylor Fritz",
+        "countryAcr": "USA"
+      },
+      "player2": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "tournament": {
+        "id": 20343,
+        "name": "Boss Open - Stuttgart",
+        "courtId": 5,
+        "date": "2025-06-09T00:00:00.000Z",
+        "rankId": 2,
+        "countryAcr": "GER",
+        "prize": "778K",
+        "court": {
+          "id": 5,
+          "name": "Grass"
+        },
+        "rank": {
+          "id": 2,
+          "name": "Main tour"
+        },
+        "country": {
+          "name": "Germany",
+          "acronym": "GER"
+        }
+      }
+    },
+    {
+      "id": "1171302",
+      "matchId": "1171302",
+      "date": "2025-04-20T00:00:00.000Z",
+      "roundId": 12,
+      "player1Id": 24008,
+      "player2Id": 87562,
+      "tournamentId": 20335,
+      "match_winner": 24008,
+      "result": "6-2 6-4",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.3",
+      "odd2": "3.52",
+      "player1": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "player2": {
+        "id": 87562,
+        "name": "Ben Shelton",
+        "countryAcr": "USA"
+      },
+      "tournament": {
+        "id": 20335,
+        "name": "BMW Open - Munich",
+        "courtId": 2,
+        "date": "2025-04-14T00:00:00.000Z",
+        "rankId": 2,
+        "countryAcr": "GER",
+        "prize": "2.747M",
+        "court": {
+          "id": 2,
+          "name": "Clay"
+        },
+        "rank": {
+          "id": 2,
+          "name": "Main tour"
+        },
+        "country": {
+          "name": "Germany",
+          "acronym": "GER"
+        }
+      }
+    },
+    {
+      "id": "1169677",
+      "matchId": "1169677",
+      "date": "2025-01-26T00:00:00.000Z",
+      "roundId": 12,
+      "player1Id": 47275,
+      "player2Id": 24008,
+      "tournamentId": 20315,
+      "match_winner": 47275,
+      "result": "6-3 7-6(4) 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.35",
+      "odd2": "3.32",
+      "player1": {
+        "id": 47275,
+        "name": "Jannik Sinner",
+        "countryAcr": "ITA"
+      },
+      "player2": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "tournament": {
+        "id": 20315,
+        "name": "Australian Open - Melbourne",
+        "courtId": 1,
+        "date": "2025-01-13T00:00:00.000Z",
+        "rankId": 4,
+        "countryAcr": "AUS",
+        "prize": "A$43.6M",
+        "court": {
+          "id": 1,
+          "name": "Hard"
+        },
+        "rank": {
+          "id": 4,
+          "name": "Grand Slam"
+        },
+        "country": {
+          "name": "Australia",
+          "acronym": "AUS"
+        }
+      }
+    },
+    {
+      "id": "1105589",
+      "matchId": "1105589",
+      "date": "2024-11-03T00:00:00.000Z",
+      "roundId": 12,
+      "player1Id": 24008,
+      "player2Id": 38911,
+      "tournamentId": 19417,
+      "match_winner": 24008,
+      "result": "6-2 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.43",
+      "odd2": "2.91",
+      "player1": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "player2": {
+        "id": 38911,
+        "name": "Ugo Humbert",
+        "countryAcr": "FRA"
+      },
+      "tournament": {
+        "id": 19417,
+        "name": "Rolex Paris Masters - Paris",
+        "courtId": 3,
+        "date": "2024-10-28T00:00:00.000Z",
+        "rankId": 3,
+        "countryAcr": "FRA",
+        "prize": "6.9M",
+        "court": {
+          "id": 3,
+          "name": "I.hard"
+        },
+        "rank": {
+          "id": 3,
+          "name": "Masters series"
+        },
+        "country": {
+          "name": "France",
+          "acronym": "FRA"
+        }
+      }
+    },
+    {
+      "id": "1103720",
+      "matchId": "1103720",
+      "date": "2024-07-21T00:00:00.000Z",
+      "roundId": 12,
+      "player1Id": 83135,
+      "player2Id": 24008,
+      "tournamentId": 19393,
+      "match_winner": 83135,
+      "result": "6-3 3-6 7-6(1)",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 83135,
+        "name": "Arthur Fils",
+        "countryAcr": "FRA"
+      },
+      "player2": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "tournament": {
+        "id": 19393,
+        "name": "Hamburg Open - Hamburg",
+        "courtId": 2,
+        "date": "2024-07-15T00:00:00.000Z",
+        "rankId": 2,
+        "countryAcr": "GER",
+        "prize": "2M",
+        "court": {
+          "id": 2,
+          "name": "Clay"
+        },
+        "rank": {
+          "id": 2,
+          "name": "Main tour"
+        },
+        "country": {
+          "name": "Germany",
+          "acronym": "GER"
+        }
+      }
+    },
+    {
+      "id": "1102717",
+      "matchId": "1102717",
+      "date": "2024-06-09T00:00:00.000Z",
+      "roundId": 12,
+      "player1Id": 68074,
+      "player2Id": 24008,
+      "tournamentId": 19383,
+      "match_winner": 68074,
+      "result": "6-3 2-6 5-7 6-1 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 68074,
+        "name": "Carlos Alcaraz",
+        "countryAcr": "ESP"
+      },
+      "player2": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "tournament": {
+        "id": 19383,
+        "name": "French Open - Paris",
+        "courtId": 2,
+        "date": "2024-05-27T00:00:00.000Z",
+        "rankId": 4,
+        "countryAcr": "FRA",
+        "prize": "24.9M",
+        "court": {
+          "id": 2,
+          "name": "Clay"
+        },
+        "rank": {
+          "id": 4,
+          "name": "Grand Slam"
+        },
+        "country": {
+          "name": "France",
+          "acronym": "FRA"
+        }
+      }
+    },
+    {
+      "id": "1102428",
+      "matchId": "1102428",
+      "date": "2024-05-19T00:00:00.000Z",
+      "roundId": 12,
+      "player1Id": 24008,
+      "player2Id": 27482,
+      "tournamentId": 19380,
+      "match_winner": 24008,
+      "result": "6-4 7-5",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.42",
+      "odd2": "2.95",
+      "player1": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "player2": {
+        "id": 27482,
+        "name": "Nicolas Jarry",
+        "countryAcr": "CHI"
+      },
+      "tournament": {
+        "id": 19380,
+        "name": "Internazionali BNL d'Italia - Rome",
+        "courtId": 2,
+        "date": "2024-05-06T00:00:00.000Z",
+        "rankId": 3,
+        "countryAcr": "ITA",
+        "prize": "9.094M",
+        "court": {
+          "id": 2,
+          "name": "Clay"
+        },
+        "rank": {
+          "id": 3,
+          "name": "Masters series"
+        },
+        "country": {
+          "name": "Italy",
+          "acronym": "ITA"
+        }
+      }
+    },
+    {
+      "id": "1100105",
+      "matchId": "1100105",
+      "date": "2024-01-07T00:00:00.000Z",
+      "roundId": 12,
+      "player1Id": 24008,
+      "player2Id": 26473,
+      "tournamentId": 19350,
+      "match_winner": 24008,
+      "result": "6-7(3) 7-6(6) 6-4",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "player2": {
+        "id": 26473,
+        "name": "Hubert Hurkacz",
+        "countryAcr": "POL"
+      },
+      "tournament": {
+        "id": 19350,
+        "name": "United Cup - Australia",
+        "courtId": 1,
+        "date": "2024-01-01T00:00:00.000Z",
+        "rankId": 2,
+        "countryAcr": "AUS",
+        "prize": "$5M",
+        "court": {
+          "id": 1,
+          "name": "Hard"
+        },
+        "rank": {
+          "id": 2,
+          "name": "Main tour"
+        },
+        "country": {
+          "name": "Australia",
+          "acronym": "AUS"
+        }
+      }
+    },
+    {
+      "id": "981623",
+      "matchId": "981623",
+      "date": "2023-09-26T00:00:00.000Z",
+      "roundId": 12,
+      "player1Id": 24008,
+      "player2Id": 28900,
+      "tournamentId": 18509,
+      "match_winner": 24008,
+      "result": "6-7(2) 7-6(5) 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.26",
+      "odd2": "3.86",
+      "player1": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "player2": {
+        "id": 28900,
+        "name": "Roman Safiullin",
+        "countryAcr": "RUS"
+      },
+      "tournament": {
+        "id": 18509,
+        "name": "Chengdu Open - Chengdu",
+        "courtId": 1,
+        "date": "2023-09-18T00:00:00.000Z",
+        "rankId": 2,
+        "countryAcr": "CHN",
+        "prize": "$1.261M",
+        "court": {
+          "id": 1,
+          "name": "Hard"
+        },
+        "rank": {
+          "id": 2,
+          "name": "Main tour"
+        },
+        "country": {
+          "name": "China",
+          "acronym": "CHN"
+        }
+      }
+    },
+    {
+      "id": "979051",
+      "matchId": "979051",
+      "date": "2023-07-30T00:00:00.000Z",
+      "roundId": 12,
+      "player1Id": 24008,
+      "player2Id": 24084,
+      "tournamentId": 18498,
+      "match_winner": 24008,
+      "result": "7-5 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.3",
+      "odd2": "3.54",
+      "player1": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "player2": {
+        "id": 24084,
+        "name": "Laslo Djere",
+        "countryAcr": "SRB"
+      },
+      "tournament": {
+        "id": 18498,
+        "name": "Hamburg European Open - Hamburg",
+        "courtId": 2,
+        "date": "2023-07-24T00:00:00.000Z",
+        "rankId": 2,
+        "countryAcr": "GER",
+        "prize": "?1.981M",
+        "court": {
+          "id": 2,
+          "name": "Clay"
+        },
+        "rank": {
+          "id": 2,
+          "name": "Main tour"
+        },
+        "country": {
+          "name": "Germany",
+          "acronym": "GER"
+        }
+      }
+    },
+    {
+      "id": "989363",
+      "matchId": "989363",
+      "date": "2023-02-04T00:00:00.000Z",
+      "roundId": 16,
+      "player1Id": 35297,
+      "player2Id": 24008,
+      "tournamentId": 18594,
+      "match_winner": 35297,
+      "result": "6-2 7-6(4)",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 35297,
+        "name": "Marc-Andrea Huesler",
+        "countryAcr": "SUI"
+      },
+      "player2": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "tournament": {
+        "id": 18594,
+        "name": "Davis Cup, World Group, PO, GER-SUI 2-3",
+        "courtId": 3,
+        "date": "2023-01-30T00:00:00.000Z",
+        "rankId": 5,
+        "countryAcr": "GER",
+        "prize": null,
+        "court": {
+          "id": 3,
+          "name": "I.hard"
+        },
+        "rank": {
+          "id": 5,
+          "name": "Davis/Fed Cup"
+        },
+        "country": {
+          "name": "Germany",
+          "acronym": "GER"
+        }
+      }
+    },
+    {
+      "id": "914014",
+      "matchId": "914014",
+      "date": "2022-05-08T00:00:00.000Z",
+      "roundId": 12,
+      "player1Id": 68074,
+      "player2Id": 24008,
+      "tournamentId": 17559,
+      "match_winner": 68074,
+      "result": "6-3 6-1",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.5",
+      "odd2": "2.74",
+      "player1": {
+        "id": 68074,
+        "name": "Carlos Alcaraz",
+        "countryAcr": "ESP"
+      },
+      "player2": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "tournament": {
+        "id": 17559,
+        "name": "Mutua Madrid Open - Madrid",
+        "courtId": 2,
+        "date": "2022-05-02T00:00:00.000Z",
+        "rankId": 3,
+        "countryAcr": "ESP",
+        "prize": "?7.4M",
+        "court": {
+          "id": 2,
+          "name": "Clay"
+        },
+        "rank": {
+          "id": 3,
+          "name": "Masters series"
+        },
+        "country": {
+          "name": "Spain",
+          "acronym": "ESP"
+        }
+      }
+    },
+    {
+      "id": "928056",
+      "matchId": "928056",
+      "date": "2022-03-05T00:00:00.000Z",
+      "roundId": 16,
+      "player1Id": 24008,
+      "player2Id": 14609,
+      "tournamentId": 17770,
+      "match_winner": 24008,
+      "result": "6-1 7-5",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "player2": {
+        "id": 14609,
+        "name": "Thiago Moura Monteiro",
+        "countryAcr": "BRA"
+      },
+      "tournament": {
+        "id": 17770,
+        "name": "Davis Cup, Qualifiers, 1R, BRA-GER 1-3",
+        "courtId": 2,
+        "date": "2022-02-28T00:00:00.000Z",
+        "rankId": 5,
+        "countryAcr": "BRA",
+        "prize": null,
+        "court": {
+          "id": 2,
+          "name": "Clay"
+        },
+        "rank": {
+          "id": 5,
+          "name": "Davis/Fed Cup"
+        },
+        "country": {
+          "name": "Brazil",
+          "acronym": "BRA"
+        }
+      }
+    },
+    {
+      "id": "912504",
+      "matchId": "912504",
+      "date": "2022-02-06T00:00:00.000Z",
+      "roundId": 12,
+      "player1Id": 24245,
+      "player2Id": 24008,
+      "tournamentId": 17537,
+      "match_winner": 24245,
+      "result": "6-4 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 24245,
+        "name": "Alexander Bublik",
+        "countryAcr": "KAZ"
+      },
+      "player2": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "tournament": {
+        "id": 17537,
+        "name": "Open Sud de France - Montpellier",
+        "courtId": 3,
+        "date": "2022-01-31T00:00:00.000Z",
+        "rankId": 2,
+        "countryAcr": "FRA",
+        "prize": "?490K",
+        "court": {
+          "id": 3,
+          "name": "I.hard"
+        },
+        "rank": {
+          "id": 2,
+          "name": "Main tour"
+        },
+        "country": {
+          "name": "France",
+          "acronym": "FRA"
+        }
+      }
+    },
+    {
+      "id": "869813",
+      "matchId": "869813",
+      "date": "2021-11-21T00:00:00.000Z",
+      "roundId": 12,
+      "player1Id": 24008,
+      "player2Id": 22807,
+      "tournamentId": 16952,
+      "match_winner": 24008,
+      "result": "6-4 6-4",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "2.55",
+      "odd2": "1.64",
+      "player1": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "player2": {
+        "id": 22807,
+        "name": "Daniil Medvedev",
+        "countryAcr": "RUS"
+      },
+      "tournament": {
+        "id": 16952,
+        "name": "Nitto ATP Finals - Turin",
+        "courtId": 3,
+        "date": "2021-11-15T00:00:00.000Z",
+        "rankId": 7,
+        "countryAcr": "ITA",
+        "prize": null,
+        "court": {
+          "id": 3,
+          "name": "I.hard"
+        },
+        "rank": {
+          "id": 7,
+          "name": "Tour finals"
+        },
+        "country": {
+          "name": "Italy",
+          "acronym": "ITA"
+        }
+      }
+    },
+    {
+      "id": "869667",
+      "matchId": "869667",
+      "date": "2021-10-31T00:00:00.000Z",
+      "roundId": 12,
+      "player1Id": 24008,
+      "player2Id": 29939,
+      "tournamentId": 16948,
+      "match_winner": 24008,
+      "result": "7-5 6-4",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "player2": {
+        "id": 29939,
+        "name": "Frances Tiafoe",
+        "countryAcr": "USA"
+      },
+      "tournament": {
+        "id": 16948,
+        "name": "Erste Bank Open - Vienna",
+        "courtId": 3,
+        "date": "2021-10-25T00:00:00.000Z",
+        "rankId": 2,
+        "countryAcr": "AUT",
+        "prize": "1.974M",
+        "court": {
+          "id": 3,
+          "name": "I.hard"
+        },
+        "rank": {
+          "id": 2,
+          "name": "Main tour"
+        },
+        "country": {
+          "name": "Austria",
+          "acronym": "AUT"
+        }
+      }
+    },
+    {
+      "id": "868831",
+      "matchId": "868831",
+      "date": "2021-08-22T00:00:00.000Z",
+      "roundId": 12,
+      "player1Id": 24008,
+      "player2Id": 29372,
+      "tournamentId": 16932,
+      "match_winner": 24008,
+      "result": "6-2 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "player2": {
+        "id": 29372,
+        "name": "Andrey Rublev",
+        "countryAcr": "RUS"
+      },
+      "tournament": {
+        "id": 16932,
+        "name": "Western & Southern Open - Cincinnati",
+        "courtId": 1,
+        "date": "2021-08-16T00:00:00.000Z",
+        "rankId": 3,
+        "countryAcr": "USA",
+        "prize": "$3.707M",
+        "court": {
+          "id": 1,
+          "name": "Hard"
+        },
+        "rank": {
+          "id": 3,
+          "name": "Masters series"
+        },
+        "country": {
+          "name": "United States",
+          "acronym": "USA"
+        }
+      }
+    },
+    {
+      "id": "868447",
+      "matchId": "868447",
+      "date": "2021-08-01T00:00:00.000Z",
+      "roundId": 12,
+      "player1Id": 24008,
+      "player2Id": 25543,
+      "tournamentId": 16927,
+      "match_winner": 24008,
+      "result": "6-3 6-1",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.37",
+      "odd2": "3.68",
+      "player1": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "player2": {
+        "id": 25543,
+        "name": "Karen Khachanov",
+        "countryAcr": "RUS"
+      },
+      "tournament": {
+        "id": 16927,
+        "name": "Olympics - Tokyo",
+        "courtId": 1,
+        "date": "2021-07-26T00:00:00.000Z",
+        "rankId": 9,
+        "countryAcr": "JPN",
+        "prize": null,
+        "court": {
+          "id": 1,
+          "name": "Hard"
+        },
+        "rank": {
+          "id": 9,
+          "name": "Olympics"
+        },
+        "country": {
+          "name": "Japan",
+          "acronym": "JPN"
+        }
+      }
+    },
+    {
+      "id": "866779",
+      "matchId": "866779",
+      "date": "2021-05-09T00:00:00.000Z",
+      "roundId": 12,
+      "player1Id": 24008,
+      "player2Id": 29812,
+      "tournamentId": 16907,
+      "match_winner": 24008,
+      "result": "6-7(8) 6-4 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.49",
+      "odd2": "2.78",
+      "player1": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "player2": {
+        "id": 29812,
+        "name": "Matteo Berrettini",
+        "countryAcr": "ITA"
+      },
+      "tournament": {
+        "id": 16907,
+        "name": "Mutua Madrid Open - Madrid",
+        "courtId": 2,
+        "date": "2021-05-03T00:00:00.000Z",
+        "rankId": 3,
+        "countryAcr": "ESP",
+        "prize": "2.614M",
+        "court": {
+          "id": 2,
+          "name": "Clay"
+        },
+        "rank": {
+          "id": 3,
+          "name": "Masters series"
+        },
+        "country": {
+          "name": "Spain",
+          "acronym": "ESP"
+        }
+      }
+    },
+    {
+      "id": "866111",
+      "matchId": "866111",
+      "date": "2021-03-20T00:00:00.000Z",
+      "roundId": 12,
+      "player1Id": 24008,
+      "player2Id": 30470,
+      "tournamentId": 16897,
+      "match_winner": 24008,
+      "result": "6-4 7-6(3)",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "player2": {
+        "id": 30470,
+        "name": "Stefanos Tsitsipas",
+        "countryAcr": "GRE"
+      },
+      "tournament": {
+        "id": 16897,
+        "name": "Abierto Mexicano Telcel - Acapulco",
+        "courtId": 1,
+        "date": "2021-03-15T00:00:00.000Z",
+        "rankId": 2,
+        "countryAcr": "MEX",
+        "prize": "$1.204M",
+        "court": {
+          "id": 1,
+          "name": "Hard"
+        },
+        "rank": {
+          "id": 2,
+          "name": "Main tour"
+        },
+        "country": {
+          "name": "Mexico",
+          "acronym": "MEX"
+        }
+      }
+    },
+    {
+      "id": "843638",
+      "matchId": "843638",
+      "date": "2020-11-08T00:00:00.000Z",
+      "roundId": 12,
+      "player1Id": 22807,
+      "player2Id": 24008,
+      "tournamentId": 16501,
+      "match_winner": 22807,
+      "result": "5-7 6-4 6-1",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 22807,
+        "name": "Daniil Medvedev",
+        "countryAcr": "RUS"
+      },
+      "player2": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "tournament": {
+        "id": 16501,
+        "name": "Rolex Paris Masters - Paris",
+        "courtId": 3,
+        "date": "2020-11-02T00:00:00.000Z",
+        "rankId": 3,
+        "countryAcr": "FRA",
+        "prize": "3.732M",
+        "court": {
+          "id": 3,
+          "name": "I.hard"
+        },
+        "rank": {
+          "id": 3,
+          "name": "Masters series"
+        },
+        "country": {
+          "name": "France",
+          "acronym": "FRA"
+        }
+      }
+    },
+    {
+      "id": "860167",
+      "matchId": "860167",
+      "date": "2020-10-25T00:00:00.000Z",
+      "roundId": 12,
+      "player1Id": 24008,
+      "player2Id": 17829,
+      "tournamentId": 16798,
+      "match_winner": 24008,
+      "result": "6-2 6-1",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.65",
+      "odd2": "2.35",
+      "player1": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "player2": {
+        "id": 17829,
+        "name": "Diego Sebastian Schwartzman",
+        "countryAcr": "ARG"
+      },
+      "tournament": {
+        "id": 16798,
+        "name": "bett1HULKS Championships - Cologne",
+        "courtId": 3,
+        "date": "2020-10-19T00:00:00.000Z",
+        "rankId": 2,
+        "countryAcr": "GER",
+        "prize": "325K",
+        "court": {
+          "id": 3,
+          "name": "I.hard"
+        },
+        "rank": {
+          "id": 2,
+          "name": "Main tour"
+        },
+        "country": {
+          "name": "Germany",
+          "acronym": "GER"
+        }
+      }
+    },
+    {
+      "id": "860084",
+      "matchId": "860084",
+      "date": "2020-10-18T00:00:00.000Z",
+      "roundId": 12,
+      "player1Id": 24008,
+      "player2Id": 40434,
+      "tournamentId": 16796,
+      "match_winner": 24008,
+      "result": "6-3 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.47",
+      "odd2": "2.85",
+      "player1": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "player2": {
+        "id": 40434,
+        "name": "Felix Auger Aliassime",
+        "countryAcr": "CAN"
+      },
+      "tournament": {
+        "id": 16796,
+        "name": "bett1HULKS Indoors - Cologne",
+        "courtId": 3,
+        "date": "2020-10-12T00:00:00.000Z",
+        "rankId": 2,
+        "countryAcr": "GER",
+        "prize": "325K",
+        "court": {
+          "id": 3,
+          "name": "I.hard"
+        },
+        "rank": {
+          "id": 2,
+          "name": "Main tour"
+        },
+        "country": {
+          "name": "Germany",
+          "acronym": "GER"
+        }
+      }
+    },
+    {
+      "id": "843348",
+      "matchId": "843348",
+      "date": "2020-09-13T00:00:00.000Z",
+      "roundId": 12,
+      "player1Id": 20650,
+      "player2Id": 24008,
+      "tournamentId": 16485,
+      "match_winner": 20650,
+      "result": "2-6 4-6 6-4 6-3 7-6(6)",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 20650,
+        "name": "Dominic Thiem",
+        "countryAcr": "AUT"
+      },
+      "player2": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "tournament": {
+        "id": 16485,
+        "name": "U.S. Open - New York",
+        "courtId": 1,
+        "date": "2020-08-31T00:00:00.000Z",
+        "rankId": 4,
+        "countryAcr": "USA",
+        "prize": "$21.6M",
+        "court": {
+          "id": 1,
+          "name": "Hard"
+        },
+        "rank": {
+          "id": 4,
+          "name": "Grand Slam"
+        },
+        "country": {
+          "name": "United States",
+          "acronym": "USA"
+        }
+      }
+    },
+    {
+      "id": "792335",
+      "matchId": "792335",
+      "date": "2019-10-13T00:00:00.000Z",
+      "roundId": 12,
+      "player1Id": 22807,
+      "player2Id": 24008,
+      "tournamentId": 15663,
+      "match_winner": 22807,
+      "result": "6-4 6-1",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.533",
+      "odd2": "2.64",
+      "player1": {
+        "id": 22807,
+        "name": "Daniil Medvedev",
+        "countryAcr": "RUS"
+      },
+      "player2": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "tournament": {
+        "id": 15663,
+        "name": "Shanghai Rolex Masters - Shanghai",
+        "courtId": 1,
+        "date": "2019-10-07T00:00:00.000Z",
+        "rankId": 3,
+        "countryAcr": "CHN",
+        "prize": "$8.322M",
+        "court": {
+          "id": 1,
+          "name": "Hard"
+        },
+        "rank": {
+          "id": 3,
+          "name": "Masters series"
+        },
+        "country": {
+          "name": "China",
+          "acronym": "CHN"
+        }
+      }
+    },
+    {
+      "id": "789651",
+      "matchId": "789651",
+      "date": "2019-05-25T00:00:00.000Z",
+      "roundId": 12,
+      "player1Id": 24008,
+      "player2Id": 27482,
+      "tournamentId": 15631,
+      "match_winner": 24008,
+      "result": "6-3 3-6 7-6(8)",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.31",
+      "odd2": "3.74",
+      "player1": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "player2": {
+        "id": 27482,
+        "name": "Nicolas Jarry",
+        "countryAcr": "CHI"
+      },
+      "tournament": {
+        "id": 15631,
+        "name": "Geneva Open - Geneva",
+        "courtId": 2,
+        "date": "2019-05-20T00:00:00.000Z",
+        "rankId": 2,
+        "countryAcr": "SUI",
+        "prize": "586K",
+        "court": {
+          "id": 2,
+          "name": "Clay"
+        },
+        "rank": {
+          "id": 2,
+          "name": "Main tour"
+        },
+        "country": {
+          "name": "Switzerland",
+          "acronym": "SUI"
+        }
+      }
+    },
+    {
+      "id": "788483",
+      "matchId": "788483",
+      "date": "2019-03-02T00:00:00.000Z",
+      "roundId": 12,
+      "player1Id": 22434,
+      "player2Id": 24008,
+      "tournamentId": 15617,
+      "match_winner": 22434,
+      "result": "6-3 6-4",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "2.15",
+      "odd2": "1.77",
+      "player1": {
+        "id": 22434,
+        "name": "Nick Kyrgios",
+        "countryAcr": "AUS"
+      },
+      "player2": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "tournament": {
+        "id": 15617,
+        "name": "Abierto Mexicano Telcel - Acapulco",
+        "courtId": 1,
+        "date": "2019-02-25T00:00:00.000Z",
+        "rankId": 2,
+        "countryAcr": "MEX",
+        "prize": "$1.931M",
+        "court": {
+          "id": 1,
+          "name": "Hard"
+        },
+        "rank": {
+          "id": 2,
+          "name": "Main tour"
+        },
+        "country": {
+          "name": "Mexico",
+          "acronym": "MEX"
+        }
+      }
+    },
+    {
+      "id": "798392",
+      "matchId": "798392",
+      "date": "2019-02-02T00:00:00.000Z",
+      "roundId": 16,
+      "player1Id": 24008,
+      "player2Id": 21883,
+      "tournamentId": 15761,
+      "match_winner": 24008,
+      "result": "6-3 6-4",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "player2": {
+        "id": 21883,
+        "name": "Gabor Borsos",
+        "countryAcr": "HUN"
+      },
+      "tournament": {
+        "id": 15761,
+        "name": "Davis Cup, World Group, QR, GER-HUN 5-0",
+        "courtId": 3,
+        "date": "2019-01-28T00:00:00.000Z",
+        "rankId": 5,
+        "countryAcr": "GER",
+        "prize": null,
+        "court": {
+          "id": 3,
+          "name": "I.hard"
+        },
+        "rank": {
+          "id": 5,
+          "name": "Davis/Fed Cup"
+        },
+        "country": {
+          "name": "Germany",
+          "acronym": "GER"
+        }
+      }
+    },
+    {
+      "id": "725090",
+      "matchId": "725090",
+      "date": "2018-11-18T00:00:00.000Z",
+      "roundId": 12,
+      "player1Id": 24008,
+      "player2Id": 5992,
+      "tournamentId": 14771,
+      "match_winner": 24008,
+      "result": "6-4 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "player2": {
+        "id": 5992,
+        "name": "Novak Djokovic",
+        "countryAcr": "SRB"
+      },
+      "tournament": {
+        "id": 14771,
+        "name": "Nitto ATP Finals - London",
+        "courtId": 3,
+        "date": "2018-11-12T00:00:00.000Z",
+        "rankId": 7,
+        "countryAcr": "GBR",
+        "prize": "$8.5M",
+        "court": {
+          "id": 3,
+          "name": "I.hard"
+        },
+        "rank": {
+          "id": 7,
+          "name": "Tour finals"
+        },
+        "country": {
+          "name": "Great Britain",
+          "acronym": "GBR"
+        }
+      }
+    },
+    {
+      "id": "723508",
+      "matchId": "723508",
+      "date": "2018-08-05T00:00:00.000Z",
+      "roundId": 12,
+      "player1Id": 24008,
+      "player2Id": 39309,
+      "tournamentId": 14749,
+      "match_winner": 24008,
+      "result": "6-2 6-4",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.285",
+      "odd2": "4.25",
+      "player1": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "player2": {
+        "id": 39309,
+        "name": "Alex De Minaur",
+        "countryAcr": "AUS"
+      },
+      "tournament": {
+        "id": 14749,
+        "name": "Citi Open - Washington",
+        "courtId": 1,
+        "date": "2018-07-30T00:00:00.000Z",
+        "rankId": 2,
+        "countryAcr": "USA",
+        "prize": "$2.146M",
+        "court": {
+          "id": 1,
+          "name": "Hard"
+        },
+        "rank": {
+          "id": 2,
+          "name": "Main tour"
+        },
+        "country": {
+          "name": "United States",
+          "acronym": "USA"
+        }
+      }
+    },
+    {
+      "id": "721906",
+      "matchId": "721906",
+      "date": "2018-05-20T00:00:00.000Z",
+      "roundId": 12,
+      "player1Id": 677,
+      "player2Id": 24008,
+      "tournamentId": 14730,
+      "match_winner": 677,
+      "result": "6-1 1-6 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.18",
+      "odd2": "6",
+      "player1": {
+        "id": 677,
+        "name": "Rafael Nadal",
+        "countryAcr": "ESP"
+      },
+      "player2": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "tournament": {
+        "id": 14730,
+        "name": "Internazionali BNL d'Italia - Rome",
+        "courtId": 2,
+        "date": "2018-05-14T00:00:00.000Z",
+        "rankId": 3,
+        "countryAcr": "ITA",
+        "prize": "5.444M",
+        "court": {
+          "id": 2,
+          "name": "Clay"
+        },
+        "rank": {
+          "id": 3,
+          "name": "Masters series"
+        },
+        "country": {
+          "name": "Italy",
+          "acronym": "ITA"
+        }
+      }
+    },
+    {
+      "id": "721802",
+      "matchId": "721802",
+      "date": "2018-05-13T00:00:00.000Z",
+      "roundId": 12,
+      "player1Id": 24008,
+      "player2Id": 20650,
+      "tournamentId": 14729,
+      "match_winner": 24008,
+      "result": "6-4 6-4",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "player2": {
+        "id": 20650,
+        "name": "Dominic Thiem",
+        "countryAcr": "AUT"
+      },
+      "tournament": {
+        "id": 14729,
+        "name": "Mutua Madrid Open - Madrid",
+        "courtId": 2,
+        "date": "2018-05-07T00:00:00.000Z",
+        "rankId": 3,
+        "countryAcr": "ESP",
+        "prize": "7.190M",
+        "court": {
+          "id": 2,
+          "name": "Clay"
+        },
+        "rank": {
+          "id": 3,
+          "name": "Masters series"
+        },
+        "country": {
+          "name": "Spain",
+          "acronym": "ESP"
+        }
+      }
+    },
+    {
+      "id": "721689",
+      "matchId": "721689",
+      "date": "2018-05-06T00:00:00.000Z",
+      "roundId": 12,
+      "player1Id": 24008,
+      "player2Id": 678,
+      "tournamentId": 14728,
+      "match_winner": 24008,
+      "result": "6-3 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.65",
+      "odd2": "2.44",
+      "player1": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "player2": {
+        "id": 678,
+        "name": "Philipp Kohlschreiber",
+        "countryAcr": "GER"
+      },
+      "tournament": {
+        "id": 14728,
+        "name": "BMW Open - Munich",
+        "courtId": 2,
+        "date": "2018-04-30T00:00:00.000Z",
+        "rankId": 2,
+        "countryAcr": "GER",
+        "prize": "561K",
+        "court": {
+          "id": 2,
+          "name": "Clay"
+        },
+        "rank": {
+          "id": 2,
+          "name": "Main tour"
+        },
+        "country": {
+          "name": "Germany",
+          "acronym": "GER"
+        }
+      }
+    },
+    {
+      "id": "742413",
+      "matchId": "742413",
+      "date": "2018-04-08T00:00:00.000Z",
+      "roundId": 16,
+      "player1Id": 677,
+      "player2Id": 24008,
+      "tournamentId": 15014,
+      "match_winner": 677,
+      "result": "6-1 6-4 6-4",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.35",
+      "odd2": "3.58",
+      "player1": {
+        "id": 677,
+        "name": "Rafael Nadal",
+        "countryAcr": "ESP"
+      },
+      "player2": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "tournament": {
+        "id": 15014,
+        "name": "Davis Cup, World Group, QF, ESP-GER 3-2",
+        "courtId": 2,
+        "date": "2018-04-02T00:00:00.000Z",
+        "rankId": 5,
+        "countryAcr": "ESP",
+        "prize": null,
+        "court": {
+          "id": 2,
+          "name": "Clay"
+        },
+        "rank": {
+          "id": 5,
+          "name": "Davis/Fed Cup"
+        },
+        "country": {
+          "name": "Spain",
+          "acronym": "ESP"
+        }
+      }
+    },
+    {
+      "id": "721177",
+      "matchId": "721177",
+      "date": "2018-04-01T00:00:00.000Z",
+      "roundId": 12,
+      "player1Id": 5837,
+      "player2Id": 24008,
+      "tournamentId": 14720,
+      "match_winner": 5837,
+      "result": "6-7(4) 6-4 6-4",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 5837,
+        "name": "John Isner",
+        "countryAcr": "USA"
+      },
+      "player2": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "tournament": {
+        "id": 14720,
+        "name": "Miami Open - Miami",
+        "courtId": 1,
+        "date": "2018-03-19T00:00:00.000Z",
+        "rankId": 3,
+        "countryAcr": "USA",
+        "prize": "$8.909M",
+        "court": {
+          "id": 1,
+          "name": "Hard"
+        },
+        "rank": {
+          "id": 3,
+          "name": "Masters series"
+        },
+        "country": {
+          "name": "United States",
+          "acronym": "USA"
+        }
+      }
+    },
+    {
+      "id": "732180",
+      "matchId": "732180",
+      "date": "2018-02-04T00:00:00.000Z",
+      "roundId": 16,
+      "player1Id": 24008,
+      "player2Id": 22434,
+      "tournamentId": 14860,
+      "match_winner": 24008,
+      "result": "6-2 7-6(3) 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "player2": {
+        "id": 22434,
+        "name": "Nick Kyrgios",
+        "countryAcr": "AUS"
+      },
+      "tournament": {
+        "id": 14860,
+        "name": "Davis Cup, World Group, 1R, AUS-GER 1-3",
+        "courtId": 1,
+        "date": "2018-01-29T00:00:00.000Z",
+        "rankId": 5,
+        "countryAcr": "AUS",
+        "prize": null,
+        "court": {
+          "id": 1,
+          "name": "Hard"
+        },
+        "rank": {
+          "id": 5,
+          "name": "Davis/Fed Cup"
+        },
+        "country": {
+          "name": "Australia",
+          "acronym": "AUS"
+        }
+      }
+    },
+    {
+      "id": "655978",
+      "matchId": "655978",
+      "date": "2017-08-13T00:00:00.000Z",
+      "roundId": 12,
+      "player1Id": 24008,
+      "player2Id": 19,
+      "tournamentId": 13852,
+      "match_winner": 24008,
+      "result": "6-3 6-4",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "3.88",
+      "odd2": "1.32",
+      "player1": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "player2": {
+        "id": 19,
+        "name": "Roger Federer",
+        "countryAcr": "SUI"
+      },
+      "tournament": {
+        "id": 13852,
+        "name": "Rogers Cup - Montreal",
+        "courtId": 1,
+        "date": "2017-08-07T00:00:00.000Z",
+        "rankId": 3,
+        "countryAcr": "CAN",
+        "prize": "$4.662M",
+        "court": {
+          "id": 1,
+          "name": "Hard"
+        },
+        "rank": {
+          "id": 3,
+          "name": "Masters series"
+        },
+        "country": {
+          "name": "Canada",
+          "acronym": "CAN"
+        }
+      }
+    },
+    {
+      "id": "655810",
+      "matchId": "655810",
+      "date": "2017-08-06T00:00:00.000Z",
+      "roundId": 12,
+      "player1Id": 24008,
+      "player2Id": 7459,
+      "tournamentId": 13849,
+      "match_winner": 24008,
+      "result": "6-4 6-4",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "player2": {
+        "id": 7459,
+        "name": "Kevin Anderson",
+        "countryAcr": "RSA"
+      },
+      "tournament": {
+        "id": 13849,
+        "name": "Citi Open - Washington",
+        "courtId": 1,
+        "date": "2017-07-31T00:00:00.000Z",
+        "rankId": 2,
+        "countryAcr": "USA",
+        "prize": "$1.750M",
+        "court": {
+          "id": 1,
+          "name": "Hard"
+        },
+        "rank": {
+          "id": 2,
+          "name": "Main tour"
+        },
+        "country": {
+          "name": "United States",
+          "acronym": "USA"
+        }
+      }
+    },
+    {
+      "id": "654902",
+      "matchId": "654902",
+      "date": "2017-06-25T00:00:00.000Z",
+      "roundId": 12,
+      "player1Id": 19,
+      "player2Id": 24008,
+      "tournamentId": 13837,
+      "match_winner": 19,
+      "result": "6-1 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.5",
+      "odd2": "2.875",
+      "player1": {
+        "id": 19,
+        "name": "Roger Federer",
+        "countryAcr": "SUI"
+      },
+      "player2": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "tournament": {
+        "id": 13837,
+        "name": "Gerry Weber Open - Halle",
+        "courtId": 5,
+        "date": "2017-06-19T00:00:00.000Z",
+        "rankId": 2,
+        "countryAcr": "GER",
+        "prize": "1.836M",
+        "court": {
+          "id": 5,
+          "name": "Grass"
+        },
+        "rank": {
+          "id": 2,
+          "name": "Main tour"
+        },
+        "country": {
+          "name": "Germany",
+          "acronym": "GER"
+        }
+      }
+    },
+    {
+      "id": "654209",
+      "matchId": "654209",
+      "date": "2017-05-21T00:00:00.000Z",
+      "roundId": 12,
+      "player1Id": 24008,
+      "player2Id": 5992,
+      "tournamentId": 13830,
+      "match_winner": 24008,
+      "result": "6-4 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "3.64",
+      "odd2": "1.35",
+      "player1": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "player2": {
+        "id": 5992,
+        "name": "Novak Djokovic",
+        "countryAcr": "SRB"
+      },
+      "tournament": {
+        "id": 13830,
+        "name": "Internazionali BNL d'Italia - Rome",
+        "courtId": 2,
+        "date": "2017-05-15T00:00:00.000Z",
+        "rankId": 3,
+        "countryAcr": "ITA",
+        "prize": "4.273M",
+        "court": {
+          "id": 2,
+          "name": "Clay"
+        },
+        "rank": {
+          "id": 3,
+          "name": "Masters series"
+        },
+        "country": {
+          "name": "Italy",
+          "acronym": "ITA"
+        }
+      }
+    },
+    {
+      "id": "654048",
+      "matchId": "654048",
+      "date": "2017-05-07T00:00:00.000Z",
+      "roundId": 12,
+      "player1Id": 24008,
+      "player2Id": 9471,
+      "tournamentId": 13828,
+      "match_winner": 24008,
+      "result": "6-4 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "player2": {
+        "id": 9471,
+        "name": "Guido Pella",
+        "countryAcr": "ARG"
+      },
+      "tournament": {
+        "id": 13828,
+        "name": "BMW Open - Munich",
+        "courtId": 2,
+        "date": "2017-05-01T00:00:00.000Z",
+        "rankId": 2,
+        "countryAcr": "GER",
+        "prize": "482K",
+        "court": {
+          "id": 2,
+          "name": "Clay"
+        },
+        "rank": {
+          "id": 2,
+          "name": "Main tour"
+        },
+        "country": {
+          "name": "Germany",
+          "acronym": "GER"
+        }
+      }
+    },
+    {
+      "id": "652594",
+      "matchId": "652594",
+      "date": "2017-02-12T00:00:00.000Z",
+      "roundId": 12,
+      "player1Id": 24008,
+      "player2Id": 674,
+      "tournamentId": 13807,
+      "match_winner": 24008,
+      "result": "7-6(4) 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "player2": {
+        "id": 674,
+        "name": "Richard Gasquet",
+        "countryAcr": "FRA"
+      },
+      "tournament": {
+        "id": 13807,
+        "name": "Open Sud de France - Montpellier",
+        "courtId": 3,
+        "date": "2017-02-06T00:00:00.000Z",
+        "rankId": 2,
+        "countryAcr": "FRA",
+        "prize": "482K",
+        "court": {
+          "id": 3,
+          "name": "I.hard"
+        },
+        "rank": {
+          "id": 2,
+          "name": "Main tour"
+        },
+        "country": {
+          "name": "France",
+          "acronym": "FRA"
+        }
+      }
+    },
+    {
+      "id": "662415",
+      "matchId": "662415",
+      "date": "2017-02-05T00:00:00.000Z",
+      "roundId": 16,
+      "player1Id": 5838,
+      "player2Id": 24008,
+      "tournamentId": 13936,
+      "match_winner": 5838,
+      "result": "2-6 6-4 6-4 7-6(8)",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 5838,
+        "name": "Steve Darcis",
+        "countryAcr": "BEL"
+      },
+      "player2": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "tournament": {
+        "id": 13936,
+        "name": "Davis Cup, World Group, 1R, GER-BEL 1-4",
+        "courtId": 3,
+        "date": "2017-01-30T00:00:00.000Z",
+        "rankId": 5,
+        "countryAcr": "GER",
+        "prize": null,
+        "court": {
+          "id": 3,
+          "name": "I.hard"
+        },
+        "rank": {
+          "id": 5,
+          "name": "Davis/Fed Cup"
+        },
+        "country": {
+          "name": "Germany",
+          "acronym": "GER"
+        }
+      }
+    },
+    {
+      "id": "583211",
+      "matchId": "583211",
+      "date": "2016-09-25T00:00:00.000Z",
+      "roundId": 12,
+      "player1Id": 24008,
+      "player2Id": 1092,
+      "tournamentId": 12839,
+      "match_winner": 24008,
+      "result": "6-2 3-6 7-5",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "player2": {
+        "id": 1092,
+        "name": "Stan Wawrinka",
+        "countryAcr": "SUI"
+      },
+      "tournament": {
+        "id": 12839,
+        "name": "St. Petersburg Open - St. Petersburg",
+        "courtId": 3,
+        "date": "2016-09-19T00:00:00.000Z",
+        "rankId": 2,
+        "countryAcr": "RUS",
+        "prize": "$986K",
+        "court": {
+          "id": 3,
+          "name": "I.hard"
+        },
+        "rank": {
+          "id": 2,
+          "name": "Main tour"
+        },
+        "country": {
+          "name": "Russia",
+          "acronym": "RUS"
+        }
+      }
+    },
+    {
+      "id": "581380",
+      "matchId": "581380",
+      "date": "2016-06-19T00:00:00.000Z",
+      "roundId": 12,
+      "player1Id": 854,
+      "player2Id": 24008,
+      "tournamentId": 12818,
+      "match_winner": 854,
+      "result": "6-2 5-7 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 854,
+        "name": "Florian Mayer",
+        "countryAcr": "GER"
+      },
+      "player2": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "tournament": {
+        "id": 12818,
+        "name": "Gerry Weber Open - Halle",
+        "courtId": 5,
+        "date": "2016-06-13T00:00:00.000Z",
+        "rankId": 2,
+        "countryAcr": "GER",
+        "prize": "1.826M",
+        "court": {
+          "id": 5,
+          "name": "Grass"
+        },
+        "rank": {
+          "id": 2,
+          "name": "Main tour"
+        },
+        "country": {
+          "name": "Germany",
+          "acronym": "GER"
+        }
+      }
+    },
+    {
+      "id": "580849",
+      "matchId": "580849",
+      "date": "2016-05-21T00:00:00.000Z",
+      "roundId": 12,
+      "player1Id": 20650,
+      "player2Id": 24008,
+      "tournamentId": 12813,
+      "match_winner": 20650,
+      "result": "6-4 3-6 6-0",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.45",
+      "odd2": "3.08",
+      "player1": {
+        "id": 20650,
+        "name": "Dominic Thiem",
+        "countryAcr": "AUT"
+      },
+      "player2": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "tournament": {
+        "id": 12813,
+        "name": "Open de Nice Cote d'Azur - Nice",
+        "courtId": 2,
+        "date": "2016-05-16T00:00:00.000Z",
+        "rankId": 2,
+        "countryAcr": "FRA",
+        "prize": "520K",
+        "court": {
+          "id": 2,
+          "name": "Clay"
+        },
+        "rank": {
+          "id": 2,
+          "name": "Main tour"
+        },
+        "country": {
+          "name": "France",
+          "acronym": "FRA"
+        }
+      }
+    },
+    {
+      "id": "525655",
+      "matchId": "525655",
+      "date": "2015-05-17T00:00:00.000Z",
+      "roundId": 12,
+      "player1Id": 24008,
+      "player2Id": 9471,
+      "tournamentId": 12054,
+      "match_winner": 24008,
+      "result": "6-1 7-6(7)",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "player2": {
+        "id": 9471,
+        "name": "Guido Pella",
+        "countryAcr": "ARG"
+      },
+      "tournament": {
+        "id": 12054,
+        "name": "Heilbronn Challenger",
+        "courtId": 2,
+        "date": "2015-05-11T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "GER",
+        "prize": "42.5K+H",
+        "court": {
+          "id": 2,
+          "name": "Clay"
+        },
+        "rank": {
+          "id": 1,
+          "name": "Challengers/ITF tournaments > $10K"
+        },
+        "country": {
+          "name": "Germany",
+          "acronym": "GER"
+        }
+      }
+    },
+    {
+      "id": "461921",
+      "matchId": "461921",
+      "date": "2014-07-05T00:00:00.000Z",
+      "roundId": 12,
+      "player1Id": 24008,
+      "player2Id": 563,
+      "tournamentId": 11081,
+      "match_winner": 24008,
+      "result": "1-6 6-1 6-4",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "player2": {
+        "id": 563,
+        "name": "Paul-Henri Mathieu",
+        "countryAcr": "FRA"
+      },
+      "tournament": {
+        "id": 11081,
+        "name": "Braunschweig Challenger",
+        "courtId": 2,
+        "date": "2014-06-30T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "GER",
+        "prize": "106.5K+H",
+        "court": {
+          "id": 2,
+          "name": "Clay"
+        },
+        "rank": {
+          "id": 1,
+          "name": "Challengers/ITF tournaments > $10K"
+        },
+        "country": {
+          "name": "Germany",
+          "acronym": "GER"
+        }
+      }
+    },
+    {
+      "id": "380683",
+      "matchId": "380683",
+      "date": "2012-11-12T00:00:00.000Z",
+      "roundId": 12,
+      "player1Id": 9608,
+      "player2Id": 24008,
+      "tournamentId": 9724,
+      "match_winner": 9608,
+      "result": "6-0 6-1",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 9608,
+        "name": "Florian Reynet",
+        "countryAcr": "FRA"
+      },
+      "player2": {
+        "id": 24008,
+        "name": "Alexander Zverev",
+        "countryAcr": "GER"
+      },
+      "tournament": {
+        "id": 9724,
+        "name": "USA F32",
+        "courtId": 2,
+        "date": "2012-11-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "USA",
+        "prize": "$10K",
+        "court": {
+          "id": 2,
+          "name": "Clay"
+        },
+        "rank": null,
+        "country": {
+          "name": "United States",
+          "acronym": "USA"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1925 @@
+{
+  "recupereLe": "2026-10-14T17:17:18.903Z",
+  "donnees": [
+    {
+      "id": "116292619",
+      "matchId": "116292619",
+      "date": "2026-10-12T10:10:00.000Z",
+      "roundId": 6,
+      "player1Id": 37741,
+      "player2Id": 68074,
+      "tournamentId": 21356,
+      "match_winner": 37741,
+      "result": "7-5 7-6(4)",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "7.8",
+      "odd2": "1.077",
+      "player1": {
+        "id": 37741,
+        "name": "Zizou Bergs",
+        "countryAcr": "BEL"
+      },
+      "player2": {
+        "id": 68074,
+        "name": "Carlos Alcaraz",
+        "countryAcr": "ESP"
+      },
+      "tournament": {
+        "id": 21356,
+        "name": "Shanghai Rolex Masters - Shanghai",
+        "courtId": 1,
+        "date": "2026-10-05T00:00:00.000Z",
+        "rankId": 3,
+        "countryAcr": "CHN",
+        "court": {
+          "id": 1,
+          "name": "Hard"
+        },
+        "rank": {
+          "id": 3,
+          "name": "Masters series"
+        },
+        "country": {
+          "name": "China",
+          "acronym": "CHN"
+        }
+      },
+      "round": {
+        "id": 6,
+        "name": "Third"
+      },
+      "stats": {
+        "duration": "0000-00-00 02:02:32",
+        "player1": {
+          "firstServe": 47,
+          "firstServeOf": 75,
+          "aces": 9,
+          "doubleFaults": 1,
+          "unforcedErrors": null,
+          "winningOnFirstServe": 37,
+          "winningOnFirstServeOf": 47,
+          "winningOnSecondServe": 14,
+          "winningOnSecondServeOf": 28,
+          "winners": null,
+          "breakPointsConverted": 3,
+          "breakPointsConvertedOf": 4,
+          "netApproaches": null,
+          "netApproachesOf": null,
+          "totalPointsWon": 81,
+          "fastestServe": null,
+          "averageFirstServeSpeed": null,
+          "averageSecondServeSpeed": null
+        },
+        "player2": {
+          "firstServe": 53,
+          "firstServeOf": 79,
+          "aces": 5,
+          "doubleFaults": 2,
+          "unforcedErrors": null,
+          "winningOnFirstServe": 35,
+          "winningOnFirstServeOf": 53,
+          "winningOnSecondServe": 14,
+          "winningOnSecondServeOf": 26,
+          "winners": null,
+          "breakPointsConverted": 2,
+          "breakPointsConvertedOf": 2,
+          "netApproaches": null,
+          "netApproachesOf": null,
+          "totalPointsWon": 73,
+          "fastestServe": null,
+          "averageFirstServeSpeed": null,
+          "averageSecondServeSpeed": null
+        }
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/116292619/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "47542133",
+      "matchId": "47542133",
+      "date": "2026-10-10T11:00:00.000Z",
+      "roundId": 5,
+      "player1Id": 68074,
+      "player2Id": 52934,
+      "tournamentId": 21356,
+      "match_winner": 68074,
+      "result": "6-3 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 68074,
+        "name": "Carlos Alcaraz",
+        "countryAcr": "ESP"
+      },
+      "player2": {
+        "id": 52934,
+        "name": "Juan Manuel Cerundolo",
+        "countryAcr": "ARG"
+      },
+      "tournament": {
+        "id": 21356,
+        "name": "Shanghai Rolex Masters - Shanghai",
+        "courtId": 1,
+        "date": "2026-10-05T00:00:00.000Z",
+        "rankId": 3,
+        "countryAcr": "CHN",
+        "court": {
+          "id": 1,
+          "name": "Hard"
+        },
+        "rank": {
+          "id": 3,
+          "name": "Masters series"
+        },
+        "country": {
+          "name": "China",
+          "acronym": "CHN"
+        }
+      },
+      "round": {
+        "id": 5,
+        "name": "Second"
+      },
+      "stats": {
+        "duration": "0000-00-00 01:06:35",
+        "player1": {
+          "firstServe": 36,
+          "firstServeOf": 46,
+          "aces": 8,
+          "doubleFaults": 1,
+          "unforcedErrors": null,
+          "winningOnFirstServe": 31,
+          "winningOnFirstServeOf": 36,
+          "winningOnSecondServe": 6,
+          "winningOnSecondServeOf": 10,
+          "winners": null,
+          "breakPointsConverted": 3,
+          "breakPointsConvertedOf": 7,
+          "netApproaches": null,
+          "netApproachesOf": null,
+          "totalPointsWon": 58,
+          "fastestServe": null,
+          "averageFirstServeSpeed": null,
+          "averageSecondServeSpeed": null
+        },
+        "player2": {
+          "firstServe": 29,
+          "firstServeOf": 54,
+          "aces": 2,
+          "doubleFaults": 0,
+          "unforcedErrors": null,
+          "winningOnFirstServe": 19,
+          "winningOnFirstServeOf": 29,
+          "winningOnSecondServe": 14,
+          "winningOnSecondServeOf": 25,
+          "winners": null,
+          "breakPointsConverted": 0,
+          "breakPointsConvertedOf": 0,
+          "netApproaches": null,
+          "netApproachesOf": null,
+          "totalPointsWon": 42,
+          "fastestServe": null,
+          "averageFirstServeSpeed": null,
+          "averageSecondServeSpeed": null
+        }
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/47542133/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "1245771",
+      "matchId": "1245771",
+      "date": "2026-10-06T00:00:00.000Z",
+      "roundId": 12,
+      "player1Id": 68074,
+      "player2Id": 61838,
+      "tournamentId": 21354,
+      "match_winner": 68074,
+      "result": "7-6(4) 6-4",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.27",
+      "odd2": "3.72",
+      "player1": {
+        "id": 68074,
+        "name": "Carlos Alcaraz",
+        "countryAcr": "ESP"
+      },
+      "player2": {
+        "id": 61838,
+        "name": "Jiri Lehecka",
+        "countryAcr": "CZE"
+      },
+      "tournament": {
+        "id": 21354,
+        "name": "Japan Open Tennis Championships - Tokyo",
+        "courtId": 1,
+        "date": "2026-09-28T00:00:00.000Z",
+        "rankId": 2,
+        "countryAcr": "JPN",
+        "court": {
+          "id": 1,
+          "name": "Hard"
+        },
+        "rank": {
+          "id": 2,
+          "name": "Main tour"
+        },
+        "country": {
+          "name": "Japan",
+          "acronym": "JPN"
+        }
+      },
+      "round": {
+        "id": 12,
+        "name": "Final"
+      },
+      "stats": {
+        "duration": "0000-00-00 01:36:11",
+        "player1": {
+          "firstServe": 39,
+          "firstServeOf": 58,
+          "aces": 4,
+          "doubleFaults": 1,
+          "unforcedErrors": null,
+          "winningOnFirstServe": 33,
+          "winningOnFirstServeOf": 39,
+          "winningOnSecondServe": 13,
+          "winningOnSecondServeOf": 19,
+          "winners": null,
+          "breakPointsConverted": 2,
+          "breakPointsConvertedOf": 4,
+          "netApproaches": null,
+          "netApproachesOf": null,
+          "totalPointsWon": 69,
+          "fastestServe": null,
+          "averageFirstServeSpeed": null,
+          "averageSecondServeSpeed": null
+        },
+        "player2": {
+          "firstServe": 45,
+          "firstServeOf": 71,
+          "aces": 7,
+          "doubleFaults": 0,
+          "unforcedErrors": null,
+          "winningOnFirstServe": 34,
+          "winningOnFirstServeOf": 45,
+          "winningOnSecondServe": 14,
+          "winningOnSecondServeOf": 26,
+          "winners": null,
+          "breakPointsConverted": 1,
+          "breakPointsConvertedOf": 3,
+          "netApproaches": null,
+          "netApproachesOf": null,
+          "totalPointsWon": 60,
+          "fastestServe": null,
+          "averageFirstServeSpeed": null,
+          "averageSecondServeSpeed": null
+        }
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/1245771/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "1245757",
+      "matchId": "1245757",
+      "date": "2026-10-05T00:00:00.000Z",
+      "roundId": 10,
+      "player1Id": 68074,
+      "player2Id": 31358,
+      "tournamentId": 21354,
+      "match_winner": 68074,
+      "result": "5-7 6-3 6-1",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.08",
+      "odd2": "7.7",
+      "player1": {
+        "id": 68074,
+        "name": "Carlos Alcaraz",
+        "countryAcr": "ESP"
+      },
+      "player2": {
+        "id": 31358,
+        "name": "Jaume Antoni Munar Clar",
+        "countryAcr": "ESP"
+      },
+      "tournament": {
+        "id": 21354,
+        "name": "Japan Open Tennis Championships - Tokyo",
+        "courtId": 1,
+        "date": "2026-09-28T00:00:00.000Z",
+        "rankId": 2,
+        "countryAcr": "JPN",
+        "court": {
+          "id": 1,
+          "name": "Hard"
+        },
+        "rank": {
+          "id": 2,
+          "name": "Main tour"
+        },
+        "country": {
+          "name": "Japan",
+          "acronym": "JPN"
+        }
+      },
+      "round": {
+        "id": 10,
+        "name": "1/2"
+      },
+      "stats": {
+        "duration": "0000-00-00 02:33:00",
+        "player1": {
+          "firstServe": 56,
+          "firstServeOf": 88,
+          "aces": 3,
+          "doubleFaults": 4,
+          "unforcedErrors": null,
+          "winningOnFirstServe": 43,
+          "winningOnFirstServeOf": 56,
+          "winningOnSecondServe": 11,
+          "winningOnSecondServeOf": 32,
+          "winners": null,
+          "breakPointsConverted": 6,
+          "breakPointsConvertedOf": 10,
+          "netApproaches": null,
+          "netApproachesOf": null,
+          "totalPointsWon": 95,
+          "fastestServe": null,
+          "averageFirstServeSpeed": null,
+          "averageSecondServeSpeed": null
+        },
+        "player2": {
+          "firstServe": 49,
+          "firstServeOf": 88,
+          "aces": 2,
+          "doubleFaults": 4,
+          "unforcedErrors": null,
+          "winningOnFirstServe": 30,
+          "winningOnFirstServeOf": 49,
+          "winningOnSecondServe": 17,
+          "winningOnSecondServeOf": 39,
+          "winners": null,
+          "breakPointsConverted": 3,
+          "breakPointsConvertedOf": 5,
+          "netApproaches": null,
+          "netApproachesOf": null,
+          "totalPointsWon": 81,
+          "fastestServe": null,
+          "averageFirstServeSpeed": null,
+          "averageSecondServeSpeed": null
+        }
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/1245757/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "1245759",
+      "matchId": "1245759",
+      "date": "2026-10-04T00:00:00.000Z",
+      "roundId": 9,
+      "player1Id": 68074,
+      "player2Id": 33502,
+      "tournamentId": 21354,
+      "match_winner": 68074,
+      "result": "7-6(3) 2-1 ret.",
+      "result_type": "retired",
+      "best_of": null,
+      "odd1": "1.068",
+      "odd2": "8.3",
+      "player1": {
+        "id": 68074,
+        "name": "Carlos Alcaraz",
+        "countryAcr": "ESP"
+      },
+      "player2": {
+        "id": 33502,
+        "name": "Denis Shapovalov",
+        "countryAcr": "CAN"
+      },
+      "tournament": {
+        "id": 21354,
+        "name": "Japan Open Tennis Championships - Tokyo",
+        "courtId": 1,
+        "date": "2026-09-28T00:00:00.000Z",
+        "rankId": 2,
+        "countryAcr": "JPN",
+        "court": {
+          "id": 1,
+          "name": "Hard"
+        },
+        "rank": {
+          "id": 2,
+          "name": "Main tour"
+        },
+        "country": {
+          "name": "Japan",
+          "acronym": "JPN"
+        }
+      },
+      "round": {
+        "id": 9,
+        "name": "1/4"
+      },
+      "stats": {
+        "duration": "0000-00-00 01:22:16",
+        "player1": {
+          "firstServe": 34,
+          "firstServeOf": 51,
+          "aces": 0,
+          "doubleFaults": 1,
+          "unforcedErrors": null,
+          "winningOnFirstServe": 19,
+          "winningOnFirstServeOf": 34,
+          "winningOnSecondServe": 10,
+          "winningOnSecondServeOf": 17,
+          "winners": null,
+          "breakPointsConverted": 3,
+          "breakPointsConvertedOf": 7,
+          "netApproaches": null,
+          "netApproachesOf": null,
+          "totalPointsWon": 53,
+          "fastestServe": null,
+          "averageFirstServeSpeed": null,
+          "averageSecondServeSpeed": null
+        },
+        "player2": {
+          "firstServe": 27,
+          "firstServeOf": 46,
+          "aces": 1,
+          "doubleFaults": 3,
+          "unforcedErrors": null,
+          "winningOnFirstServe": 17,
+          "winningOnFirstServeOf": 27,
+          "winningOnSecondServe": 5,
+          "winningOnSecondServeOf": 19,
+          "winners": null,
+          "breakPointsConverted": 3,
+          "breakPointsConvertedOf": 4,
+          "netApproaches": null,
+          "netApproachesOf": null,
+          "totalPointsWon": 44,
+          "fastestServe": null,
+          "averageFirstServeSpeed": null,
+          "averageSecondServeSpeed": null
+        }
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/1245759/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "1245777",
+      "matchId": "1245777",
+      "date": "2026-10-03T00:00:00.000Z",
+      "roundId": 5,
+      "player1Id": 68074,
+      "player2Id": 73956,
+      "tournamentId": 21354,
+      "match_winner": 68074,
+      "result": "7-6(6) 6-1",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.077",
+      "odd2": "7.8",
+      "player1": {
+        "id": 68074,
+        "name": "Carlos Alcaraz",
+        "countryAcr": "ESP"
+      },
+      "player2": {
+        "id": 73956,
+        "name": "Matteo Arnaldi",
+        "countryAcr": "ITA"
+      },
+      "tournament": {
+        "id": 21354,
+        "name": "Japan Open Tennis Championships - Tokyo",
+        "courtId": 1,
+        "date": "2026-09-28T00:00:00.000Z",
+        "rankId": 2,
+        "countryAcr": "JPN",
+        "court": {
+          "id": 1,
+          "name": "Hard"
+        },
+        "rank": {
+          "id": 2,
+          "name": "Main tour"
+        },
+        "country": {
+          "name": "Japan",
+          "acronym": "JPN"
+        }
+      },
+      "round": {
+        "id": 5,
+        "name": "Second"
+      },
+      "stats": {
+        "duration": "0000-00-00 01:45:33",
+        "player1": {
+          "firstServe": 54,
+          "firstServeOf": 74,
+          "aces": 1,
+          "doubleFaults": 1,
+          "unforcedErrors": null,
+          "winningOnFirstServe": 44,
+          "winningOnFirstServeOf": 54,
+          "winningOnSecondServe": 5,
+          "winningOnSecondServeOf": 20,
+          "winners": null,
+          "breakPointsConverted": 3,
+          "breakPointsConvertedOf": 7,
+          "netApproaches": null,
+          "netApproachesOf": null,
+          "totalPointsWon": 76,
+          "fastestServe": null,
+          "averageFirstServeSpeed": null,
+          "averageSecondServeSpeed": null
+        },
+        "player2": {
+          "firstServe": 40,
+          "firstServeOf": 65,
+          "aces": 1,
+          "doubleFaults": 1,
+          "unforcedErrors": null,
+          "winningOnFirstServe": 25,
+          "winningOnFirstServeOf": 40,
+          "winningOnSecondServe": 13,
+          "winningOnSecondServeOf": 25,
+          "winners": null,
+          "breakPointsConverted": 1,
+          "breakPointsConvertedOf": 3,
+          "netApproaches": null,
+          "netApproachesOf": null,
+          "totalPointsWon": 63,
+          "fastestServe": null,
+          "averageFirstServeSpeed": null,
+          "averageSecondServeSpeed": null
+        }
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/1245777/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "1245788",
+      "matchId": "1245788",
+      "date": "2026-10-01T00:00:00.000Z",
+      "roundId": 4,
+      "player1Id": 68074,
+      "player2Id": 92985,
+      "tournamentId": 21354,
+      "match_winner": 68074,
+      "result": "7-6(1) 4-6 6-1",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.177",
+      "odd2": "4.85",
+      "player1": {
+        "id": 68074,
+        "name": "Carlos Alcaraz",
+        "countryAcr": "ESP"
+      },
+      "player2": {
+        "id": 92985,
+        "name": "Alex Michelsen",
+        "countryAcr": "USA"
+      },
+      "tournament": {
+        "id": 21354,
+        "name": "Japan Open Tennis Championships - Tokyo",
+        "courtId": 1,
+        "date": "2026-09-28T00:00:00.000Z",
+        "rankId": 2,
+        "countryAcr": "JPN",
+        "court": {
+          "id": 1,
+          "name": "Hard"
+        },
+        "rank": {
+          "id": 2,
+          "name": "Main tour"
+        },
+        "country": {
+          "name": "Japan",
+          "acronym": "JPN"
+        }
+      },
+      "round": {
+        "id": 4,
+        "name": "First"
+      },
+      "stats": {
+        "duration": "0000-00-00 02:31:20",
+        "player1": {
+          "firstServe": 62,
+          "firstServeOf": 98,
+          "aces": 5,
+          "doubleFaults": 5,
+          "unforcedErrors": null,
+          "winningOnFirstServe": 39,
+          "winningOnFirstServeOf": 62,
+          "winningOnSecondServe": 20,
+          "winningOnSecondServeOf": 36,
+          "winners": null,
+          "breakPointsConverted": 6,
+          "breakPointsConvertedOf": 13,
+          "netApproaches": null,
+          "netApproachesOf": null,
+          "totalPointsWon": 107,
+          "fastestServe": null,
+          "averageFirstServeSpeed": null,
+          "averageSecondServeSpeed": null
+        },
+        "player2": {
+          "firstServe": 64,
+          "firstServeOf": 102,
+          "aces": 0,
+          "doubleFaults": 4,
+          "unforcedErrors": null,
+          "winningOnFirstServe": 38,
+          "winningOnFirstServeOf": 64,
+          "winningOnSecondServe": 16,
+          "winningOnSecondServeOf": 38,
+          "winners": null,
+          "breakPointsConverted": 5,
+          "breakPointsConvertedOf": 13,
+          "netApproaches": null,
+          "netApproachesOf": null,
+          "totalPointsWon": 93,
+          "fastestServe": null,
+          "averageFirstServeSpeed": null,
+          "averageSecondServeSpeed": null
+        }
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/1245788/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "1245738",
+      "matchId": "1245738",
+      "date": "2026-09-26T00:00:00.000Z",
+      "roundId": 8,
+      "player1Id": 68074,
+      "player2Id": 29932,
+      "tournamentId": 21353,
+      "match_winner": 68074,
+      "result": "6-3 4-6 13-11",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.33",
+      "odd2": "3.28",
+      "player1": {
+        "id": 68074,
+        "name": "Carlos Alcaraz",
+        "countryAcr": "ESP"
+      },
+      "player2": {
+        "id": 29932,
+        "name": "Taylor Fritz",
+        "countryAcr": "USA"
+      },
+      "tournament": {
+        "id": 21353,
+        "name": "Laver Cup - London",
+        "courtId": 3,
+        "date": "2026-09-21T00:00:00.000Z",
+        "rankId": 5,
+        "countryAcr": "GBR",
+        "court": {
+          "id": 3,
+          "name": "I.hard"
+        },
+        "rank": {
+          "id": 5,
+          "name": "Davis/Fed Cup"
+        },
+        "country": {
+          "name": "Great Britain",
+          "acronym": "GBR"
+        }
+      },
+      "round": {
+        "id": 8,
+        "name": "Robin"
+      },
+      "stats": {
+        "duration": "0000-00-00 01:50:14",
+        "player1": {
+          "firstServe": 42,
+          "firstServeOf": 66,
+          "aces": 3,
+          "doubleFaults": 3,
+          "unforcedErrors": null,
+          "winningOnFirstServe": 29,
+          "winningOnFirstServeOf": 42,
+          "winningOnSecondServe": 11,
+          "winningOnSecondServeOf": 24,
+          "winners": null,
+          "breakPointsConverted": 3,
+          "breakPointsConvertedOf": 8,
+          "netApproaches": null,
+          "netApproachesOf": null,
+          "totalPointsWon": 73,
+          "fastestServe": null,
+          "averageFirstServeSpeed": null,
+          "averageSecondServeSpeed": null
+        },
+        "player2": {
+          "firstServe": 47,
+          "firstServeOf": 77,
+          "aces": 4,
+          "doubleFaults": 0,
+          "unforcedErrors": null,
+          "winningOnFirstServe": 29,
+          "winningOnFirstServeOf": 47,
+          "winningOnSecondServe": 15,
+          "winningOnSecondServeOf": 30,
+          "winners": null,
+          "breakPointsConverted": 2,
+          "breakPointsConvertedOf": 4,
+          "netApproaches": null,
+          "netApproachesOf": null,
+          "totalPointsWon": 70,
+          "fastestServe": null,
+          "averageFirstServeSpeed": null,
+          "averageSecondServeSpeed": null
+        }
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/1245738/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "1245429",
+      "matchId": "1245429",
+      "date": "2026-09-08T00:00:00.000Z",
+      "roundId": 9,
+      "player1Id": 87562,
+      "player2Id": 68074,
+      "tournamentId": 21349,
+      "match_winner": 87562,
+      "result": "6-7(5) 6-1 6-3 1-6 7-6(7)",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "3.5",
+      "odd2": "1.31",
+      "player1": {
+        "id": 87562,
+        "name": "Ben Shelton",
+        "countryAcr": "USA"
+      },
+      "player2": {
+        "id": 68074,
+        "name": "Carlos Alcaraz",
+        "countryAcr": "ESP"
+      },
+      "tournament": {
+        "id": 21349,
+        "name": "U.S. Open - New York",
+        "courtId": 1,
+        "date": "2026-08-31T00:00:00.000Z",
+        "rankId": 4,
+        "countryAcr": "USA",
+        "court": {
+          "id": 1,
+          "name": "Hard"
+        },
+        "rank": {
+          "id": 4,
+          "name": "Grand Slam"
+        },
+        "country": {
+          "name": "United States",
+          "acronym": "USA"
+        }
+      },
+      "round": {
+        "id": 9,
+        "name": "1/4"
+      },
+      "stats": {
+        "duration": "0000-00-00 04:28:00",
+        "player1": {
+          "firstServe": 105,
+          "firstServeOf": 158,
+          "aces": 7,
+          "doubleFaults": 2,
+          "unforcedErrors": 35,
+          "winningOnFirstServe": 73,
+          "winningOnFirstServeOf": 105,
+          "winningOnSecondServe": 30,
+          "winningOnSecondServeOf": 53,
+          "winners": 34,
+          "breakPointsConverted": 5,
+          "breakPointsConvertedOf": 16,
+          "netApproaches": 29,
+          "netApproachesOf": 41,
+          "totalPointsWon": 169,
+          "fastestServe": 240,
+          "averageFirstServeSpeed": 198,
+          "averageSecondServeSpeed": 167
+        },
+        "player2": {
+          "firstServe": 112,
+          "firstServeOf": 175,
+          "aces": 3,
+          "doubleFaults": 7,
+          "unforcedErrors": 53,
+          "winningOnFirstServe": 77,
+          "winningOnFirstServeOf": 112,
+          "winningOnSecondServe": 32,
+          "winningOnSecondServeOf": 63,
+          "winners": 38,
+          "breakPointsConverted": 3,
+          "breakPointsConvertedOf": 11,
+          "netApproaches": 27,
+          "netApproachesOf": 35,
+          "totalPointsWon": 164,
+          "fastestServe": 208,
+          "averageFirstServeSpeed": 187,
+          "averageSecondServeSpeed": 155
+        }
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/1245429/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "1245329",
+      "matchId": "1245329",
+      "date": "2026-09-06T00:00:00.000Z",
+      "roundId": 7,
+      "player1Id": 68074,
+      "player2Id": 29935,
+      "tournamentId": 21349,
+      "match_winner": 68074,
+      "result": "6-4 6-3 6-4",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 68074,
+        "name": "Carlos Alcaraz",
+        "countryAcr": "ESP"
+      },
+      "player2": {
+        "id": 29935,
+        "name": "Tommy Paul",
+        "countryAcr": "USA"
+      },
+      "tournament": {
+        "id": 21349,
+        "name": "U.S. Open - New York",
+        "courtId": 1,
+        "date": "2026-08-31T00:00:00.000Z",
+        "rankId": 4,
+        "countryAcr": "USA",
+        "court": {
+          "id": 1,
+          "name": "Hard"
+        },
+        "rank": {
+          "id": 4,
+          "name": "Grand Slam"
+        },
+        "country": {
+          "name": "United States",
+          "acronym": "USA"
+        }
+      },
+      "round": {
+        "id": 7,
+        "name": "Fourth"
+      },
+      "stats": {
+        "duration": "0000-00-00 02:21:00",
+        "player1": {
+          "firstServe": 56,
+          "firstServeOf": 84,
+          "aces": 3,
+          "doubleFaults": 2,
+          "unforcedErrors": 32,
+          "winningOnFirstServe": 42,
+          "winningOnFirstServeOf": 56,
+          "winningOnSecondServe": 18,
+          "winningOnSecondServeOf": 28,
+          "winners": 33,
+          "breakPointsConverted": 4,
+          "breakPointsConvertedOf": 14,
+          "netApproaches": 23,
+          "netApproachesOf": 29,
+          "totalPointsWon": 99,
+          "fastestServe": 209,
+          "averageFirstServeSpeed": 190,
+          "averageSecondServeSpeed": 160
+        },
+        "player2": {
+          "firstServe": 48,
+          "firstServeOf": 89,
+          "aces": 4,
+          "doubleFaults": 1,
+          "unforcedErrors": 32,
+          "winningOnFirstServe": 30,
+          "winningOnFirstServeOf": 48,
+          "winningOnSecondServe": 20,
+          "winningOnSecondServeOf": 41,
+          "winners": 18,
+          "breakPointsConverted": 1,
+          "breakPointsConvertedOf": 4,
+          "netApproaches": 9,
+          "netApproachesOf": 18,
+          "totalPointsWon": 74,
+          "fastestServe": 222,
+          "averageFirstServeSpeed": 194,
+          "averageSecondServeSpeed": 158
+        }
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/1245329/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "1245363",
+      "matchId": "1245363",
+      "date": "2026-09-04T00:00:00.000Z",
+      "roundId": 6,
+      "player1Id": 68074,
+      "player2Id": 39310,
+      "tournamentId": 21349,
+      "match_winner": 68074,
+      "result": "6-3 6-4 6-1",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 68074,
+        "name": "Carlos Alcaraz",
+        "countryAcr": "ESP"
+      },
+      "player2": {
+        "id": 39310,
+        "name": "Yibing Wu",
+        "countryAcr": "CHN"
+      },
+      "tournament": {
+        "id": 21349,
+        "name": "U.S. Open - New York",
+        "courtId": 1,
+        "date": "2026-08-31T00:00:00.000Z",
+        "rankId": 4,
+        "countryAcr": "USA",
+        "court": {
+          "id": 1,
+          "name": "Hard"
+        },
+        "rank": {
+          "id": 4,
+          "name": "Grand Slam"
+        },
+        "country": {
+          "name": "United States",
+          "acronym": "USA"
+        }
+      },
+      "round": {
+        "id": 6,
+        "name": "Third"
+      },
+      "stats": {
+        "duration": "0000-00-00 02:20:00",
+        "player1": {
+          "firstServe": 58,
+          "firstServeOf": 86,
+          "aces": 6,
+          "doubleFaults": 4,
+          "unforcedErrors": 33,
+          "winningOnFirstServe": 40,
+          "winningOnFirstServeOf": 58,
+          "winningOnSecondServe": 14,
+          "winningOnSecondServeOf": 28,
+          "winners": 21,
+          "breakPointsConverted": 7,
+          "breakPointsConvertedOf": 15,
+          "netApproaches": 7,
+          "netApproachesOf": 8,
+          "totalPointsWon": 109,
+          "fastestServe": 209,
+          "averageFirstServeSpeed": 188,
+          "averageSecondServeSpeed": 161
+        },
+        "player2": {
+          "firstServe": 62,
+          "firstServeOf": 109,
+          "aces": 1,
+          "doubleFaults": 5,
+          "unforcedErrors": 40,
+          "winningOnFirstServe": 33,
+          "winningOnFirstServeOf": 62,
+          "winningOnSecondServe": 21,
+          "winningOnSecondServeOf": 47,
+          "winners": 12,
+          "breakPointsConverted": 2,
+          "breakPointsConvertedOf": 7,
+          "netApproaches": 4,
+          "netApproachesOf": 13,
+          "totalPointsWon": 86,
+          "fastestServe": 209,
+          "averageFirstServeSpeed": 192,
+          "averageSecondServeSpeed": 150
+        }
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/1245363/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "1245474",
+      "matchId": "1245474",
+      "date": "2026-09-02T00:00:00.000Z",
+      "roundId": 5,
+      "player1Id": 68074,
+      "player2Id": 83795,
+      "tournamentId": 21349,
+      "match_winner": 68074,
+      "result": "4-6 6-0 6-3 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 68074,
+        "name": "Carlos Alcaraz",
+        "countryAcr": "ESP"
+      },
+      "player2": {
+        "id": 83795,
+        "name": "Jaime Faria",
+        "countryAcr": "POR"
+      },
+      "tournament": {
+        "id": 21349,
+        "name": "U.S. Open - New York",
+        "courtId": 1,
+        "date": "2026-08-31T00:00:00.000Z",
+        "rankId": 4,
+        "countryAcr": "USA",
+        "court": {
+          "id": 1,
+          "name": "Hard"
+        },
+        "rank": {
+          "id": 4,
+          "name": "Grand Slam"
+        },
+        "country": {
+          "name": "United States",
+          "acronym": "USA"
+        }
+      },
+      "round": {
+        "id": 5,
+        "name": "Second"
+      },
+      "stats": {
+        "duration": "0000-00-00 02:40:00",
+        "player1": {
+          "firstServe": 64,
+          "firstServeOf": 104,
+          "aces": 3,
+          "doubleFaults": 4,
+          "unforcedErrors": 29,
+          "winningOnFirstServe": 46,
+          "winningOnFirstServeOf": 64,
+          "winningOnSecondServe": 28,
+          "winningOnSecondServeOf": 40,
+          "winners": 43,
+          "breakPointsConverted": 7,
+          "breakPointsConvertedOf": 12,
+          "netApproaches": 24,
+          "netApproachesOf": 30,
+          "totalPointsWon": 125,
+          "fastestServe": 209,
+          "averageFirstServeSpeed": 185,
+          "averageSecondServeSpeed": 156
+        },
+        "player2": {
+          "firstServe": 58,
+          "firstServeOf": 107,
+          "aces": 5,
+          "doubleFaults": 11,
+          "unforcedErrors": 38,
+          "winningOnFirstServe": 41,
+          "winningOnFirstServeOf": 58,
+          "winningOnSecondServe": 15,
+          "winningOnSecondServeOf": 49,
+          "winners": 27,
+          "breakPointsConverted": 2,
+          "breakPointsConvertedOf": 7,
+          "netApproaches": 17,
+          "netApproachesOf": 29,
+          "totalPointsWon": 86,
+          "fastestServe": 227,
+          "averageFirstServeSpeed": 204,
+          "averageSecondServeSpeed": 163
+        }
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/1245474/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "1245318",
+      "matchId": "1245318",
+      "date": "2026-08-31T00:00:00.000Z",
+      "roundId": 4,
+      "player1Id": 68074,
+      "player2Id": 28900,
+      "tournamentId": 21349,
+      "match_winner": 68074,
+      "result": "6-4 6-4 6-4",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 68074,
+        "name": "Carlos Alcaraz",
+        "countryAcr": "ESP"
+      },
+      "player2": {
+        "id": 28900,
+        "name": "Roman Safiullin",
+        "countryAcr": "RUS"
+      },
+      "tournament": {
+        "id": 21349,
+        "name": "U.S. Open - New York",
+        "courtId": 1,
+        "date": "2026-08-31T00:00:00.000Z",
+        "rankId": 4,
+        "countryAcr": "USA",
+        "court": {
+          "id": 1,
+          "name": "Hard"
+        },
+        "rank": {
+          "id": 4,
+          "name": "Grand Slam"
+        },
+        "country": {
+          "name": "United States",
+          "acronym": "USA"
+        }
+      },
+      "round": {
+        "id": 4,
+        "name": "First"
+      },
+      "stats": {
+        "duration": "0000-00-00 02:22:00",
+        "player1": {
+          "firstServe": 68,
+          "firstServeOf": 100,
+          "aces": 2,
+          "doubleFaults": 5,
+          "unforcedErrors": 27,
+          "winningOnFirstServe": 45,
+          "winningOnFirstServeOf": 68,
+          "winningOnSecondServe": 19,
+          "winningOnSecondServeOf": 32,
+          "winners": 28,
+          "breakPointsConverted": 4,
+          "breakPointsConvertedOf": 7,
+          "netApproaches": 19,
+          "netApproachesOf": 24,
+          "totalPointsWon": 99,
+          "fastestServe": 206,
+          "averageFirstServeSpeed": 181,
+          "averageSecondServeSpeed": 156
+        },
+        "player2": {
+          "firstServe": 59,
+          "firstServeOf": 90,
+          "aces": 9,
+          "doubleFaults": 4,
+          "unforcedErrors": 36,
+          "winningOnFirstServe": 38,
+          "winningOnFirstServeOf": 59,
+          "winningOnSecondServe": 17,
+          "winningOnSecondServeOf": 31,
+          "winners": 28,
+          "breakPointsConverted": 1,
+          "breakPointsConvertedOf": 6,
+          "netApproaches": 15,
+          "netApproachesOf": 24,
+          "totalPointsWon": 91,
+          "fastestServe": 217,
+          "averageFirstServeSpeed": 192,
+          "averageSecondServeSpeed": 162
+        }
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/1245318/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "1242904",
+      "matchId": "1242904",
+      "date": "2026-04-14T00:00:00.000Z",
+      "roundId": 4,
+      "player1Id": 68074,
+      "player2Id": 55252,
+      "tournamentId": 21323,
+      "match_winner": 68074,
+      "result": "6-4 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.057",
+      "odd2": "9.2",
+      "player1": {
+        "id": 68074,
+        "name": "Carlos Alcaraz",
+        "countryAcr": "ESP"
+      },
+      "player2": {
+        "id": 55252,
+        "name": "Otto Virtanen",
+        "countryAcr": "FIN"
+      },
+      "tournament": {
+        "id": 21323,
+        "name": "Barcelona Open Banc Sabadell - Barcelona",
+        "courtId": 2,
+        "date": "2026-04-13T00:00:00.000Z",
+        "rankId": 2,
+        "countryAcr": "ESP",
+        "court": {
+          "id": 2,
+          "name": "Clay"
+        },
+        "rank": {
+          "id": 2,
+          "name": "Main tour"
+        },
+        "country": {
+          "name": "Spain",
+          "acronym": "ESP"
+        }
+      },
+      "round": {
+        "id": 4,
+        "name": "First"
+      },
+      "stats": {
+        "duration": "0000-00-00 01:25:15",
+        "player1": {
+          "firstServe": 45,
+          "firstServeOf": 67,
+          "aces": 0,
+          "doubleFaults": 3,
+          "unforcedErrors": null,
+          "winningOnFirstServe": 29,
+          "winningOnFirstServeOf": 45,
+          "winningOnSecondServe": 12,
+          "winningOnSecondServeOf": 22,
+          "winners": null,
+          "breakPointsConverted": 4,
+          "breakPointsConvertedOf": 7,
+          "netApproaches": null,
+          "netApproachesOf": null,
+          "totalPointsWon": 68,
+          "fastestServe": null,
+          "averageFirstServeSpeed": null,
+          "averageSecondServeSpeed": null
+        },
+        "player2": {
+          "firstServe": 32,
+          "firstServeOf": 55,
+          "aces": 0,
+          "doubleFaults": 3,
+          "unforcedErrors": null,
+          "winningOnFirstServe": 21,
+          "winningOnFirstServeOf": 32,
+          "winningOnSecondServe": 7,
+          "winningOnSecondServeOf": 23,
+          "winners": null,
+          "breakPointsConverted": 1,
+          "breakPointsConvertedOf": 6,
+          "netApproaches": null,
+          "netApproachesOf": null,
+          "totalPointsWon": 54,
+          "fastestServe": null,
+          "averageFirstServeSpeed": null,
+          "averageSecondServeSpeed": null
+        }
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/1242904/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "1242844",
+      "matchId": "1242844",
+      "date": "2026-04-12T00:00:00.000Z",
+      "roundId": 12,
+      "player1Id": 47275,
+      "player2Id": 68074,
+      "tournamentId": 21322,
+      "match_winner": 47275,
+      "result": "7-6(5) 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 47275,
+        "name": "Jannik Sinner",
+        "countryAcr": "ITA"
+      },
+      "player2": {
+        "id": 68074,
+        "name": "Carlos Alcaraz",
+        "countryAcr": "ESP"
+      },
+      "tournament": {
+        "id": 21322,
+        "name": "Monte-Carlo Rolex Masters - Monte-Carlo",
+        "courtId": 2,
+        "date": "2026-04-06T00:00:00.000Z",
+        "rankId": 3,
+        "countryAcr": "MON",
+        "court": {
+          "id": 2,
+          "name": "Clay"
+        },
+        "rank": {
+          "id": 3,
+          "name": "Masters series"
+        },
+        "country": {
+          "name": "Monaco",
+          "acronym": "MON"
+        }
+      },
+      "round": {
+        "id": 12,
+        "name": "Final"
+      },
+      "stats": {
+        "duration": "0000-00-00 02:15:11",
+        "player1": {
+          "firstServe": 38,
+          "firstServeOf": 75,
+          "aces": 0,
+          "doubleFaults": 2,
+          "unforcedErrors": null,
+          "winningOnFirstServe": 25,
+          "winningOnFirstServeOf": 38,
+          "winningOnSecondServe": 24,
+          "winningOnSecondServeOf": 37,
+          "winners": null,
+          "breakPointsConverted": 3,
+          "breakPointsConvertedOf": 11,
+          "netApproaches": null,
+          "netApproachesOf": null,
+          "totalPointsWon": 88,
+          "fastestServe": null,
+          "averageFirstServeSpeed": null,
+          "averageSecondServeSpeed": null
+        },
+        "player2": {
+          "firstServe": 53,
+          "firstServeOf": 92,
+          "aces": 3,
+          "doubleFaults": 5,
+          "unforcedErrors": null,
+          "winningOnFirstServe": 31,
+          "winningOnFirstServeOf": 53,
+          "winningOnSecondServe": 22,
+          "winningOnSecondServeOf": 39,
+          "winners": null,
+          "breakPointsConverted": 2,
+          "breakPointsConvertedOf": 5,
+          "netApproaches": null,
+          "netApproachesOf": null,
+          "totalPointsWon": 79,
+          "fastestServe": null,
+          "averageFirstServeSpeed": null,
+          "averageSecondServeSpeed": null
+        }
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/1242844/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "1242818",
+      "matchId": "1242818",
+      "date": "2026-04-11T00:00:00.000Z",
+      "roundId": 10,
+      "player1Id": 68074,
+      "player2Id": 36594,
+      "tournamentId": 21322,
+      "match_winner": 68074,
+      "result": "6-4 6-4",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.065",
+      "odd2": "8.6",
+      "player1": {
+        "id": 68074,
+        "name": "Carlos Alcaraz",
+        "countryAcr": "ESP"
+      },
+      "player2": {
+        "id": 36594,
+        "name": "Valentin Vacherot",
+        "countryAcr": "MON"
+      },
+      "tournament": {
+        "id": 21322,
+        "name": "Monte-Carlo Rolex Masters - Monte-Carlo",
+        "courtId": 2,
+        "date": "2026-04-06T00:00:00.000Z",
+        "rankId": 3,
+        "countryAcr": "MON",
+        "court": {
+          "id": 2,
+          "name": "Clay"
+        },
+        "rank": {
+          "id": 3,
+          "name": "Masters series"
+        },
+        "country": {
+          "name": "Monaco",
+          "acronym": "MON"
+        }
+      },
+      "round": {
+        "id": 10,
+        "name": "1/2"
+      },
+      "stats": {
+        "duration": "0000-00-00 01:24:24",
+        "player1": {
+          "firstServe": 31,
+          "firstServeOf": 51,
+          "aces": 3,
+          "doubleFaults": 3,
+          "unforcedErrors": null,
+          "winningOnFirstServe": 25,
+          "winningOnFirstServeOf": 31,
+          "winningOnSecondServe": 12,
+          "winningOnSecondServeOf": 20,
+          "winners": null,
+          "breakPointsConverted": 3,
+          "breakPointsConvertedOf": 4,
+          "netApproaches": null,
+          "netApproachesOf": null,
+          "totalPointsWon": 59,
+          "fastestServe": null,
+          "averageFirstServeSpeed": null,
+          "averageSecondServeSpeed": null
+        },
+        "player2": {
+          "firstServe": 40,
+          "firstServeOf": 59,
+          "aces": 3,
+          "doubleFaults": 1,
+          "unforcedErrors": null,
+          "winningOnFirstServe": 28,
+          "winningOnFirstServeOf": 40,
+          "winningOnSecondServe": 9,
+          "winningOnSecondServeOf": 19,
+          "winners": null,
+          "breakPointsConverted": 1,
+          "breakPointsConvertedOf": 1,
+          "netApproaches": null,
+          "netApproachesOf": null,
+          "totalPointsWon": 51,
+          "fastestServe": null,
+          "averageFirstServeSpeed": null,
+          "averageSecondServeSpeed": null
+        }
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/1242818/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "1242791",
+      "matchId": "1242791",
+      "date": "2026-04-10T00:00:00.000Z",
+      "roundId": 9,
+      "player1Id": 68074,
+      "player2Id": 24245,
+      "tournamentId": 21322,
+      "match_winner": 68074,
+      "result": "6-3 6-0",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.061",
+      "odd2": "8.9",
+      "player1": {
+        "id": 68074,
+        "name": "Carlos Alcaraz",
+        "countryAcr": "ESP"
+      },
+      "player2": {
+        "id": 24245,
+        "name": "Alexander Bublik",
+        "countryAcr": "KAZ"
+      },
+      "tournament": {
+        "id": 21322,
+        "name": "Monte-Carlo Rolex Masters - Monte-Carlo",
+        "courtId": 2,
+        "date": "2026-04-06T00:00:00.000Z",
+        "rankId": 3,
+        "countryAcr": "MON",
+        "court": {
+          "id": 2,
+          "name": "Clay"
+        },
+        "rank": {
+          "id": 3,
+          "name": "Masters series"
+        },
+        "country": {
+          "name": "Monaco",
+          "acronym": "MON"
+        }
+      },
+      "round": {
+        "id": 9,
+        "name": "1/4"
+      },
+      "stats": {
+        "duration": "0000-00-00 01:03:03",
+        "player1": {
+          "firstServe": 25,
+          "firstServeOf": 44,
+          "aces": 3,
+          "doubleFaults": 2,
+          "unforcedErrors": null,
+          "winningOnFirstServe": 17,
+          "winningOnFirstServeOf": 25,
+          "winningOnSecondServe": 11,
+          "winningOnSecondServeOf": 19,
+          "winners": null,
+          "breakPointsConverted": 6,
+          "breakPointsConvertedOf": 10,
+          "netApproaches": null,
+          "netApproachesOf": null,
+          "totalPointsWon": 59,
+          "fastestServe": null,
+          "averageFirstServeSpeed": null,
+          "averageSecondServeSpeed": null
+        },
+        "player2": {
+          "firstServe": 33,
+          "firstServeOf": 53,
+          "aces": 2,
+          "doubleFaults": 1,
+          "unforcedErrors": null,
+          "winningOnFirstServe": 13,
+          "winningOnFirstServeOf": 33,
+          "winningOnSecondServe": 9,
+          "winningOnSecondServeOf": 20,
+          "winners": null,
+          "breakPointsConverted": 1,
+          "breakPointsConvertedOf": 2,
+          "netApproaches": null,
+          "netApproachesOf": null,
+          "totalPointsWon": 38,
+          "fastestServe": null,
+          "averageFirstServeSpeed": null,
+          "averageSecondServeSpeed": null
+        }
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/1242791/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "1242820",
+      "matchId": "1242820",
+      "date": "2026-04-09T00:00:00.000Z",
+      "roundId": 6,
+      "player1Id": 68074,
+      "player2Id": 37532,
+      "tournamentId": 21322,
+      "match_winner": 68074,
+      "result": "6-1 4-6 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.048",
+      "odd2": "9.9",
+      "player1": {
+        "id": 68074,
+        "name": "Carlos Alcaraz",
+        "countryAcr": "ESP"
+      },
+      "player2": {
+        "id": 37532,
+        "name": "Tomas Martin Etcheverry",
+        "countryAcr": "ARG"
+      },
+      "tournament": {
+        "id": 21322,
+        "name": "Monte-Carlo Rolex Masters - Monte-Carlo",
+        "courtId": 2,
+        "date": "2026-04-06T00:00:00.000Z",
+        "rankId": 3,
+        "countryAcr": "MON",
+        "court": {
+          "id": 2,
+          "name": "Clay"
+        },
+        "rank": {
+          "id": 3,
+          "name": "Masters series"
+        },
+        "country": {
+          "name": "Monaco",
+          "acronym": "MON"
+        }
+      },
+      "round": {
+        "id": 6,
+        "name": "Third"
+      },
+      "stats": {
+        "duration": "0000-00-00 02:23:46",
+        "player1": {
+          "firstServe": 60,
+          "firstServeOf": 89,
+          "aces": 5,
+          "doubleFaults": 3,
+          "unforcedErrors": null,
+          "winningOnFirstServe": 40,
+          "winningOnFirstServeOf": 60,
+          "winningOnSecondServe": 16,
+          "winningOnSecondServeOf": 29,
+          "winners": null,
+          "breakPointsConverted": 5,
+          "breakPointsConvertedOf": 12,
+          "netApproaches": null,
+          "netApproachesOf": null,
+          "totalPointsWon": 98,
+          "fastestServe": null,
+          "averageFirstServeSpeed": null,
+          "averageSecondServeSpeed": null
+        },
+        "player2": {
+          "firstServe": 57,
+          "firstServeOf": 92,
+          "aces": 1,
+          "doubleFaults": 5,
+          "unforcedErrors": null,
+          "winningOnFirstServe": 35,
+          "winningOnFirstServeOf": 57,
+          "winningOnSecondServe": 15,
+          "winningOnSecondServeOf": 35,
+          "winners": null,
+          "breakPointsConverted": 2,
+          "breakPointsConvertedOf": 6,
+          "netApproaches": null,
+          "netApproachesOf": null,
+          "totalPointsWon": 83,
+          "fastestServe": null,
+          "averageFirstServeSpeed": null,
+          "averageSecondServeSpeed": null
+        }
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/1242820/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "1242829",
+      "matchId": "1242829",
+      "date": "2026-04-07T00:00:00.000Z",
+      "roundId": 5,
+      "player1Id": 68074,
+      "player2Id": 52721,
+      "tournamentId": 21322,
+      "match_winner": 68074,
+      "result": "6-1 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.046",
+      "odd2": "10.25",
+      "player1": {
+        "id": 68074,
+        "name": "Carlos Alcaraz",
+        "countryAcr": "ESP"
+      },
+      "player2": {
+        "id": 52721,
+        "name": "Sebastian Baez",
+        "countryAcr": "ARG"
+      },
+      "tournament": {
+        "id": 21322,
+        "name": "Monte-Carlo Rolex Masters - Monte-Carlo",
+        "courtId": 2,
+        "date": "2026-04-06T00:00:00.000Z",
+        "rankId": 3,
+        "countryAcr": "MON",
+        "court": {
+          "id": 2,
+          "name": "Clay"
+        },
+        "rank": {
+          "id": 3,
+          "name": "Masters series"
+        },
+        "country": {
+          "name": "Monaco",
+          "acronym": "MON"
+        }
+      },
+      "round": {
+        "id": 5,
+        "name": "Second"
+      },
+      "stats": {
+        "duration": "0000-00-00 01:09:51",
+        "player1": {
+          "firstServe": 30,
+          "firstServeOf": 45,
+          "aces": 6,
+          "doubleFaults": 3,
+          "unforcedErrors": null,
+          "winningOnFirstServe": 25,
+          "winningOnFirstServeOf": 30,
+          "winningOnSecondServe": 6,
+          "winningOnSecondServeOf": 15,
+          "winners": null,
+          "breakPointsConverted": 5,
+          "breakPointsConvertedOf": 10,
+          "netApproaches": null,
+          "netApproachesOf": null,
+          "totalPointsWon": 65,
+          "fastestServe": null,
+          "averageFirstServeSpeed": null,
+          "averageSecondServeSpeed": null
+        },
+        "player2": {
+          "firstServe": 40,
+          "firstServeOf": 62,
+          "aces": 1,
+          "doubleFaults": 1,
+          "unforcedErrors": null,
+          "winningOnFirstServe": 21,
+          "winningOnFirstServeOf": 40,
+          "winningOnSecondServe": 7,
+          "winningOnSecondServeOf": 22,
+          "winners": null,
+          "breakPointsConverted": 1,
+          "breakPointsConvertedOf": 1,
+          "netApproaches": null,
+          "netApproachesOf": null,
+          "totalPointsWon": 42,
+          "fastestServe": null,
+          "averageFirstServeSpeed": null,
+          "averageSecondServeSpeed": null
+        }
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/1242829/odds?type=atp&source=game"
+      }
+    },
+    {
+      "id": "1242546",
+      "matchId": "1242546",
+      "date": "2026-03-22T00:00:00.000Z",
+      "roundId": 6,
+      "player1Id": 42451,
+      "player2Id": 68074,
+      "tournamentId": 21318,
+      "match_winner": 42451,
+      "result": "6-3 5-7 6-4",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 42451,
+        "name": "Sebastian Korda",
+        "countryAcr": "USA"
+      },
+      "player2": {
+        "id": 68074,
+        "name": "Carlos Alcaraz",
+        "countryAcr": "ESP"
+      },
+      "tournament": {
+        "id": 21318,
+        "name": "Miami Open - Miami",
+        "courtId": 1,
+        "date": "2026-03-16T00:00:00.000Z",
+        "rankId": 3,
+        "countryAcr": "USA",
+        "court": {
+          "id": 1,
+          "name": "Hard"
+        },
+        "rank": {
+          "id": 3,
+          "name": "Masters series"
+        },
+        "country": {
+          "name": "United States",
+          "acronym": "USA"
+        }
+      },
+      "round": {
+        "id": 6,
+        "name": "Third"
+      },
+      "stats": {
+        "duration": "0000-00-00 02:18:39",
+        "player1": {
+          "firstServe": 72,
+          "firstServeOf": 104,
+          "aces": 12,
+          "doubleFaults": 0,
+          "unforcedErrors": null,
+          "winningOnFirstServe": 50,
+          "winningOnFirstServeOf": 72,
+          "winningOnSecondServe": 15,
+          "winningOnSecondServeOf": 32,
+          "winners": null,
+          "breakPointsConverted": 3,
+          "breakPointsConvertedOf": 5,
+          "netApproaches": null,
+          "netApproachesOf": null,
+          "totalPointsWon": 101,
+          "fastestServe": null,
+          "averageFirstServeSpeed": null,
+          "averageSecondServeSpeed": null
+        },
+        "player2": {
+          "firstServe": 63,
+          "firstServeOf": 94,
+          "aces": 2,
+          "doubleFaults": 2,
+          "unforcedErrors": null,
+          "winningOnFirstServe": 45,
+          "winningOnFirstServeOf": 63,
+          "winningOnSecondServe": 13,
+          "winningOnSecondServeOf": 31,
+          "winners": null,
+          "breakPointsConverted": 2,
+          "breakPointsConvertedOf": 5,
+          "netApproaches": null,
+          "netApproachesOf": null,
+          "totalPointsWon": 97,
+          "fastestServe": null,
+          "averageFirstServeSpeed": null,
+          "averageSecondServeSpeed": null
+        }
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/1242546/odds?type=atp&source=game"
+      }
+    }
+  ]
+}

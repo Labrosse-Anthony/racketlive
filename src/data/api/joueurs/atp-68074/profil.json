@@ -1,0 +1,57 @@
+{
+  "recupereLe": "2026-10-14T17:17:16.811Z",
+  "donnees": {
+    "playerStatus": "Active",
+    "coach": "Samuel Lopez",
+    "id": 68074,
+    "name": "Carlos Alcaraz",
+    "birthday": "2003-05-05T00:00:00.000Z",
+    "countryAcr": "ESP",
+    "currentRank": 3,
+    "progress": 0,
+    "points": 5260,
+    "height": null,
+    "wikidata_id": null,
+    "country": {
+      "name": "Spain",
+      "acronym": "ESP"
+    },
+    "information": {
+      "id": 68074,
+      "turnedPro": "2018",
+      "weight": "74",
+      "height": "183",
+      "birthplace": "El Palmar, Murcia, Spain",
+      "residence": "El Palmar, Murcia, Spain",
+      "plays": "Right-Handed, Two-Handed Backhand",
+      "coach": "Samuel Lopez",
+      "site": null,
+      "twitter": "https://www.atptour.com/en/players/carlos-alcaraz-garfia/a0e2/overview",
+      "page": "https://x.com/carlosalcaraz",
+      "instagram": "https://instagram.com/carlitosalcarazz",
+      "facebook": "https://www.facebook.com/carlitosalcarazz"
+    },
+    "rankingDate": "2026-10-05T00:00:00.000Z",
+    "form": [
+      "w",
+      "w",
+      "l",
+      "w",
+      "w",
+      "w",
+      "w",
+      "w",
+      "w",
+      "w",
+      "l"
+    ],
+    "curRank": {
+      "position": 3,
+      "date": "2026-10-05T00:00:00.000Z"
+    },
+    "bestRank": {
+      "position": 1,
+      "date": "2026-04-06T00:00:00.000Z"
+    }
+  }
+}

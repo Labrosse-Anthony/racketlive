@@ -1,0 +1,4005 @@
+{
+  "recupereLe": "2026-10-14T17:15:31.497Z",
+  "donnees": [
+    {
+      "id": "162122804",
+      "matchId": "162122804",
+      "date": "2026-10-14T15:35:00.000Z",
+      "roundId": 9,
+      "player1Id": 80896,
+      "player2Id": 112371,
+      "tournamentId": 17310,
+      "match_winner": 80896,
+      "result": "6-1 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.44",
+      "odd2": "2.55",
+      "player1": {
+        "id": 80896,
+        "name": "Noma Akugue Noha/Joelle Steur",
+        "countryAcr": "N/A"
+      },
+      "player2": {
+        "id": 112371,
+        "name": "Anastasiia Sobolieva/Elizara Yaneva",
+        "countryAcr": "N/A"
+      },
+      "tournament": {
+        "id": 17310,
+        "name": "Mallorca Women's Championships - Mallorca",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "ESP",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/162122804/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "163317236",
+      "matchId": "163317236",
+      "date": "2026-10-14T14:10:00.000Z",
+      "roundId": 5,
+      "player1Id": 49081,
+      "player2Id": 67639,
+      "tournamentId": 16750,
+      "match_winner": 49081,
+      "result": "6-3 6-4",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 49081,
+        "name": "Leylah Annie Fernandez",
+        "countryAcr": "CAN"
+      },
+      "player2": {
+        "id": 67639,
+        "name": "Han Shi",
+        "countryAcr": "CHN"
+      },
+      "tournament": {
+        "id": 16750,
+        "name": "Wuhan Open - Wuhan",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 3,
+        "countryAcr": "CHN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/163317236/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "163353928",
+      "matchId": "163353928",
+      "date": "2026-10-14T14:10:00.000Z",
+      "roundId": 5,
+      "player1Id": 17021,
+      "player2Id": 27032,
+      "tournamentId": 17309,
+      "match_winner": 17021,
+      "result": "6-4 7-5",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.56",
+      "odd2": "2.24",
+      "player1": {
+        "id": 17021,
+        "name": "Jil Teichmann",
+        "countryAcr": "SUI"
+      },
+      "player2": {
+        "id": 27032,
+        "name": "Lucia Bronzetti",
+        "countryAcr": "ITA"
+      },
+      "tournament": {
+        "id": 17309,
+        "name": "RoveretOpen Citta della Pace - Rovereto",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "ITA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/163353928/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "163353988",
+      "matchId": "163353988",
+      "date": "2026-10-14T14:00:00.000Z",
+      "roundId": 9,
+      "player1Id": 107547,
+      "player2Id": 101080,
+      "tournamentId": 17310,
+      "match_winner": 107547,
+      "result": "6-3 5-7 10-8",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.47",
+      "odd2": "2.46",
+      "player1": {
+        "id": 107547,
+        "name": "Ivonne Cavalle-Reimers/Laura Pigossi",
+        "countryAcr": "N/A"
+      },
+      "player2": {
+        "id": 101080,
+        "name": "Estelle Cascino/Lia Karatancheva",
+        "countryAcr": "N/A"
+      },
+      "tournament": {
+        "id": 17310,
+        "name": "Mallorca Women's Championships - Mallorca",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "ESP",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/163353988/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "163353916",
+      "matchId": "163353916",
+      "date": "2026-10-14T13:55:00.000Z",
+      "roundId": 4,
+      "player1Id": 86084,
+      "player2Id": 109273,
+      "tournamentId": 17308,
+      "match_winner": 86084,
+      "result": "6-0 7-5",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.1",
+      "odd2": "5.6",
+      "player1": {
+        "id": 86084,
+        "name": "Dalila Jakupovic/Nika Radisic",
+        "countryAcr": "N/A"
+      },
+      "player2": {
+        "id": 109273,
+        "name": "Elina Nepliy/Vasanti Shinde",
+        "countryAcr": "N/A"
+      },
+      "tournament": {
+        "id": 17308,
+        "name": "Lisboa Belem Open - Lisbon",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "POR",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/163353916/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "160891607",
+      "matchId": "160891607",
+      "date": "2026-10-14T12:45:00.000Z",
+      "roundId": 4,
+      "player1Id": 96826,
+      "player2Id": 112228,
+      "tournamentId": 17308,
+      "match_winner": 96826,
+      "result": "6-1 6-1",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.017",
+      "odd2": "9.6",
+      "player1": {
+        "id": 96826,
+        "name": "Gina Feistel/Raluca Georgiana Serban",
+        "countryAcr": "N/A"
+      },
+      "player2": {
+        "id": 112228,
+        "name": "Carla Tomai/Saumya Vig",
+        "countryAcr": "N/A"
+      },
+      "tournament": {
+        "id": 17308,
+        "name": "Lisboa Belem Open - Lisbon",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "POR",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/160891607/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "160854946",
+      "matchId": "160854946",
+      "date": "2026-10-14T12:15:00.000Z",
+      "roundId": 5,
+      "player1Id": 98665,
+      "player2Id": 112192,
+      "tournamentId": 16750,
+      "match_winner": 98665,
+      "result": "2-6 7-6(0) 10-7",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.25",
+      "odd2": "3.48",
+      "player1": {
+        "id": 98665,
+        "name": "Su-Wei Hsieh/Jelena Ostapenko",
+        "countryAcr": "N/A"
+      },
+      "player2": {
+        "id": 112192,
+        "name": "Sofia Kenin/Irina Khromacheva",
+        "countryAcr": "N/A"
+      },
+      "tournament": {
+        "id": 16750,
+        "name": "Wuhan Open - Wuhan",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 3,
+        "countryAcr": "CHN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/160854946/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "160891642",
+      "matchId": "160891642",
+      "date": "2026-10-14T12:15:00.000Z",
+      "roundId": 4,
+      "player1Id": 101094,
+      "player2Id": 112374,
+      "tournamentId": 17309,
+      "match_winner": 101094,
+      "result": "6-1 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.008",
+      "odd2": "10.5",
+      "player1": {
+        "id": 101094,
+        "name": "Noemi Basiletti/Gaia Maduzzi",
+        "countryAcr": "N/A"
+      },
+      "player2": {
+        "id": 112374,
+        "name": "Ana Tamindzic/Elisa Visentin",
+        "countryAcr": "N/A"
+      },
+      "tournament": {
+        "id": 17309,
+        "name": "RoveretOpen Citta della Pace - Rovereto",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "ITA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/160891642/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "162122707",
+      "matchId": "162122707",
+      "date": "2026-10-14T12:05:00.000Z",
+      "roundId": 5,
+      "player1Id": 57090,
+      "player2Id": 17040,
+      "tournamentId": 17308,
+      "match_winner": 57090,
+      "result": "6-3 3-6 7-5",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.13",
+      "odd2": "4.95",
+      "player1": {
+        "id": 57090,
+        "name": "Jessica Bouzas Maneiro",
+        "countryAcr": "ESP"
+      },
+      "player2": {
+        "id": 17040,
+        "name": "Irene Burillo",
+        "countryAcr": "ESP"
+      },
+      "tournament": {
+        "id": 17308,
+        "name": "Lisboa Belem Open - Lisbon",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "POR",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/162122707/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "162124497",
+      "matchId": "162124497",
+      "date": "2026-10-14T11:48:00.000Z",
+      "roundId": 4,
+      "player1Id": 59943,
+      "player2Id": 70410,
+      "tournamentId": 17343,
+      "match_winner": 59943,
+      "result": "6-2 6-0",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.039",
+      "odd2": "7.3",
+      "player1": {
+        "id": 59943,
+        "name": "Sophie Luescher",
+        "countryAcr": "SUI"
+      },
+      "player2": {
+        "id": 70410,
+        "name": "Maria Mikhailova",
+        "countryAcr": "RUS"
+      },
+      "tournament": {
+        "id": 17343,
+        "name": "W15 Chisinau",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "MDA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/162124497/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "162124157",
+      "matchId": "162124157",
+      "date": "2026-10-14T11:25:00.000Z",
+      "roundId": 5,
+      "player1Id": 74253,
+      "player2Id": 102194,
+      "tournamentId": 17335,
+      "match_winner": 74253,
+      "result": "7-6(4) 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 74253,
+        "name": "Alicia Dudeney",
+        "countryAcr": "GBR"
+      },
+      "player2": {
+        "id": 102194,
+        "name": "Daniella Britton",
+        "countryAcr": "GBR"
+      },
+      "tournament": {
+        "id": 17335,
+        "name": "W35 Birmingham",
+        "courtId": 3,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "GBR",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/162124157/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "162124283",
+      "matchId": "162124283",
+      "date": "2026-10-14T11:25:00.000Z",
+      "roundId": 4,
+      "player1Id": 52528,
+      "player2Id": 100565,
+      "tournamentId": 17338,
+      "match_winner": 52528,
+      "result": "6-2 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 52528,
+        "name": "Elena Milovanovic",
+        "countryAcr": "SRB"
+      },
+      "player2": {
+        "id": 100565,
+        "name": "Polina Skliar",
+        "countryAcr": "UKR"
+      },
+      "tournament": {
+        "id": 17338,
+        "name": "W35 Monastir",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "TUN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/162124283/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "162124503",
+      "matchId": "162124503",
+      "date": "2026-10-14T11:25:00.000Z",
+      "roundId": 4,
+      "player1Id": 93630,
+      "player2Id": 76508,
+      "tournamentId": 17343,
+      "match_winner": 93630,
+      "result": "7-5 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.7",
+      "odd2": "1.96",
+      "player1": {
+        "id": 93630,
+        "name": "Iulia Maria Buculei",
+        "countryAcr": "ROU"
+      },
+      "player2": {
+        "id": 76508,
+        "name": "Anastasia Safta",
+        "countryAcr": "ROU"
+      },
+      "tournament": {
+        "id": 17343,
+        "name": "W15 Chisinau",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "MDA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/162124503/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "162124354",
+      "matchId": "162124354",
+      "date": "2026-10-14T11:22:00.000Z",
+      "roundId": 4,
+      "player1Id": 88935,
+      "player2Id": 95802,
+      "tournamentId": 17340,
+      "match_winner": 88935,
+      "result": "6-4 7-6(2)",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.27",
+      "odd2": "3.2",
+      "player1": {
+        "id": 88935,
+        "name": "Iva Marinkovic",
+        "countryAcr": "SWE"
+      },
+      "player2": {
+        "id": 95802,
+        "name": "Sofia Martianova",
+        "countryAcr": "RUS"
+      },
+      "tournament": {
+        "id": 17340,
+        "name": "W15 Sharm ElSheikh",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "EGY",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/162124354/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "162124141",
+      "matchId": "162124141",
+      "date": "2026-10-14T11:20:00.000Z",
+      "roundId": 5,
+      "player1Id": 84425,
+      "player2Id": 63541,
+      "tournamentId": 17335,
+      "match_winner": 84425,
+      "result": "6-3 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 84425,
+        "name": "Mika Stojsavljevic",
+        "countryAcr": "GBR"
+      },
+      "player2": {
+        "id": 63541,
+        "name": "Andre Lukosiute",
+        "countryAcr": "LTU"
+      },
+      "tournament": {
+        "id": 17335,
+        "name": "W35 Birmingham",
+        "courtId": 3,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "GBR",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/162124141/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "155930684",
+      "matchId": "155930684",
+      "date": "2026-10-14T11:15:00.000Z",
+      "roundId": 5,
+      "player1Id": 91980,
+      "player2Id": 92427,
+      "tournamentId": 16750,
+      "match_winner": 91980,
+      "result": "w/o",
+      "result_type": "walkover",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 91980,
+        "name": "Anna Danilina/Shuai Zhang",
+        "countryAcr": "N/A"
+      },
+      "player2": {
+        "id": 92427,
+        "name": "Anhelina Kalinina/Dayana Yastremska",
+        "countryAcr": "N/A"
+      },
+      "tournament": {
+        "id": 16750,
+        "name": "Wuhan Open - Wuhan",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 3,
+        "countryAcr": "CHN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/155930684/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "162124360",
+      "matchId": "162124360",
+      "date": "2026-10-14T11:10:00.000Z",
+      "roundId": 4,
+      "player1Id": 71136,
+      "player2Id": 98682,
+      "tournamentId": 17340,
+      "match_winner": 71136,
+      "result": "6-3 6-4",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.6",
+      "odd2": "2.11",
+      "player1": {
+        "id": 71136,
+        "name": "Annika Barth",
+        "countryAcr": "NED"
+      },
+      "player2": {
+        "id": 98682,
+        "name": "Vanesa Salaiova",
+        "countryAcr": "SVK"
+      },
+      "tournament": {
+        "id": 17340,
+        "name": "W15 Sharm ElSheikh",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "EGY",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/162124360/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "159623809",
+      "matchId": "159623809",
+      "date": "2026-10-14T11:05:00.000Z",
+      "roundId": 5,
+      "player1Id": 64343,
+      "player2Id": 66626,
+      "tournamentId": 16750,
+      "match_winner": 64343,
+      "result": "2-6 6-1 6-1",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "2.24",
+      "odd2": "1.64",
+      "player1": {
+        "id": 64343,
+        "name": "Ashlyn Krueger",
+        "countryAcr": "USA"
+      },
+      "player2": {
+        "id": 66626,
+        "name": "Lanlana Tararudee",
+        "countryAcr": "THA"
+      },
+      "tournament": {
+        "id": 16750,
+        "name": "Wuhan Open - Wuhan",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 3,
+        "countryAcr": "CHN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/159623809/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "160854890",
+      "matchId": "160854890",
+      "date": "2026-10-14T11:00:00.000Z",
+      "roundId": 5,
+      "player1Id": 45866,
+      "player2Id": 18455,
+      "tournamentId": 16750,
+      "match_winner": 45866,
+      "result": "3-6 6-4 7-6(5)",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 45866,
+        "name": "Ann Li",
+        "countryAcr": "USA"
+      },
+      "player2": {
+        "id": 18455,
+        "name": "Aryna Sabalenka",
+        "countryAcr": "BLR"
+      },
+      "tournament": {
+        "id": 16750,
+        "name": "Wuhan Open - Wuhan",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 3,
+        "countryAcr": "CHN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/160854890/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "160891615",
+      "matchId": "160891615",
+      "date": "2026-10-14T11:00:00.000Z",
+      "roundId": 5,
+      "player1Id": 26509,
+      "player2Id": 24845,
+      "tournamentId": 17309,
+      "match_winner": 26509,
+      "result": "3-6 7-6(4) 7-6(3)",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "2.06",
+      "odd2": "1.66",
+      "player1": {
+        "id": 26509,
+        "name": "Gabriela Andrea Knutson",
+        "countryAcr": "CZE"
+      },
+      "player2": {
+        "id": 24845,
+        "name": "Susan Bandecchi",
+        "countryAcr": "SUI"
+      },
+      "tournament": {
+        "id": 17309,
+        "name": "RoveretOpen Citta della Pace - Rovereto",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "ITA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/160891615/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "162124139",
+      "matchId": "162124139",
+      "date": "2026-10-14T11:00:00.000Z",
+      "roundId": 5,
+      "player1Id": 14654,
+      "player2Id": 62880,
+      "tournamentId": 17335,
+      "match_winner": 14654,
+      "result": "7-6(5) 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 14654,
+        "name": "Jessika Ponchet",
+        "countryAcr": "FRA"
+      },
+      "player2": {
+        "id": 62880,
+        "name": "Amelia Rajecki",
+        "countryAcr": "GBR"
+      },
+      "tournament": {
+        "id": 17335,
+        "name": "W35 Birmingham",
+        "courtId": 3,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "GBR",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/162124139/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "160891668",
+      "matchId": "160891668",
+      "date": "2026-10-14T10:55:00.000Z",
+      "roundId": 5,
+      "player1Id": 16134,
+      "player2Id": 81370,
+      "tournamentId": 17310,
+      "match_winner": 16134,
+      "result": "4-6 7-5 6-4",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.28",
+      "odd2": "3.26",
+      "player1": {
+        "id": 16134,
+        "name": "Julia Grabher",
+        "countryAcr": "AUT"
+      },
+      "player2": {
+        "id": 81370,
+        "name": "Lidia Encheva",
+        "countryAcr": "BUL"
+      },
+      "tournament": {
+        "id": 17310,
+        "name": "Mallorca Women's Championships - Mallorca",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "ESP",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/160891668/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "162124146",
+      "matchId": "162124146",
+      "date": "2026-10-14T10:50:00.000Z",
+      "roundId": 5,
+      "player1Id": 14539,
+      "player2Id": 78987,
+      "tournamentId": 17335,
+      "match_winner": 14539,
+      "result": "6-1 6-1",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 14539,
+        "name": "Oceane Dodin",
+        "countryAcr": "FRA"
+      },
+      "player2": {
+        "id": 78987,
+        "name": "Lois Newberry",
+        "countryAcr": "GBR"
+      },
+      "tournament": {
+        "id": 17335,
+        "name": "W35 Birmingham",
+        "courtId": 3,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "GBR",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/162124146/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "162124316",
+      "matchId": "162124316",
+      "date": "2026-10-14T10:50:00.000Z",
+      "roundId": 4,
+      "player1Id": 74176,
+      "player2Id": 84852,
+      "tournamentId": 17339,
+      "match_winner": 74176,
+      "result": "6-2 6-1",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 74176,
+        "name": "Natalija Senic",
+        "countryAcr": "SRB"
+      },
+      "player2": {
+        "id": 84852,
+        "name": "Isabel Skoog",
+        "countryAcr": "SWE"
+      },
+      "tournament": {
+        "id": 17339,
+        "name": "W35 Santa Margherita di Pula",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "ITA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/162124316/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "159660531",
+      "matchId": "159660531",
+      "date": "2026-10-14T10:40:00.000Z",
+      "roundId": 5,
+      "player1Id": 72126,
+      "player2Id": 40596,
+      "tournamentId": 17310,
+      "match_winner": 72126,
+      "result": "6-4 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.42",
+      "odd2": "2.61",
+      "player1": {
+        "id": 72126,
+        "name": "Ariana Geerlings",
+        "countryAcr": "ESP"
+      },
+      "player2": {
+        "id": 40596,
+        "name": "Lucia Cortez Llorca",
+        "countryAcr": "ESP"
+      },
+      "tournament": {
+        "id": 17310,
+        "name": "Mallorca Women's Championships - Mallorca",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "ESP",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/159660531/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "158429405",
+      "matchId": "158429405",
+      "date": "2026-10-14T10:35:00.000Z",
+      "roundId": 4,
+      "player1Id": 84882,
+      "player2Id": 65337,
+      "tournamentId": 17309,
+      "match_winner": 84882,
+      "result": "6-3 3-6 10-6",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 84882,
+        "name": "Dominika Salkova/Anna Siskova",
+        "countryAcr": "N/A"
+      },
+      "player2": {
+        "id": 65337,
+        "name": "Hiroko Kuwata/Ankita Raina",
+        "countryAcr": "N/A"
+      },
+      "tournament": {
+        "id": 17309,
+        "name": "RoveretOpen Citta della Pace - Rovereto",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "ITA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/158429405/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "162124272",
+      "matchId": "162124272",
+      "date": "2026-10-14T10:30:00.000Z",
+      "roundId": 4,
+      "player1Id": 87202,
+      "player2Id": 86003,
+      "tournamentId": 17338,
+      "match_winner": 87202,
+      "result": "1-6 6-4 6-1",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 87202,
+        "name": "Unknown Player",
+        "countryAcr": "N/A"
+      },
+      "player2": {
+        "id": 86003,
+        "name": "Adelina Lachinova",
+        "countryAcr": "LAT"
+      },
+      "tournament": {
+        "id": 17338,
+        "name": "W35 Monastir",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "TUN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/162124272/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "162124493",
+      "matchId": "162124493",
+      "date": "2026-10-14T10:15:00.000Z",
+      "roundId": 4,
+      "player1Id": 104607,
+      "player2Id": 44944,
+      "tournamentId": 17343,
+      "match_winner": 104607,
+      "result": "6-1 6-0",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 104607,
+        "name": "Lia Belibova",
+        "countryAcr": "MDA"
+      },
+      "player2": {
+        "id": 44944,
+        "name": "Milana Maslenkova",
+        "countryAcr": "UZB"
+      },
+      "tournament": {
+        "id": 17343,
+        "name": "W15 Chisinau",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "MDA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/162124493/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "162124502",
+      "matchId": "162124502",
+      "date": "2026-10-14T10:15:00.000Z",
+      "roundId": 4,
+      "player1Id": 88202,
+      "player2Id": 75820,
+      "tournamentId": 17343,
+      "match_winner": 88202,
+      "result": "6-1 6-1",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "2.24",
+      "odd2": "1.53",
+      "player1": {
+        "id": 88202,
+        "name": "Melinda Biro",
+        "countryAcr": "ROU"
+      },
+      "player2": {
+        "id": 75820,
+        "name": "Maria Kalyakina",
+        "countryAcr": "RUS"
+      },
+      "tournament": {
+        "id": 17343,
+        "name": "W15 Chisinau",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "MDA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/162124502/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "162124271",
+      "matchId": "162124271",
+      "date": "2026-10-14T10:13:00.000Z",
+      "roundId": 4,
+      "player1Id": 83823,
+      "player2Id": 83607,
+      "tournamentId": 17338,
+      "match_winner": 83823,
+      "result": "6-3 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 83823,
+        "name": "Vaishnavi Adkar",
+        "countryAcr": "IND"
+      },
+      "player2": {
+        "id": 83607,
+        "name": "Nuria Sarganella Verdu",
+        "countryAcr": "ESP"
+      },
+      "tournament": {
+        "id": 17338,
+        "name": "W35 Monastir",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "TUN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/162124271/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "158429370",
+      "matchId": "158429370",
+      "date": "2026-10-14T10:10:00.000Z",
+      "roundId": 5,
+      "player1Id": 16664,
+      "player2Id": 62005,
+      "tournamentId": 17308,
+      "match_winner": 16664,
+      "result": "7-5 6-1",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 16664,
+        "name": "Fiona Ferro",
+        "countryAcr": "FRA"
+      },
+      "player2": {
+        "id": 62005,
+        "name": "Selena Janicijevic",
+        "countryAcr": "FRA"
+      },
+      "tournament": {
+        "id": 17308,
+        "name": "Lisboa Belem Open - Lisbon",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "POR",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/158429370/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "159660471",
+      "matchId": "159660471",
+      "date": "2026-10-14T10:10:00.000Z",
+      "roundId": 5,
+      "player1Id": 7926,
+      "player2Id": 52398,
+      "tournamentId": 17308,
+      "match_winner": 7926,
+      "result": "6-3 3-6 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.8",
+      "odd2": "1.88",
+      "player1": {
+        "id": 7926,
+        "name": "Polona Hercog",
+        "countryAcr": "SLO"
+      },
+      "player2": {
+        "id": 52398,
+        "name": "Jazmin Ortenzi",
+        "countryAcr": "ARG"
+      },
+      "tournament": {
+        "id": 17308,
+        "name": "Lisboa Belem Open - Lisbon",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "POR",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/159660471/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "162124510",
+      "matchId": "162124510",
+      "date": "2026-10-14T09:58:00.000Z",
+      "roundId": 4,
+      "player1Id": 33113,
+      "player2Id": 92648,
+      "tournamentId": 17343,
+      "match_winner": 33113,
+      "result": "6-3 6-1",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 33113,
+        "name": "Andreea Prisacariu",
+        "countryAcr": "ROU"
+      },
+      "player2": {
+        "id": 92648,
+        "name": "Ekaterina Agureeva",
+        "countryAcr": "RUS"
+      },
+      "tournament": {
+        "id": 17343,
+        "name": "W15 Chisinau",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "MDA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/162124510/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "158430980",
+      "matchId": "158430980",
+      "date": "2026-10-14T09:52:00.000Z",
+      "roundId": 4,
+      "player1Id": 103371,
+      "player2Id": 89808,
+      "tournamentId": 17340,
+      "match_winner": 103371,
+      "result": "6-2 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.008",
+      "odd2": "9.3",
+      "player1": {
+        "id": 103371,
+        "name": "Victoria Brand",
+        "countryAcr": "GER"
+      },
+      "player2": {
+        "id": 89808,
+        "name": "Wilva Chan",
+        "countryAcr": "AUS"
+      },
+      "tournament": {
+        "id": 17340,
+        "name": "W15 Sharm ElSheikh",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "EGY",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/158430980/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "157198385",
+      "matchId": "157198385",
+      "date": "2026-10-14T09:35:00.000Z",
+      "roundId": 4,
+      "player1Id": 106537,
+      "player2Id": 73876,
+      "tournamentId": 17309,
+      "match_winner": 106537,
+      "result": "6-1 6-1",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.033",
+      "odd2": "8.4",
+      "player1": {
+        "id": 106537,
+        "name": "Catherine Harrison/Dalayna Hewitt",
+        "countryAcr": "N/A"
+      },
+      "player2": {
+        "id": 73876,
+        "name": "Soumeya Anane/Francesca Dell'Edera",
+        "countryAcr": "N/A"
+      },
+      "tournament": {
+        "id": 17309,
+        "name": "RoveretOpen Citta della Pace - Rovereto",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "ITA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/157198385/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "162124453",
+      "matchId": "162124453",
+      "date": "2026-10-14T09:25:00.000Z",
+      "roundId": 4,
+      "player1Id": 111988,
+      "player2Id": 93626,
+      "tournamentId": 17342,
+      "match_winner": 111988,
+      "result": "6-4 3-6 7-5",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 111988,
+        "name": "Lujza Zimenova",
+        "countryAcr": "SVK"
+      },
+      "player2": {
+        "id": 93626,
+        "name": "Ilinca Sagmar",
+        "countryAcr": "ROU"
+      },
+      "tournament": {
+        "id": 17342,
+        "name": "W15 Bol",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "CRO",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/162124453/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "162124472",
+      "matchId": "162124472",
+      "date": "2026-10-14T09:20:00.000Z",
+      "roundId": 4,
+      "player1Id": 24134,
+      "player2Id": 103553,
+      "tournamentId": 17342,
+      "match_winner": 24134,
+      "result": "6-4 7-5",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.56",
+      "odd2": "2.18",
+      "player1": {
+        "id": 24134,
+        "name": "Mia Horvit",
+        "countryAcr": "USA"
+      },
+      "player2": {
+        "id": 103553,
+        "name": "Lana Virc",
+        "countryAcr": "SRB"
+      },
+      "tournament": {
+        "id": 17342,
+        "name": "W15 Bol",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "CRO",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/162124472/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "158431055",
+      "matchId": "158431055",
+      "date": "2026-10-14T09:13:00.000Z",
+      "roundId": 4,
+      "player1Id": 79618,
+      "player2Id": 65919,
+      "tournamentId": 17342,
+      "match_winner": 79618,
+      "result": "6-4 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 79618,
+        "name": "Serena Paris",
+        "countryAcr": "ITA"
+      },
+      "player2": {
+        "id": 65919,
+        "name": "Sara Mikaca",
+        "countryAcr": "BIH"
+      },
+      "tournament": {
+        "id": 17342,
+        "name": "W15 Bol",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "CRO",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/158431055/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "162124125",
+      "matchId": "162124125",
+      "date": "2026-10-14T09:13:00.000Z",
+      "roundId": 5,
+      "player1Id": 33355,
+      "player2Id": 30116,
+      "tournamentId": 17335,
+      "match_winner": 33355,
+      "result": "6-4 7-6(1)",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 33355,
+        "name": "Jodie Anna Burrage",
+        "countryAcr": "GBR"
+      },
+      "player2": {
+        "id": 30116,
+        "name": "Berfu Cengiz",
+        "countryAcr": "TUR"
+      },
+      "tournament": {
+        "id": 17335,
+        "name": "W35 Birmingham",
+        "courtId": 3,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "GBR",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/162124125/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "157198368",
+      "matchId": "157198368",
+      "date": "2026-10-14T09:05:00.000Z",
+      "roundId": 4,
+      "player1Id": 99385,
+      "player2Id": 23557,
+      "tournamentId": 17309,
+      "match_winner": 99385,
+      "result": "6-4 7-6(3)",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 99385,
+        "name": "Kristina Novak/Ivana Sebestova",
+        "countryAcr": "N/A"
+      },
+      "player2": {
+        "id": 23557,
+        "name": "Tayisiya Morderger/Yana Morderger",
+        "countryAcr": "N/A"
+      },
+      "tournament": {
+        "id": 17309,
+        "name": "RoveretOpen Citta della Pace - Rovereto",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "ITA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/157198368/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "157198405",
+      "matchId": "157198405",
+      "date": "2026-10-14T09:05:00.000Z",
+      "roundId": 5,
+      "player1Id": 82044,
+      "player2Id": 45536,
+      "tournamentId": 17310,
+      "match_winner": 82044,
+      "result": "6-2 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 82044,
+        "name": "Elizara Yaneva",
+        "countryAcr": "BUL"
+      },
+      "player2": {
+        "id": 45536,
+        "name": "Carole Monnet",
+        "countryAcr": "FRA"
+      },
+      "tournament": {
+        "id": 17310,
+        "name": "Mallorca Women's Championships - Mallorca",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "ESP",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/157198405/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "158431000",
+      "matchId": "158431000",
+      "date": "2026-10-14T09:05:00.000Z",
+      "roundId": 4,
+      "player1Id": 74597,
+      "player2Id": 105255,
+      "tournamentId": 17340,
+      "match_winner": 74597,
+      "result": "6-0 1-6 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 74597,
+        "name": "Clarissa Blomqvist",
+        "countryAcr": "FIN"
+      },
+      "player2": {
+        "id": 105255,
+        "name": "Tamina Kochta",
+        "countryAcr": "GER"
+      },
+      "tournament": {
+        "id": 17340,
+        "name": "W15 Sharm ElSheikh",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "EGY",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/158431000/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "162124129",
+      "matchId": "162124129",
+      "date": "2026-10-14T09:05:00.000Z",
+      "roundId": 5,
+      "player1Id": 43871,
+      "player2Id": 40759,
+      "tournamentId": 17335,
+      "match_winner": 43871,
+      "result": "0-6 6-4 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 43871,
+        "name": "Mayuka Aikawa",
+        "countryAcr": "JPN"
+      },
+      "player2": {
+        "id": 40759,
+        "name": "Elena Malygina",
+        "countryAcr": "EST"
+      },
+      "tournament": {
+        "id": 17335,
+        "name": "W35 Birmingham",
+        "courtId": 3,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "GBR",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/162124129/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "162124133",
+      "matchId": "162124133",
+      "date": "2026-10-14T09:05:00.000Z",
+      "roundId": 5,
+      "player1Id": 44338,
+      "player2Id": 53485,
+      "tournamentId": 17335,
+      "match_winner": 44338,
+      "result": "6-1 6-4",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 44338,
+        "name": "Manon Leonard",
+        "countryAcr": "FRA"
+      },
+      "player2": {
+        "id": 53485,
+        "name": "Esther Adeshina",
+        "countryAcr": "GBR"
+      },
+      "tournament": {
+        "id": 17335,
+        "name": "W35 Birmingham",
+        "courtId": 3,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "GBR",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/162124133/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "162124142",
+      "matchId": "162124142",
+      "date": "2026-10-14T09:05:00.000Z",
+      "roundId": 5,
+      "player1Id": 67291,
+      "player2Id": 67073,
+      "tournamentId": 17335,
+      "match_winner": 67291,
+      "result": "6-3 6-4",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.62",
+      "odd2": "2.08",
+      "player1": {
+        "id": 67291,
+        "name": "Angella Okutoyi",
+        "countryAcr": "KEN"
+      },
+      "player2": {
+        "id": 67073,
+        "name": "Indianna Spink",
+        "countryAcr": "GBR"
+      },
+      "tournament": {
+        "id": 17335,
+        "name": "W35 Birmingham",
+        "courtId": 3,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "GBR",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/162124142/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "157161695",
+      "matchId": "157161695",
+      "date": "2026-10-14T09:00:00.000Z",
+      "roundId": 5,
+      "player1Id": 65079,
+      "player2Id": 94430,
+      "tournamentId": 16750,
+      "match_winner": 65079,
+      "result": "4-6 6-2 10-5",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.28",
+      "odd2": "3.26",
+      "player1": {
+        "id": 65079,
+        "name": "Sara Errani/Jasmine Paolini",
+        "countryAcr": "N/A"
+      },
+      "player2": {
+        "id": 94430,
+        "name": "Tereza Mihalikova/Olivia Nicholls",
+        "countryAcr": "N/A"
+      },
+      "tournament": {
+        "id": 16750,
+        "name": "Wuhan Open - Wuhan",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 3,
+        "countryAcr": "CHN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/157161695/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "158430932",
+      "matchId": "158430932",
+      "date": "2026-10-14T08:49:00.000Z",
+      "roundId": 4,
+      "player1Id": 73136,
+      "player2Id": 50952,
+      "tournamentId": 17339,
+      "match_winner": 73136,
+      "result": "6-2 6-1",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.61",
+      "odd2": "2.09",
+      "player1": {
+        "id": 73136,
+        "name": "Chiara Fornasieri",
+        "countryAcr": "ITA"
+      },
+      "player2": {
+        "id": 50952,
+        "name": "Matilde Mariani",
+        "countryAcr": "ITA"
+      },
+      "tournament": {
+        "id": 17339,
+        "name": "W35 Santa Margherita di Pula",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "ITA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/158430932/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "157161700",
+      "matchId": "157161700",
+      "date": "2026-10-14T08:45:00.000Z",
+      "roundId": 4,
+      "player1Id": 109372,
+      "player2Id": 111960,
+      "tournamentId": 16750,
+      "match_winner": 109372,
+      "result": "3-6 6-1 10-7",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 109372,
+        "name": "Ingrid Neel/Giuliana Olmos",
+        "countryAcr": "N/A"
+      },
+      "player2": {
+        "id": 111960,
+        "name": "Nikola Bartunkova/Maja Chwalinska",
+        "countryAcr": "N/A"
+      },
+      "tournament": {
+        "id": 16750,
+        "name": "Wuhan Open - Wuhan",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 3,
+        "countryAcr": "CHN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/157161700/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "158430907",
+      "matchId": "158430907",
+      "date": "2026-10-14T08:43:00.000Z",
+      "roundId": 4,
+      "player1Id": 87646,
+      "player2Id": 83425,
+      "tournamentId": 17338,
+      "match_winner": 87646,
+      "result": "6-0 6-1",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.333",
+      "odd2": "2.86",
+      "player1": {
+        "id": 87646,
+        "name": "Zuzanna Pawlikowska",
+        "countryAcr": "POL"
+      },
+      "player2": {
+        "id": 83425,
+        "name": "Eleejah Inisan",
+        "countryAcr": "FRA"
+      },
+      "tournament": {
+        "id": 17338,
+        "name": "W35 Monastir",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "TUN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/158430907/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "158430943",
+      "matchId": "158430943",
+      "date": "2026-10-14T08:43:00.000Z",
+      "roundId": 4,
+      "player1Id": 61457,
+      "player2Id": 78953,
+      "tournamentId": 17339,
+      "match_winner": 61457,
+      "result": "7-5 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.52",
+      "odd2": "2.27",
+      "player1": {
+        "id": 61457,
+        "name": "Maria Andrienko",
+        "countryAcr": "RUS"
+      },
+      "player2": {
+        "id": 78953,
+        "name": "Carolina Bohrer Martins",
+        "countryAcr": "BRA"
+      },
+      "tournament": {
+        "id": 17339,
+        "name": "W35 Santa Margherita di Pula",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "ITA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/158430943/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "158430902",
+      "matchId": "158430902",
+      "date": "2026-10-14T08:35:00.000Z",
+      "roundId": 4,
+      "player1Id": 51390,
+      "player2Id": 73838,
+      "tournamentId": 17338,
+      "match_winner": 51390,
+      "result": "6-2 3-6 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.44",
+      "odd2": "2.47",
+      "player1": {
+        "id": 51390,
+        "name": "Sofia Camila Rojas",
+        "countryAcr": "USA"
+      },
+      "player2": {
+        "id": 73838,
+        "name": "Chelsea Fontenel",
+        "countryAcr": "SUI"
+      },
+      "tournament": {
+        "id": 17338,
+        "name": "W35 Monastir",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "TUN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/158430902/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "158430904",
+      "matchId": "158430904",
+      "date": "2026-10-14T08:35:00.000Z",
+      "roundId": 4,
+      "player1Id": 84358,
+      "player2Id": 74987,
+      "tournamentId": 17338,
+      "match_winner": 84358,
+      "result": "6-3 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "4.6",
+      "odd2": "1.133",
+      "player1": {
+        "id": 84358,
+        "name": "Ada Kumru",
+        "countryAcr": "TUR"
+      },
+      "player2": {
+        "id": 74987,
+        "name": "Yelyzaveta Kotliar",
+        "countryAcr": "UKR"
+      },
+      "tournament": {
+        "id": 17338,
+        "name": "W35 Monastir",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "TUN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/158430904/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "158430905",
+      "matchId": "158430905",
+      "date": "2026-10-14T08:35:00.000Z",
+      "roundId": 4,
+      "player1Id": 103363,
+      "player2Id": 79284,
+      "tournamentId": 17338,
+      "match_winner": 103363,
+      "result": "3-6 6-2 6-4",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.23",
+      "odd2": "3.5",
+      "player1": {
+        "id": 103363,
+        "name": "Anna Shkutova",
+        "countryAcr": "RUS"
+      },
+      "player2": {
+        "id": 79284,
+        "name": "Aleksandra Iankovskaia",
+        "countryAcr": "RUS"
+      },
+      "tournament": {
+        "id": 17338,
+        "name": "W35 Monastir",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "TUN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/158430905/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "158431118",
+      "matchId": "158431118",
+      "date": "2026-10-14T08:27:00.000Z",
+      "roundId": 4,
+      "player1Id": 48510,
+      "player2Id": 17677,
+      "tournamentId": 17343,
+      "match_winner": 48510,
+      "result": "6-1 6-1",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 48510,
+        "name": "Kateryna Diatlova",
+        "countryAcr": "UKR"
+      },
+      "player2": {
+        "id": 17677,
+        "name": "Irina Fetecau",
+        "countryAcr": "ROU"
+      },
+      "tournament": {
+        "id": 17343,
+        "name": "W15 Chisinau",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "MDA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/158431118/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "158430998",
+      "matchId": "158430998",
+      "date": "2026-10-14T08:22:00.000Z",
+      "roundId": 4,
+      "player1Id": 49984,
+      "player2Id": 104117,
+      "tournamentId": 17340,
+      "match_winner": 49984,
+      "result": "6-0 7-5",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.152",
+      "odd2": "4.333",
+      "player1": {
+        "id": 49984,
+        "name": "Kamilla Bartone",
+        "countryAcr": "LAT"
+      },
+      "player2": {
+        "id": 104117,
+        "name": "Stefaniya Neporent",
+        "countryAcr": "BLR"
+      },
+      "tournament": {
+        "id": 17340,
+        "name": "W15 Sharm ElSheikh",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "EGY",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/158430998/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "162124511",
+      "matchId": "162124511",
+      "date": "2026-10-14T08:22:00.000Z",
+      "roundId": 4,
+      "player1Id": 94439,
+      "player2Id": 95439,
+      "tournamentId": 17343,
+      "match_winner": 94439,
+      "result": "6-4 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "2.01",
+      "odd2": "1.666",
+      "player1": {
+        "id": 94439,
+        "name": "Justine Bretnacher",
+        "countryAcr": "FRA"
+      },
+      "player2": {
+        "id": 95439,
+        "name": "Simona Cucu",
+        "countryAcr": "ROU"
+      },
+      "tournament": {
+        "id": 17343,
+        "name": "W15 Chisinau",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "MDA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/162124511/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "162124527",
+      "matchId": "162124527",
+      "date": "2026-10-14T08:22:00.000Z",
+      "roundId": 4,
+      "player1Id": 32188,
+      "player2Id": 112088,
+      "tournamentId": 17343,
+      "match_winner": 32188,
+      "result": "6-1 2-6 7-5",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 32188,
+        "name": "Astrid Wanja Brune Olsen",
+        "countryAcr": "NOR"
+      },
+      "player2": {
+        "id": 112088,
+        "name": "Eva Iurina",
+        "countryAcr": "MDA"
+      },
+      "tournament": {
+        "id": 17343,
+        "name": "W15 Chisinau",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "MDA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/162124527/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "158431123",
+      "matchId": "158431123",
+      "date": "2026-10-14T08:13:00.000Z",
+      "roundId": 4,
+      "player1Id": 97062,
+      "player2Id": 73051,
+      "tournamentId": 17343,
+      "match_winner": 97062,
+      "result": "5-7 6-1 6-1",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.002",
+      "odd2": "9.8",
+      "player1": {
+        "id": 97062,
+        "name": "Kristina Kroitor",
+        "countryAcr": "RUS"
+      },
+      "player2": {
+        "id": 73051,
+        "name": "Ines Faltinger",
+        "countryAcr": "AUT"
+      },
+      "tournament": {
+        "id": 17343,
+        "name": "W15 Chisinau",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "MDA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/158431123/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "162124357",
+      "matchId": "162124357",
+      "date": "2026-10-14T08:13:00.000Z",
+      "roundId": 4,
+      "player1Id": 95284,
+      "player2Id": 97818,
+      "tournamentId": 17340,
+      "match_winner": 95284,
+      "result": "6-2 6-1",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.51",
+      "odd2": "2.29",
+      "player1": {
+        "id": 95284,
+        "name": "Emilia Carlotta Brune",
+        "countryAcr": "GER"
+      },
+      "player2": {
+        "id": 97818,
+        "name": "Alessandra Fiorillo",
+        "countryAcr": "ITA"
+      },
+      "tournament": {
+        "id": 17340,
+        "name": "W15 Sharm ElSheikh",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "EGY",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/162124357/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "157198400",
+      "matchId": "157198400",
+      "date": "2026-10-14T08:05:00.000Z",
+      "roundId": 5,
+      "player1Id": 57306,
+      "player2Id": 36397,
+      "tournamentId": 17310,
+      "match_winner": 57306,
+      "result": "3-6 6-3 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 57306,
+        "name": "Francesca Curmi",
+        "countryAcr": "MLT"
+      },
+      "player2": {
+        "id": 36397,
+        "name": "Marina Bassols Ribera",
+        "countryAcr": "ESP"
+      },
+      "tournament": {
+        "id": 17310,
+        "name": "Mallorca Women's Championships - Mallorca",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "ESP",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/157198400/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "157161634",
+      "matchId": "157161634",
+      "date": "2026-10-14T07:50:00.000Z",
+      "roundId": 5,
+      "player1Id": 16628,
+      "player2Id": 11712,
+      "tournamentId": 16750,
+      "match_winner": 16628,
+      "result": "2-6 7-6(7) 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "5.05",
+      "odd2": "1.166",
+      "player1": {
+        "id": 16628,
+        "name": "Jelena Ostapenko",
+        "countryAcr": "LAT"
+      },
+      "player2": {
+        "id": 11712,
+        "name": "Jessica Pegula",
+        "countryAcr": "USA"
+      },
+      "tournament": {
+        "id": 16750,
+        "name": "Wuhan Open - Wuhan",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 3,
+        "countryAcr": "CHN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/157161634/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "157161675",
+      "matchId": "157161675",
+      "date": "2026-10-14T07:45:00.000Z",
+      "roundId": 5,
+      "player1Id": 32308,
+      "player2Id": 52790,
+      "tournamentId": 16750,
+      "match_winner": 32308,
+      "result": "6-4 4-6 7-6(3)",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 32308,
+        "name": "Hanyu Guo",
+        "countryAcr": "CHN"
+      },
+      "player2": {
+        "id": 52790,
+        "name": "Katie Volynets",
+        "countryAcr": "USA"
+      },
+      "tournament": {
+        "id": 16750,
+        "name": "Wuhan Open - Wuhan",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 3,
+        "countryAcr": "CHN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/157161675/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "158431052",
+      "matchId": "158431052",
+      "date": "2026-10-14T07:35:00.000Z",
+      "roundId": 4,
+      "player1Id": 76365,
+      "player2Id": 48559,
+      "tournamentId": 17342,
+      "match_winner": 76365,
+      "result": "6-0 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 76365,
+        "name": "Eliska Tichackova",
+        "countryAcr": "CZE"
+      },
+      "player2": {
+        "id": 48559,
+        "name": "Linda Sevcikova",
+        "countryAcr": "CZE"
+      },
+      "tournament": {
+        "id": 17342,
+        "name": "W15 Bol",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "CRO",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/158431052/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "158431060",
+      "matchId": "158431060",
+      "date": "2026-10-14T07:35:00.000Z",
+      "roundId": 4,
+      "player1Id": 74174,
+      "player2Id": 74188,
+      "tournamentId": 17342,
+      "match_winner": 74174,
+      "result": "6-3 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.2",
+      "odd2": "3.75",
+      "player1": {
+        "id": 74174,
+        "name": "Andrea Obradovic",
+        "countryAcr": "SRB"
+      },
+      "player2": {
+        "id": 74188,
+        "name": "Daria Gorska",
+        "countryAcr": "POL"
+      },
+      "tournament": {
+        "id": 17342,
+        "name": "W15 Bol",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "CRO",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/158431060/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "158431065",
+      "matchId": "158431065",
+      "date": "2026-10-14T07:35:00.000Z",
+      "roundId": 4,
+      "player1Id": 93619,
+      "player2Id": 80069,
+      "tournamentId": 17342,
+      "match_winner": 93619,
+      "result": "6-2 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "2.6",
+      "odd2": "1.4",
+      "player1": {
+        "id": 93619,
+        "name": "Veronika Sekerkova",
+        "countryAcr": "CZE"
+      },
+      "player2": {
+        "id": 80069,
+        "name": "Patricia Georgiana Goina",
+        "countryAcr": "ROU"
+      },
+      "tournament": {
+        "id": 17342,
+        "name": "W15 Bol",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "CRO",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/158431065/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "158431088",
+      "matchId": "158431088",
+      "date": "2026-10-14T07:35:00.000Z",
+      "roundId": 4,
+      "player1Id": 89249,
+      "player2Id": 96407,
+      "tournamentId": 17342,
+      "match_winner": 89249,
+      "result": "6-3 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 89249,
+        "name": "Anita Tu",
+        "countryAcr": "USA"
+      },
+      "player2": {
+        "id": 96407,
+        "name": "Gloria De Santis",
+        "countryAcr": "ITA"
+      },
+      "tournament": {
+        "id": 17342,
+        "name": "W15 Bol",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "CRO",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/158431088/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "158431095",
+      "matchId": "158431095",
+      "date": "2026-10-14T07:35:00.000Z",
+      "roundId": 4,
+      "player1Id": 82897,
+      "player2Id": 102889,
+      "tournamentId": 17342,
+      "match_winner": 82897,
+      "result": "6-2 1-6 6-1",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 82897,
+        "name": "Lucia Natal",
+        "countryAcr": "ESP"
+      },
+      "player2": {
+        "id": 102889,
+        "name": "Theresa Stabauer",
+        "countryAcr": "AUT"
+      },
+      "tournament": {
+        "id": 17342,
+        "name": "W15 Bol",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "CRO",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/158431095/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "158430946",
+      "matchId": "158430946",
+      "date": "2026-10-14T07:05:00.000Z",
+      "roundId": 4,
+      "player1Id": 17771,
+      "player2Id": 83686,
+      "tournamentId": 17339,
+      "match_winner": 17771,
+      "result": "6-2 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.32",
+      "odd2": "2.92",
+      "player1": {
+        "id": 17771,
+        "name": "Jessica Pieri",
+        "countryAcr": "ITA"
+      },
+      "player2": {
+        "id": 83686,
+        "name": "Francesca Gandolfi",
+        "countryAcr": "ITA"
+      },
+      "tournament": {
+        "id": 17339,
+        "name": "W35 Santa Margherita di Pula",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "ITA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/158430946/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "158430951",
+      "matchId": "158430951",
+      "date": "2026-10-14T07:05:00.000Z",
+      "roundId": 4,
+      "player1Id": 26528,
+      "player2Id": 90964,
+      "tournamentId": 17339,
+      "match_winner": 26528,
+      "result": "6-3 7-6(9)",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.045",
+      "odd2": "7",
+      "player1": {
+        "id": 26528,
+        "name": "Angelica Raggi",
+        "countryAcr": "ITA"
+      },
+      "player2": {
+        "id": 90964,
+        "name": "Unknown Player",
+        "countryAcr": "N/A"
+      },
+      "tournament": {
+        "id": 17339,
+        "name": "W35 Santa Margherita di Pula",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "ITA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/158430951/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "158430952",
+      "matchId": "158430952",
+      "date": "2026-10-14T07:05:00.000Z",
+      "roundId": 4,
+      "player1Id": 57067,
+      "player2Id": 92104,
+      "tournamentId": 17339,
+      "match_winner": 57067,
+      "result": "6-1 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.42",
+      "odd2": "2.53",
+      "player1": {
+        "id": 57067,
+        "name": "Gabriella Price",
+        "countryAcr": "USA"
+      },
+      "player2": {
+        "id": 92104,
+        "name": "Lavinia Luciano",
+        "countryAcr": "ITA"
+      },
+      "tournament": {
+        "id": 17339,
+        "name": "W35 Santa Margherita di Pula",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "ITA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/158430952/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "158430961",
+      "matchId": "158430961",
+      "date": "2026-10-14T07:05:00.000Z",
+      "roundId": 4,
+      "player1Id": 41374,
+      "player2Id": 107296,
+      "tournamentId": 17339,
+      "match_winner": 41374,
+      "result": "6-3 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.139",
+      "odd2": "4.55",
+      "player1": {
+        "id": 41374,
+        "name": "Franziska Sziedat",
+        "countryAcr": "GER"
+      },
+      "player2": {
+        "id": 107296,
+        "name": "Sveva Sveva Fumagalli",
+        "countryAcr": "ITA"
+      },
+      "tournament": {
+        "id": 17339,
+        "name": "W35 Santa Margherita di Pula",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 1,
+        "countryAcr": "ITA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/158430961/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "154699662",
+      "matchId": "154699662",
+      "date": "2026-10-14T07:00:00.000Z",
+      "roundId": 5,
+      "player1Id": 60341,
+      "player2Id": 55173,
+      "tournamentId": 16750,
+      "match_winner": 60341,
+      "result": "7-5 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "2.32",
+      "odd2": "1.6",
+      "player1": {
+        "id": 60341,
+        "name": "Janice Tjen",
+        "countryAcr": "INA"
+      },
+      "player2": {
+        "id": 55173,
+        "name": "Daria Snigur",
+        "countryAcr": "UKR"
+      },
+      "tournament": {
+        "id": 16750,
+        "name": "Wuhan Open - Wuhan",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 3,
+        "countryAcr": "CHN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/154699662/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "158431002",
+      "matchId": "158431002",
+      "date": "2026-10-14T06:43:00.000Z",
+      "roundId": 4,
+      "player1Id": 91133,
+      "player2Id": 106397,
+      "tournamentId": 17340,
+      "match_winner": 91133,
+      "result": "6-2 6-1",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 91133,
+        "name": "Yuliya Perapekhina",
+        "countryAcr": "BLR"
+      },
+      "player2": {
+        "id": 106397,
+        "name": "Teodora Vlajic",
+        "countryAcr": "SRB"
+      },
+      "tournament": {
+        "id": 17340,
+        "name": "W15 Sharm ElSheikh",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "EGY",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/158431002/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "158430969",
+      "matchId": "158430969",
+      "date": "2026-10-14T06:35:00.000Z",
+      "roundId": 4,
+      "player1Id": 28118,
+      "player2Id": 58608,
+      "tournamentId": 17340,
+      "match_winner": 28118,
+      "result": "6-3 4-6 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 28118,
+        "name": "Lamis Alhussein Abdel Aziz",
+        "countryAcr": "EGY"
+      },
+      "player2": {
+        "id": 58608,
+        "name": "Maria Charl",
+        "countryAcr": "EGY"
+      },
+      "tournament": {
+        "id": 17340,
+        "name": "W15 Sharm ElSheikh",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "EGY",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/158430969/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "158430975",
+      "matchId": "158430975",
+      "date": "2026-10-14T06:35:00.000Z",
+      "roundId": 4,
+      "player1Id": 57279,
+      "player2Id": 75804,
+      "tournamentId": 17340,
+      "match_winner": 57279,
+      "result": "6-1 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.017",
+      "odd2": "8.6",
+      "player1": {
+        "id": 57279,
+        "name": "Radka Zelnickova",
+        "countryAcr": "SVK"
+      },
+      "player2": {
+        "id": 75804,
+        "name": "Alisa Vasileva",
+        "countryAcr": "RUS"
+      },
+      "tournament": {
+        "id": 17340,
+        "name": "W15 Sharm ElSheikh",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "EGY",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/158430975/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "158430978",
+      "matchId": "158430978",
+      "date": "2026-10-14T06:35:00.000Z",
+      "roundId": 4,
+      "player1Id": 12573,
+      "player2Id": 82733,
+      "tournamentId": 17340,
+      "match_winner": 12573,
+      "result": "6-7(7) 6-2 7-6(8)",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 12573,
+        "name": "Karla Popovic",
+        "countryAcr": "CRO"
+      },
+      "player2": {
+        "id": 82733,
+        "name": "Ellie Daniels",
+        "countryAcr": "CAN"
+      },
+      "tournament": {
+        "id": 17340,
+        "name": "W15 Sharm ElSheikh",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "EGY",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/158430978/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "158431119",
+      "matchId": "158431119",
+      "date": "2026-10-14T06:35:00.000Z",
+      "roundId": 4,
+      "player1Id": 74738,
+      "player2Id": 59578,
+      "tournamentId": 17343,
+      "match_winner": 74738,
+      "result": "6-4 6-1",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.016",
+      "odd2": "8.7",
+      "player1": {
+        "id": 74738,
+        "name": "Zuzanna Bednarz",
+        "countryAcr": "POL"
+      },
+      "player2": {
+        "id": 59578,
+        "name": "Melissa Boyden",
+        "countryAcr": "NED"
+      },
+      "tournament": {
+        "id": 17343,
+        "name": "W15 Chisinau",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "MDA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/158431119/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "158431125",
+      "matchId": "158431125",
+      "date": "2026-10-14T06:35:00.000Z",
+      "roundId": 4,
+      "player1Id": 68930,
+      "player2Id": 74432,
+      "tournamentId": 17343,
+      "match_winner": 68930,
+      "result": "6-0 3-6 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 68930,
+        "name": "Defne Cirpanli",
+        "countryAcr": "TUR"
+      },
+      "player2": {
+        "id": 74432,
+        "name": "Aliesia Reva",
+        "countryAcr": "UKR"
+      },
+      "tournament": {
+        "id": 17343,
+        "name": "W15 Chisinau",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "MDA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/158431125/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "158431126",
+      "matchId": "158431126",
+      "date": "2026-10-14T06:35:00.000Z",
+      "roundId": 4,
+      "player1Id": 93677,
+      "player2Id": 83603,
+      "tournamentId": 17343,
+      "match_winner": 93677,
+      "result": "6-2 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 93677,
+        "name": "Felitsata Dorofeeva-Rybas",
+        "countryAcr": "RUS"
+      },
+      "player2": {
+        "id": 83603,
+        "name": "Mirjana Jovanovic",
+        "countryAcr": "SRB"
+      },
+      "tournament": {
+        "id": 17343,
+        "name": "W15 Chisinau",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "MDA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/158431126/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "158431138",
+      "matchId": "158431138",
+      "date": "2026-10-14T06:35:00.000Z",
+      "roundId": 4,
+      "player1Id": 93793,
+      "player2Id": 101320,
+      "tournamentId": 17343,
+      "match_winner": 93793,
+      "result": "6-2 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.34",
+      "odd2": "2.83",
+      "player1": {
+        "id": 93793,
+        "name": "Arina Gamretkaia",
+        "countryAcr": "MDA"
+      },
+      "player2": {
+        "id": 101320,
+        "name": "Iana Semichina",
+        "countryAcr": "MDA"
+      },
+      "tournament": {
+        "id": 17343,
+        "name": "W15 Chisinau",
+        "courtId": 2,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "MDA",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/158431138/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "158431161",
+      "matchId": "158431161",
+      "date": "2026-10-14T06:05:00.000Z",
+      "roundId": 5,
+      "player1Id": 71233,
+      "player2Id": 85073,
+      "tournamentId": 17344,
+      "match_winner": 71233,
+      "result": "6-3 6-1",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.064",
+      "odd2": "6.25",
+      "player1": {
+        "id": 71233,
+        "name": "Astrid Cirotte",
+        "countryAcr": "FRA"
+      },
+      "player2": {
+        "id": 85073,
+        "name": "Julia Khramtsova",
+        "countryAcr": "RUS"
+      },
+      "tournament": {
+        "id": 17344,
+        "name": "W15 Islamabad",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "PAK",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/158431161/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "158431165",
+      "matchId": "158431165",
+      "date": "2026-10-14T06:05:00.000Z",
+      "roundId": 5,
+      "player1Id": 23858,
+      "player2Id": 106108,
+      "tournamentId": 17344,
+      "match_winner": 23858,
+      "result": "6-1 6-0",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 23858,
+        "name": "Ksenia Laskutova",
+        "countryAcr": "RUS"
+      },
+      "player2": {
+        "id": 106108,
+        "name": "Serife Pelin Sari",
+        "countryAcr": "TUR"
+      },
+      "tournament": {
+        "id": 17344,
+        "name": "W15 Islamabad",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "PAK",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/158431165/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "154738119",
+      "matchId": "154738119",
+      "date": "2026-10-14T05:51:00.000Z",
+      "roundId": 4,
+      "player1Id": 82167,
+      "player2Id": 106458,
+      "tournamentId": 17345,
+      "match_winner": 82167,
+      "result": "6-0 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 82167,
+        "name": "Junhan Zhang",
+        "countryAcr": "CHN"
+      },
+      "player2": {
+        "id": 106458,
+        "name": "Alexandra Malova",
+        "countryAcr": "RUS"
+      },
+      "tournament": {
+        "id": 17345,
+        "name": "W15 Shenzhen",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "CHN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/154738119/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "154738089",
+      "matchId": "154738089",
+      "date": "2026-10-14T05:02:00.000Z",
+      "roundId": 4,
+      "player1Id": 58588,
+      "player2Id": 64229,
+      "tournamentId": 17345,
+      "match_winner": 58588,
+      "result": "6-1 3-0 ret.",
+      "result_type": "retired",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 58588,
+        "name": "Sijia Wei",
+        "countryAcr": "CHN"
+      },
+      "player2": {
+        "id": 64229,
+        "name": "Meng Yi Chen",
+        "countryAcr": "CHN"
+      },
+      "tournament": {
+        "id": 17345,
+        "name": "W15 Shenzhen",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "CHN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/154738089/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "152237662",
+      "matchId": "152237662",
+      "date": "2026-10-14T05:00:00.000Z",
+      "roundId": 5,
+      "player1Id": 65911,
+      "player2Id": 12390,
+      "tournamentId": 16750,
+      "match_winner": 65911,
+      "result": "6-2 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 65911,
+        "name": "Diana Shnaider",
+        "countryAcr": "RUS"
+      },
+      "player2": {
+        "id": 12390,
+        "name": "Yulia Putintseva",
+        "countryAcr": "KAZ"
+      },
+      "tournament": {
+        "id": 16750,
+        "name": "Wuhan Open - Wuhan",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 3,
+        "countryAcr": "CHN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/152237662/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "152237685",
+      "matchId": "152237685",
+      "date": "2026-10-14T05:00:00.000Z",
+      "roundId": 5,
+      "player1Id": 80381,
+      "player2Id": 37266,
+      "tournamentId": 16750,
+      "match_winner": 80381,
+      "result": "6-4 6-1",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.23",
+      "odd2": "4.1",
+      "player1": {
+        "id": 80381,
+        "name": "Iva Jovic",
+        "countryAcr": "USA"
+      },
+      "player2": {
+        "id": 37266,
+        "name": "Dayana Yastremska",
+        "countryAcr": "UKR"
+      },
+      "tournament": {
+        "id": 16750,
+        "name": "Wuhan Open - Wuhan",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 3,
+        "countryAcr": "CHN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/152237685/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "153468664",
+      "matchId": "153468664",
+      "date": "2026-10-14T05:00:00.000Z",
+      "roundId": 5,
+      "player1Id": 18482,
+      "player2Id": 41569,
+      "tournamentId": 16750,
+      "match_winner": 18482,
+      "result": "3-6 7-6(1) 7-6(4)",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.25",
+      "odd2": "3.9",
+      "player1": {
+        "id": 18482,
+        "name": "Karolina Muchova",
+        "countryAcr": "CZE"
+      },
+      "player2": {
+        "id": 41569,
+        "name": "Caty McNally",
+        "countryAcr": "USA"
+      },
+      "tournament": {
+        "id": 16750,
+        "name": "Wuhan Open - Wuhan",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 3,
+        "countryAcr": "CHN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/153468664/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "153468689",
+      "matchId": "153468689",
+      "date": "2026-10-14T05:00:00.000Z",
+      "roundId": 5,
+      "player1Id": 14362,
+      "player2Id": 71092,
+      "tournamentId": 16750,
+      "match_winner": 14362,
+      "result": "7-6(5) 6-3",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "2.48",
+      "odd2": "1.53",
+      "player1": {
+        "id": 14362,
+        "name": "Jasmine Paolini",
+        "countryAcr": "ITA"
+      },
+      "player2": {
+        "id": 71092,
+        "name": "Nikola Bartunkova",
+        "countryAcr": "CZE"
+      },
+      "tournament": {
+        "id": 16750,
+        "name": "Wuhan Open - Wuhan",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 3,
+        "countryAcr": "CHN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/153468689/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "154738085",
+      "matchId": "154738085",
+      "date": "2026-10-14T04:31:00.000Z",
+      "roundId": 4,
+      "player1Id": 110238,
+      "player2Id": 53603,
+      "tournamentId": 17345,
+      "match_winner": 110238,
+      "result": "6-4 6-1",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 110238,
+        "name": "Aoyi Li",
+        "countryAcr": "CHN"
+      },
+      "player2": {
+        "id": 53603,
+        "name": "Aunchisa Chanta",
+        "countryAcr": "THA"
+      },
+      "tournament": {
+        "id": 17345,
+        "name": "W15 Shenzhen",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "CHN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/154738085/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "158431180",
+      "matchId": "158431180",
+      "date": "2026-10-14T04:05:00.000Z",
+      "roundId": 4,
+      "player1Id": 38474,
+      "player2Id": 66595,
+      "tournamentId": 17345,
+      "match_winner": 38474,
+      "result": "3-6 6-2 7-6(13)",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 38474,
+        "name": "Chengyiyi Yuan",
+        "countryAcr": "CHN"
+      },
+      "player2": {
+        "id": 66595,
+        "name": "Yiming Dang",
+        "countryAcr": "CHN"
+      },
+      "tournament": {
+        "id": 17345,
+        "name": "W15 Shenzhen",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "CHN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/158431180/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "149775789",
+      "matchId": "149775789",
+      "date": "2026-10-14T03:00:00.000Z",
+      "roundId": 5,
+      "player1Id": 66591,
+      "player2Id": 14056,
+      "tournamentId": 16750,
+      "match_winner": 66591,
+      "result": "6-0 7-5",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "2.6",
+      "odd2": "1.49",
+      "player1": {
+        "id": 66591,
+        "name": "Sonay Kartal",
+        "countryAcr": "GBR"
+      },
+      "player2": {
+        "id": 14056,
+        "name": "Belinda Bencic",
+        "countryAcr": "SUI"
+      },
+      "tournament": {
+        "id": 16750,
+        "name": "Wuhan Open - Wuhan",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 3,
+        "countryAcr": "CHN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/149775789/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "149775792",
+      "matchId": "149775792",
+      "date": "2026-10-14T03:00:00.000Z",
+      "roundId": 5,
+      "player1Id": 45854,
+      "player2Id": 17155,
+      "tournamentId": 16750,
+      "match_winner": 45854,
+      "result": "6-2 6-1",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 45854,
+        "name": "Iga Swiatek",
+        "countryAcr": "POL"
+      },
+      "player2": {
+        "id": 17155,
+        "name": "Magdalena Frech",
+        "countryAcr": "POL"
+      },
+      "tournament": {
+        "id": 16750,
+        "name": "Wuhan Open - Wuhan",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 3,
+        "countryAcr": "CHN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/149775792/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "149775801",
+      "matchId": "149775801",
+      "date": "2026-10-14T03:00:00.000Z",
+      "roundId": 5,
+      "player1Id": 43323,
+      "player2Id": 24572,
+      "tournamentId": 16750,
+      "match_winner": 43323,
+      "result": "1-6 6-1 6-1",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 43323,
+        "name": "Maja Chwalinska",
+        "countryAcr": "POL"
+      },
+      "player2": {
+        "id": 24572,
+        "name": "Marie Bouzkova",
+        "countryAcr": "CZE"
+      },
+      "tournament": {
+        "id": 16750,
+        "name": "Wuhan Open - Wuhan",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 3,
+        "countryAcr": "CHN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/149775801/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "149775839",
+      "matchId": "149775839",
+      "date": "2026-10-14T03:00:00.000Z",
+      "roundId": 4,
+      "player1Id": 112370,
+      "player2Id": 108712,
+      "tournamentId": 16750,
+      "match_winner": 112370,
+      "result": "6-3 6-7(7) 11-9",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "2.8",
+      "odd2": "1.37",
+      "player1": {
+        "id": 112370,
+        "name": "Maria Kozyreva/Peyton Stearns",
+        "countryAcr": "N/A"
+      },
+      "player2": {
+        "id": 108712,
+        "name": "Shuko Aoyama/En Shuo Liang",
+        "countryAcr": "N/A"
+      },
+      "tournament": {
+        "id": 16750,
+        "name": "Wuhan Open - Wuhan",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 3,
+        "countryAcr": "CHN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/149775839/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "151006724",
+      "matchId": "151006724",
+      "date": "2026-10-14T03:00:00.000Z",
+      "roundId": 5,
+      "player1Id": 11371,
+      "player2Id": 24368,
+      "tournamentId": 16750,
+      "match_winner": 11371,
+      "result": "6-2 5-7 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.333",
+      "odd2": "3.26",
+      "player1": {
+        "id": 11371,
+        "name": "Elina Svitolina",
+        "countryAcr": "UKR"
+      },
+      "player2": {
+        "id": 24368,
+        "name": "Liudmila Samsonova",
+        "countryAcr": "RUS"
+      },
+      "tournament": {
+        "id": 16750,
+        "name": "Wuhan Open - Wuhan",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 3,
+        "countryAcr": "CHN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/151006724/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "154738086",
+      "matchId": "154738086",
+      "date": "2026-10-14T02:51:00.000Z",
+      "roundId": 4,
+      "player1Id": 82324,
+      "player2Id": 60926,
+      "tournamentId": 17345,
+      "match_winner": 82324,
+      "result": "4-6 6-2 7-5",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 82324,
+        "name": "Honori Koyama",
+        "countryAcr": "JPN"
+      },
+      "player2": {
+        "id": 60926,
+        "name": "Jiale Zhang",
+        "countryAcr": "CHN"
+      },
+      "tournament": {
+        "id": 17345,
+        "name": "W15 Shenzhen",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "CHN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/154738086/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "154738098",
+      "matchId": "154738098",
+      "date": "2026-10-14T02:35:00.000Z",
+      "roundId": 4,
+      "player1Id": 52789,
+      "player2Id": 81192,
+      "tournamentId": 17345,
+      "match_winner": 52789,
+      "result": "6-2 6-2",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 52789,
+        "name": "Adithya Karunaratne",
+        "countryAcr": "SRI"
+      },
+      "player2": {
+        "id": 81192,
+        "name": "Tiana Tian Deng",
+        "countryAcr": "SWE"
+      },
+      "tournament": {
+        "id": 17345,
+        "name": "W15 Shenzhen",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "CHN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/154738098/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "154738099",
+      "matchId": "154738099",
+      "date": "2026-10-14T02:35:00.000Z",
+      "roundId": 4,
+      "player1Id": 103234,
+      "player2Id": 81723,
+      "tournamentId": 17345,
+      "match_winner": 103234,
+      "result": "6-4 4-6 6-4",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.909",
+      "odd2": "1.74",
+      "player1": {
+        "id": 103234,
+        "name": "Sarah Ye",
+        "countryAcr": "USA"
+      },
+      "player2": {
+        "id": 81723,
+        "name": "Ke Ren",
+        "countryAcr": "CHN"
+      },
+      "tournament": {
+        "id": 17345,
+        "name": "W15 Shenzhen",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "CHN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/154738099/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "154738104",
+      "matchId": "154738104",
+      "date": "2026-10-14T02:35:00.000Z",
+      "roundId": 4,
+      "player1Id": 49092,
+      "player2Id": 89259,
+      "tournamentId": 17345,
+      "match_winner": 49092,
+      "result": "6-0 6-0",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": "1.06",
+      "odd2": "6.4",
+      "player1": {
+        "id": 49092,
+        "name": "Hong Yi Cody Wong",
+        "countryAcr": "HKG"
+      },
+      "player2": {
+        "id": 89259,
+        "name": "Yuyao Li",
+        "countryAcr": "CHN"
+      },
+      "tournament": {
+        "id": 17345,
+        "name": "W15 Shenzhen",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "CHN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/154738104/odds?type=wta&source=game"
+      }
+    },
+    {
+      "id": "149814211",
+      "matchId": "149814211",
+      "date": "2026-10-14T01:13:00.000Z",
+      "roundId": 4,
+      "player1Id": 84565,
+      "player2Id": 76505,
+      "tournamentId": 17345,
+      "match_winner": 84565,
+      "result": "6-2 6-1",
+      "result_type": "completed",
+      "best_of": null,
+      "odd1": null,
+      "odd2": null,
+      "player1": {
+        "id": 84565,
+        "name": "Shiho Tsujioka",
+        "countryAcr": "JPN"
+      },
+      "player2": {
+        "id": 76505,
+        "name": "Arina Varaksina",
+        "countryAcr": "RUS"
+      },
+      "tournament": {
+        "id": 17345,
+        "name": "W15 Shenzhen",
+        "courtId": 1,
+        "date": "2026-10-12T00:00:00.000Z",
+        "rankId": 0,
+        "countryAcr": "CHN",
+        "court": null,
+        "rank": null,
+        "country": null
+      },
+      "oddsAvailable": true,
+      "links": {
+        "odds": "/tennis/v2/matches/149814211/odds?type=wta&source=game"
+      }
+    }
+  ]
+}
