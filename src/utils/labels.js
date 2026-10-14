@@ -35,6 +35,9 @@ export const PAYS = {
   PL: 'Pologne',
   RO: 'Roumanie',
   SE: 'Suède',
+  AE: 'Émirats arabes unis',
+  AT: 'Autriche',
+  MX: 'Mexique',
 }
 
 export const MAINS = {
