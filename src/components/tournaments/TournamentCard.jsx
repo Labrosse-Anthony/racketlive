@@ -1,14 +1,11 @@
 import { Link } from 'react-router-dom'
 import { drapeau } from '../../utils/flags.js'
 import { formaterPeriode } from '../../utils/dates.js'
-import { formaterEuros } from '../../utils/format.js'
 import { CIRCUITS, SURFACES, PAYS } from '../../utils/labels.js'
 import FavoriteButton from '../ui/FavoriteButton.jsx'
 import './TournamentCard.css'
 
 function TournamentCard({ tournoi }) {
-  const dotation = formaterEuros(tournoi.dotation)
-
   return (
     <article className="tournoi-card">
       <Link to={`/tournois/${tournoi.id}`} className="tournoi-card__lien">
@@ -34,7 +31,6 @@ function TournamentCard({ tournoi }) {
           <span className="badge badge--surface">
             {SURFACES[tournoi.surface]}
           </span>
-          <span className="tournoi-card__dotation">{dotation}</span>
         </div>
       </Link>
 
