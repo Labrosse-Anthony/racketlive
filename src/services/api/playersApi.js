@@ -24,3 +24,8 @@ export async function getPlayerById(id) {
 
   return null
 }
+
+export async function getPlayersByIds(ids) {
+  const joueurs = await Promise.all(ids.map((id) => getPlayerById(id)))
+  return joueurs.filter((joueur) => joueur !== null)
+}
