@@ -8,10 +8,10 @@
 .mois__navigation button {
   width: 44px;
   height: 44px;
-  border: 1px solid #2e7d32;
+  border: 1px solid var(--primary);
   border-radius: 6px;
-  background: #ffffff;
-  color: #2e7d32;
+  background: var(--surface);
+  color: var(--primary);
   font-size: 1.2rem;
   cursor: pointer;
 }
@@ -32,13 +32,13 @@
   padding: 0.25rem 0;
   text-align: center;
   font-size: 0.75rem;
-  color: #777777;
+  color: var(--text-muted);
 }
 
 .mois__case {
   min-height: 3.2rem;
   padding: 0.2rem 0.3rem;
-  border: 1px solid #e5e5e5;
+  border: 1px solid var(--border);
   border-radius: 4px;
   font-size: 0.8rem;
 }
@@ -57,15 +57,15 @@
 }
 
 .point--atp {
-  background: #1565c0;
+  background: var(--atp);
 }
 
 .point--wta {
-  background: #ad1457;
+  background: var(--wta);
 }
 
 .point--grand-chelem {
-  background: #f9a825;
+  background: var(--gc);
 }
 
 .mois__legende {

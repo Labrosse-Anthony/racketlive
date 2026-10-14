@@ -4,8 +4,8 @@
   left: 0;
   right: 0;
   z-index: 10;
-  background: #ffffff;
-  border-top: 1px solid #dddddd;
+  background: var(--surface);
+  border-top: 1px solid var(--border);
 }
 
 /* Le nom de l'appli est caché sur mobile */
@@ -27,7 +27,7 @@
   align-items: center;
   padding: 0.5rem 1rem;
   text-decoration: none;
-  color: #555555;
+  color: var(--text-muted);
   font-size: 0.75rem;
 }
 
@@ -37,7 +37,7 @@
 
 /* Page courante */
 .navbar__link.active {
-  color: #2e7d32;
+  color: var(--primary);
   font-weight: bold;
 }
 
@@ -51,7 +51,7 @@
     justify-content: space-between;
     padding: 0 1.5rem;
     border-top: none;
-    border-bottom: 1px solid #dddddd;
+    border-bottom: 1px solid var(--border);
   }
 
   .navbar__brand {

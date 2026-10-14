@@ -10,16 +10,16 @@
   display: grid;
   gap: 0.25rem;
   padding: 0.75rem 1rem;
-  border: 1px solid #e0e0e0;
+  border: 1px solid var(--border);
   border-radius: 10px;
-  background: #ffffff;
+  background: var(--surface);
 }
 
 .resultat__tour {
   margin: 0;
   font-size: 0.8rem;
   text-transform: uppercase;
-  color: #555555;
+  color: var(--text-muted);
 }
 
 .resultat__joueur {
@@ -33,7 +33,7 @@
 }
 
 .resultat__joueur:focus-visible {
-  outline: 3px solid #f9a825;
+  outline: 3px solid var(--focus);
   outline-offset: 2px;
 }
 
@@ -44,7 +44,7 @@
 .resultat__score {
   margin: 0;
   font-size: 0.9rem;
-  color: #555555;
+  color: var(--text-muted);
 }
 
 .visuellement-cache {

@@ -12,9 +12,9 @@
   align-items: center;
   gap: 0.2rem 0.75rem;
   padding: 0.75rem 1rem;
-  border: 1px solid #e0e0e0;
+  border: 1px solid var(--border);
   border-radius: 10px;
-  background: #ffffff;
+  background: var(--surface);
 }
 
 /* Pastille "V" ou "D" */
@@ -27,15 +27,15 @@
   height: 2rem;
   border-radius: 50%;
   font-weight: bold;
-  color: #ffffff;
+  color: var(--on-primary);
 }
 
 .match__issue--victoire {
-  background: #2e7d32;
+  background: var(--primary);
 }
 
 .match__issue--defaite {
-  background: #c62828;
+  background: var(--danger);
 }
 
 .match--simple {
@@ -46,7 +46,7 @@
   margin: 0;
   font-size: 0.8rem;
   text-transform: uppercase;
-  color: #555555;
+  color: var(--text-muted);
 }
 
 .match__lien {
@@ -59,7 +59,7 @@
 }
 
 .match__lien:focus-visible {
-  outline: 3px solid #f9a825;
+  outline: 3px solid var(--focus);
   outline-offset: 2px;
 }
 
@@ -68,7 +68,7 @@
 }
 
 .match__score {
-  color: #555555;
+  color: var(--text-muted);
   font-size: 0.9rem;
 }
 

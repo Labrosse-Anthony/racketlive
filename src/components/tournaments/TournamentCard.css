@@ -1,11 +1,11 @@
 .tournoi-card {
-  border: 1px solid #e0e0e0;
+  border: 1px solid var(--border);
   border-radius: 10px;
-  background: #ffffff;
+  background: var(--surface);
 }
 
 .tournoi-card:hover {
-  border-color: #2e7d32;
+  border-color: var(--primary);
 }
 
 .tournoi-card__lien {
@@ -16,7 +16,7 @@
 }
 
 .tournoi-card__lien:focus-visible {
-  outline: 3px solid #f9a825;
+  outline: 3px solid var(--focus);
   outline-offset: 2px;
   border-radius: 10px;
 }
@@ -28,7 +28,7 @@
 
 .tournoi-card__info {
   margin: 0;
-  color: #555555;
+  color: var(--text-muted);
   font-size: 0.9rem;
 }
 
@@ -42,7 +42,7 @@
 
 .tournoi-card__dotation {
   margin-left: auto;
-  color: #555555;
+  color: var(--text-muted);
   font-size: 0.85rem;
 }
 
@@ -54,23 +54,23 @@
 }
 
 .badge--atp {
-  background: #e3f2fd;
-  color: #0d47a1;
+  background: var(--badge-atp-bg);
+  color: var(--badge-atp-text);
 }
 
 .badge--wta {
-  background: #fce4ec;
-  color: #880e4f;
+  background: var(--badge-wta-bg);
+  color: var(--badge-wta-text);
 }
 
 .badge--grand-chelem {
-  background: #fff8e1;
-  color: #7a5c00;
+  background: var(--badge-gc-bg);
+  color: var(--badge-gc-text);
 }
 
 .badge--surface {
-  background: #eeeeee;
-  color: #444444;
+  background: var(--badge-neutral-bg);
+  color: var(--badge-neutral-text);
 }
 
 .tournoi-card {

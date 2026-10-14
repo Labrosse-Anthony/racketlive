@@ -11,7 +11,7 @@
 }
 
 .favoris__vide {
-  color: #555555;
+  color: var(--text-muted);
 }
 
 @media (min-width: 768px) {

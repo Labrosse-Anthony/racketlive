@@ -4,24 +4,24 @@
   justify-content: center;
   width: 2.5rem;
   height: 2.5rem;
-  border: 1px solid #e0e0e0;
+  border: 1px solid var(--border);
   border-radius: 50%;
-  background: #ffffff;
+  background: var(--surface);
   font-size: 1.2rem;
   line-height: 1;
   cursor: pointer;
 }
 
 .favori:hover {
-  border-color: #c62828;
+  border-color: var(--danger);
 }
 
 .favori:focus-visible {
-  outline: 3px solid #f9a825;
+  outline: 3px solid var(--focus);
   outline-offset: 2px;
 }
 
 .favori--actif {
-  border-color: #c62828;
-  background: #fdecea;
+  border-color: var(--danger);
+  background: var(--danger-soft);
 }

@@ -11,13 +11,13 @@
 .rankings-table td {
   padding: 0.6rem 0.5rem;
   text-align: left;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid var(--border);
 }
 
 .rankings-table th {
   font-size: 0.8rem;
   text-transform: uppercase;
-  color: #555555;
+  color: var(--text-muted);
 }
 
 .rankings-table__nombre {
@@ -25,15 +25,15 @@
 }
 
 .evolution--up {
-  color: #2e7d32;
+  color: var(--primary);
 }
 
 .evolution--down {
-  color: #c62828;
+  color: var(--danger);
 }
 
 .evolution--same {
-  color: #777777;
+  color: var(--text-muted);
 }
 
 .rankings-table__lien {
@@ -47,6 +47,6 @@
 }
 
 .rankings-table__lien:focus-visible {
-  outline: 3px solid #f9a825;
+  outline: 3px solid var(--focus);
   outline-offset: 2px;
 }

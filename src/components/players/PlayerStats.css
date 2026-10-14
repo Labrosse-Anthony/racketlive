@@ -7,21 +7,21 @@
 
 .stats__bloc {
   padding: 0.75rem 1rem;
-  border: 1px solid #e0e0e0;
+  border: 1px solid var(--border);
   border-radius: 10px;
-  background: #ffffff;
+  background: var(--surface);
 }
 
 .stats__bloc dt {
   font-size: 0.8rem;
-  color: #555555;
+  color: var(--text-muted);
 }
 
 .stats__bloc dd {
   margin: 0;
   font-size: 1.5rem;
   font-weight: bold;
-  color: #2e7d32;
+  color: var(--primary);
 }
 
 @media (min-width: 768px) {

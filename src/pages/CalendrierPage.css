@@ -7,16 +7,16 @@
 .calendrier__bouton {
   flex: 1;
   padding: 0.6rem 0.5rem;
-  border: 1px solid #2e7d32;
+  border: 1px solid var(--primary);
   border-radius: 6px;
-  background: #ffffff;
-  color: #2e7d32;
+  background: var(--surface);
+  color: var(--primary);
   font-size: 0.95rem;
   cursor: pointer;
 }
 
 .calendrier__bouton--actif {
-  background: #2e7d32;
-  color: #ffffff;
+  background: var(--primary);
+  color: var(--on-primary);
   font-weight: bold;
 }

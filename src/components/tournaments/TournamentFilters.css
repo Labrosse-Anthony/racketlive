@@ -10,24 +10,24 @@
   flex-direction: column;
   gap: 0.25rem;
   font-size: 0.85rem;
-  color: #555555;
+  color: var(--text-muted);
 }
 
 .filtres__champ select {
   padding: 0.5rem;
-  border: 1px solid #cccccc;
+  border: 1px solid var(--border-strong);
   border-radius: 6px;
-  background: #ffffff;
+  background: var(--surface);
   font-size: 1rem;
 }
 
 .filtres__reset {
   grid-column: 1 / -1;
   padding: 0.5rem;
-  border: 1px solid #2e7d32;
+  border: 1px solid var(--primary);
   border-radius: 6px;
-  background: #ffffff;
-  color: #2e7d32;
+  background: var(--surface);
+  color: var(--primary);
   font-size: 0.9rem;
   cursor: pointer;
 }
