@@ -60,7 +60,7 @@ function FavorisPage() {
       <section>
         <h1>Mes favoris</h1>
         <p>
-          Tu n'as pas encore de favori. Appuie sur le cœur 🤍 d'un joueur ou
+          Tu n'as pas encore de favori. Appuie sur le cœur d'un joueur ou
           d'un tournoi pour le retrouver ici.
         </p>
         <p>

@@ -4,16 +4,17 @@
   justify-content: center;
   width: 2.75rem;
   height: 2.75rem;
+  padding: 0;
   border: 1px solid var(--border);
   border-radius: 50%;
   background: var(--surface);
-  font-size: 1.2rem;
-  line-height: 1;
+  color: var(--text-muted);
   cursor: pointer;
 }
 
 .favori:hover {
   border-color: var(--danger);
+  color: var(--danger);
 }
 
 .favori:focus-visible {
@@ -21,7 +22,30 @@
   outline-offset: 2px;
 }
 
+.favori__coeur {
+  display: block;
+  width: 22px;
+  height: 22px;
+}
+
 .favori--actif {
   border-color: var(--danger);
   background: var(--danger-soft);
+  color: var(--danger);
+}
+
+.favori--actif .favori__coeur {
+  animation: favori-battement 0.3s ease-out;
+}
+
+@keyframes favori-battement {
+  0% {
+    transform: scale(0.7);
+  }
+  60% {
+    transform: scale(1.25);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
