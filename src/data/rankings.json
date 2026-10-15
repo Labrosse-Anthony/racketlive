@@ -1,46 +1,1407 @@
 {
+  "misAJour": "2026-10-14T16:48:03.162Z",
   "atp": [
-    { "id": 1, "nom": "Lucas Marchand", "pays": "FR", "points": 11250, "evolution": 0 },
-    { "id": 2, "nom": "Mateo Alvarez", "pays": "ES", "points": 10480, "evolution": 1 },
-    { "id": 3, "nom": "Jonas Berger", "pays": "DE", "points": 9920, "evolution": -1 },
-    { "id": 4, "nom": "Luca Ferrante", "pays": "IT", "points": 9100, "evolution": 2 },
-    { "id": 5, "nom": "Oliver Hughes", "pays": "GB", "points": 8750, "evolution": 0 },
-    { "id": 6, "nom": "Ethan Walker", "pays": "US", "points": 8300, "evolution": -2 },
-    { "id": 7, "nom": "Noah Lindqvist", "pays": "SE", "points": 7890, "evolution": 1 },
-    { "id": 8, "nom": "Daniel Novak", "pays": "CZ", "points": 7420, "evolution": 0 },
-    { "id": 9, "nom": "Kenji Aoki", "pays": "JP", "points": 6980, "evolution": 3 },
-    { "id": 10, "nom": "Tomas Rivera", "pays": "AR", "points": 6540, "evolution": -1 },
-    { "id": 11, "nom": "Felix Dubois", "pays": "FR", "points": 6100, "evolution": 0 },
-    { "id": 12, "nom": "Alex Mitchell", "pays": "AU", "points": 5780, "evolution": 1 },
-    { "id": 13, "nom": "Piotr Zielinski", "pays": "PL", "points": 5420, "evolution": -2 },
-    { "id": 14, "nom": "Andreas Kostas", "pays": "GR", "points": 5090, "evolution": 4 },
-    { "id": 15, "nom": "Max Fischer", "pays": "DE", "points": 4760, "evolution": -1 },
-    { "id": 16, "nom": "Samuel Tremblay", "pays": "CA", "points": 4430, "evolution": 0 },
-    { "id": 17, "nom": "Diego Santos", "pays": "BR", "points": 4120, "evolution": 2 },
-    { "id": 18, "nom": "Henrik Solberg", "pays": "NO", "points": 3880, "evolution": -3 },
-    { "id": 19, "nom": "Marco Bellini", "pays": "IT", "points": 3640, "evolution": 1 },
-    { "id": 20, "nom": "Nico Keller", "pays": "CH", "points": 3400, "evolution": 0 }
+    {
+      "id": 47275,
+      "nom": "Jannik Sinner",
+      "pays": "IT",
+      "points": 11000,
+      "evolution": null
+    },
+    {
+      "id": 24008,
+      "nom": "Alexander Zverev",
+      "pays": "DE",
+      "points": 9720,
+      "evolution": null
+    },
+    {
+      "id": 68074,
+      "nom": "Carlos Alcaraz",
+      "pays": "ES",
+      "points": 5260,
+      "evolution": null
+    },
+    {
+      "id": 87562,
+      "nom": "Ben Shelton",
+      "pays": "US",
+      "points": 4680,
+      "evolution": null
+    },
+    {
+      "id": 22807,
+      "nom": "Daniil Medvedev",
+      "pays": "RU",
+      "points": 4010,
+      "evolution": null
+    },
+    {
+      "id": 40434,
+      "nom": "Felix Auger Aliassime",
+      "pays": "CA",
+      "points": 3890,
+      "evolution": null
+    },
+    {
+      "id": 67546,
+      "nom": "Flavio Cobolli",
+      "pays": "IT",
+      "points": 3680,
+      "evolution": null
+    },
+    {
+      "id": 29939,
+      "nom": "Frances Tiafoe",
+      "pays": "US",
+      "points": 3380,
+      "evolution": null
+    },
+    {
+      "id": 39309,
+      "nom": "Alex De Minaur",
+      "pays": "AU",
+      "points": 3300,
+      "evolution": null
+    },
+    {
+      "id": 83135,
+      "nom": "Arthur Fils",
+      "pays": "FR",
+      "points": 3275,
+      "evolution": null
+    },
+    {
+      "id": 5992,
+      "nom": "Novak Djokovic",
+      "pays": "RS",
+      "points": 3180,
+      "evolution": null
+    },
+    {
+      "id": 29932,
+      "nom": "Taylor Fritz",
+      "pays": "US",
+      "points": 2880,
+      "evolution": null
+    },
+    {
+      "id": 99691,
+      "nom": "Rafael Jodar",
+      "pays": "ES",
+      "points": 2659,
+      "evolution": null
+    },
+    {
+      "id": 36594,
+      "nom": "Valentin Vacherot",
+      "pays": "MC",
+      "points": 2450,
+      "evolution": null
+    },
+    {
+      "id": 86691,
+      "nom": "Jakub Mensik",
+      "pays": "CZ",
+      "points": 2445,
+      "evolution": null
+    },
+    {
+      "id": 93452,
+      "nom": "Learner Tien",
+      "pays": "US",
+      "points": 2395,
+      "evolution": null
+    },
+    {
+      "id": 29935,
+      "nom": "Tommy Paul",
+      "pays": "US",
+      "points": 2375,
+      "evolution": null
+    },
+    {
+      "id": 56846,
+      "nom": "Brandon Nakashima",
+      "pays": "US",
+      "points": 2335,
+      "evolution": null
+    },
+    {
+      "id": 61838,
+      "nom": "Jiri Lehecka",
+      "pays": "CZ",
+      "points": 2310,
+      "evolution": null
+    },
+    {
+      "id": 52279,
+      "nom": "Francisco Cerundolo",
+      "pays": "AR",
+      "points": 2220,
+      "evolution": null
+    },
+    {
+      "id": 76127,
+      "nom": "Luciano Darderi",
+      "pays": "IT",
+      "points": 2200,
+      "evolution": null
+    },
+    {
+      "id": 24245,
+      "nom": "Alexander Bublik",
+      "pays": "KZ",
+      "points": 2185,
+      "evolution": null
+    },
+    {
+      "id": 29372,
+      "nom": "Andrey Rublev",
+      "pays": "RU",
+      "points": 2175,
+      "evolution": null
+    },
+    {
+      "id": 33648,
+      "nom": "Casper Ruud",
+      "pays": "NO",
+      "points": 2145,
+      "evolution": null
+    },
+    {
+      "id": 63572,
+      "nom": "Lorenzo Musetti",
+      "pays": "IT",
+      "points": 2010,
+      "evolution": null
+    },
+    {
+      "id": 36519,
+      "nom": "Alejandro Davidovich Fokina",
+      "pays": "ES",
+      "points": 1930,
+      "evolution": null
+    },
+    {
+      "id": 25543,
+      "nom": "Karen Khachanov",
+      "pays": "RU",
+      "points": 1900,
+      "evolution": null
+    },
+    {
+      "id": 88766,
+      "nom": "Alexander Blockx",
+      "pays": "BE",
+      "points": 1787,
+      "evolution": null
+    },
+    {
+      "id": 91521,
+      "nom": "Joao Fonseca",
+      "pays": "BR",
+      "points": 1750,
+      "evolution": null
+    },
+    {
+      "id": 30087,
+      "nom": "Alejandro Tabilo",
+      "pays": "CL",
+      "points": 1605,
+      "evolution": null
+    },
+    {
+      "id": 37532,
+      "nom": "Tomas Martin Etcheverry",
+      "pays": "AR",
+      "points": 1590,
+      "evolution": null
+    },
+    {
+      "id": 38911,
+      "nom": "Ugo Humbert",
+      "pays": "FR",
+      "points": 1575,
+      "evolution": null
+    },
+    {
+      "id": 28170,
+      "nom": "Arthur Rinderknech",
+      "pays": "FR",
+      "points": 1520,
+      "evolution": null
+    },
+    {
+      "id": 26473,
+      "nom": "Hubert Hurkacz",
+      "pays": "PL",
+      "points": 1475,
+      "evolution": null
+    },
+    {
+      "id": 92985,
+      "nom": "Alex Michelsen",
+      "pays": "US",
+      "points": 1460,
+      "evolution": null
+    },
+    {
+      "id": 79113,
+      "nom": "Ignacio Buse",
+      "pays": "PE",
+      "points": 1447,
+      "evolution": null
+    },
+    {
+      "id": 79065,
+      "nom": "Arthur Fery",
+      "pays": "GB",
+      "points": 1413,
+      "evolution": null
+    },
+    {
+      "id": 73956,
+      "nom": "Matteo Arnaldi",
+      "pays": "IT",
+      "points": 1386,
+      "evolution": null
+    },
+    {
+      "id": 37741,
+      "nom": "Zizou Bergs",
+      "pays": "BE",
+      "points": 1320,
+      "evolution": null
+    },
+    {
+      "id": 27851,
+      "nom": "Cameron Norrie",
+      "pays": "GB",
+      "points": 1275,
+      "evolution": null
+    },
+    {
+      "id": 24249,
+      "nom": "Botic Van De Zandschulp",
+      "pays": "NL",
+      "points": 1258,
+      "evolution": null
+    },
+    {
+      "id": 33502,
+      "nom": "Denis Shapovalov",
+      "pays": "CA",
+      "points": 1245,
+      "evolution": null
+    },
+    {
+      "id": 30470,
+      "nom": "Stefanos Tsitsipas",
+      "pays": "GR",
+      "points": 1230,
+      "evolution": null
+    },
+    {
+      "id": 83223,
+      "nom": "Daniel Merida Aguilar",
+      "pays": "ES",
+      "points": 1210,
+      "evolution": null
+    },
+    {
+      "id": 82371,
+      "nom": "Luca Van Assche",
+      "pays": "FR",
+      "points": 1180,
+      "evolution": null
+    },
+    {
+      "id": 29812,
+      "nom": "Matteo Berrettini",
+      "pays": "IT",
+      "points": 1168,
+      "evolution": null
+    },
+    {
+      "id": 66828,
+      "nom": "Mariano Navone",
+      "pays": "AR",
+      "points": 1155,
+      "evolution": null
+    },
+    {
+      "id": 25171,
+      "nom": "Quentin Halys",
+      "pays": "FR",
+      "points": 1107,
+      "evolution": null
+    },
+    {
+      "id": 31358,
+      "nom": "Jaume Antoni Munar Clar",
+      "pays": "ES",
+      "points": 1100,
+      "evolution": null
+    },
+    {
+      "id": 84235,
+      "nom": "Raphael Collignon",
+      "pays": "BE",
+      "points": 1078,
+      "evolution": null
+    },
+    {
+      "id": 31446,
+      "nom": "Nuno Borges",
+      "pays": "PT",
+      "points": 1070,
+      "evolution": null
+    },
+    {
+      "id": 80391,
+      "nom": "Adolfo Daniel Vallejo",
+      "pays": "PY",
+      "points": 1048,
+      "evolution": null
+    },
+    {
+      "id": 52721,
+      "nom": "Sebastian Baez",
+      "pays": "AR",
+      "points": 1044,
+      "evolution": null
+    },
+    {
+      "id": 52394,
+      "nom": "Thiago Agustin Tirante",
+      "pays": "AR",
+      "points": 1010,
+      "evolution": null
+    },
+    {
+      "id": 52934,
+      "nom": "Juan Manuel Cerundolo",
+      "pays": "AR",
+      "points": 995,
+      "evolution": null
+    },
+    {
+      "id": 87277,
+      "nom": "Arthur Gea",
+      "pays": "FR",
+      "points": 985,
+      "evolution": null
+    },
+    {
+      "id": 14856,
+      "nom": "Yannick Hanfmann",
+      "pays": "DE",
+      "points": 976,
+      "evolution": null
+    },
+    {
+      "id": 33860,
+      "nom": "Tallon Griekspoor",
+      "pays": "NL",
+      "points": 975,
+      "evolution": null
+    },
+    {
+      "id": 14177,
+      "nom": "Jan-Lennard Struff",
+      "pays": "DE",
+      "points": 949,
+      "evolution": null
+    },
+    {
+      "id": 83795,
+      "nom": "Jaime Faria",
+      "pays": "PT",
+      "points": 941,
+      "evolution": null
+    },
+    {
+      "id": 34337,
+      "nom": "Miomir Kecmanovic",
+      "pays": "RS",
+      "points": 925,
+      "evolution": null
+    },
+    {
+      "id": 70705,
+      "nom": "Roman Andres Burruchaga",
+      "pays": "AR",
+      "points": 891,
+      "evolution": null
+    },
+    {
+      "id": 52140,
+      "nom": "Fabian Marozsan",
+      "pays": "HU",
+      "points": 880,
+      "evolution": null
+    },
+    {
+      "id": 11517,
+      "nom": "James Duckworth",
+      "pays": "AU",
+      "points": 877,
+      "evolution": null
+    },
+    {
+      "id": 14432,
+      "nom": "Pablo Carreno-Busta",
+      "pays": "ES",
+      "points": 874,
+      "evolution": null
+    },
+    {
+      "id": 82269,
+      "nom": "Ethan Quinn",
+      "pays": "US",
+      "points": 874,
+      "evolution": null
+    },
+    {
+      "id": 29732,
+      "nom": "Daniel Altmaier",
+      "pays": "DE",
+      "points": 849,
+      "evolution": null
+    },
+    {
+      "id": 42971,
+      "nom": "Vit Kopriva",
+      "pays": "CZ",
+      "points": 846,
+      "evolution": null
+    },
+    {
+      "id": 64741,
+      "nom": "Facundo Diaz Acosta",
+      "pays": "AR",
+      "points": 824,
+      "evolution": null
+    },
+    {
+      "id": 28898,
+      "nom": "Kamil Majchrzak",
+      "pays": "PL",
+      "points": 805,
+      "evolution": null
+    },
+    {
+      "id": 36263,
+      "nom": "Corentin Moutet",
+      "pays": "FR",
+      "points": 805,
+      "evolution": null
+    },
+    {
+      "id": 59092,
+      "nom": "Titouan Droguet",
+      "pays": "FR",
+      "points": 801,
+      "evolution": null
+    },
+    {
+      "id": 94493,
+      "nom": "Martin Landaluce",
+      "pays": "ES",
+      "points": 797,
+      "evolution": null
+    },
+    {
+      "id": 42451,
+      "nom": "Sebastian Korda",
+      "pays": "US",
+      "points": 790,
+      "evolution": null
+    },
+    {
+      "id": 58327,
+      "nom": "Tomas Machac",
+      "pays": "CZ",
+      "points": 783,
+      "evolution": null
+    },
+    {
+      "id": 65904,
+      "nom": "Kyrian Jacquet",
+      "pays": "FR",
+      "points": 781,
+      "evolution": null
+    },
+    {
+      "id": 42229,
+      "nom": "Camilo Ugo Carabelli",
+      "pays": "AR",
+      "points": 770,
+      "evolution": null
+    },
+    {
+      "id": 79060,
+      "nom": "Hamad Medjedovic",
+      "pays": "RS",
+      "points": 764,
+      "evolution": null
+    },
+    {
+      "id": 28900,
+      "nom": "Roman Safiullin",
+      "pays": "RU",
+      "points": 744,
+      "evolution": null
+    },
+    {
+      "id": 6101,
+      "nom": "Marin Cilic",
+      "pays": "HR",
+      "points": 741,
+      "evolution": null
+    },
+    {
+      "id": 39152,
+      "nom": "Aleksandar Kovacevic",
+      "pays": "US",
+      "points": 730,
+      "evolution": null
+    },
+    {
+      "id": 73620,
+      "nom": "Zachary Svajda",
+      "pays": "US",
+      "points": 729,
+      "evolution": null
+    },
+    {
+      "id": 7806,
+      "nom": "Adrian Mannarino",
+      "pays": "FR",
+      "points": 723,
+      "evolution": null
+    },
+    {
+      "id": 34539,
+      "nom": "Alex Molcan",
+      "pays": "SK",
+      "points": 712,
+      "evolution": null
+    },
+    {
+      "id": 58149,
+      "nom": "Rinky Hijikata",
+      "pays": "AU",
+      "points": 711,
+      "evolution": null
+    },
+    {
+      "id": 72578,
+      "nom": "Mattia Bellucci",
+      "pays": "IT",
+      "points": 700,
+      "evolution": null
+    },
+    {
+      "id": 31392,
+      "nom": "Lorenzo Sonego",
+      "pays": "IT",
+      "points": 698,
+      "evolution": null
+    },
+    {
+      "id": 18736,
+      "nom": "Marcos Giron",
+      "pays": "US",
+      "points": 688,
+      "evolution": null
+    },
+    {
+      "id": 46747,
+      "nom": "Hugo Gaston",
+      "pays": "FR",
+      "points": 677,
+      "evolution": null
+    },
+    {
+      "id": 12653,
+      "nom": "Marco Trungelliti",
+      "pays": "AR",
+      "points": 661,
+      "evolution": null
+    },
+    {
+      "id": 26421,
+      "nom": "Jan Choinski",
+      "pays": "GB",
+      "points": 658,
+      "evolution": null
+    },
+    {
+      "id": 28899,
+      "nom": "Benjamin Bonzi",
+      "pays": "FR",
+      "points": 656,
+      "evolution": null
+    },
+    {
+      "id": 61667,
+      "nom": "Bu Yunchaokete",
+      "pays": "CN",
+      "points": 652,
+      "evolution": null
+    },
+    {
+      "id": 87512,
+      "nom": "Michael Zheng",
+      "pays": "US",
+      "points": 649,
+      "evolution": null
+    },
+    {
+      "id": 59166,
+      "nom": "Jesper De Jong",
+      "pays": "NL",
+      "points": 641,
+      "evolution": null
+    },
+    {
+      "id": 68090,
+      "nom": "Jacob Fearnley",
+      "pays": "GB",
+      "points": 639,
+      "evolution": null
+    },
+    {
+      "id": 85899,
+      "nom": "Dino Prizmic",
+      "pays": "HR",
+      "points": 638,
+      "evolution": null
+    },
+    {
+      "id": 47752,
+      "nom": "Adam Walton",
+      "pays": "AU",
+      "points": 630,
+      "evolution": null
+    },
+    {
+      "id": 67535,
+      "nom": "Terence Atmane",
+      "pays": "FR",
+      "points": 626,
+      "evolution": null
+    },
+    {
+      "id": 79068,
+      "nom": "Toby Samuel",
+      "pays": "GB",
+      "points": 625,
+      "evolution": null
+    }
   ],
   "wta": [
-    { "id": 101, "nom": "Chloé Laurent", "pays": "FR", "points": 9850, "evolution": 0 },
-    { "id": 102, "nom": "Sofia Morales", "pays": "ES", "points": 9320, "evolution": 1 },
-    { "id": 103, "nom": "Emma Johnson", "pays": "US", "points": 8960, "evolution": -1 },
-    { "id": 104, "nom": "Anna Kowalska", "pays": "PL", "points": 8410, "evolution": 0 },
-    { "id": 105, "nom": "Mia Richter", "pays": "DE", "points": 7980, "evolution": 2 },
-    { "id": 106, "nom": "Isabella Conti", "pays": "IT", "points": 7540, "evolution": -1 },
-    { "id": 107, "nom": "Ayumi Tanaka", "pays": "JP", "points": 7120, "evolution": 1 },
-    { "id": 108, "nom": "Olivia Brown", "pays": "GB", "points": 6760, "evolution": -2 },
-    { "id": 109, "nom": "Camille Roche", "pays": "FR", "points": 6390, "evolution": 0 },
-    { "id": 110, "nom": "Elena Popescu", "pays": "RO", "points": 5980, "evolution": 3 },
-    { "id": 111, "nom": "Sara Lindgren", "pays": "SE", "points": 5640, "evolution": -1 },
-    { "id": 112, "nom": "Zoe Campbell", "pays": "AU", "points": 5310, "evolution": 1 },
-    { "id": 113, "nom": "Lucia Fernandez", "pays": "AR", "points": 4970, "evolution": 0 },
-    { "id": 114, "nom": "Nora Haugen", "pays": "NO", "points": 4650, "evolution": -2 },
-    { "id": 115, "nom": "Katarina Horvat", "pays": "HR", "points": 4320, "evolution": 2 },
-    { "id": 116, "nom": "Julia Costa", "pays": "BR", "points": 4010, "evolution": -1 },
-    { "id": 117, "nom": "Hannah Meyer", "pays": "CH", "points": 3750, "evolution": 0 },
-    { "id": 118, "nom": "Léa Gagnon", "pays": "CA", "points": 3480, "evolution": 4 },
-    { "id": 119, "nom": "Maria Papadaki", "pays": "GR", "points": 3220, "evolution": -3 },
-    { "id": 120, "nom": "Eva Novotna", "pays": "CZ", "points": 2990, "evolution": 1 }
+    {
+      "id": 36558,
+      "nom": "Elena Rybakina",
+      "pays": "KZ",
+      "points": 9696,
+      "evolution": null
+    },
+    {
+      "id": 18455,
+      "nom": "Aryna Sabalenka",
+      "pays": "BY",
+      "points": 7550,
+      "evolution": null
+    },
+    {
+      "id": 77934,
+      "nom": "Mirra Andreeva",
+      "pays": "RU",
+      "points": 6371,
+      "evolution": null
+    },
+    {
+      "id": 11712,
+      "nom": "Jessica Pegula",
+      "pays": "US",
+      "points": 6225,
+      "evolution": null
+    },
+    {
+      "id": 54663,
+      "nom": "Cori Gauff",
+      "pays": "US",
+      "points": 5974,
+      "evolution": null
+    },
+    {
+      "id": 11371,
+      "nom": "Elina Svitolina",
+      "pays": "UA",
+      "points": 5024,
+      "evolution": null
+    },
+    {
+      "id": 18482,
+      "nom": "Karolina Muchova",
+      "pays": "CZ",
+      "points": 4773,
+      "evolution": null
+    },
+    {
+      "id": 66597,
+      "nom": "Linda Noskova",
+      "pays": "CZ",
+      "points": 4679,
+      "evolution": null
+    },
+    {
+      "id": 45854,
+      "nom": "Iga Swiatek",
+      "pays": "PL",
+      "points": 3999,
+      "evolution": null
+    },
+    {
+      "id": 47742,
+      "nom": "Marta Kostyuk",
+      "pays": "UA",
+      "points": 3910,
+      "evolution": null
+    },
+    {
+      "id": 80381,
+      "nom": "Iva Jovic",
+      "pays": "US",
+      "points": 2860,
+      "evolution": null
+    },
+    {
+      "id": 14056,
+      "nom": "Belinda Bencic",
+      "pays": "CH",
+      "points": 2760,
+      "evolution": null
+    },
+    {
+      "id": 65911,
+      "nom": "Diana Shnaider",
+      "pays": "RU",
+      "points": 2643,
+      "evolution": null
+    },
+    {
+      "id": 13351,
+      "nom": "Elise Mertens",
+      "pays": "BE",
+      "points": 2540,
+      "evolution": null
+    },
+    {
+      "id": 74280,
+      "nom": "Victoria Mboko",
+      "pays": "CA",
+      "points": 2502,
+      "evolution": null
+    },
+    {
+      "id": 6019,
+      "nom": "Sorana Cirstea",
+      "pays": "RO",
+      "points": 2424,
+      "evolution": null
+    },
+    {
+      "id": 41564,
+      "nom": "Amanda Anisimova",
+      "pays": "US",
+      "points": 2363,
+      "evolution": null
+    },
+    {
+      "id": 16430,
+      "nom": "Naomi Osaka",
+      "pays": "JP",
+      "points": 2351,
+      "evolution": null
+    },
+    {
+      "id": 67792,
+      "nom": "Alexandra Eala",
+      "pays": "PH",
+      "points": 2241,
+      "evolution": null
+    },
+    {
+      "id": 11672,
+      "nom": "Madison Keys",
+      "pays": "US",
+      "points": 2110,
+      "evolution": null
+    },
+    {
+      "id": 32480,
+      "nom": "Anna Kalinskaya",
+      "pays": "RU",
+      "points": 2043,
+      "evolution": null
+    },
+    {
+      "id": 43323,
+      "nom": "Maja Chwalinska",
+      "pays": "PL",
+      "points": 2043,
+      "evolution": null
+    },
+    {
+      "id": 53128,
+      "nom": "Qinwen Zheng",
+      "pays": "CN",
+      "points": 2018,
+      "evolution": null
+    },
+    {
+      "id": 14054,
+      "nom": "Ekaterina Alexandrova",
+      "pays": "RU",
+      "points": 1906,
+      "evolution": null
+    },
+    {
+      "id": 49081,
+      "nom": "Leylah Annie Fernandez",
+      "pays": "CA",
+      "points": 1839,
+      "evolution": null
+    },
+    {
+      "id": 40156,
+      "nom": "Anastasia Potapova",
+      "pays": "AT",
+      "points": 1816,
+      "evolution": null
+    },
+    {
+      "id": 42098,
+      "nom": "Emma Navarro",
+      "pays": "US",
+      "points": 1809,
+      "evolution": null
+    },
+    {
+      "id": 24572,
+      "nom": "Marie Bouzkova",
+      "pays": "CZ",
+      "points": 1763,
+      "evolution": null
+    },
+    {
+      "id": 71092,
+      "nom": "Nikola Bartunkova",
+      "pays": "CZ",
+      "points": 1661,
+      "evolution": null
+    },
+    {
+      "id": 71163,
+      "nom": "Sara Bejlek",
+      "pays": "CZ",
+      "points": 1650,
+      "evolution": null
+    },
+    {
+      "id": 45866,
+      "nom": "Ann Li",
+      "pays": "US",
+      "points": 1648,
+      "evolution": null
+    },
+    {
+      "id": 51151,
+      "nom": "Diane Parry",
+      "pays": "FR",
+      "points": 1541,
+      "evolution": null
+    },
+    {
+      "id": 14362,
+      "nom": "Jasmine Paolini",
+      "pays": "IT",
+      "points": 1528,
+      "evolution": null
+    },
+    {
+      "id": 16628,
+      "nom": "Jelena Ostapenko",
+      "pays": "LV",
+      "points": 1527,
+      "evolution": null
+    },
+    {
+      "id": 13541,
+      "nom": "Maria Sakkari",
+      "pays": "GR",
+      "points": 1492,
+      "evolution": null
+    },
+    {
+      "id": 13498,
+      "nom": "Donna Vekic",
+      "pays": "HR",
+      "points": 1325,
+      "evolution": null
+    },
+    {
+      "id": 53793,
+      "nom": "Peyton Stearns",
+      "pays": "US",
+      "points": 1316,
+      "evolution": null
+    },
+    {
+      "id": 24344,
+      "nom": "Cristina Bucsa",
+      "pays": "ES",
+      "points": 1294,
+      "evolution": null
+    },
+    {
+      "id": 47152,
+      "nom": "Xinyu Wang",
+      "pays": "CN",
+      "points": 1288,
+      "evolution": null
+    },
+    {
+      "id": 18427,
+      "nom": "Kimberly Birrell",
+      "pays": "AU",
+      "points": 1280,
+      "evolution": null
+    },
+    {
+      "id": 63749,
+      "nom": "Talia Gibson",
+      "pays": "AU",
+      "points": 1273,
+      "evolution": null
+    },
+    {
+      "id": 55173,
+      "nom": "Daria Snigur",
+      "pays": "UA",
+      "points": 1254,
+      "evolution": null
+    },
+    {
+      "id": 24368,
+      "nom": "Liudmila Samsonova",
+      "pays": "RU",
+      "points": 1229,
+      "evolution": null
+    },
+    {
+      "id": 41888,
+      "nom": "Yuliia Starodubtseva",
+      "pays": "UA",
+      "points": 1165,
+      "evolution": null
+    },
+    {
+      "id": 48254,
+      "nom": "Hailey Baptiste",
+      "pays": "US",
+      "points": 1155,
+      "evolution": null
+    },
+    {
+      "id": 13267,
+      "nom": "Barbora Krejcikova",
+      "pays": "CZ",
+      "points": 1134,
+      "evolution": null
+    },
+    {
+      "id": 60341,
+      "nom": "Janice Tjen",
+      "pays": "ID",
+      "points": 1125,
+      "evolution": null
+    },
+    {
+      "id": 16043,
+      "nom": "Anhelina Kalinina",
+      "pays": "UA",
+      "points": 1107,
+      "evolution": null
+    },
+    {
+      "id": 7982,
+      "nom": "Karolina Pliskova",
+      "pays": "CZ",
+      "points": 1105,
+      "evolution": null
+    },
+    {
+      "id": 14694,
+      "nom": "Tamara Korpatsch",
+      "pays": "DE",
+      "points": 1086,
+      "evolution": null
+    },
+    {
+      "id": 51696,
+      "nom": "Oleksandra Oliynykova",
+      "pays": "UA",
+      "points": 1082,
+      "evolution": null
+    },
+    {
+      "id": 13706,
+      "nom": "Mayar Sherif",
+      "pays": "EG",
+      "points": 1077,
+      "evolution": null
+    },
+    {
+      "id": 54989,
+      "nom": "Clara Tauson",
+      "pays": "DK",
+      "points": 1065,
+      "evolution": null
+    },
+    {
+      "id": 14175,
+      "nom": "Katie Boulter",
+      "pays": "GB",
+      "points": 1062,
+      "evolution": null
+    },
+    {
+      "id": 79778,
+      "nom": "Lilli Tagger",
+      "pays": "AT",
+      "points": 1054,
+      "evolution": null
+    },
+    {
+      "id": 17155,
+      "nom": "Magdalena Frech",
+      "pays": "PL",
+      "points": 1045,
+      "evolution": null
+    },
+    {
+      "id": 17774,
+      "nom": "Elena Gabriela Ruse",
+      "pays": "RO",
+      "points": 1033,
+      "evolution": null
+    },
+    {
+      "id": 17142,
+      "nom": "Paula Badosa Gibert",
+      "pays": "ES",
+      "points": 1023,
+      "evolution": null
+    },
+    {
+      "id": 49991,
+      "nom": "Zeynep Sonmez",
+      "pays": "TR",
+      "points": 1022,
+      "evolution": null
+    },
+    {
+      "id": 66626,
+      "nom": "Lanlana Tararudee",
+      "pays": "TH",
+      "points": 1022,
+      "evolution": null
+    },
+    {
+      "id": 17614,
+      "nom": "Jaqueline Cristian",
+      "pays": "RO",
+      "points": 1016,
+      "evolution": null
+    },
+    {
+      "id": 73274,
+      "nom": "Tereza Valentova",
+      "pays": "CZ",
+      "points": 1004,
+      "evolution": null
+    },
+    {
+      "id": 60792,
+      "nom": "Maria Timofeeva",
+      "pays": "UZ",
+      "points": 997,
+      "evolution": null
+    },
+    {
+      "id": 45540,
+      "nom": "Alycia Parks",
+      "pays": "US",
+      "points": 985,
+      "evolution": null
+    },
+    {
+      "id": 54664,
+      "nom": "Elisabetta Cocciaretto",
+      "pays": "IT",
+      "points": 975,
+      "evolution": null
+    },
+    {
+      "id": 31728,
+      "nom": "Anna Bondar",
+      "pays": "HU",
+      "points": 974,
+      "evolution": null
+    },
+    {
+      "id": 44040,
+      "nom": "Maria Camila Osorio Serrano",
+      "pays": "CO",
+      "points": 963,
+      "evolution": null
+    },
+    {
+      "id": 64343,
+      "nom": "Ashlyn Krueger",
+      "pays": "US",
+      "points": 962,
+      "evolution": null
+    },
+    {
+      "id": 45072,
+      "nom": "Kamilla Rakhimova",
+      "pays": "UZ",
+      "points": 959,
+      "evolution": null
+    },
+    {
+      "id": 41569,
+      "nom": "Caty McNally",
+      "pays": "US",
+      "points": 958,
+      "evolution": null
+    },
+    {
+      "id": 4110,
+      "nom": "Tatjana Maria",
+      "pays": "DE",
+      "points": 945,
+      "evolution": null
+    },
+    {
+      "id": 10749,
+      "nom": "Viktorija Golubic",
+      "pays": "CH",
+      "points": 938,
+      "evolution": null
+    },
+    {
+      "id": 34747,
+      "nom": "Anna Blinkova",
+      "pays": "FR",
+      "points": 921,
+      "evolution": null
+    },
+    {
+      "id": 75858,
+      "nom": "Alina Korneeva",
+      "pays": "RU",
+      "points": 913,
+      "evolution": null
+    },
+    {
+      "id": 50943,
+      "nom": "Sinja Kraus",
+      "pays": "AT",
+      "points": 910,
+      "evolution": null
+    },
+    {
+      "id": 77673,
+      "nom": "Kaitlin Quevedo",
+      "pays": "ES",
+      "points": 908,
+      "evolution": null
+    },
+    {
+      "id": 9357,
+      "nom": "Magda Linette",
+      "pays": "PL",
+      "points": 907,
+      "evolution": null
+    },
+    {
+      "id": 73203,
+      "nom": "Petra Marcinko",
+      "pays": "HR",
+      "points": 905,
+      "evolution": null
+    },
+    {
+      "id": 12390,
+      "nom": "Yulia Putintseva",
+      "pays": "KZ",
+      "points": 904,
+      "evolution": null
+    },
+    {
+      "id": 43866,
+      "nom": "Panna Udvardy",
+      "pays": "HU",
+      "points": 899,
+      "evolution": null
+    },
+    {
+      "id": 4263,
+      "nom": "Shuai Zhang",
+      "pays": "CN",
+      "points": 895,
+      "evolution": null
+    },
+    {
+      "id": 17503,
+      "nom": "Daria Kasatkina",
+      "pays": "AU",
+      "points": 884,
+      "evolution": null
+    },
+    {
+      "id": 49995,
+      "nom": "Mananchaya Sawangkaew",
+      "pays": "TH",
+      "points": 868,
+      "evolution": null
+    },
+    {
+      "id": 73836,
+      "nom": "Hanne Vandewinkel",
+      "pays": "BE",
+      "points": 866,
+      "evolution": null
+    },
+    {
+      "id": 18403,
+      "nom": "Renata Zarazua",
+      "pays": "MX",
+      "points": 862,
+      "evolution": null
+    },
+    {
+      "id": 70326,
+      "nom": "Taylah Preston",
+      "pays": "AU",
+      "points": 858,
+      "evolution": null
+    },
+    {
+      "id": 17501,
+      "nom": "Katerina Siniakova",
+      "pays": "CZ",
+      "points": 855,
+      "evolution": null
+    },
+    {
+      "id": 52790,
+      "nom": "Katie Volynets",
+      "pays": "US",
+      "points": 851,
+      "evolution": null
+    },
+    {
+      "id": 13621,
+      "nom": "Taylor Townsend",
+      "pays": "US",
+      "points": 843,
+      "evolution": null
+    },
+    {
+      "id": 61710,
+      "nom": "Darja Vidmanova",
+      "pays": "CZ",
+      "points": 838,
+      "evolution": null
+    },
+    {
+      "id": 43872,
+      "nom": "Xiyu Wang",
+      "pays": "CN",
+      "points": 835,
+      "evolution": null
+    },
+    {
+      "id": 72414,
+      "nom": "Maya Joint",
+      "pays": "AU",
+      "points": 824,
+      "evolution": null
+    },
+    {
+      "id": 65417,
+      "nom": "Antonia Ruzic",
+      "pays": "HR",
+      "points": 823,
+      "evolution": null
+    },
+    {
+      "id": 11959,
+      "nom": "Leolia Jeanjean",
+      "pays": "FR",
+      "points": 816,
+      "evolution": null
+    },
+    {
+      "id": 48900,
+      "nom": "Mccartney Kessler",
+      "pays": "US",
+      "points": 805,
+      "evolution": null
+    },
+    {
+      "id": 27804,
+      "nom": "Claire Liu",
+      "pays": "US",
+      "points": 789,
+      "evolution": null
+    },
+    {
+      "id": 16134,
+      "nom": "Julia Grabher",
+      "pays": "AT",
+      "points": 760,
+      "evolution": null
+    },
+    {
+      "id": 52646,
+      "nom": "Alina Charaeva",
+      "pays": "AM",
+      "points": 759,
+      "evolution": null
+    },
+    {
+      "id": 57090,
+      "nom": "Jessica Bouzas Maneiro",
+      "pays": "ES",
+      "points": 750,
+      "evolution": null
+    },
+    {
+      "id": 59448,
+      "nom": "Oksana Selekhmeteva",
+      "pays": "ES",
+      "points": 743,
+      "evolution": null
+    }
   ]
 }

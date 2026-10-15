@@ -4,6 +4,10 @@ import FavoriteButton from '../ui/FavoriteButton.jsx'
 import './RankingsList.css'
 
 function Evolution({ valeur }) {
+  if (valeur === null || valeur === undefined) {
+    return <span aria-hidden="true" />
+  }
+
   if (valeur === 0) {
     return (
       <span className="evolution evolution--same">
