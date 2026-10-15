@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { getRanking } from '../services/api/rankingsApi.js'
 import { usePageTitle } from '../hooks/usePageTitle.js'
-import RankingsTable from '../components/rankings/RankingsTable.jsx'
+import RankingsList from '../components/rankings/RankingsList.jsx'
 import Pagination from '../components/ui/Pagination.jsx'
 import './ClassementsPage.css'
 
@@ -101,7 +101,7 @@ function ClassementsPage() {
 
       {!chargement && joueursFiltres.length > 0 && (
         <>
-          <RankingsTable joueurs={joueursAvecRang} />
+          <RankingsList joueurs={joueursAvecRang} />
           <Pagination
             page={page}
             nombrePages={nombrePages}
