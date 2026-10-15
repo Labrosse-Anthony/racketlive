@@ -1,132 +1,110 @@
 import { useEffect, useState } from 'react'
-import { getTournaments } from '../services/api/tournamentsApi.js'
-import { PAYS } from '../utils/labels.js'
+import { Link, useParams } from 'react-router-dom'
+import {
+  getTournamentById,
+  getTournamentResults,
+} from '../services/api/tournamentsApi.js'
 import { usePageTitle } from '../hooks/usePageTitle.js'
-import TournamentFilters from '../components/tournaments/TournamentFilters.jsx'
-import TournamentList from '../components/tournaments/TournamentList.jsx'
-import MonthCalendar from '../components/tournaments/MonthCalendar.jsx'
-import './CalendrierPage.css'
+import TournamentResults from '../components/tournaments/TournamentResults.jsx'
+import FavoriteButton from '../components/ui/FavoriteButton.jsx'
+import { drapeau } from '../utils/flags.js'
+import { formaterPeriode } from '../utils/dates.js'
+import { CIRCUITS, SURFACES, PAYS, CATEGORIES } from '../utils/labels.js'
+import '../components/tournaments/TournamentCard.css'
+import './TournoiDetailPage.css'
 
-const FILTRES_VIDES = {
-  circuit: '',
-  categorie: '',
-  surface: '',
-  pays: '',
-  mois: '',
-}
+function TournoiDetailPage() {
+  const { id } = useParams()
 
-function CalendrierPage() {
-  usePageTitle('Calendrier des tournois')
-
-  const [tournois, setTournois] = useState([])
-  const [chargement, setChargement] = useState(true)
-  const [filtres, setFiltres] = useState(FILTRES_VIDES)
-  const [vue, setVue] = useState('liste')
-  const [moisAffiche, setMoisAffiche] = useState({ annee: 2027, mois: 0 })
+  const [donnees, setDonnees] = useState(null)
 
   useEffect(() => {
-    getTournaments().then((donnees) => {
-      setTournois(donnees)
-      setChargement(false)
-    })
-  }, [])
+    let annule = false
 
-  function changerFiltre(nom, valeur) {
-    setFiltres({ ...filtres, [nom]: valeur })
-  }
+    Promise.all([getTournamentById(id), getTournamentResults(id)]).then(
+      ([tournoi, resultats]) => {
+        if (annule) return
+        setDonnees({ id, tournoi, resultats })
+      },
+    )
 
-  function effacerFiltres() {
-    setFiltres(FILTRES_VIDES)
-  }
-
-
-  function changerVue(nouvelleVue) {
-    setVue(nouvelleVue)
-    if (nouvelleVue === 'calendrier') {
-      setFiltres({ ...filtres, mois: '' })
+    return () => {
+      annule = true
     }
+  }, [id])
+
+  const chargement = donnees === null || donnees.id !== id
+  const tournoi = donnees === null ? null : donnees.tournoi
+
+  let titre = 'Tournoi'
+  if (!chargement) {
+    titre = tournoi === null ? 'Tournoi introuvable' : tournoi.nom
+  }
+  usePageTitle(titre)
+
+  if (chargement) {
+    return <p>Chargement…</p>
   }
 
-  function changerMois(decalage) {
-    const date = new Date(moisAffiche.annee, moisAffiche.mois + decalage, 1)
-    setMoisAffiche({ annee: date.getFullYear(), mois: date.getMonth() })
+  if (tournoi === null) {
+    return (
+      <section>
+        <h1>Tournoi introuvable</h1>
+        <p>Ce tournoi n'existe pas.</p>
+        <Link to="/calendrier">Retour au calendrier</Link>
+      </section>
+    )
   }
-
-  const codesPays = [...new Set(tournois.map((tournoi) => tournoi.pays))].sort(
-    (a, b) => PAYS[a].localeCompare(PAYS[b], 'fr'),
-  )
-
-  const tournoisFiltres = tournois.filter((tournoi) => {
-    if (filtres.circuit && tournoi.circuit !== filtres.circuit) return false
-    if (filtres.categorie && tournoi.categorie !== filtres.categorie) return false
-    if (filtres.surface && tournoi.surface !== filtres.surface) return false
-    if (filtres.pays && tournoi.pays !== filtres.pays) return false
-
-    if (filtres.mois) {
-      const mois = Number(filtres.mois)
-      const moisDebut = Number(tournoi.debut.slice(5, 7))
-      const moisFin = Number(tournoi.fin.slice(5, 7))
-      if (mois < moisDebut || mois > moisFin) return false
-    }
-    return true
-  })
 
   return (
-    <section>
-      <h1>Calendrier des tournois</h1>
+    <article className="tournoi-detail">
+      <Link to="/calendrier" className="tournoi-detail__retour">
+        ← Retour au calendrier
+      </Link>
 
-      <div className="calendrier__bascule">
-        <button
-          className={
-            vue === 'liste'
-              ? 'calendrier__bouton calendrier__bouton--actif'
-              : 'calendrier__bouton'
-          }
-          aria-pressed={vue === 'liste'}
-          onClick={() => changerVue('liste')}
-        >
-          Liste
-        </button>
-        <button
-          className={
-            vue === 'calendrier'
-              ? 'calendrier__bouton calendrier__bouton--actif'
-              : 'calendrier__bouton'
-          }
-          aria-pressed={vue === 'calendrier'}
-          onClick={() => changerVue('calendrier')}
-        >
-          Calendrier
-        </button>
+      <div className="tournoi-detail__titre">
+        <h1>{tournoi.nom}</h1>
+        <FavoriteButton type="tournois" id={tournoi.id} nom={tournoi.nom} />
       </div>
 
-      <TournamentFilters
-        filtres={filtres}
-        codesPays={codesPays}
-        onChange={changerFiltre}
-        onReset={effacerFiltres}
-        afficherMois={vue === 'liste'}
-      />
+      <div className="tournoi-detail__badges">
+        <span className={`badge badge--${tournoi.circuit}`}>
+          {CIRCUITS[tournoi.circuit]}
+        </span>
+        {tournoi.categorie && (
+          <span className="badge badge--categorie">
+            {CATEGORIES[tournoi.categorie]}
+          </span>
+        )}
+        <span className="badge badge--surface">
+          {SURFACES[tournoi.surface]}
+        </span>
+      </div>
 
-      {chargement && <p>Chargement…</p>}
+      <dl className="tournoi-detail__infos">
+        <div>
+          <dt>Dates</dt>
+          <dd>{formaterPeriode(tournoi.debut, tournoi.fin)}</dd>
+        </div>
+        <div>
+          <dt>Lieu</dt>
+          <dd>
+            <span role="img" aria-label={PAYS[tournoi.pays]}>
+              {drapeau(tournoi.pays)}
+            </span>{' '}
+            {tournoi.ville}, {PAYS[tournoi.pays]}
+          </dd>
+        </div>
+        <div>
+          <dt>Surface</dt>
+          <dd>{SURFACES[tournoi.surface]}</dd>
+        </div>
+      </dl>
 
-      {!chargement && vue === 'liste' && (
-        <>
-          <p aria-live="polite">{tournoisFiltres.length} tournoi(s)</p>
-          <TournamentList tournois={tournoisFiltres} />
-        </>
-      )}
-
-      {!chargement && vue === 'calendrier' && (
-        <MonthCalendar
-          annee={moisAffiche.annee}
-          mois={moisAffiche.mois}
-          tournois={tournoisFiltres}
-          onChangeMois={changerMois}
-        />
-      )}
-    </section>
+      <h2>Résultats</h2>
+      <TournamentResults resultats={donnees.resultats} />
+    </article>
   )
 }
 
-export default CalendrierPage
+export default TournoiDetailPage

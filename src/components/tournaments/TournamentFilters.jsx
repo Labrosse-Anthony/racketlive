@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { drapeau } from '../../utils/flags.js'
 import { NOMS_MOIS } from '../../utils/dates.js'
-import { CIRCUITS, SURFACES, PAYS, CATEGORIES } from '../../utils/labels.js'
+import { CIRCUITS, PAYS, CATEGORIES } from '../../utils/labels.js'
 import './TournamentFilters.css'
 
 function Choix({ nom, label, valeur, options, onChange }) {
@@ -96,13 +96,6 @@ function TournamentFilters({
           label="Catégorie"
           valeur={filtres.categorie}
           options={versOptions(CATEGORIES)}
-          onChange={onChange}
-        />
-        <Choix
-          nom="surface"
-          label="Surface"
-          valeur={filtres.surface}
-          options={versOptions(SURFACES)}
           onChange={onChange}
         />
         <Choix

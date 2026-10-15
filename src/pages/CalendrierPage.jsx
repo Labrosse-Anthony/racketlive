@@ -7,7 +7,7 @@ import TournamentList from '../components/tournaments/TournamentList.jsx'
 import MonthCalendar from '../components/tournaments/MonthCalendar.jsx'
 import './CalendrierPage.css'
 
-const FILTRES_VIDES = { circuit: '', categorie: '', surface: '', pays: '', mois: '' }
+const FILTRES_VIDES = { circuit: '', categorie: '', pays: '', mois: '' }
 
 function CalendrierPage() {
   usePageTitle('Calendrier des tournois')
@@ -52,7 +52,6 @@ function CalendrierPage() {
   const tournoisFiltres = tournois.filter((tournoi) => {
     if (filtres.circuit && tournoi.circuit !== filtres.circuit) return false
     if (filtres.categorie && tournoi.categorie !== filtres.categorie) return false
-    if (filtres.surface && tournoi.surface !== filtres.surface) return false
     if (filtres.pays && tournoi.pays !== filtres.pays) return false
 
     if (filtres.mois) {
