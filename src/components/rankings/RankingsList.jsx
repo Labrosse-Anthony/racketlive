@@ -1,66 +1,68 @@
 import { Link } from 'react-router-dom'
 import { drapeau } from '../../utils/flags.js'
 import FavoriteButton from '../ui/FavoriteButton.jsx'
-import './RankingsTable.css'
+import './RankingsList.css'
 
-// Affiche l'évolution du classement : ▲ gagné, ▼ perdu, – inchangé
 function Evolution({ valeur }) {
-  if (valeur > 0) {
-    return <span className="evolution evolution--up">▲ {valeur}</span>
+  if (valeur === 0) {
+    return (
+      <span className="evolution evolution--same">
+        <span aria-hidden="true">–</span>
+        <span className="visuellement-cache">Classement inchangé</span>
+      </span>
+    )
   }
-  if (valeur < 0) {
-    return <span className="evolution evolution--down">▼ {Math.abs(valeur)}</span>
-  }
-  return <span className="evolution evolution--same">–</span>
-}
 
-function RankingsTable({ joueurs }) {
+  const monte = valeur > 0
+  const places = Math.abs(valeur)
+
   return (
-    <div className="rankings-table__wrapper">
-      <table className="rankings-table">
-        <thead>
-          <tr>
-            <th scope="col">Rang</th>
-            <th scope="col">Évol.</th>
-            <th scope="col">Joueur</th>
-            <th scope="col">Pays</th>
-            <th scope="col" className="rankings-table__nombre">
-              Points
-            </th>
-            <th scope="col">
-              <span className="visuellement-cache">Favori</span>
-            </th>
-          </tr>
-        </thead>
-        <tbody>
-          {joueurs.map((joueur) => (
-            <tr key={joueur.id}>
-              <td>{joueur.rang}</td>
-              <td>
-                <Evolution valeur={joueur.evolution} />
-              </td>
-              <td>
-                <Link to={`/joueurs/${joueur.id}`} className="rankings-table__lien">
-                  {joueur.nom}
-                </Link>
-              </td>
-              <td>
-                <span role="img" aria-label={joueur.pays}>
-                  {drapeau(joueur.pays)}
-                </span>
-              </td>
-              <td className="rankings-table__nombre">
-                {joueur.points.toLocaleString('fr-FR')}
-              </td>
-              <td>
-                <FavoriteButton type="joueurs" id={joueur.id} nom={joueur.nom} />
-              </td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
-    </div>
+    <span className={monte ? 'evolution evolution--up' : 'evolution evolution--down'}>
+      <span aria-hidden="true">
+        {monte ? '▲' : '▼'} {places}
+      </span>
+      <span className="visuellement-cache">
+        {monte ? 'Gagne' : 'Perd'} {places} place{places > 1 ? 's' : ''}
+      </span>
+    </span>
   )
 }
 
-export default RankingsTable
+function RankingsList({ joueurs }) {
+  return (
+    <ol className="classement" role="list">
+      {joueurs.map((joueur) => (
+        <li key={joueur.id} className="classement__ligne">
+          <span
+            className={
+              joueur.rang <= 3
+                ? 'classement__rang classement__rang--podium'
+                : 'classement__rang'
+            }
+          >
+            <span className="visuellement-cache">Rang </span>
+            {joueur.rang}
+          </span>
+
+          <div className="classement__infos">
+            <Link to={`/joueurs/${joueur.id}`} className="classement__nom">
+              {joueur.nom}
+            </Link>
+            <p className="classement__details">
+              <span role="img" aria-label={joueur.pays}>
+                {drapeau(joueur.pays)}
+              </span>{' '}
+              {joueur.points.toLocaleString('fr-FR')} pts
+            </p>
+          </div>
+
+          <Evolution valeur={joueur.evolution} />
+
+          <FavoriteButton type="joueurs" id={joueur.id} nom={joueur.nom} />
+        </li>
+      ))}
+    </ol>
+  )
+}
+
+export default RankingsList
