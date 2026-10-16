@@ -17,34 +17,14 @@ export const CATEGORIES = {
   250: '250',
 }
 
-export const PAYS = {
-  AU: 'Australie',
-  CA: 'Canada',
-  CN: 'Chine',
-  DE: 'Allemagne',
-  ES: 'Espagne',
-  FR: 'France',
-  GB: 'Royaume-Uni',
-  IT: 'Italie',
-  JP: 'Japon',
-  MC: 'Monaco',
-  NL: 'Pays-Bas',
-  QA: 'Qatar',
-  US: 'États-Unis',
-  AR: 'Argentine',
-  BR: 'Brésil',
-  CH: 'Suisse',
-  CZ: 'Tchéquie',
-  GR: 'Grèce',
-  HR: 'Croatie',
-  NO: 'Norvège',
-  PL: 'Pologne',
-  RO: 'Roumanie',
-  SE: 'Suède',
-  AE: 'Émirats arabes unis',
-  AT: 'Autriche',
-  MX: 'Mexique',
-}
+const nomsDePays = new Intl.DisplayNames(['fr'], { type: 'region' })
+
+export const PAYS = new Proxy(
+  {},
+  {
+    get: (_, code) => (typeof code === 'string' ? nomsDePays.of(code) : undefined),
+  },
+)
 
 export const MAINS = {
   droite: 'Droite',

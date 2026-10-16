@@ -16,7 +16,10 @@ function CalendrierPage() {
   const [chargement, setChargement] = useState(true)
   const [filtres, setFiltres] = useState(FILTRES_VIDES)
   const [vue, setVue] = useState('liste')
-  const [moisAffiche, setMoisAffiche] = useState({ annee: 2027, mois: 0 })
+  const [moisAffiche, setMoisAffiche] = useState(() => {
+    const aujourdhui = new Date()
+    return { annee: aujourdhui.getFullYear(), mois: aujourdhui.getMonth() }
+  })
 
   useEffect(() => {
     getTournaments().then((donnees) => {
