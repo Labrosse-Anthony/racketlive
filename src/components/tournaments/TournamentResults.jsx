@@ -3,16 +3,24 @@ import Flag from '../ui/Flag.jsx'
 import './TournamentResults.css'
 
 function Joueur({ joueur, gagnant = false }) {
-  return (
-    <Link
-      to={`/joueurs/${joueur.id}`}
-      className={
-        gagnant ? 'resultat__joueur resultat__joueur--gagnant' : 'resultat__joueur'
-      }
-    >
-      <Flag code={joueur.pays} />{' '}
-      {joueur.nom}
+  const classe = gagnant
+    ? 'resultat__joueur resultat__joueur--gagnant'
+    : 'resultat__joueur'
+
+  const contenu = (
+    <>
+      <Flag code={joueur.pays} /> {joueur.nom}
       {gagnant && <span className="visuellement-cache"> (vainqueur)</span>}
+    </>
+  )
+
+  if (!joueur.classe) {
+    return <span className={classe}>{contenu}</span>
+  }
+
+  return (
+    <Link to={`/joueurs/${joueur.id}`} className={classe}>
+      {contenu}
     </Link>
   )
 }
