@@ -14,8 +14,79 @@
   color: var(--text-muted);
 }
 
+.favoris__etat-vide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2.5rem 1.25rem;
+  border: 1px dashed var(--border-strong);
+  border-radius: 14px;
+  background: var(--surface);
+  text-align: center;
+}
+
+.favoris__etat-vide-icone {
+  display: grid;
+  place-items: center;
+  width: 4.5rem;
+  height: 4.5rem;
+  margin-bottom: 1rem;
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--primary) 14%, transparent);
+  color: var(--primary);
+}
+
+.favoris__etat-vide h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.25rem;
+}
+
+.favoris__etat-vide p {
+  max-width: 28rem;
+  margin: 0 0 1.5rem;
+  color: var(--text-muted);
+}
+
+.favoris__etat-vide-liens {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.favoris__bouton {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 1.1rem;
+  border: 1px solid var(--primary);
+  border-radius: 8px;
+  background: var(--primary);
+  color: var(--on-primary);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.favoris__bouton:hover {
+  filter: brightness(1.08);
+}
+
+.favoris__bouton--secondaire {
+  background: transparent;
+  color: var(--primary);
+}
+
+.favoris__bouton--secondaire:hover {
+  background: color-mix(in srgb, var(--primary) 10%, transparent);
+  filter: none;
+}
+
 @media (min-width: 768px) {
   .favoris__liste {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .favoris__etat-vide {
+    padding: 3.5rem 2rem;
   }
 }

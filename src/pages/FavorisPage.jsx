@@ -59,14 +59,38 @@ function FavorisPage() {
     return (
       <section>
         <h1>Mes favoris</h1>
-        <p>
-          Tu n'as pas encore de favori. Appuie sur le cœur d'un joueur ou
-          d'un tournoi pour le retrouver ici.
-        </p>
-        <p>
-          <Link to="/classements">Voir les classements</Link> ·{' '}
-          <Link to="/calendrier">Voir les tournois</Link>
-        </p>
+        <div className="favoris__etat-vide">
+          <span className="favoris__etat-vide-icone" aria-hidden="true">
+            <svg
+              viewBox="0 0 24 24"
+              width="32"
+              height="32"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z" />
+            </svg>
+          </span>
+          <h2>Aucun favori pour le moment</h2>
+          <p>
+            Appuie sur le cœur d'un joueur ou d'un tournoi pour le retrouver
+            ici.
+          </p>
+          <div className="favoris__etat-vide-liens">
+            <Link to="/classements" className="favoris__bouton">
+              Voir les classements
+            </Link>
+            <Link
+              to="/calendrier"
+              className="favoris__bouton favoris__bouton--secondaire"
+            >
+              Voir les tournois
+            </Link>
+          </div>
+        </div>
       </section>
     )
   }
