@@ -1,19 +1,6 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { dirname } from 'node:path'
 
-// =====================================================================
-//  Récupération des données de l'API Tennis (Matchstat via RapidAPI)
-//
-//  Exemples (à lancer depuis la racine du projet) :
-//    npm run donnees                          -> groupes de base
-//    npm run donnees -- --liste               -> montre ce qui serait fait (0 requête)
-//    npm run donnees -- --groupe=joueurs      -> fiches des 10 premiers joueurs
-//    npm run donnees -- --groupe=tous --nombre=5
-//    npm run donnees -- --force               -> refait même si le fichier existe
-//    npm run donnees -- --deja=4              -> j'ai déjà fait 4 requêtes aujourd'hui
-// =====================================================================
-
-// ---------- 1. Lire le fichier .env (là où se trouve la clé secrète) ----------
 function lireEnv() {
   if (!existsSync('.env')) {
     throw new Error('Fichier .env introuvable. Lance la commande depuis la racine du projet.')
@@ -46,16 +33,14 @@ if (!CLE || !HOTE) {
   process.exit(1)
 }
 
-// ---------- 2. Réglages ----------
 const DOSSIER = 'src/data/api'
 const FICHIER_COMPTEUR = 'scripts/.compteur-api.json'
 const LIMITE_PAR_JOUR = 50 // plan gratuit Basic
 const PAUSE_MS = 400 // le plan gratuit accepte 4 requêtes par seconde
 const CIRCUITS = ['atp', 'wta']
 const ANNEE = new Date().getFullYear()
-const AUJOURDHUI = new Date().toISOString().slice(0, 10) // ex : 2026-10-14
+const AUJOURDHUI = new Date().toISOString().slice(0, 10)
 
-// Options tapées après le nom de la commande : --nom=valeur
 function lireOption(nom, parDefaut) {
   const argument = process.argv.find((a) => a.startsWith(`--${nom}=`))
   return argument ? argument.slice(nom.length + 3) : parDefaut
@@ -93,7 +78,6 @@ if (dejaFait !== null) {
 
 const restant = () => LIMITE_PAR_JOUR - compteur.appels
 
-// Erreur spéciale : on arrête tout, inutile d'insister.
 class ErreurQuota extends Error {}
 
 // ---------- 4. Lire un fichier déjà récupéré (pour trouver les identifiants) ----------
@@ -117,7 +101,6 @@ const GROUPES = {
       chemin: `/tennis/v2/${c}/ranking/singles?pageSize=100`,
     })),
 
-  // Le calendrier des tournois (utilisé par la page Calendrier)
   calendrier: () => [
     ...CIRCUITS.map((c) => ({
       fichier: `calendrier-${c}.json`,
@@ -130,7 +113,6 @@ const GROUPES = {
     })),
   ],
 
-  // Les listes de référence (pays, surfaces, tours, niveaux de classement)
   reference: () => [
     { fichier: 'ref-pays.json', chemin: '/tennis/v2/countries' },
     { fichier: 'ref-surfaces.json', chemin: '/tennis/v2/court' },
@@ -139,7 +121,6 @@ const GROUPES = {
   ],
 
   // Les matchs : à venir, résultats du jour, prévisions, affiches possibles
-  // (les cotes d'un match précis demandent player1Id, tournamentId et roundId : pas ici)
   matchs: () =>
     CIRCUITS.flatMap((c) => [
       { fichier: `matchs-a-venir-${c}.json`, chemin: `/tennis/v2/${c}/fixtures` },
@@ -179,6 +160,36 @@ const GROUPES = {
           { fichier: `${dossier}/performances.json`, chemin: `${base}/perf-breakdown/${id}` },
           { fichier: `${dossier}/finales.json`, chemin: `${base}/finals/${id}` },
           { fichier: `${dossier}/h2h-interessants.json`, chemin: `${base}/interesting-h2h/${id}` },
+        )
+      }
+    }
+
+    return demandes
+  },
+
+  // Les fiches des N premiers joueurs de chaque classement : 4 requêtes par joueur
+  // (profil, titres, bilan par surface, derniers matchs). C'est le strict nécessaire
+  // pour les fiches du site ; le groupe « joueurs » ci-dessus récupère beaucoup plus.
+  fiches: () => {
+    const demandes = []
+
+    for (const c of CIRCUITS) {
+      const classement = lireDonnees(`classement-${c}.json`)
+      if (!classement) continue
+
+      for (const ligne of classement.slice(0, NOMBRE)) {
+        const id = ligne.player.id
+        const base = `/tennis/v2/${c}/player`
+        const dossier = `joueurs/${c}-${id}`
+
+        demandes.push(
+          { fichier: `${dossier}/profil.json`, chemin: `${base}/profile/${id}?include=form,ranking,country` },
+          { fichier: `${dossier}/titres.json`, chemin: `${base}/titles/${id}` },
+          { fichier: `${dossier}/surfaces.json`, chemin: `${base}/surface-summary/${id}` },
+          {
+            fichier: `${dossier}/matchs-passes.json`,
+            chemin: `${base}/past-matches/${id}?include=round,tournament&pageSize=10`,
+          },
         )
       }
     }
