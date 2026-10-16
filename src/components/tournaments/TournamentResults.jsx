@@ -27,7 +27,7 @@ function Joueur({ joueur, gagnant = false }) {
 
 function TournamentResults({ resultats }) {
   if (resultats.length === 0) {
-    return <p>Les résultats seront disponibles après le tournoi.</p>
+    return <p>Aucun résultat disponible pour ce tournoi pour le moment.</p>
   }
 
   return (

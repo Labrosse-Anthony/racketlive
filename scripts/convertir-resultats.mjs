@@ -28,7 +28,7 @@ function convertirJoueur(joueur) {
   const pays = CODES_PAYS[joueur.countryAcr] || ''
   return {
     id: joueur.id,
-    nom: joueur.name,
+    nom: joueur.name === 'Unknown Player' ? 'Joueur à confirmer' : joueur.name,
     pays,
     classe: idsAvecFiche.has(joueur.id),
   }
