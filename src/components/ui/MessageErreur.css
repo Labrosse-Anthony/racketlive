@@ -1,0 +1,28 @@
+.erreur {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--danger);
+  border-radius: 10px;
+  background: var(--danger-soft);
+}
+
+.erreur__message {
+  margin: 0;
+}
+
+.erreur__bouton {
+  padding: 0 1.1rem;
+  border: 1px solid var(--primary);
+  border-radius: 8px;
+  background: var(--primary);
+  color: var(--on-primary);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.erreur__bouton:hover {
+  filter: brightness(1.08);
+}

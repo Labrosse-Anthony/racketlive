@@ -1,10 +1,12 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import { getTournaments } from '../services/api/tournamentsApi.js'
 import { PAYS } from '../utils/labels.js'
 import { usePageTitle } from '../hooks/usePageTitle.js'
+import { useChargement } from '../hooks/useChargement.js'
 import TournamentFilters from '../components/tournaments/TournamentFilters.jsx'
 import TournamentList from '../components/tournaments/TournamentList.jsx'
 import MonthCalendar from '../components/tournaments/MonthCalendar.jsx'
+import MessageErreur from '../components/ui/MessageErreur.jsx'
 import './CalendrierPage.css'
 
 const FILTRES_VIDES = { circuit: '', categorie: '', pays: '', mois: '' }
@@ -12,8 +14,6 @@ const FILTRES_VIDES = { circuit: '', categorie: '', pays: '', mois: '' }
 function CalendrierPage() {
   usePageTitle('Calendrier des tournois')
 
-  const [tournois, setTournois] = useState([])
-  const [chargement, setChargement] = useState(true)
   const [filtres, setFiltres] = useState(FILTRES_VIDES)
   const [vue, setVue] = useState('liste')
   const [moisAffiche, setMoisAffiche] = useState(() => {
@@ -21,12 +21,8 @@ function CalendrierPage() {
     return { annee: aujourdhui.getFullYear(), mois: aujourdhui.getMonth() }
   })
 
-  useEffect(() => {
-    getTournaments().then((donnees) => {
-      setTournois(donnees)
-      setChargement(false)
-    })
-  }, [])
+  const { donnees, chargement, erreur, reessayer } = useChargement(getTournaments)
+  const tournois = donnees ?? []
 
   function changerFiltre(nom, valeur) {
     setFiltres({ ...filtres, [nom]: valeur })
@@ -105,14 +101,16 @@ function CalendrierPage() {
 
       {chargement && <p>Chargement…</p>}
 
-      {!chargement && vue === 'liste' && (
+      {erreur && <MessageErreur onReessayer={reessayer} />}
+
+      {!chargement && !erreur && vue === 'liste' && (
         <>
           <p aria-live="polite">{tournoisFiltres.length} tournoi(s)</p>
           <TournamentList tournois={tournoisFiltres} />
         </>
       )}
 
-      {!chargement && vue === 'calendrier' && (
+      {!chargement && !erreur && vue === 'calendrier' && (
         <MonthCalendar
           annee={moisAffiche.annee}
           mois={moisAffiche.mois}

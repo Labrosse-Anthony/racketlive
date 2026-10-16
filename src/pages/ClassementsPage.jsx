@@ -1,8 +1,10 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import { getRanking } from '../services/api/rankingsApi.js'
 import { usePageTitle } from '../hooks/usePageTitle.js'
+import { useChargement } from '../hooks/useChargement.js'
 import RankingsList from '../components/rankings/RankingsList.jsx'
 import Pagination from '../components/ui/Pagination.jsx'
+import MessageErreur from '../components/ui/MessageErreur.jsx'
 import './ClassementsPage.css'
 
 const JOUEURS_PAR_PAGE = 8
@@ -11,29 +13,18 @@ function ClassementsPage() {
   usePageTitle('Classements')
 
   const [circuit, setCircuit] = useState('atp')
-  const [joueurs, setJoueurs] = useState([])
-  const [chargement, setChargement] = useState(true)
   const [recherche, setRecherche] = useState('')
   const [page, setPage] = useState(1)
 
-  useEffect(() => {
-    let annule = false
-
-    getRanking(circuit).then((donnees) => {
-      if (annule) return
-      setJoueurs(donnees)
-      setChargement(false)
-    })
-
-    return () => {
-      annule = true
-    }
-  }, [circuit])
+  const { donnees, chargement, erreur, reessayer } = useChargement(
+    () => getRanking(circuit),
+    [circuit],
+  )
+  const joueurs = donnees ?? []
 
   function changerCircuit(nouveauCircuit) {
     if (nouveauCircuit === circuit) return
     setCircuit(nouveauCircuit)
-    setChargement(true)
     setRecherche('')
     setPage(1)
   }
@@ -95,11 +86,13 @@ function ClassementsPage() {
 
       {chargement && <p>Chargement…</p>}
 
-      {!chargement && joueursFiltres.length === 0 && (
+      {erreur && <MessageErreur onReessayer={reessayer} />}
+
+      {!chargement && !erreur && joueursFiltres.length === 0 && (
         <p>Aucun joueur ne correspond à « {recherche} ».</p>
       )}
 
-      {!chargement && joueursFiltres.length > 0 && (
+      {!chargement && !erreur && joueursFiltres.length > 0 && (
         <>
           <RankingsList joueurs={joueursAvecRang} />
           <Pagination
