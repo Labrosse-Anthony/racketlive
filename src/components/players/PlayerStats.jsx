@@ -9,7 +9,6 @@ function PlayerStats({ stats }) {
     { label: 'Victoires (saison)', valeur: stats.victoires },
     { label: 'Défaites (saison)', valeur: stats.defaites },
     { label: '% de victoires', valeur: `${pourcentage} %` },
-    { label: 'Titres (saison)', valeur: stats.titresSaison },
     { label: 'Titres (carrière)', valeur: stats.titresCarriere },
   ]
 

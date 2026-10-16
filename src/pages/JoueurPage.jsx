@@ -90,14 +90,18 @@ function JoueurPage() {
               <dt>Âge</dt>
               <dd>{calculerAge(details.naissance)} ans</dd>
             </div>
-            <div>
-              <dt>Taille</dt>
-              <dd>{details.taille} cm</dd>
-            </div>
-            <div>
-              <dt>Main</dt>
-              <dd>{MAINS[details.main]}</dd>
-            </div>
+            {details.taille && (
+              <div>
+                <dt>Taille</dt>
+                <dd>{details.taille} cm</dd>
+              </div>
+            )}
+            {details.main && (
+              <div>
+                <dt>Main</dt>
+                <dd>{MAINS[details.main]}</dd>
+              </div>
+            )}
           </>
         )}
       </dl>
@@ -110,8 +114,12 @@ function JoueurPage() {
           <h2>Derniers résultats</h2>
           <PlayerResults resultats={details.derniersResultats} />
 
-          <h2>Prochains matchs</h2>
-          <PlayerUpcoming matchs={details.prochainsMatchs} />
+          {details.prochainsMatchs.length > 0 && (
+            <>
+              <h2>Prochains matchs</h2>
+              <PlayerUpcoming matchs={details.prochainsMatchs} />
+            </>
+          )}
         </>
       ) : (
         <p>Les informations détaillées de ce joueur seront disponibles prochainement.</p>
