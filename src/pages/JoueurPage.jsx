@@ -7,7 +7,7 @@ import PlayerStats from '../components/players/PlayerStats.jsx'
 import PlayerResults from '../components/players/PlayerResults.jsx'
 import PlayerUpcoming from '../components/players/PlayerUpcoming.jsx'
 import FavoriteButton from '../components/ui/FavoriteButton.jsx'
-import { drapeau } from '../utils/flags.js'
+import Flag from '../components/ui/Flag.jsx'
 import { calculerAge } from '../utils/dates.js'
 import { CIRCUITS, PAYS, MAINS } from '../utils/labels.js'
 import './JoueurPage.css'
@@ -80,9 +80,7 @@ function JoueurPage() {
         <div>
           <dt>Nationalité</dt>
           <dd>
-            <span role="img" aria-label={PAYS[joueur.pays]}>
-              {drapeau(joueur.pays)}
-            </span>{' '}
+            <Flag code={joueur.pays} />{' '}
             {PAYS[joueur.pays]}
           </dd>
         </div>

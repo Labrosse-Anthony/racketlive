@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { drapeau } from '../../utils/flags.js'
+import Flag from '../ui/Flag.jsx'
 import './TournamentResults.css'
 
 function Joueur({ joueur, gagnant = false }) {
@@ -10,9 +10,7 @@ function Joueur({ joueur, gagnant = false }) {
         gagnant ? 'resultat__joueur resultat__joueur--gagnant' : 'resultat__joueur'
       }
     >
-      <span role="img" aria-label={joueur.pays}>
-        {drapeau(joueur.pays)}
-      </span>{' '}
+      <Flag code={joueur.pays} />{' '}
       {joueur.nom}
       {gagnant && <span className="visuellement-cache"> (vainqueur)</span>}
     </Link>
@@ -26,8 +24,11 @@ function TournamentResults({ resultats }) {
 
   return (
     <ul className="resultats">
-      {resultats.map((match, index) => (
-        <li key={index} className="resultat">
+      {resultats.map((match) => (
+        <li
+          key={`${match.tour}-${match.vainqueur.id}-${match.perdant.id}`}
+          className="resultat"
+        >
           <p className="resultat__tour">
             {match.tour}
             {match.categorie && ` · ${match.categorie}`}

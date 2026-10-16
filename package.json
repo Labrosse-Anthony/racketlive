@@ -8,9 +8,11 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "donnees": "node scripts/recuperer-donnees.mjs"
+    "donnees": "node scripts/recuperer-donnees.mjs",
+    "convertir": "node scripts/convertir-classements.mjs && node scripts/convertir-tournois.mjs"
   },
   "dependencies": {
+    "flag-icons": "^7.6.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "react-router-dom": "^7.18.4"

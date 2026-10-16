@@ -19,10 +19,19 @@ export const CATEGORIES = {
 
 const nomsDePays = new Intl.DisplayNames(['fr'], { type: 'region' })
 
+// PAYS['FR'] donne « France ». Pour un code vide ou inconnu, on renvoie
+// le code tel quel au lieu de faire planter la page.
 export const PAYS = new Proxy(
   {},
   {
-    get: (_, code) => (typeof code === 'string' ? nomsDePays.of(code) : undefined),
+    get: (_, code) => {
+      if (typeof code !== 'string' || !/^[A-Z]{2}$/.test(code)) return code
+      try {
+        return nomsDePays.of(code)
+      } catch {
+        return code
+      }
+    },
   },
 )
 

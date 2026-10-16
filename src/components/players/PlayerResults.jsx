@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { drapeau } from '../../utils/flags.js'
+import Flag from '../ui/Flag.jsx'
 import './PlayerMatches.css'
 
 function PlayerResults({ resultats }) {
@@ -9,8 +9,8 @@ function PlayerResults({ resultats }) {
 
   return (
     <ul className="matchs">
-      {resultats.map((match, index) => (
-        <li key={index} className="match">
+      {resultats.map((match) => (
+        <li key={`${match.tournoiId}-${match.adversaire.id}`} className="match">
           <span
             className={
               match.victoire
@@ -34,9 +34,7 @@ function PlayerResults({ resultats }) {
           <p className="match__detail">
             contre{' '}
             <Link to={`/joueurs/${match.adversaire.id}`} className="match__lien">
-              <span role="img" aria-label={match.adversaire.pays}>
-                {drapeau(match.adversaire.pays)}
-              </span>{' '}
+              <Flag code={match.adversaire.pays} />{' '}
               {match.adversaire.nom}
             </Link>{' '}
             <span className="match__score">· {match.score}</span>

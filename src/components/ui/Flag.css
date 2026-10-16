@@ -1,0 +1,6 @@
+/* Le drapeau s'aligne sur le texte et garde un fin contour (utile sur fond clair) */
+.drapeau {
+  border-radius: 2px;
+  box-shadow: 0 0 0 1px rgb(0 0 0 / 0.18);
+  vertical-align: -0.1em;
+}

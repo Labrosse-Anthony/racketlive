@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import { drapeau } from '../../utils/flags.js'
 import { NOMS_MOIS } from '../../utils/dates.js'
 import { CIRCUITS, PAYS, CATEGORIES } from '../../utils/labels.js'
 import './TournamentFilters.css'
@@ -36,7 +35,7 @@ function TournamentFilters({
 
   const optionsPays = codesPays.map((code) => ({
     valeur: code,
-    texte: `${drapeau(code)} ${PAYS[code]}`,
+    texte: PAYS[code],
   }))
 
   const optionsMois = NOMS_MOIS.map((texte, index) => ({

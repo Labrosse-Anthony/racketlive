@@ -7,7 +7,7 @@ import {
 import { usePageTitle } from '../hooks/usePageTitle.js'
 import TournamentResults from '../components/tournaments/TournamentResults.jsx'
 import FavoriteButton from '../components/ui/FavoriteButton.jsx'
-import { drapeau } from '../utils/flags.js'
+import Flag from '../components/ui/Flag.jsx'
 import { formaterPeriode } from '../utils/dates.js'
 import { CIRCUITS, SURFACES, PAYS, CATEGORIES } from '../utils/labels.js'
 import '../components/tournaments/TournamentCard.css'
@@ -89,9 +89,7 @@ function TournoiDetailPage() {
         <div>
           <dt>Lieu</dt>
           <dd>
-            <span role="img" aria-label={PAYS[tournoi.pays]}>
-              {drapeau(tournoi.pays)}
-            </span>{' '}
+            <Flag code={tournoi.pays} />{' '}
             {tournoi.ville}, {PAYS[tournoi.pays]}
           </dd>
         </div>

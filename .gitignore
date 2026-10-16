@@ -6,6 +6,9 @@ dist
 dist-ssr
 *.local
 
+# Données brutes de l'API (propriété du fournisseur, à ne pas republier)
+src/data/api
+
 # Secrets : ne jamais envoyer sur GitHub
 .env
 .env.*

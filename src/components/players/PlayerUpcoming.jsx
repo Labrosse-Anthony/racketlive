@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { drapeau } from '../../utils/flags.js'
+import Flag from '../ui/Flag.jsx'
 import { formaterDate } from '../../utils/dates.js'
 import './PlayerMatches.css'
 
@@ -10,8 +10,11 @@ function PlayerUpcoming({ matchs }) {
 
   return (
     <ul className="matchs">
-      {matchs.map((match, index) => (
-        <li key={index} className="match match--simple">
+      {matchs.map((match) => (
+        <li
+          key={`${match.tournoiId}-${match.date}`}
+          className="match match--simple"
+        >
           <p className="match__titre">
             <Link to={`/tournois/${match.tournoiId}`} className="match__lien">
               {match.tournoi}
@@ -22,9 +25,7 @@ function PlayerUpcoming({ matchs }) {
           <p className="match__detail">
             {formaterDate(match.date)} contre{' '}
             <Link to={`/joueurs/${match.adversaire.id}`} className="match__lien">
-              <span role="img" aria-label={match.adversaire.pays}>
-                {drapeau(match.adversaire.pays)}
-              </span>{' '}
+              <Flag code={match.adversaire.pays} />{' '}
               {match.adversaire.nom}
             </Link>
           </p>

@@ -4,10 +4,11 @@ Site de tennis : calendrier des tournois, classements ATP et WTA, fiches joueurs
 
 ## Fonctionnalités
 
-- Calendrier des tournois en liste ou en vue mensuelle, avec filtres (circuit, catégorie, surface, pays, mois)
+- Page d'accueil : tournois en cours, top 5 ATP et WTA, prochains tournois, favoris
+- Calendrier des tournois en liste ou en vue mensuelle, avec filtres (circuit, catégorie, pays, mois)
 - Page de détail d'un tournoi
 - Classements ATP et WTA avec recherche et pagination
-- Fiches joueurs avec leurs derniers résultats
+- Fiches joueurs
 - Favoris (joueurs et tournois) conservés dans le navigateur
 - Thème clair et sombre
 - Accessibilité : lien d'évitement, navigation au clavier, contrastes, réduction des animations
@@ -34,24 +35,24 @@ src/
   pages/        une page par adresse du site
   services/api/ accès aux données (les pages passent toujours par ici)
   hooks/        logique réutilisable (thème, favoris, titre de page)
-  utils/        petites fonctions (dates, libellés, drapeaux)
-  data/         données du site
-scripts/        script de récupération des données de l'API
+  utils/        petites fonctions (dates, libellés)
+  data/         données lues par le site
+scripts/        récupération et conversion des données de l'API
 ```
 
 ## Données
 
-Pour l'instant, le site affiche des **données fictives** (fichiers JSON dans `src/data`).
-Les pages ne lisent jamais ces fichiers directement : elles appellent les fonctions de `src/services/api`. Passer aux vraies données ne demande donc de modifier que ces services.
+Le site lit des fichiers JSON dans `src/data` (`rankings.json`, `tournaments.json`). Les pages ne les lisent jamais directement : elles appellent les fonctions de `src/services/api`. Changer de source de données ne demande donc de modifier que ces services.
 
-Les vraies données viennent de l'API « Tennis API – ATP WTA ITF » (RapidAPI). Un script les télécharge de temps en temps et les enregistre dans `src/data/api/` :
+Les classements et le calendrier sont de vraies données issues de l'API « Tennis API – ATP WTA ITF » (RapidAPI). Deux commandes les mettent à jour :
 
 ```bash
 npm run donnees -- --liste   # voir les groupes de données disponibles
-npm run donnees              # télécharger les données
+npm run donnees              # télécharger les données brutes (dans src/data/api, non versionné)
+npm run convertir            # convertir les données brutes au format du site
 ```
 
-Le script a besoin d'un fichier `.env` à la racine du projet (jamais envoyé sur GitHub) :
+Le script de téléchargement a besoin d'un fichier `.env` à la racine du projet (jamais envoyé sur GitHub) :
 
 ```
 RAPIDAPI_KEY=ta_clé
@@ -60,9 +61,12 @@ RAPIDAPI_HOST=tennis-api-atp-wta-itf.p.rapidapi.com
 
 Le forfait gratuit est limité à 50 requêtes par jour. Le script compte les appels et s'arrête tout seul.
 
+Les fiches joueurs détaillées et les résultats de tournoi utilisent encore des données de démonstration : ils seront branchés sur l'API ensuite.
+
 ## À venir
 
-- Brancher les vraies données sur le site
-- Identité visuelle (logo, couleurs)
-- Page d'accueil « Cette semaine »
-- Application mobile
+- Résultats de tournoi et fiches joueurs avec les vraies données
+- Matchs du jour sur l'accueil
+- Mentions légales et source des données
+- Gestion des erreurs, tests automatiques
+- Mise en ligne, puis application mobile

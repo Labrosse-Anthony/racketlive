@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { drapeau } from '../../utils/flags.js'
+import Flag from '../ui/Flag.jsx'
 import FavoriteButton from '../ui/FavoriteButton.jsx'
 import './RankingsList.css'
 
@@ -53,9 +53,7 @@ function RankingsList({ joueurs }) {
               {joueur.nom}
             </Link>
             <p className="classement__details">
-              <span role="img" aria-label={joueur.pays}>
-                {drapeau(joueur.pays)}
-              </span>{' '}
+              <Flag code={joueur.pays} />{' '}
               {joueur.points.toLocaleString('fr-FR')} pts
             </p>
           </div>

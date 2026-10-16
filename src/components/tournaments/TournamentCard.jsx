@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { drapeau } from '../../utils/flags.js'
+import Flag from '../ui/Flag.jsx'
 import { formaterPeriode } from '../../utils/dates.js'
 import { CIRCUITS, SURFACES, PAYS } from '../../utils/labels.js'
 import FavoriteButton from '../ui/FavoriteButton.jsx'
@@ -14,9 +14,7 @@ function TournamentCard({ tournoi, titre: Titre = 'h2' }) {
           {formaterPeriode(tournoi.debut, tournoi.fin)}
         </p>
         <p className="tournoi-card__info">
-          <span role="img" aria-label={PAYS[tournoi.pays]}>
-            {drapeau(tournoi.pays)}
-          </span>{' '}
+          <Flag code={tournoi.pays} />{' '}
           {tournoi.ville}, {PAYS[tournoi.pays]}
         </p>
         <div className="tournoi-card__badges">
