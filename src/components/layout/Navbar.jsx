@@ -4,6 +4,7 @@ import ThemeToggle from './ThemeToggle.jsx'
 import './Navbar.css'
 
 const liens = [
+  { to: '/', texte: 'Accueil', icone: 'accueil' },
   { to: '/calendrier', texte: 'Tournois', icone: 'calendrier' },
   { to: '/classements', texte: 'Classements', icone: 'classements' },
   { to: '/favoris', texte: 'Favoris', icone: 'favoris' },
@@ -12,7 +13,7 @@ const liens = [
 function Navbar() {
   return (
     <header className="entete">
-      <Link to="/calendrier" className="entete__marque">
+      <Link to="/" className="entete__marque">
         <img
           src="/favicon.svg"
           alt=""
@@ -29,7 +30,11 @@ function Navbar() {
         <ul className="navbar__list">
           {liens.map((lien) => (
             <li key={lien.to}>
-              <NavLink to={lien.to} className="navbar__link">
+              <NavLink
+                to={lien.to}
+                end={lien.to === '/'}
+                className="navbar__link"
+              >
                 <span className="navbar__icon">
                   <NavIcon nom={lien.icone} />
                 </span>

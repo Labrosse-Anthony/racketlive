@@ -1,4 +1,10 @@
 const DESSINS = {
+  accueil: (
+    <>
+      <path d="M3 11l9-8 9 8" />
+      <path d="M5 10v10h5v-6h4v6h5V10" />
+    </>
+  ),
   calendrier: (
     <>
       <rect x="3" y="4" width="18" height="18" rx="2" />

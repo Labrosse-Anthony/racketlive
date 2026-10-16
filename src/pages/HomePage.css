@@ -1,0 +1,105 @@
+.accueil {
+  display: grid;
+  gap: 2rem;
+}
+
+.accueil section > h2,
+.accueil__entete h2 {
+  margin: 0 0 0.75rem;
+}
+
+.accueil h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+  color: var(--text-muted);
+}
+
+/* Bloc de présentation */
+.accueil__presentation {
+  padding: 1.5rem 1.25rem;
+  border-radius: 14px;
+  background: var(--navy);
+  color: #fff;
+}
+
+.accueil__presentation h1 {
+  margin: 0 0 0.5rem;
+  font-size: 1.6rem;
+  line-height: 1.2;
+}
+
+.accueil__presentation p {
+  margin: 0 0 1.25rem;
+  color: rgb(255 255 255 / 0.85);
+}
+
+.accueil__boutons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.accueil__bouton {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 1.1rem;
+  border: 1px solid var(--lime);
+  border-radius: 8px;
+  color: var(--lime);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.accueil__bouton:hover {
+  background: rgb(255 255 255 / 0.08);
+}
+
+.accueil__bouton--principal {
+  background: var(--lime);
+  color: var(--navy);
+}
+
+.accueil__bouton--principal:hover {
+  background: var(--lime);
+  filter: brightness(0.95);
+}
+
+.accueil__presentation :focus-visible {
+  outline-color: var(--lime);
+}
+
+.accueil__entete {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.accueil__entete h2 {
+  margin: 0;
+}
+
+.accueil__entete a {
+  color: var(--primary);
+}
+
+.accueil__classements {
+  display: grid;
+  gap: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .accueil__presentation {
+    padding: 2.5rem 2rem;
+  }
+
+  .accueil__presentation h1 {
+    font-size: 2.2rem;
+  }
+
+  .accueil__classements {
+    grid-template-columns: 1fr 1fr;
+  }
+}

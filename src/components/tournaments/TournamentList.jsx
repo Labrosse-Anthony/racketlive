@@ -1,7 +1,7 @@
 import TournamentCard from './TournamentCard.jsx'
 import './TournamentList.css'
 
-function TournamentList({ tournois }) {
+function TournamentList({ tournois, titre }) {
   if (tournois.length === 0) {
     return <p>Aucun tournoi ne correspond à ces critères.</p>
   }
@@ -10,7 +10,7 @@ function TournamentList({ tournois }) {
     <ul className="tournoi-list">
       {tournois.map((tournoi) => (
         <li key={tournoi.id}>
-          <TournamentCard tournoi={tournoi} />
+          <TournamentCard tournoi={tournoi} titre={titre} />
         </li>
       ))}
     </ul>

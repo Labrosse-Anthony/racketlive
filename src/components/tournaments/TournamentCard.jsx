@@ -5,11 +5,11 @@ import { CIRCUITS, SURFACES, PAYS } from '../../utils/labels.js'
 import FavoriteButton from '../ui/FavoriteButton.jsx'
 import './TournamentCard.css'
 
-function TournamentCard({ tournoi }) {
+function TournamentCard({ tournoi, titre: Titre = 'h2' }) {
   return (
     <article className="tournoi-card">
       <Link to={`/tournois/${tournoi.id}`} className="tournoi-card__lien">
-        <h2 className="tournoi-card__titre">{tournoi.nom}</h2>
+        <Titre className="tournoi-card__titre">{tournoi.nom}</Titre>
         <p className="tournoi-card__info">
           {formaterPeriode(tournoi.debut, tournoi.fin)}
         </p>

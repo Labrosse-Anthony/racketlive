@@ -1,7 +1,8 @@
 import { lazy } from 'react'
-import { Routes, Route, Navigate } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import Layout from './components/layout/Layout.jsx'
 
+const HomePage = lazy(() => import('./pages/HomePage.jsx'))
 const CalendrierPage = lazy(() => import('./pages/CalendrierPage.jsx'))
 const TournoiDetailPage = lazy(() => import('./pages/TournoiDetailPage.jsx'))
 const ClassementsPage = lazy(() => import('./pages/ClassementsPage.jsx'))
@@ -13,7 +14,7 @@ function App() {
   return (
     <Routes>
       <Route element={<Layout />}>
-        <Route path="/" element={<Navigate to="/calendrier" replace />} />
+        <Route path="/" element={<HomePage />} />
         <Route path="/calendrier" element={<CalendrierPage />} />
         <Route path="/tournois/:id" element={<TournoiDetailPage />} />
         <Route path="/classements" element={<ClassementsPage />} />
