@@ -1,8 +1,11 @@
-import { existsSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
+import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { CODES_PAYS } from './codes-pays.mjs'
 import { TOURS, ORDRE, formaterScore } from './tours.mjs'
 
 const DOSSIER = 'src/data/api/tournois'
+const SORTIE = 'public/data/resultats'
+
+mkdirSync(SORTIE, { recursive: true })
 
 const classements = JSON.parse(readFileSync('src/data/rankings.json', 'utf-8'))
 const idsAvecFiche = new Set([...classements.atp, ...classements.wta].map((j) => j.id))
@@ -17,7 +20,7 @@ function convertirJoueur(joueur) {
   }
 }
 
-const resultat = {}
+let nombre = 0
 
 for (const nomDossier of readdirSync(DOSSIER)) {
   const fichier = `${DOSSIER}/${nomDossier}/resultats.json`
@@ -37,10 +40,11 @@ for (const nomDossier of readdirSync(DOSSIER)) {
       score: formaterScore(match.result),
     }))
 
+  // Un fichier par tournoi : le site ne charge que celui dont il a besoin
   const idTournoi = nomDossier.split('-')[1]
-  resultat[idTournoi] = matchs
+  writeFileSync(`${SORTIE}/${idTournoi}.json`, JSON.stringify(matchs))
+  nombre += 1
   console.log(`${nomDossier} : ${matchs.length} matchs`)
 }
 
-writeFileSync('src/data/results.json', JSON.stringify(resultat, null, 2))
-console.log(`OK : résultats de ${Object.keys(resultat).length} tournoi(s)`)
+console.log(`OK : résultats de ${nombre} tournoi(s)`)
