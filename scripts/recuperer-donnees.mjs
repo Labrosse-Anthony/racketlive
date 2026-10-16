@@ -207,6 +207,23 @@ const GROUPES = {
     return demandes
   },
 
+  // Résultats des N derniers tournois commencés (1 requête par tournoi).
+  // Un tournoi en cours change chaque jour : ajouter --force pour le rafraîchir.
+  resultats: () => {
+    const demandes = []
+
+    for (const c of CIRCUITS) {
+      for (const tournoi of tournoisCommences(c)) {
+        demandes.push({
+          fichier: `tournois/${c}-${tournoi.id}/resultats.json`,
+          chemin: `/tennis/v2/${c}/tournament/results/${tournoi.id}`,
+        })
+      }
+    }
+
+    return demandes
+  },
+
   // Tableaux et têtes de série : l'API veut le NOM exact du tournoi (à tester d'abord)
   tableaux: () => {
     const demandes = []
@@ -236,6 +253,17 @@ function tournoisProches(circuit) {
   const maintenant = Date.now()
   return [...calendrier]
     .sort((a, b) => Math.abs(new Date(a.date) - maintenant) - Math.abs(new Date(b.date) - maintenant))
+    .slice(0, NOMBRE)
+}
+
+// Les N derniers tournois déjà commencés (en cours ou terminés), du plus récent au plus ancien
+function tournoisCommences(circuit) {
+  const calendrier = lireDonnees(`calendrier-${circuit}.json`)
+  if (!calendrier) return []
+
+  return calendrier
+    .filter((tournoi) => tournoi.date.slice(0, 10) <= AUJOURDHUI)
+    .sort((a, b) => new Date(b.date) - new Date(a.date))
     .slice(0, NOMBRE)
 }
 
