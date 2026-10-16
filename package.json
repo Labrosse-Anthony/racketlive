@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "donnees": "node scripts/recuperer-donnees.mjs",
-    "convertir": "node scripts/convertir-classements.mjs && node scripts/convertir-tournois.mjs"
+    "convertir": "node scripts/convertir-classements.mjs && node scripts/convertir-tournois.mjs && node scripts/convertir-resultats.mjs"
   },
   "dependencies": {
     "flag-icons": "^7.6.0",
