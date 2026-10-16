@@ -8,3 +8,7 @@ export async function getRanking(circuit) {
   await attendre(300)
   return rankings[circuit] || []
 }
+
+export async function getLastUpdate() {
+  return rankings.misAJour || null
+}

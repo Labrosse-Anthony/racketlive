@@ -1,6 +1,7 @@
 import { Suspense, useEffect, useRef } from 'react'
 import { Outlet, useLocation } from 'react-router-dom'
 import Navbar from './Navbar.jsx'
+import Footer from './Footer.jsx'
 import './Layout.css'
 
 function Layout() {
@@ -32,6 +33,7 @@ function Layout() {
           <Outlet />
         </Suspense>
       </main>
+      <Footer />
     </div>
   )
 }

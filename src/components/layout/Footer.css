@@ -1,0 +1,22 @@
+.pied {
+  padding: 1.5rem 1rem 6rem;
+  border-top: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+.pied p {
+  max-width: 40rem;
+  margin: 0 auto 0.5rem;
+}
+
+.pied a {
+  color: var(--primary);
+}
+
+@media (min-width: 768px) {
+  .pied {
+    padding-bottom: 1.5rem;
+  }
+}

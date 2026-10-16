@@ -1,0 +1,21 @@
+.a-propos {
+  max-width: 42rem;
+}
+
+.a-propos section {
+  margin-bottom: 1.5rem;
+}
+
+.a-propos h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.2rem;
+}
+
+.a-propos p {
+  margin: 0 0 0.75rem;
+  line-height: 1.6;
+}
+
+.a-propos a {
+  color: var(--primary);
+}

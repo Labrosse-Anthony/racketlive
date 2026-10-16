@@ -8,6 +8,7 @@ const TournoiDetailPage = lazy(() => import('./pages/TournoiDetailPage.jsx'))
 const ClassementsPage = lazy(() => import('./pages/ClassementsPage.jsx'))
 const JoueurPage = lazy(() => import('./pages/JoueurPage.jsx'))
 const FavorisPage = lazy(() => import('./pages/FavorisPage.jsx'))
+const AProposPage = lazy(() => import('./pages/AProposPage.jsx'))
 const NotFoundPage = lazy(() => import('./pages/NotFoundPage.jsx'))
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path="/classements" element={<ClassementsPage />} />
         <Route path="/joueurs/:id" element={<JoueurPage />} />
         <Route path="/favoris" element={<FavorisPage />} />
+        <Route path="/a-propos" element={<AProposPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Route>
     </Routes>
