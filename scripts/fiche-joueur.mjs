@@ -52,3 +52,51 @@ export function convertirSurfaces(surfaces, annee) {
     })),
   }
 }
+
+// ---------- Infos personnelles ----------
+
+// L'API écrit « Hamburg, Germany » : on traduit le pays (dernier mot) en français.
+// Pour cela on construit la liste « nom anglais -> nom français » avec Intl.
+const enAnglais = new Intl.DisplayNames(['en'], { type: 'region' })
+const enFrancais = new Intl.DisplayNames(['fr'], { type: 'region' })
+const PAYS_FRANCAIS = new Map()
+const LETTRES = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+for (const a of LETTRES) {
+  for (const b of LETTRES) {
+    try {
+      const nom = enAnglais.of(a + b)
+      if (nom && nom !== a + b) PAYS_FRANCAIS.set(nom, enFrancais.of(a + b))
+    } catch {
+      // code de pays qui n'existe pas : on passe
+    }
+  }
+}
+// Quelques écritures différentes de l'API
+const ALIAS = { USA: 'US', 'Czech Republic': 'CZ', 'Great Britain': 'GB', UK: 'GB', 'South Korea': 'KR' }
+for (const [alias, code] of Object.entries(ALIAS)) PAYS_FRANCAIS.set(alias, enFrancais.of(code))
+
+export function traduireLieu(texte) {
+  if (!texte) return null
+  const morceaux = texte.split(',').map((m) => m.trim())
+  const dernier = morceaux.length - 1
+  morceaux[dernier] = PAYS_FRANCAIS.get(morceaux[dernier]) || morceaux[dernier]
+  return morceaux.join(', ')
+}
+
+// Garde seulement ce qui est renseigné : une information vide n'est pas affichée.
+export function convertirInfos(profil) {
+  const info = profil.information || {}
+  const poids = Number(info.weight)
+  const passePro = Number(info.turnedPro)
+
+  return {
+    entraineur: profil.coach || info.coach || null,
+    lieuNaissance: traduireLieu(info.birthplace),
+    residence: traduireLieu(info.residence),
+    passePro: passePro > 1900 ? passePro : null,
+    poids: poids > 0 ? poids : null,
+    meilleurRang: profil.bestRank
+      ? { position: profil.bestRank.position, date: profil.bestRank.date.slice(0, 10) }
+      : null,
+  }
+}

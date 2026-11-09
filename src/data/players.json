@@ -8,6 +8,17 @@
       "defaites": 11,
       "titresCarriere": 24
     },
+    "infos": {
+      "entraineur": "Anton Dubrov",
+      "lieuNaissance": "Minsk, Biélorussie",
+      "residence": "Biélorussie",
+      "passePro": null,
+      "poids": null,
+      "meilleurRang": {
+        "position": 1,
+        "date": "2026-08-31"
+      }
+    },
     "palmares": [
       {
         "niveau": "Grand Chelem",
@@ -176,6 +187,17 @@
       "victoires": 61,
       "defaites": 15,
       "titresCarriere": 26
+    },
+    "infos": {
+      "entraineur": "Alexander Zverev Sr.",
+      "lieuNaissance": "Hamburg, Allemagne",
+      "residence": "Monte Carlo, Monaco",
+      "passePro": 2013,
+      "poids": 90,
+      "meilleurRang": {
+        "position": 2,
+        "date": "2026-10-05"
+      }
     },
     "palmares": [
       {
@@ -361,6 +383,17 @@
       "defaites": 14,
       "titresCarriere": 14
     },
+    "infos": {
+      "entraineur": null,
+      "lieuNaissance": "Moscow, Russie",
+      "residence": null,
+      "passePro": null,
+      "poids": null,
+      "meilleurRang": {
+        "position": 1,
+        "date": "2026-10-12"
+      }
+    },
     "palmares": [
       {
         "niveau": "Grand Chelem",
@@ -524,6 +557,17 @@
       "victoires": 44,
       "defaites": 3,
       "titresCarriere": 31
+    },
+    "infos": {
+      "entraineur": "Simone Vagnozzi, Darren Cahill",
+      "lieuNaissance": "San Candido, Italie",
+      "residence": "Monte Carlo, Monaco",
+      "passePro": 2018,
+      "poids": 77,
+      "meilleurRang": {
+        "position": 1,
+        "date": "2026-10-05"
+      }
     },
     "palmares": [
       {
@@ -699,6 +743,17 @@
       "defaites": 6,
       "titresCarriere": 28
     },
+    "infos": {
+      "entraineur": "Samuel Lopez",
+      "lieuNaissance": "El Palmar, Murcia, Espagne",
+      "residence": "El Palmar, Murcia, Espagne",
+      "passePro": 2018,
+      "poids": 74,
+      "meilleurRang": {
+        "position": 1,
+        "date": "2026-04-06"
+      }
+    },
     "palmares": [
       {
         "niveau": "Grand Chelem",
@@ -872,6 +927,17 @@
       "victoires": 51,
       "defaites": 16,
       "titresCarriere": 6
+    },
+    "infos": {
+      "entraineur": "Conchita Martinez",
+      "lieuNaissance": null,
+      "residence": null,
+      "passePro": null,
+      "poids": null,
+      "meilleurRang": {
+        "position": 3,
+        "date": "2026-10-12"
+      }
     },
     "palmares": [
       {

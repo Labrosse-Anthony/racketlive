@@ -11,7 +11,7 @@ import PlayerUpcoming from '../components/players/PlayerUpcoming.jsx'
 import FavoriteButton from '../components/ui/FavoriteButton.jsx'
 import MessageErreur from '../components/ui/MessageErreur.jsx'
 import Flag from '../components/ui/Flag.jsx'
-import { calculerAge } from '../utils/dates.js'
+import { calculerAge, formaterMoisAnnee } from '../utils/dates.js'
 import { CIRCUITS, PAYS, MAINS } from '../utils/labels.js'
 import Squelette from '../components/ui/Squelette.jsx'
 import './JoueurPage.css'
@@ -102,6 +102,47 @@ function JoueurPage() {
               <div>
                 <dt>Main</dt>
                 <dd>{MAINS[details.main]}</dd>
+              </div>
+            )}
+            {details.infos?.poids && (
+              <div>
+                <dt>Poids</dt>
+                <dd>{details.infos.poids} kg</dd>
+              </div>
+            )}
+            {details.infos?.passePro && (
+              <div>
+                <dt>Pro depuis</dt>
+                <dd>{details.infos.passePro}</dd>
+              </div>
+            )}
+            {details.infos?.meilleurRang && (
+              <div>
+                <dt>Meilleur classement</dt>
+                <dd>
+                  n° {details.infos.meilleurRang.position} (
+                  {formaterMoisAnnee(details.infos.meilleurRang.date)})
+                </dd>
+              </div>
+            )}
+            {details.infos?.lieuNaissance && (
+              <div>
+                <dt>Lieu de naissance</dt>
+                <dd>{details.infos.lieuNaissance}</dd>
+              </div>
+            )}
+            {details.infos?.residence && (
+              <div>
+                <dt>Réside à</dt>
+                <dd>{details.infos.residence}</dd>
+              </div>
+            )}
+            {details.infos?.entraineur && (
+              <div>
+                <dt>
+                  {details.infos.entraineur.includes(',') ? 'Entraîneurs' : 'Entraîneur'}
+                </dt>
+                <dd>{details.infos.entraineur}</dd>
               </div>
             )}
           </>

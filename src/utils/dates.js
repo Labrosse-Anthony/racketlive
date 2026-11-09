@@ -65,3 +65,8 @@ export function moisCouverts(debut, fin) {
   }
   return mois
 }
+
+// « 2026-04-06 » donne « avril 2026 »
+export function formaterMoisAnnee(texte) {
+  return lireDate(texte).toLocaleDateString('fr-FR', { month: 'long', year: 'numeric' })
+}

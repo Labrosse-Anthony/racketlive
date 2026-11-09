@@ -1,5 +1,10 @@
 import { describe, expect, it } from 'vitest'
-import { convertirPalmares, convertirSurfaces } from './fiche-joueur.mjs'
+import {
+  convertirInfos,
+  convertirPalmares,
+  convertirSurfaces,
+  traduireLieu,
+} from './fiche-joueur.mjs'
 
 describe('convertirPalmares', () => {
   it('range par prestige et cache les niveaux à zéro', () => {
@@ -50,5 +55,35 @@ describe('convertirSurfaces', () => {
 
   it('renvoie une liste vide sans données', () => {
     expect(convertirSurfaces([], 2026)).toEqual({ annee: null, surfaces: [] })
+  })
+})
+
+describe('traduireLieu', () => {
+  it('traduit le pays en français', () => {
+    expect(traduireLieu('Hamburg, Germany')).toBe('Hamburg, Allemagne')
+    expect(traduireLieu('El Palmar, Murcia, Spain')).toBe('El Palmar, Murcia, Espagne')
+  })
+
+  it('garde un nom de pays inconnu et gère le vide', () => {
+    expect(traduireLieu('Quelque part, Atlantis')).toBe('Quelque part, Atlantis')
+    expect(traduireLieu(null)).toBeNull()
+  })
+})
+
+describe('convertirInfos', () => {
+  it('ne garde que les informations renseignées', () => {
+    const profil = {
+      coach: 'Samuel Lopez',
+      information: { turnedPro: '2018', weight: null, birthplace: 'Minsk, Belarus', residence: null },
+      bestRank: { position: 1, date: '2026-04-06T00:00:00.000Z' },
+    }
+    expect(convertirInfos(profil)).toEqual({
+      entraineur: 'Samuel Lopez',
+      lieuNaissance: 'Minsk, Biélorussie',
+      residence: null,
+      passePro: 2018,
+      poids: null,
+      meilleurRang: { position: 1, date: '2026-04-06' },
+    })
   })
 })

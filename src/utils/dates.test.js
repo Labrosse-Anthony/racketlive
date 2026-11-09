@@ -2,6 +2,7 @@ import { afterEach, describe, expect, it, vi } from 'vitest'
 import {
   aujourdhuiISO,
   calculerAge,
+  formaterMoisAnnee,
   formaterPeriode,
   lireDate,
   moisCouverts,
@@ -66,5 +67,11 @@ describe('moisCouverts', () => {
 
   it("passe d'une année à l'autre", () => {
     expect(moisCouverts('2026-12-28', '2027-01-03')).toEqual(['2026-12', '2027-01'])
+  })
+})
+
+describe('formaterMoisAnnee', () => {
+  it('donne le mois et l\'année en français', () => {
+    expect(formaterMoisAnnee('2026-04-06')).toBe('avril 2026')
   })
 })
