@@ -40,33 +40,6 @@
   margin-top: 0.6rem;
 }
 
-.badge {
-  padding: 0.15rem 0.6rem;
-  border-radius: 999px;
-  font-size: 0.75rem;
-  font-weight: bold;
-}
-
-.badge--atp {
-  background: var(--badge-atp-bg);
-  color: var(--badge-atp-text);
-}
-
-.badge--wta {
-  background: var(--badge-wta-bg);
-  color: var(--badge-wta-text);
-}
-
-.badge--grand-chelem {
-  background: var(--badge-gc-bg);
-  color: var(--badge-gc-text);
-}
-
-.badge--surface {
-  background: var(--badge-neutral-bg);
-  color: var(--badge-neutral-text);
-}
-
 .tournoi-card {
   position: relative;
 }
@@ -79,10 +52,4 @@
 
 .tournoi-card__lien {
   padding-right: 3.5rem;
-}
-
-.badge--categorie {
-  border: 1px solid var(--border-strong);
-  background: var(--surface);
-  color: var(--text);
 }

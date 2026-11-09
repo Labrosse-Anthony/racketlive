@@ -13,6 +13,7 @@ import { calculerAge } from '../utils/dates.js'
 import { CIRCUITS, PAYS, MAINS } from '../utils/labels.js'
 import Squelette from '../components/ui/Squelette.jsx'
 import './JoueurPage.css'
+import '../components/ui/Badge.css'
 
 function JoueurPage() {
   const { id } = useParams()

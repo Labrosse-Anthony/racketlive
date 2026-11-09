@@ -1,0 +1,35 @@
+/* Étiquettes (badges) : circuit, catégorie, surface.
+   Les couleurs sont des variables définies dans index.css (thème clair et sombre). */
+
+.badge {
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.badge--atp {
+  background: var(--badge-atp-bg);
+  color: var(--badge-atp-text);
+}
+
+.badge--wta {
+  background: var(--badge-wta-bg);
+  color: var(--badge-wta-text);
+}
+
+.badge--grand-chelem {
+  background: var(--badge-gc-bg);
+  color: var(--badge-gc-text);
+}
+
+.badge--surface {
+  background: var(--badge-neutral-bg);
+  color: var(--badge-neutral-text);
+}
+
+.badge--categorie {
+  border: 1px solid var(--border-strong);
+  background: var(--surface);
+  color: var(--text);
+}

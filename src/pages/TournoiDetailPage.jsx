@@ -12,7 +12,7 @@ import Flag from '../components/ui/Flag.jsx'
 import { formaterPeriode } from '../utils/dates.js'
 import { CIRCUITS, SURFACES, PAYS, CATEGORIES } from '../utils/labels.js'
 import Squelette from '../components/ui/Squelette.jsx'
-import '../components/tournaments/TournamentCard.css'
+import '../components/ui/Badge.css'
 import './TournoiDetailPage.css'
 
 function TournoiDetailPage() {

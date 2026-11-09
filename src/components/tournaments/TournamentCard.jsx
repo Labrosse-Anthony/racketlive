@@ -4,6 +4,7 @@ import { formaterPeriode } from '../../utils/dates.js'
 import { CIRCUITS, SURFACES, PAYS } from '../../utils/labels.js'
 import FavoriteButton from '../ui/FavoriteButton.jsx'
 import './TournamentCard.css'
+import '../ui/Badge.css'
 
 function TournamentCard({ tournoi, titre: Titre = 'h2' }) {
   return (
