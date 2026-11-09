@@ -34,7 +34,7 @@ function lireTournoisBruts(circuit) {
 
 function convertir(circuit) {
   return lireTournoisBruts(circuit)
-    .filter((t) => t.tier !== 'United Cup')
+    .filter((t) => !t.name.startsWith('United Cup')) // épreuve par équipes mixte : exclue
     .map((t) => {
       const debut = t.date.slice(0, 10)
       const grandChelem = t.rankId === 4

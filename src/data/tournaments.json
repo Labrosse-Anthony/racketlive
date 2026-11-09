@@ -44,17 +44,6 @@
     "fin": "2026-01-11"
   },
   {
-    "id": 16700,
-    "nom": "United Cup",
-    "circuit": "wta",
-    "categorie": "500",
-    "surface": "dur",
-    "pays": "AU",
-    "ville": "Australia",
-    "debut": "2026-01-05",
-    "fin": "2026-01-11"
-  },
-  {
     "id": 21303,
     "nom": "Adelaide International",
     "circuit": "atp",

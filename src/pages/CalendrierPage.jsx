@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { getTournaments } from '../services/api/tournamentsApi.js'
 import { PAYS } from '../utils/labels.js'
+import { NOMS_MOIS, moisCouverts } from '../utils/dates.js'
 import { usePageTitle } from '../hooks/usePageTitle.js'
 import { useChargement } from '../hooks/useChargement.js'
 import TournamentFilters from '../components/tournaments/TournamentFilters.jsx'
@@ -49,16 +50,26 @@ function CalendrierPage() {
     (a, b) => PAYS[a].localeCompare(PAYS[b], 'fr'),
   )
 
+  // Les mois proposés dans le filtre : ceux où il y a au moins un tournoi
+  const optionsMois = [
+    ...new Set(tournois.flatMap((t) => moisCouverts(t.debut, t.fin))),
+  ]
+    .sort()
+    .map((valeur) => ({
+      valeur,
+      texte: `${NOMS_MOIS[Number(valeur.slice(5, 7)) - 1]} ${valeur.slice(0, 4)}`,
+    }))
+
   const tournoisFiltres = tournois.filter((tournoi) => {
     if (filtres.circuit && tournoi.circuit !== filtres.circuit) return false
     if (filtres.categorie && tournoi.categorie !== filtres.categorie) return false
     if (filtres.pays && tournoi.pays !== filtres.pays) return false
 
     if (filtres.mois) {
-      const mois = Number(filtres.mois)
-      const moisDebut = Number(tournoi.debut.slice(5, 7))
-      const moisFin = Number(tournoi.fin.slice(5, 7))
-      if (mois < moisDebut || mois > moisFin) return false
+      // filtres.mois vaut « AAAA-MM » : on garde les tournois qui touchent ce mois
+      const debut = tournoi.debut.slice(0, 7)
+      const fin = tournoi.fin.slice(0, 7)
+      if (filtres.mois < debut || filtres.mois > fin) return false
     }
     return true
   })
@@ -102,6 +113,7 @@ function CalendrierPage() {
       <TournamentFilters
         filtres={filtres}
         codesPays={codesPays}
+        optionsMois={optionsMois}
         onChange={changerFiltre}
         onReset={effacerFiltres}
         afficherMois={vue === 'liste'}

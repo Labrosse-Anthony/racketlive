@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import { NOMS_MOIS } from '../../utils/dates.js'
 import { CIRCUITS, PAYS, CATEGORIES } from '../../utils/labels.js'
 import './TournamentFilters.css'
 
@@ -26,6 +25,7 @@ function versOptions(objet) {
 function TournamentFilters({
   filtres,
   codesPays,
+  optionsMois = [],
   onChange,
   onReset,
   afficherMois = true,
@@ -36,11 +36,6 @@ function TournamentFilters({
   const optionsPays = codesPays.map((code) => ({
     valeur: code,
     texte: PAYS[code],
-  }))
-
-  const optionsMois = NOMS_MOIS.map((texte, index) => ({
-    valeur: String(index + 1),
-    texte,
   }))
 
   const nombreActifs = Object.entries(filtres).filter(

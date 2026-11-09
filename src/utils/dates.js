@@ -44,3 +44,24 @@ export function aujourdhuiISO() {
   const jour = String(maintenant.getDate()).padStart(2, '0')
   return `${maintenant.getFullYear()}-${mois}-${jour}`
 }
+
+// Tous les mois couverts par une période, au format AAAA-MM.
+// Ex : moisCouverts('2026-12-28', '2027-01-03') donne ['2026-12', '2027-01']
+export function moisCouverts(debut, fin) {
+  const mois = []
+  let annee = Number(debut.slice(0, 4))
+  let numero = Number(debut.slice(5, 7))
+  const dernier = fin.slice(0, 7)
+
+  while (true) {
+    const courant = `${annee}-${String(numero).padStart(2, '0')}`
+    if (courant > dernier) break
+    mois.push(courant)
+    numero++
+    if (numero > 12) {
+      numero = 1
+      annee++
+    }
+  }
+  return mois
+}

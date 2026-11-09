@@ -1,5 +1,11 @@
 import { afterEach, describe, expect, it, vi } from 'vitest'
-import { aujourdhuiISO, calculerAge, formaterPeriode, lireDate } from './dates.js'
+import {
+  aujourdhuiISO,
+  calculerAge,
+  formaterPeriode,
+  lireDate,
+  moisCouverts,
+} from './dates.js'
 
 // Après chaque test, on remet l'horloge normale
 afterEach(() => {
@@ -46,5 +52,19 @@ describe('aujourdhuiISO', () => {
     vi.useFakeTimers()
     vi.setSystemTime(new Date('2026-03-04T12:00:00'))
     expect(aujourdhuiISO()).toBe('2026-03-04')
+  })
+})
+
+describe('moisCouverts', () => {
+  it('donne un seul mois pour une période courte', () => {
+    expect(moisCouverts('2026-03-02', '2026-03-08')).toEqual(['2026-03'])
+  })
+
+  it('donne deux mois quand la période chevauche deux mois', () => {
+    expect(moisCouverts('2026-03-30', '2026-04-05')).toEqual(['2026-03', '2026-04'])
+  })
+
+  it("passe d'une année à l'autre", () => {
+    expect(moisCouverts('2026-12-28', '2027-01-03')).toEqual(['2026-12', '2027-01'])
   })
 })
