@@ -1,5 +1,4 @@
-import { Link } from 'react-router-dom'
-import Flag from '../ui/Flag.jsx'
+import JoueurLien from '../players/JoueurLien.jsx'
 import './TournamentResults.css'
 
 function Joueur({ joueur, gagnant = false }) {
@@ -7,21 +6,10 @@ function Joueur({ joueur, gagnant = false }) {
     ? 'resultat__joueur resultat__joueur--gagnant'
     : 'resultat__joueur'
 
-  const contenu = (
-    <>
-      <Flag code={joueur.pays} /> {joueur.nom}
-      {gagnant && <span className="visuellement-cache"> (vainqueur)</span>}
-    </>
-  )
-
-  if (!joueur.classe) {
-    return <span className={classe}>{contenu}</span>
-  }
-
   return (
-    <Link to={`/joueurs/${joueur.id}`} className={classe}>
-      {contenu}
-    </Link>
+    <JoueurLien joueur={joueur} className={classe}>
+      {gagnant && <span className="visuellement-cache"> (vainqueur)</span>}
+    </JoueurLien>
   )
 }
 

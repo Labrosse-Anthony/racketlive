@@ -5,10 +5,12 @@ import { usePageTitle } from '../hooks/usePageTitle.js'
 import { useChargement } from '../hooks/useChargement.js'
 import { getTournaments } from '../services/api/tournamentsApi.js'
 import { getRanking } from '../services/api/rankingsApi.js'
+import { getUpcomingMatches } from '../services/api/matchsApi.js'
 import { getPlayersByIds } from '../services/api/playersApi.js'
 import { aujourdhuiISO } from '../utils/dates.js'
 import PlayerCard from '../components/players/PlayerCard.jsx'
 import TournamentList from '../components/tournaments/TournamentList.jsx'
+import UpcomingMatches from '../components/tournaments/UpcomingMatches.jsx'
 import RankingsList from '../components/rankings/RankingsList.jsx'
 import MessageErreur from '../components/ui/MessageErreur.jsx'
 import Squelette from '../components/ui/Squelette.jsx'
@@ -33,12 +35,13 @@ function HomePage() {
 
   const { donnees, chargement, erreur, reessayer } = useChargement(
     async () => {
-      const [tournois, atp, wta] = await Promise.all([
+      const [tournois, atp, wta, matchs] = await Promise.all([
         getTournaments(),
         getRanking('atp'),
         getRanking('wta'),
+        getUpcomingMatches(),
       ])
-      return { tournois, atp, wta }
+      return { tournois, atp, wta, matchs }
     },
     [],
   )
@@ -138,6 +141,13 @@ function HomePage() {
           <TournamentList tournois={enCours} titre="h3" />
         )}
       </section>
+
+      {donnees.matchs.length > 0 && (
+        <section aria-labelledby="titre-matchs">
+          <h2 id="titre-matchs">Prochains matchs</h2>
+          <UpcomingMatches matchs={donnees.matchs} />
+        </section>
+      )}
 
       <section aria-labelledby="titre-classements">
         <div className="accueil__entete">

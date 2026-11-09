@@ -11,7 +11,7 @@
     "test:watch": "vitest",
     "preview": "vite preview",
     "donnees": "node scripts/recuperer-donnees.mjs",
-    "convertir": "node scripts/convertir-classements.mjs && node scripts/convertir-tournois.mjs && node scripts/convertir-resultats.mjs && node scripts/convertir-joueurs.mjs"
+    "convertir": "node scripts/convertir-classements.mjs && node scripts/convertir-tournois.mjs && node scripts/convertir-resultats.mjs && node scripts/convertir-joueurs.mjs && node scripts/convertir-programme.mjs"
   },
   "dependencies": {
     "flag-icons": "^7.6.0",

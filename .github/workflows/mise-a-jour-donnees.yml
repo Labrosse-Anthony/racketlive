@@ -35,13 +35,14 @@ jobs:
 
       # Le calendrier d'abord : le téléchargement des résultats en a besoin
       - run: npm run donnees -- --groupe=calendrier
-      - run: npm run donnees -- --groupe=classements,resultats --nombre=10
+      - run: npm run donnees -- --groupe=classements,resultats,programme --nombre=10
 
       - name: Convertir au format du site
         run: |
           node scripts/convertir-classements.mjs
           node scripts/convertir-tournois.mjs
           node scripts/convertir-resultats.mjs
+          node scripts/convertir-programme.mjs
 
       - name: Enregistrer les changements
         run: |

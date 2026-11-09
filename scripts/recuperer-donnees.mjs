@@ -126,6 +126,13 @@ const GROUPES = {
     { fichier: 'ref-niveaux-classement.json', chemin: '/tennis/v2/ranking' },
   ],
 
+  // Le programme : les prochains matchs ATP et WTA (2 requêtes), affichés sur l'accueil
+  programme: () =>
+    CIRCUITS.map((c) => ({
+      fichier: `matchs-a-venir-${c}.json`,
+      chemin: `/tennis/v2/${c}/fixtures`,
+    })),
+
   // Les matchs : à venir, résultats du jour, prévisions, affiches possibles
   matchs: () =>
     CIRCUITS.flatMap((c) => [
