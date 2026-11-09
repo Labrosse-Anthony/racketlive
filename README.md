@@ -11,6 +11,7 @@ Site de tennis : calendrier des tournois, classements ATP et WTA, fiches joueurs
 - Fiches joueurs
 - Favoris (joueurs et tournois) conservés dans le navigateur
 - Thème clair et sombre
+- PWA : site installable sur l'écran d'accueil du téléphone, avec les pages déjà vues disponibles hors connexion
 - Accessibilité : lien d'évitement, navigation au clavier, contrastes, réduction des animations
 
 ## Technologies
@@ -73,5 +74,4 @@ Une seconde action (`.github/workflows/ci.yml`) lance le lint, les tests et le b
 - Matchs du jour sur l'accueil et plus de données joueurs
 - Mentions légales
 - Mise en ligne (Netlify ou Vercel)
-- PWA : site installable sur le téléphone, avec une utilisation hors connexion
 - Application mobile avec Capacitor (App Store et Google Play)
