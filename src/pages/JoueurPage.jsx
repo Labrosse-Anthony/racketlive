@@ -11,6 +11,7 @@ import MessageErreur from '../components/ui/MessageErreur.jsx'
 import Flag from '../components/ui/Flag.jsx'
 import { calculerAge } from '../utils/dates.js'
 import { CIRCUITS, PAYS, MAINS } from '../utils/labels.js'
+import Squelette from '../components/ui/Squelette.jsx'
 import './JoueurPage.css'
 
 function JoueurPage() {
@@ -24,7 +25,7 @@ function JoueurPage() {
   usePageTitle(joueur ? joueur.nom : 'Joueur')
 
   if (chargement) {
-    return <p>Chargement…</p>
+    return <Squelette lignes={4} hauteur="5rem" />
   }
 
   if (erreur) {

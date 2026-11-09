@@ -11,6 +11,7 @@ import PlayerCard from '../components/players/PlayerCard.jsx'
 import TournamentList from '../components/tournaments/TournamentList.jsx'
 import RankingsList from '../components/rankings/RankingsList.jsx'
 import MessageErreur from '../components/ui/MessageErreur.jsx'
+import Squelette from '../components/ui/Squelette.jsx'
 import './HomePage.css'
 
 const NOMBRE_CLASSES = 5
@@ -77,7 +78,7 @@ function HomePage() {
     return (
       <div className="accueil">
         {presentation}
-        {erreur ? <MessageErreur onReessayer={reessayer} /> : <p>Chargement…</p>}
+        {erreur ? <MessageErreur onReessayer={reessayer} /> : <Squelette lignes={4} hauteur="5rem" />}
       </div>
     )
   }

@@ -3,6 +3,7 @@ import { Outlet, useLocation } from 'react-router-dom'
 import Navbar from './Navbar.jsx'
 import Footer from './Footer.jsx'
 import ErrorBoundary from '../ui/ErrorBoundary.jsx'
+import Squelette from '../ui/Squelette.jsx'
 import './Layout.css'
 
 function Layout() {
@@ -32,7 +33,7 @@ function Layout() {
       >
         {/* key={pathname} : en changeant de page, l'erreur est effacée */}
         <ErrorBoundary key={pathname}>
-          <Suspense fallback={<p>Chargement…</p>}>
+          <Suspense fallback={<Squelette />}>
             <Outlet />
           </Suspense>
         </ErrorBoundary>

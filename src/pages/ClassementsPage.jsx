@@ -5,6 +5,7 @@ import { useChargement } from '../hooks/useChargement.js'
 import RankingsList from '../components/rankings/RankingsList.jsx'
 import Pagination from '../components/ui/Pagination.jsx'
 import MessageErreur from '../components/ui/MessageErreur.jsx'
+import Squelette from '../components/ui/Squelette.jsx'
 import './ClassementsPage.css'
 
 const JOUEURS_PAR_PAGE = 8
@@ -84,7 +85,7 @@ function ClassementsPage() {
         onChange={changerRecherche}
       />
 
-      {chargement && <p>Chargement…</p>}
+      {chargement && <Squelette lignes={8} hauteur="3.5rem" />}
 
       {erreur && <MessageErreur onReessayer={reessayer} />}
 

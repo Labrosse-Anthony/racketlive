@@ -11,6 +11,7 @@ import MessageErreur from '../components/ui/MessageErreur.jsx'
 import Flag from '../components/ui/Flag.jsx'
 import { formaterPeriode } from '../utils/dates.js'
 import { CIRCUITS, SURFACES, PAYS, CATEGORIES } from '../utils/labels.js'
+import Squelette from '../components/ui/Squelette.jsx'
 import '../components/tournaments/TournamentCard.css'
 import './TournoiDetailPage.css'
 
@@ -31,7 +32,7 @@ function TournoiDetailPage() {
   usePageTitle(titre)
 
   if (chargement) {
-    return <p>Chargement…</p>
+    return <Squelette lignes={5} hauteur="4rem" />
   }
 
   if (erreur) {

@@ -8,6 +8,7 @@ import { getPlayersByIds } from '../services/api/playersApi.js'
 import PlayerCard from '../components/players/PlayerCard.jsx'
 import TournamentList from '../components/tournaments/TournamentList.jsx'
 import MessageErreur from '../components/ui/MessageErreur.jsx'
+import Squelette from '../components/ui/Squelette.jsx'
 import './FavorisPage.css'
 
 function FavorisPage() {
@@ -48,7 +49,7 @@ function FavorisPage() {
     return (
       <section>
         <h1>Mes favoris</h1>
-        <p>Chargement…</p>
+        <Squelette lignes={3} hauteur="5rem" />
       </section>
     )
   }

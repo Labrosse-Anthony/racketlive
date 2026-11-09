@@ -7,6 +7,7 @@ import TournamentFilters from '../components/tournaments/TournamentFilters.jsx'
 import TournamentList from '../components/tournaments/TournamentList.jsx'
 import MonthCalendar from '../components/tournaments/MonthCalendar.jsx'
 import MessageErreur from '../components/ui/MessageErreur.jsx'
+import Squelette from '../components/ui/Squelette.jsx'
 import './CalendrierPage.css'
 
 const FILTRES_VIDES = { circuit: '', categorie: '', pays: '', mois: '' }
@@ -99,7 +100,7 @@ function CalendrierPage() {
         afficherMois={vue === 'liste'}
       />
 
-      {chargement && <p>Chargement…</p>}
+      {chargement && <Squelette lignes={6} hauteur="6rem" />}
 
       {erreur && <MessageErreur onReessayer={reessayer} />}
 
