@@ -15,7 +15,7 @@ Site de tennis : calendrier des tournois, classements ATP et WTA, fiches joueurs
 
 ## Technologies
 
-React, Vite, React Router, CSS moderne (variables, mobile-first), ESLint.
+React, Vite, React Router, CSS moderne (variables, mobile-first), ESLint, Vitest, GitHub Actions.
 
 ## Lancer le projet
 
@@ -25,6 +25,7 @@ npm run dev      # lancer le site en développement
 npm run build    # construire la version de production
 npm run preview  # tester la version de production
 npm run lint     # vérifier la qualité du code
+npm test         # lancer les tests automatiques (Vitest)
 ```
 
 ## Organisation du code
@@ -61,12 +62,16 @@ RAPIDAPI_HOST=tennis-api-atp-wta-itf.p.rapidapi.com
 
 Le forfait gratuit est limité à 50 requêtes par jour. Le script compte les appels et s'arrête tout seul.
 
-Les fiches joueurs détaillées et les résultats de tournoi utilisent encore des données de démonstration : ils seront branchés sur l'API ensuite.
+### Mise à jour automatique
+
+Une action GitHub (`.github/workflows/mise-a-jour-donnees.yml`) télécharge chaque jour le calendrier, les classements et les résultats, les convertit et enregistre les changements. Elle utilise deux secrets du dépôt : `RAPIDAPI_KEY` et `RAPIDAPI_HOST`. Elle consomme environ 29 requêtes par jour : évite les gros téléchargements manuels le même jour.
+
+Une seconde action (`.github/workflows/ci.yml`) lance le lint, les tests et le build à chaque envoi sur GitHub.
 
 ## À venir
 
-- Résultats de tournoi et fiches joueurs avec les vraies données
-- Matchs du jour sur l'accueil
-- Mentions légales et source des données
-- Gestion des erreurs, tests automatiques
-- Mise en ligne, puis application mobile
+- Matchs du jour sur l'accueil et plus de données joueurs
+- Mentions légales
+- Mise en ligne (Netlify ou Vercel)
+- PWA : site installable sur le téléphone, avec une utilisation hors connexion
+- Application mobile avec Capacitor (App Store et Google Play)

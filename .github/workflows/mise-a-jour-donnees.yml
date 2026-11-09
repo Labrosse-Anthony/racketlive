@@ -1,0 +1,56 @@
+# Met à jour les classements, le calendrier et les résultats tous les jours,
+# puis enregistre les changements dans le dépôt (le site se redéploie ensuite).
+# On peut aussi la lancer à la main : onglet « Actions » du dépôt > « Run workflow ».
+name: Mise à jour des données
+
+on:
+  schedule:
+    - cron: '0 6 * * *' # chaque jour à 6h (heure UTC)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  mise-a-jour:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      # La clé de l'API vient des « secrets » du dépôt, jamais écrite dans le code.
+      # Le fichier .env n'existe que le temps de cette exécution.
+      - name: Créer le fichier .env
+        env:
+          RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
+          RAPIDAPI_HOST: ${{ secrets.RAPIDAPI_HOST }}
+        run: |
+          printf 'RAPIDAPI_KEY=%s\nRAPIDAPI_HOST=%s\n' "$RAPIDAPI_KEY" "$RAPIDAPI_HOST" > .env
+
+      # Le calendrier d'abord : le téléchargement des résultats en a besoin
+      - run: npm run donnees -- --groupe=calendrier
+      - run: npm run donnees -- --groupe=classements,resultats --nombre=10
+
+      - name: Convertir au format du site
+        run: |
+          node scripts/convertir-classements.mjs
+          node scripts/convertir-tournois.mjs
+          node scripts/convertir-resultats.mjs
+
+      - name: Enregistrer les changements
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data public/data
+          if git diff --cached --quiet; then
+            echo "Aucun changement"
+          else
+            git commit -m "data: mise à jour automatique des données"
+            git push
+          fi
