@@ -1,3 +1,21 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+  "rewrites": [
+    {
+      "source": "/joueurs/:id",
+      "destination": "/api/partage?type=joueur&id=:id"
+    },
+    {
+      "source": "/tournois/:id",
+      "destination": "/api/partage?type=tournoi&id=:id"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ],
+  "functions": {
+    "api/partage.js": {
+      "includeFiles": "src/data/{rankings,tournaments}.json"
+    }
+  }
 }

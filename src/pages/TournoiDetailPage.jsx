@@ -7,6 +7,7 @@ import { usePageTitle } from '../hooks/usePageTitle.js'
 import { useChargement } from '../hooks/useChargement.js'
 import TournamentResults from '../components/tournaments/TournamentResults.jsx'
 import FavoriteButton from '../components/ui/FavoriteButton.jsx'
+import ShareButton from '../components/ui/ShareButton.jsx'
 import MessageErreur from '../components/ui/MessageErreur.jsx'
 import Flag from '../components/ui/Flag.jsx'
 import { formaterPeriode } from '../utils/dates.js'
@@ -64,6 +65,13 @@ function TournoiDetailPage() {
       <div className="tournoi-detail__titre">
         <h1>{tournoi.nom}</h1>
         <FavoriteButton type="tournois" id={tournoi.id} nom={tournoi.nom} />
+      </div>
+
+      <div className="tournoi-detail__partage">
+        <ShareButton
+          titre={`${tournoi.nom} · RacketLive`}
+          texte={`${tournoi.nom} sur RacketLive`}
+        />
       </div>
 
       <div className="tournoi-detail__badges">

@@ -56,6 +56,10 @@
   margin-bottom: 0.5rem;
 }
 
+.tournoi-detail__partage {
+  margin-bottom: 1rem;
+}
+
 .tournoi-detail__titre h1 {
   margin: 0;
 }

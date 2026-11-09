@@ -50,6 +50,10 @@
   font-size: 1.05rem;
 }
 
+.joueur__partage {
+  margin-bottom: 1rem;
+}
+
 .joueur__favori {
   margin-left: auto;
 }

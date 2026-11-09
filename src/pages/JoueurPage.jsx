@@ -10,6 +10,7 @@ import PlayerSurfaces from '../components/players/PlayerSurfaces.jsx'
 import PlayerResults from '../components/players/PlayerResults.jsx'
 import PlayerUpcoming from '../components/players/PlayerUpcoming.jsx'
 import FavoriteButton from '../components/ui/FavoriteButton.jsx'
+import ShareButton from '../components/ui/ShareButton.jsx'
 import MessageErreur from '../components/ui/MessageErreur.jsx'
 import Flag from '../components/ui/Flag.jsx'
 import { calculerAge, formaterMoisAnnee } from '../utils/dates.js'
@@ -72,6 +73,13 @@ function JoueurPage() {
           <FavoriteButton type="joueurs" id={joueur.id} nom={joueur.nom} />
         </div>
       </header>
+
+      <div className="joueur__partage">
+        <ShareButton
+          titre={`${joueur.nom} · RacketLive`}
+          texte={`Fiche de ${joueur.nom} sur RacketLive`}
+        />
+      </div>
 
       <dl className="joueur__infos">
         <div>

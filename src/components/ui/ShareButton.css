@@ -1,0 +1,34 @@
+.partage {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.partage__bouton {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  min-height: 2.75rem;
+  padding: 0 1rem;
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+  cursor: pointer;
+}
+
+.partage__bouton:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.partage__bouton:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
+
+.partage__message {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
