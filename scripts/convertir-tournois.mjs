@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync } from 'node:fs'
+import { existsSync, readFileSync, writeFileSync } from 'node:fs'
 import { CODES_PAYS } from './codes-pays.mjs'
 
 const SURFACES = { 1: 'dur', 2: 'terre-battue', 3: 'indoor', 4: 'indoor', 5: 'gazon' }
@@ -17,12 +17,23 @@ function estimerFin(debut, nombreDeJours) {
   return date.toISOString().slice(0, 10)
 }
 
-function convertir(circuit) {
-  const brut = JSON.parse(
-    readFileSync(`src/data/api/calendrier-${circuit}.json`, 'utf-8'),
-  )
+function lireTournoisBruts(circuit) {
+  const anneeSuivante = new Date().getFullYear() + 1
+  const fichiers = [
+    `src/data/api/calendrier-${circuit}.json`,
+    `src/data/api/calendrier-${circuit}-${anneeSuivante}.json`,
+  ]
 
-  return brut.donnees
+  return fichiers
+    .filter((fichier) => existsSync(fichier))
+    .flatMap((fichier) => {
+      const donnees = JSON.parse(readFileSync(fichier, 'utf-8')).donnees
+      return Array.isArray(donnees) ? donnees : []
+    })
+}
+
+function convertir(circuit) {
+  return lireTournoisBruts(circuit)
     .filter((t) => t.tier !== 'United Cup')
     .map((t) => {
       const debut = t.date.slice(0, 10)

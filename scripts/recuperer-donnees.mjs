@@ -39,6 +39,7 @@ const LIMITE_PAR_JOUR = 50 // plan gratuit Basic
 const PAUSE_MS = 400 // le plan gratuit accepte 4 requêtes par seconde
 const CIRCUITS = ['atp', 'wta']
 const ANNEE = new Date().getFullYear()
+const ANNEE_SUIVANTE = ANNEE + 1 
 const AUJOURDHUI = new Date().toISOString().slice(0, 10)
 
 function lireOption(nom, parDefaut) {
@@ -105,6 +106,11 @@ const GROUPES = {
     ...CIRCUITS.map((c) => ({
       fichier: `calendrier-${c}.json`,
       chemin: `/tennis/v2/${c}/tournament/calendar/${ANNEE}?pageSize=100&filter=TourRank:2,3,4`,
+    })),
+    
+    ...CIRCUITS.map((c) => ({
+      fichier: `calendrier-${c}-${ANNEE_SUIVANTE}.json`,
+      chemin: `/tennis/v2/${c}/tournament/calendar/${ANNEE_SUIVANTE}?pageSize=100&filter=TourRank:2,3,4`,
     })),
     { fichier: 'calendrier-actif.json', chemin: '/tennis/v2/calendar/active' },
     ...CIRCUITS.map((c) => ({
