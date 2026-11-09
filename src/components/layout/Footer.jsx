@@ -25,8 +25,11 @@ function Footer() {
         {miseAJour && ` Dernière mise à jour : ${formaterDateMiseAJour(miseAJour)}.`}
       </p>
       <p>
-        <Link to="/a-propos">À propos et données</Link> · RacketLive n'est
-        affilié ni à l'ATP ni à la WTA.
+        <Link to="/a-propos">À propos et données</Link> ·{' '}
+        <Link to="/mentions-legales">Mentions légales</Link>
+      </p>
+      <p>
+        RacketLive n'est affilié ni à l'ATP ni à la WTA.
       </p>
     </footer>
   )
