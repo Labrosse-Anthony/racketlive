@@ -420,7 +420,7 @@
           "id": 40609,
           "nom": "Jenson Brooksby",
           "pays": "US",
-          "classe": false
+          "classe": true
         },
         "victoire": true,
         "score": "6-4 6-3 6-4"
@@ -654,7 +654,7 @@
           "id": 60791,
           "nom": "Polina Kudermetova",
           "pays": "UZ",
-          "classe": false
+          "classe": true
         },
         "victoire": true,
         "score": "6-4 6-1"
