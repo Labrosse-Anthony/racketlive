@@ -1,5 +1,6 @@
 import rankings from '../../data/rankings.json'
 import details from '../../data/players.json'
+import photos from '../../data/photos.json'
 
 export async function getPlayerById(id) {
   const idNombre = Number(id)
@@ -12,6 +13,7 @@ export async function getPlayerById(id) {
         ...rankings[circuit][index],
         circuit,
         rang: index + 1,
+        photo: photos[`${circuit}-${id}`] || null,
         details: details[String(id)] || null,
       }
     }

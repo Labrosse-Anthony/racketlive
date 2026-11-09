@@ -126,6 +126,33 @@ const GROUPES = {
     { fichier: 'ref-niveaux-classement.json', chemin: '/tennis/v2/ranking' },
   ],
 
+  // Photos des N premiers joueurs de chaque classement (1 requête par photo)
+  photos: () => {
+    const demandes = []
+
+    for (const c of CIRCUITS) {
+      const classement = lireDonnees(`classement-${c}.json`)
+      if (!classement) continue
+
+      const premiers = classement
+        .filter((ligne) => ligne.player)
+        .sort((a, b) => a.position - b.position)
+        .slice(0, NOMBRE)
+
+      for (const { player } of premiers) {
+        // Le nom du fichier est l'identifiant du joueur sur 5 chiffres (ex : 05992.jpg)
+        const nom = String(player.id).padStart(5, '0')
+        demandes.push({
+          fichier: `photos/${c}-${player.id}.jpg`,
+          chemin: `/tennis/v2/ms-api/uploads/Photo/${c}/${nom}.jpg`,
+          image: true,
+        })
+      }
+    }
+
+    return demandes
+  },
+
   // Le programme : les prochains matchs ATP et WTA (2 requêtes), affichés sur l'accueil
   programme: () =>
     CIRCUITS.map((c) => ({
@@ -292,7 +319,7 @@ function tournoisCommences(circuit) {
 }
 
 // ---------- 6. Appeler l'API ----------
-async function appeler(chemin) {
+async function envoyer(chemin) {
   // On compte la requête AVANT de l'envoyer : même un échec consomme le quota.
   compteur.appels += 1
   enregistrerCompteur(compteur)
@@ -313,13 +340,44 @@ async function appeler(chemin) {
     throw new Error(`l'API a répondu ${reponse.status}`)
   }
 
+  return reponse
+}
+
+async function appeler(chemin) {
+  const reponse = await envoyer(chemin)
   return reponse.json()
 }
 
+// Pour les photos : la réponse est une image, pas du JSON
+async function appelerImage(chemin) {
+  const reponse = await envoyer(chemin)
+  const type = reponse.headers.get('content-type') || ''
+  if (!type.startsWith('image/')) {
+    throw new Error(`réponse inattendue (${type || 'sans type'}) au lieu d'une image`)
+  }
+  return Buffer.from(await reponse.arrayBuffer())
+}
+
 // ---------- 7. Appeler puis enregistrer dans un fichier ----------
-async function recupererEtEnregistrer({ fichier: nomFichier, chemin }) {
+async function recupererEtEnregistrer({ fichier: nomFichier, chemin, image = false }) {
   const fichier = `${DOSSIER}/${nomFichier}`
   mkdirSync(dirname(fichier), { recursive: true })
+
+  if (image) {
+    try {
+      const octets = await appelerImage(chemin)
+      writeFileSync(fichier, octets)
+      console.log(`OK ${nomFichier} : image de ${Math.round(octets.length / 1024)} Ko`)
+    } catch (erreur) {
+      if (!erreur.message.includes('404')) throw erreur
+      // Pas de photo pour ce joueur : on garde un fichier vide pour ne pas
+      // redemander (et reperdre une requête) à chaque lancement.
+      writeFileSync(fichier, '')
+      console.log(`-- ${nomFichier} : pas de photo pour ce joueur`)
+    }
+    await pause(PAUSE_MS)
+    return
+  }
 
   const reponse = await appeler(chemin)
 

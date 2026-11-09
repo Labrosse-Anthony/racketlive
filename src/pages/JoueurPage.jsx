@@ -58,7 +58,7 @@ function JoueurPage() {
       </Link>
 
       <header className="joueur__entete">
-        <PlayerAvatar nom={joueur.nom} />
+        <PlayerAvatar nom={joueur.nom} photo={joueur.photo} />
         <div>
           <h1 className="joueur__nom">{joueur.nom}</h1>
           <span className={`badge badge--${joueur.circuit}`}>

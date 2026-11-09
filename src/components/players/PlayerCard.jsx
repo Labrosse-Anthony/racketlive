@@ -9,7 +9,7 @@ function PlayerCard({ joueur }) {
   return (
     <article className="joueur-card">
       <Link to={`/joueurs/${joueur.id}`} className="joueur-card__lien">
-        <PlayerAvatar nom={joueur.nom} />
+        <PlayerAvatar nom={joueur.nom} photo={joueur.photo} />
         <div>
           <h3 className="joueur-card__nom">{joueur.nom}</h3>
           <p className="joueur-card__info">

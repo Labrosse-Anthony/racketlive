@@ -50,6 +50,15 @@ export default defineConfig({
             },
           },
           {
+            // Photos des joueurs : une fois vues, elles restent disponibles hors connexion
+            urlPattern: /\/photos\/.*\.webp$/,
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'photos-joueurs',
+              expiration: { maxEntries: 120, maxAgeSeconds: 30 * 24 * 60 * 60 },
+            },
+          },
+          {
             // Résultats des tournois : on affiche la version gardée en mémoire
             // tout de suite, et on la met à jour en arrière-plan.
             urlPattern: /\/data\/resultats\/.*\.json$/,

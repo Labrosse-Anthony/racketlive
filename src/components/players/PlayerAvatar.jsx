@@ -2,14 +2,16 @@ import './PlayerAvatar.css'
 
 function PlayerAvatar({ nom, photo }) {
   if (photo) {
-    return   <img
-      className="avatar"
-      src={photo}
-      alt={`Photo de ${nom}`}
-      width="72"
-      height="72"
-      loading="lazy"
-    />
+    return (
+      <img
+        className="avatar"
+        src={photo}
+        alt={`Photo de ${nom}`}
+        width="72"
+        height="72"
+        loading="lazy"
+      />
+    )
   }
 
   const initiales = nom

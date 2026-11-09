@@ -21,7 +21,7 @@ function Footer() {
   return (
     <footer className="pied">
       <p>
-        Données fournies par Matchstat (Tennis API – ATP WTA ITF).
+        Données et photos fournies par Matchstat (Tennis API – ATP WTA ITF).
         {miseAJour && ` Dernière mise à jour : ${formaterDateMiseAJour(miseAJour)}.`}
       </p>
       <p>
