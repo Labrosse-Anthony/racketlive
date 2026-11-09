@@ -24,20 +24,44 @@ function MonthCalendar({ annee, mois, tournois, onChangeMois }) {
       moisTexte <= tournoi.fin.slice(0, 7),
   )
 
+  // Raccourcis clavier : PageUp = mois précédent, PageDown = mois suivant
+  function gererClavier(evenement) {
+    if (evenement.key === 'PageUp') {
+      evenement.preventDefault()
+      onChangeMois(-1)
+    } else if (evenement.key === 'PageDown') {
+      evenement.preventDefault()
+      onChangeMois(1)
+    }
+  }
+
   return (
-    <div>
+    <div role="region" aria-label="Calendrier mensuel" onKeyDown={gererClavier}>
       <div className="mois__navigation">
-        <button onClick={() => onChangeMois(-1)} aria-label="Mois précédent">
+        <button
+          type="button"
+          onClick={() => onChangeMois(-1)}
+          aria-label="Mois précédent"
+        >
           ←
         </button>
         <div className="mois__titre" aria-live="polite">
           {NOMS_MOIS[mois]} {annee}
         </div>
-        <button onClick={() => onChangeMois(1)} aria-label="Mois suivant">
+        <button
+          type="button"
+          onClick={() => onChangeMois(1)}
+          aria-label="Mois suivant"
+        >
           →
         </button>
       </div>
 
+      <p className="mois__astuce">
+        Au clavier : touches Page précédente / Page suivante pour changer de mois.
+      </p>
+
+      {/* La grille est un dessin : la liste ci-dessous donne la même information en texte */}
       <div className="mois__grille" aria-hidden="true">
         {INITIALES_JOURS.map((initiale, index) => (
           <div key={index} className="mois__jour-nom">

@@ -4,6 +4,11 @@ import { VitePWA } from 'vite-plugin-pwa'
 
 // https://vite.dev/config/
 export default defineConfig({
+  // Tests : jsdom simule un navigateur pour tester les composants React
+  test: {
+    environment: 'jsdom',
+    setupFiles: ['./src/test/setup.js'],
+  },
   plugins: [
     react(),
     // PWA : rend le site installable sur le téléphone et utilisable hors connexion
