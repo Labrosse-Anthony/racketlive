@@ -100,3 +100,40 @@ export function convertirInfos(profil) {
       : null,
   }
 }
+
+// ---------- Statistiques de service et de retour (carrière) ----------
+
+// Pourcentage arrondi, ou null si on ne peut pas diviser par zéro
+function pourcent(partie, total) {
+  if (!total) return null
+  return Math.round((partie / total) * 1000) / 10
+}
+
+// Transforme les gros compteurs de l'API en pourcentages faciles à lire.
+export function convertirStatsJeu(donnees) {
+  const service = donnees?.serviceStats
+  const retour = donnees?.rtnStats
+  const breaksService = donnees?.breakPointsServeStats
+  const breaksRetour = donnees?.breakPointsRtnStats
+  if (!service || !retour) return null
+
+  return {
+    service: {
+      aces: pourcent(service.acesGm, service.firstServeOfGm),
+      doublesFautes: pourcent(service.doubleFaultsGm, service.firstServeOfGm),
+      premieresBalles: pourcent(service.firstServeGm, service.firstServeOfGm),
+      pointsPremiere: pourcent(service.winningOnFirstServeGm, service.winningOnFirstServeOfGm),
+      pointsSeconde: pourcent(service.winningOnSecondServeGm, service.winningOnSecondServeOfGm),
+      breaksSauves: breaksService
+        ? pourcent(breaksService.breakPointSavedGm, breaksService.breakPointFacedGm)
+        : null,
+    },
+    retour: {
+      pointsPremiere: pourcent(retour.winningOnFirstServeOfGm - retour.winningOnFirstServeGm, retour.winningOnFirstServeOfGm),
+      pointsSeconde: pourcent(retour.winningOnSecondServeOfGm - retour.winningOnSecondServeGm, retour.winningOnSecondServeOfGm),
+      breaksConvertis: breaksRetour
+        ? pourcent(breaksRetour.breakPointWonGm, breaksRetour.breakPointChanceGm)
+        : null,
+    },
+  }
+}

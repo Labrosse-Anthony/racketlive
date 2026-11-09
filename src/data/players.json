@@ -19,6 +19,7 @@
         "date": "2026-08-31"
       }
     },
+    "statsJeu": null,
     "palmares": [
       {
         "niveau": "Grand Chelem",
@@ -197,6 +198,21 @@
       "meilleurRang": {
         "position": 2,
         "date": "2026-10-05"
+      }
+    },
+    "statsJeu": {
+      "service": {
+        "aces": 10.5,
+        "doublesFautes": 4.4,
+        "premieresBalles": 66.7,
+        "pointsPremiere": 74.5,
+        "pointsSeconde": 51.2,
+        "breaksSauves": 61.5
+      },
+      "retour": {
+        "pointsPremiere": 30.2,
+        "pointsSeconde": 51.4,
+        "breaksConvertis": 40.6
       }
     },
     "palmares": [
@@ -394,6 +410,7 @@
         "date": "2026-10-12"
       }
     },
+    "statsJeu": null,
     "palmares": [
       {
         "niveau": "Grand Chelem",
@@ -567,6 +584,21 @@
       "meilleurRang": {
         "position": 1,
         "date": "2026-10-05"
+      }
+    },
+    "statsJeu": {
+      "service": {
+        "aces": 7.9,
+        "doublesFautes": 2.8,
+        "premieresBalles": 59.9,
+        "pointsPremiere": 75.2,
+        "pointsSeconde": 54.8,
+        "breaksSauves": 65.6
+      },
+      "retour": {
+        "pointsPremiere": 32.9,
+        "pointsSeconde": 54.1,
+        "breaksConvertis": 42.9
       }
     },
     "palmares": [
@@ -754,6 +786,21 @@
         "date": "2026-04-06"
       }
     },
+    "statsJeu": {
+      "service": {
+        "aces": 5,
+        "doublesFautes": 3.1,
+        "premieresBalles": 65.6,
+        "pointsPremiere": 70.7,
+        "pointsSeconde": 55.6,
+        "breaksSauves": 63.4
+      },
+      "retour": {
+        "pointsPremiere": 35,
+        "pointsSeconde": 53.9,
+        "breaksConvertis": 42.8
+      }
+    },
     "palmares": [
       {
         "niveau": "Grand Chelem",
@@ -939,6 +986,7 @@
         "date": "2026-10-12"
       }
     },
+    "statsJeu": null,
     "palmares": [
       {
         "niveau": "Grand Chelem",

@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest'
 import {
   convertirInfos,
   convertirPalmares,
+  convertirStatsJeu,
   convertirSurfaces,
   traduireLieu,
 } from './fiche-joueur.mjs'
@@ -85,5 +86,35 @@ describe('convertirInfos', () => {
       poids: null,
       meilleurRang: { position: 1, date: '2026-04-06' },
     })
+  })
+})
+
+describe('convertirStatsJeu', () => {
+  const donnees = {
+    serviceStats: {
+      acesGm: 10, doubleFaultsGm: 5, firstServeGm: 60, firstServeOfGm: 100,
+      winningOnFirstServeGm: 45, winningOnFirstServeOfGm: 60,
+      winningOnSecondServeGm: 20, winningOnSecondServeOfGm: 40,
+    },
+    rtnStats: {
+      winningOnFirstServeGm: 30, winningOnFirstServeOfGm: 50,
+      winningOnSecondServeGm: 15, winningOnSecondServeOfGm: 40,
+    },
+    breakPointsServeStats: { breakPointFacedGm: 20, breakPointSavedGm: 15 },
+    breakPointsRtnStats: { breakPointChanceGm: 40, breakPointWonGm: 16 },
+  }
+
+  it('calcule les pourcentages de service et de retour', () => {
+    const r = convertirStatsJeu(donnees)
+    expect(r.service).toEqual({
+      aces: 10, doublesFautes: 5, premieresBalles: 60,
+      pointsPremiere: 75, pointsSeconde: 50, breaksSauves: 75,
+    })
+    // Au retour, on gagne les points que l'adversaire ne gagne pas
+    expect(r.retour).toEqual({ pointsPremiere: 40, pointsSeconde: 62.5, breaksConvertis: 40 })
+  })
+
+  it('renvoie null sans données', () => {
+    expect(convertirStatsJeu(null)).toBeNull()
   })
 })

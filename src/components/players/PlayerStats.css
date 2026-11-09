@@ -29,3 +29,13 @@
     grid-template-columns: repeat(5, 1fr);
   }
 }
+/* Grille à 2 colonnes (3 sur grand écran) pour les stats de service et de retour */
+.stats--trois {
+  grid-template-columns: 1fr 1fr;
+}
+
+@media (min-width: 768px) {
+  .stats--trois {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

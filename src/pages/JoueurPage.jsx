@@ -4,6 +4,7 @@ import { usePageTitle } from '../hooks/usePageTitle.js'
 import { useChargement } from '../hooks/useChargement.js'
 import PlayerAvatar from '../components/players/PlayerAvatar.jsx'
 import PlayerStats from '../components/players/PlayerStats.jsx'
+import PlayerStatsJeu from '../components/players/PlayerStatsJeu.jsx'
 import PlayerPalmares from '../components/players/PlayerPalmares.jsx'
 import PlayerSurfaces from '../components/players/PlayerSurfaces.jsx'
 import PlayerResults from '../components/players/PlayerResults.jsx'
@@ -153,6 +154,13 @@ function JoueurPage() {
         <>
           <h2>Statistiques</h2>
           <PlayerStats stats={details.stats} />
+
+          {details.statsJeu && (
+            <>
+              <h2>Service et retour (carrière)</h2>
+              <PlayerStatsJeu statsJeu={details.statsJeu} />
+            </>
+          )}
 
           {details.palmares?.length > 0 && (
             <>
