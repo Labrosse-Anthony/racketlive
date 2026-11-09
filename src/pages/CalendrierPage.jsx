@@ -63,6 +63,13 @@ function CalendrierPage() {
     return true
   })
 
+  // Pour la liste : les plus récents en haut, les plus anciens en bas.
+  // Les dates sont au format AAAA-MM-JJ, donc on peut les comparer comme du texte.
+  // À date égale, on trie par nom. [...tableau] fait une copie : on ne touche pas à l'original.
+  const tournoisTries = [...tournoisFiltres].sort(
+    (a, b) => b.debut.localeCompare(a.debut) || a.nom.localeCompare(b.nom, 'fr'),
+  )
+
   return (
     <section>
       <h1>Calendrier des tournois</h1>
@@ -107,7 +114,7 @@ function CalendrierPage() {
       {!chargement && !erreur && vue === 'liste' && (
         <>
           <p aria-live="polite">{tournoisFiltres.length} tournoi(s)</p>
-          <TournamentList tournois={tournoisFiltres} />
+          <TournamentList tournois={tournoisTries} />
         </>
       )}
 
