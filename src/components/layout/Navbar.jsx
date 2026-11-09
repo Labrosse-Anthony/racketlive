@@ -1,5 +1,6 @@
 import { Link, NavLink } from 'react-router-dom'
 import NavIcon from './NavIcon.jsx'
+import RechercheJoueur from './RechercheJoueur.jsx'
 import ThemeToggle from './ThemeToggle.jsx'
 import './Navbar.css'
 
@@ -45,7 +46,10 @@ function Navbar() {
         </ul>
       </nav>
 
-      <ThemeToggle />
+      <div className="entete__outils">
+        <RechercheJoueur />
+        <ThemeToggle />
+      </div>
     </header>
   )
 }

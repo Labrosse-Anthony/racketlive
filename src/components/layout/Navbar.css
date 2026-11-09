@@ -37,6 +37,11 @@
   color: var(--lime);
 }
 
+.entete__outils {
+  display: flex;
+  gap: 0.5rem;
+}
+
 .theme-toggle {
   display: inline-flex;
   align-items: center;
