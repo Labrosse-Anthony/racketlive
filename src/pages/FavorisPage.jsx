@@ -2,10 +2,12 @@ import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useFavorites } from '../hooks/useFavorites.js'
 import { usePageTitle } from '../hooks/usePageTitle.js'
+import { useChargement } from '../hooks/useChargement.js'
 import { getTournaments } from '../services/api/tournamentsApi.js'
 import { getPlayersByIds } from '../services/api/playersApi.js'
 import PlayerCard from '../components/players/PlayerCard.jsx'
 import TournamentList from '../components/tournaments/TournamentList.jsx'
+import MessageErreur from '../components/ui/MessageErreur.jsx'
 import './FavorisPage.css'
 
 function FavorisPage() {
@@ -13,20 +15,12 @@ function FavorisPage() {
 
   const { favoris, pret, estFavori } = useFavorites()
 
-  const [tournois, setTournois] = useState(null)
   const [joueurs, setJoueurs] = useState(null)
 
-  useEffect(() => {
-    let annule = false
-
-    getTournaments().then((liste) => {
-      if (!annule) setTournois(liste)
-    })
-
-    return () => {
-      annule = true
-    }
-  }, [])
+  const { donnees: tournois, erreur, reessayer } = useChargement(
+    () => getTournaments(),
+    [],
+  )
 
   useEffect(() => {
     if (!pret) return
@@ -40,6 +34,15 @@ function FavorisPage() {
       annule = true
     }
   }, [pret, favoris.joueurs])
+
+  if (erreur) {
+    return (
+      <section>
+        <h1>Mes favoris</h1>
+        <MessageErreur onReessayer={reessayer} />
+      </section>
+    )
+  }
 
   if (!pret || tournois === null || joueurs === null) {
     return (

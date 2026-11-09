@@ -1,12 +1,13 @@
-import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import {
   getTournamentById,
   getTournamentResults,
 } from '../services/api/tournamentsApi.js'
 import { usePageTitle } from '../hooks/usePageTitle.js'
+import { useChargement } from '../hooks/useChargement.js'
 import TournamentResults from '../components/tournaments/TournamentResults.jsx'
 import FavoriteButton from '../components/ui/FavoriteButton.jsx'
+import MessageErreur from '../components/ui/MessageErreur.jsx'
 import Flag from '../components/ui/Flag.jsx'
 import { formaterPeriode } from '../utils/dates.js'
 import { CIRCUITS, SURFACES, PAYS, CATEGORIES } from '../utils/labels.js'
@@ -16,34 +17,31 @@ import './TournoiDetailPage.css'
 function TournoiDetailPage() {
   const { id } = useParams()
 
-  const [donnees, setDonnees] = useState(null)
-
-  useEffect(() => {
-    let annule = false
-
-    Promise.all([getTournamentById(id), getTournamentResults(id)]).then(
-      ([tournoi, resultats]) => {
-        if (annule) return
-        setDonnees({ id, tournoi, resultats })
-      },
-    )
-
-    return () => {
-      annule = true
-    }
-  }, [id])
-
-  const chargement = donnees === null || donnees.id !== id
-  const tournoi = donnees === null ? null : donnees.tournoi
+  const { donnees, chargement, erreur, reessayer } = useChargement(
+    () => Promise.all([getTournamentById(id), getTournamentResults(id)]),
+    [id],
+  )
+  const tournoi = donnees ? donnees[0] : null
+  const resultats = donnees ? donnees[1] : []
 
   let titre = 'Tournoi'
-  if (!chargement) {
+  if (!chargement && !erreur) {
     titre = tournoi === null ? 'Tournoi introuvable' : tournoi.nom
   }
   usePageTitle(titre)
 
   if (chargement) {
     return <p>Chargement…</p>
+  }
+
+  if (erreur) {
+    return (
+      <section>
+        <h1>Tournoi</h1>
+        <MessageErreur onReessayer={reessayer} />
+        <Link to="/calendrier">Retour au calendrier</Link>
+      </section>
+    )
   }
 
   if (tournoi === null) {
@@ -100,7 +98,7 @@ function TournoiDetailPage() {
       </dl>
 
       <h2>Résultats</h2>
-      <TournamentResults resultats={donnees.resultats} />
+      <TournamentResults resultats={resultats} />
     </article>
   )
 }

@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useFavorites } from '../hooks/useFavorites.js'
 import { usePageTitle } from '../hooks/usePageTitle.js'
+import { useChargement } from '../hooks/useChargement.js'
 import { getTournaments } from '../services/api/tournamentsApi.js'
 import { getRanking } from '../services/api/rankingsApi.js'
 import { getPlayersByIds } from '../services/api/playersApi.js'
@@ -9,6 +10,7 @@ import { aujourdhuiISO } from '../utils/dates.js'
 import PlayerCard from '../components/players/PlayerCard.jsx'
 import TournamentList from '../components/tournaments/TournamentList.jsx'
 import RankingsList from '../components/rankings/RankingsList.jsx'
+import MessageErreur from '../components/ui/MessageErreur.jsx'
 import './HomePage.css'
 
 const NOMBRE_CLASSES = 5
@@ -26,22 +28,19 @@ function HomePage() {
 
   const { favoris, pret, estFavori } = useFavorites()
 
-  const [donnees, setDonnees] = useState(null)
   const [joueurs, setJoueurs] = useState([])
 
-  useEffect(() => {
-    let annule = false
-
-    Promise.all([getTournaments(), getRanking('atp'), getRanking('wta')]).then(
-      ([tournois, atp, wta]) => {
-        if (!annule) setDonnees({ tournois, atp, wta })
-      },
-    )
-
-    return () => {
-      annule = true
-    }
-  }, [])
+  const { donnees, chargement, erreur, reessayer } = useChargement(
+    async () => {
+      const [tournois, atp, wta] = await Promise.all([
+        getTournaments(),
+        getRanking('atp'),
+        getRanking('wta'),
+      ])
+      return { tournois, atp, wta }
+    },
+    [],
+  )
 
   useEffect(() => {
     if (!pret) return
@@ -74,11 +73,11 @@ function HomePage() {
     </section>
   )
 
-  if (donnees === null) {
+  if (chargement || erreur) {
     return (
       <div className="accueil">
         {presentation}
-        <p>Chargement…</p>
+        {erreur ? <MessageErreur onReessayer={reessayer} /> : <p>Chargement…</p>}
       </div>
     )
   }

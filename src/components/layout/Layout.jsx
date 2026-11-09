@@ -2,6 +2,7 @@ import { Suspense, useEffect, useRef } from 'react'
 import { Outlet, useLocation } from 'react-router-dom'
 import Navbar from './Navbar.jsx'
 import Footer from './Footer.jsx'
+import ErrorBoundary from '../ui/ErrorBoundary.jsx'
 import './Layout.css'
 
 function Layout() {
@@ -29,9 +30,12 @@ function Layout() {
         tabIndex={-1}
         ref={contenuRef}
       >
-        <Suspense fallback={<p>Chargement…</p>}>
-          <Outlet />
-        </Suspense>
+        {/* key={pathname} : en changeant de page, l'erreur est effacée */}
+        <ErrorBoundary key={pathname}>
+          <Suspense fallback={<p>Chargement…</p>}>
+            <Outlet />
+          </Suspense>
+        </ErrorBoundary>
       </main>
       <Footer />
     </div>

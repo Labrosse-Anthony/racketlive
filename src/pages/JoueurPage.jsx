@@ -1,12 +1,13 @@
-import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { getPlayerById } from '../services/api/playersApi.js'
 import { usePageTitle } from '../hooks/usePageTitle.js'
+import { useChargement } from '../hooks/useChargement.js'
 import PlayerAvatar from '../components/players/PlayerAvatar.jsx'
 import PlayerStats from '../components/players/PlayerStats.jsx'
 import PlayerResults from '../components/players/PlayerResults.jsx'
 import PlayerUpcoming from '../components/players/PlayerUpcoming.jsx'
 import FavoriteButton from '../components/ui/FavoriteButton.jsx'
+import MessageErreur from '../components/ui/MessageErreur.jsx'
 import Flag from '../components/ui/Flag.jsx'
 import { calculerAge } from '../utils/dates.js'
 import { CIRCUITS, PAYS, MAINS } from '../utils/labels.js'
@@ -15,28 +16,25 @@ import './JoueurPage.css'
 function JoueurPage() {
   const { id } = useParams()
 
-  const [donnees, setDonnees] = useState(null)
-
-  useEffect(() => {
-    let annule = false
-
-    getPlayerById(id).then((joueur) => {
-      if (annule) return
-      setDonnees({ id, joueur })
-    })
-
-    return () => {
-      annule = true
-    }
-  }, [id])
-
-  const chargement = donnees === null || donnees.id !== id
-  const joueur = donnees === null ? null : donnees.joueur
+  const { donnees: joueur, chargement, erreur, reessayer } = useChargement(
+    () => getPlayerById(id),
+    [id],
+  )
 
   usePageTitle(joueur ? joueur.nom : 'Joueur')
 
   if (chargement) {
     return <p>Chargement…</p>
+  }
+
+  if (erreur) {
+    return (
+      <section>
+        <h1>Joueur</h1>
+        <MessageErreur onReessayer={reessayer} />
+        <Link to="/classements">Retour aux classements</Link>
+      </section>
+    )
   }
 
   if (joueur === null) {
