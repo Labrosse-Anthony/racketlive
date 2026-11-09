@@ -1,0 +1,41 @@
+.tableau-joueur {
+  width: 100%;
+  margin: 0 0 1.5rem;
+  border-collapse: collapse;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--surface);
+  font-size: 0.95rem;
+}
+
+.tableau-joueur th,
+.tableau-joueur td {
+  padding: 0.6rem 0.75rem;
+  border-bottom: 1px solid var(--border);
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.tableau-joueur th:first-child {
+  text-align: left;
+}
+
+.tableau-joueur thead th {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  font-weight: normal;
+}
+
+.tableau-joueur tbody th {
+  font-weight: normal;
+}
+
+.tableau-joueur tbody tr:last-child th,
+.tableau-joueur tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.tableau-joueur__fort {
+  font-weight: bold;
+  color: var(--primary);
+}

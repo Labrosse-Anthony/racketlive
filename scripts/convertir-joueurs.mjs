@@ -1,6 +1,7 @@
 import { existsSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { CODES_PAYS } from './codes-pays.mjs'
 import { libelleTour, formaterScore } from './tours.mjs'
+import { convertirPalmares, convertirSurfaces } from './fiche-joueur.mjs'
 
 const DOSSIER = 'src/data/api/joueurs'
 const ANNEE = new Date().getFullYear()
@@ -88,6 +89,8 @@ for (const dossier of readdirSync(DOSSIER)) {
       ...bilanSaison(lire(dossier, 'surfaces.json')),
       titresCarriere: titresCarriere(lire(dossier, 'titres.json')),
     },
+    palmares: convertirPalmares(lire(dossier, 'titres.json')),
+    surfaces: convertirSurfaces(lire(dossier, 'surfaces.json'), ANNEE),
     derniersResultats: convertirResultats(lire(dossier, 'matchs-passes.json'), profil.id),
     prochainsMatchs: [],
   }

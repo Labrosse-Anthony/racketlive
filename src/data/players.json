@@ -8,6 +8,58 @@
       "defaites": 11,
       "titresCarriere": 24
     },
+    "palmares": [
+      {
+        "niveau": "Grand Chelem",
+        "titres": 4,
+        "finalesPerdues": 5
+      },
+      {
+        "niveau": "Masters 1000 / WTA 1000",
+        "titres": 11,
+        "finalesPerdues": 6
+      },
+      {
+        "niveau": "Tournois du circuit",
+        "titres": 9,
+        "finalesPerdues": 10
+      },
+      {
+        "niveau": "Coupe Davis / Billie Jean King Cup",
+        "titres": 3,
+        "finalesPerdues": 0
+      },
+      {
+        "niveau": "Challengers",
+        "titres": 4,
+        "finalesPerdues": 3
+      },
+      {
+        "niveau": "Tournois ITF",
+        "titres": 2,
+        "finalesPerdues": 0
+      }
+    ],
+    "surfaces": {
+      "annee": 2026,
+      "surfaces": [
+        {
+          "surface": "dur",
+          "victoires": 34,
+          "defaites": 6
+        },
+        {
+          "surface": "terre-battue",
+          "victoires": 8,
+          "defaites": 3
+        },
+        {
+          "surface": "gazon",
+          "victoires": 5,
+          "defaites": 2
+        }
+      ]
+    },
     "derniersResultats": [
       {
         "tournoiId": 16750,
@@ -124,6 +176,73 @@
       "victoires": 61,
       "defaites": 15,
       "titresCarriere": 26
+    },
+    "palmares": [
+      {
+        "niveau": "Grand Chelem",
+        "titres": 2,
+        "finalesPerdues": 4
+      },
+      {
+        "niveau": "Jeux olympiques",
+        "titres": 1,
+        "finalesPerdues": 0
+      },
+      {
+        "niveau": "Finales de saison",
+        "titres": 2,
+        "finalesPerdues": 0
+      },
+      {
+        "niveau": "Masters 1000 / WTA 1000",
+        "titres": 7,
+        "finalesPerdues": 6
+      },
+      {
+        "niveau": "Tournois du circuit",
+        "titres": 15,
+        "finalesPerdues": 8
+      },
+      {
+        "niveau": "Coupe Davis / Billie Jean King Cup",
+        "titres": 4,
+        "finalesPerdues": 3
+      },
+      {
+        "niveau": "Challengers",
+        "titres": 2,
+        "finalesPerdues": 0
+      },
+      {
+        "niveau": "Tournois ITF",
+        "titres": 0,
+        "finalesPerdues": 1
+      }
+    ],
+    "surfaces": {
+      "annee": 2026,
+      "surfaces": [
+        {
+          "surface": "dur",
+          "victoires": 29,
+          "defaites": 8
+        },
+        {
+          "surface": "terre-battue",
+          "victoires": 20,
+          "defaites": 4
+        },
+        {
+          "surface": "gazon",
+          "victoires": 9,
+          "defaites": 2
+        },
+        {
+          "surface": "indoor",
+          "victoires": 3,
+          "defaites": 1
+        }
+      ]
     },
     "derniersResultats": [
       {
@@ -242,6 +361,53 @@
       "defaites": 14,
       "titresCarriere": 14
     },
+    "palmares": [
+      {
+        "niveau": "Grand Chelem",
+        "titres": 3,
+        "finalesPerdues": 1
+      },
+      {
+        "niveau": "Masters 1000 / WTA 1000",
+        "titres": 3,
+        "finalesPerdues": 5
+      },
+      {
+        "niveau": "Tournois du circuit",
+        "titres": 8,
+        "finalesPerdues": 7
+      },
+      {
+        "niveau": "Challengers",
+        "titres": 3,
+        "finalesPerdues": 3
+      },
+      {
+        "niveau": "Tournois ITF",
+        "titres": 1,
+        "finalesPerdues": 2
+      }
+    ],
+    "surfaces": {
+      "annee": 2026,
+      "surfaces": [
+        {
+          "surface": "dur",
+          "victoires": 36,
+          "defaites": 8
+        },
+        {
+          "surface": "terre-battue",
+          "victoires": 10,
+          "defaites": 3
+        },
+        {
+          "surface": "gazon",
+          "victoires": 3,
+          "defaites": 3
+        }
+      ]
+    },
     "derniersResultats": [
       {
         "tournoiId": 16749,
@@ -358,6 +524,63 @@
       "victoires": 44,
       "defaites": 3,
       "titresCarriere": 31
+    },
+    "palmares": [
+      {
+        "niveau": "Grand Chelem",
+        "titres": 5,
+        "finalesPerdues": 2
+      },
+      {
+        "niveau": "Finales de saison",
+        "titres": 2,
+        "finalesPerdues": 1
+      },
+      {
+        "niveau": "Masters 1000 / WTA 1000",
+        "titres": 10,
+        "finalesPerdues": 4
+      },
+      {
+        "niveau": "Tournois du circuit",
+        "titres": 14,
+        "finalesPerdues": 2
+      },
+      {
+        "niveau": "Coupe Davis / Billie Jean King Cup",
+        "titres": 1,
+        "finalesPerdues": 0
+      },
+      {
+        "niveau": "Challengers",
+        "titres": 3,
+        "finalesPerdues": 1
+      },
+      {
+        "niveau": "Tournois ITF",
+        "titres": 2,
+        "finalesPerdues": 1
+      }
+    ],
+    "surfaces": {
+      "annee": 2026,
+      "surfaces": [
+        {
+          "surface": "dur",
+          "victoires": 19,
+          "defaites": 2
+        },
+        {
+          "surface": "terre-battue",
+          "victoires": 18,
+          "defaites": 1
+        },
+        {
+          "surface": "gazon",
+          "victoires": 7,
+          "defaites": 0
+        }
+      ]
     },
     "derniersResultats": [
       {
@@ -476,6 +699,63 @@
       "defaites": 6,
       "titresCarriere": 28
     },
+    "palmares": [
+      {
+        "niveau": "Grand Chelem",
+        "titres": 7,
+        "finalesPerdues": 1
+      },
+      {
+        "niveau": "Jeux olympiques",
+        "titres": 0,
+        "finalesPerdues": 1
+      },
+      {
+        "niveau": "Finales de saison",
+        "titres": 0,
+        "finalesPerdues": 1
+      },
+      {
+        "niveau": "Masters 1000 / WTA 1000",
+        "titres": 8,
+        "finalesPerdues": 2
+      },
+      {
+        "niveau": "Tournois du circuit",
+        "titres": 13,
+        "finalesPerdues": 4
+      },
+      {
+        "niveau": "Challengers",
+        "titres": 4,
+        "finalesPerdues": 1
+      },
+      {
+        "niveau": "Tournois ITF",
+        "titres": 3,
+        "finalesPerdues": 1
+      }
+    ],
+    "surfaces": {
+      "annee": 2026,
+      "surfaces": [
+        {
+          "surface": "dur",
+          "victoires": 27,
+          "defaites": 4
+        },
+        {
+          "surface": "terre-battue",
+          "victoires": 5,
+          "defaites": 2
+        },
+        {
+          "surface": "indoor",
+          "victoires": 1,
+          "defaites": 0
+        }
+      ]
+    },
     "derniersResultats": [
       {
         "tournoiId": 21356,
@@ -592,6 +872,58 @@
       "victoires": 51,
       "defaites": 16,
       "titresCarriere": 6
+    },
+    "palmares": [
+      {
+        "niveau": "Grand Chelem",
+        "titres": 1,
+        "finalesPerdues": 0
+      },
+      {
+        "niveau": "Masters 1000 / WTA 1000",
+        "titres": 2,
+        "finalesPerdues": 2
+      },
+      {
+        "niveau": "Tournois du circuit",
+        "titres": 3,
+        "finalesPerdues": 1
+      },
+      {
+        "niveau": "Challengers",
+        "titres": 4,
+        "finalesPerdues": 0
+      },
+      {
+        "niveau": "Tournois ITF",
+        "titres": 2,
+        "finalesPerdues": 1
+      }
+    ],
+    "surfaces": {
+      "annee": 2026,
+      "surfaces": [
+        {
+          "surface": "dur",
+          "victoires": 27,
+          "defaites": 10
+        },
+        {
+          "surface": "terre-battue",
+          "victoires": 22,
+          "defaites": 3
+        },
+        {
+          "surface": "gazon",
+          "victoires": 1,
+          "defaites": 2
+        },
+        {
+          "surface": "indoor",
+          "victoires": 1,
+          "defaites": 1
+        }
+      ]
     },
     "derniersResultats": [
       {

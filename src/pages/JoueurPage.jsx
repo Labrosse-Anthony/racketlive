@@ -4,6 +4,8 @@ import { usePageTitle } from '../hooks/usePageTitle.js'
 import { useChargement } from '../hooks/useChargement.js'
 import PlayerAvatar from '../components/players/PlayerAvatar.jsx'
 import PlayerStats from '../components/players/PlayerStats.jsx'
+import PlayerPalmares from '../components/players/PlayerPalmares.jsx'
+import PlayerSurfaces from '../components/players/PlayerSurfaces.jsx'
 import PlayerResults from '../components/players/PlayerResults.jsx'
 import PlayerUpcoming from '../components/players/PlayerUpcoming.jsx'
 import FavoriteButton from '../components/ui/FavoriteButton.jsx'
@@ -110,6 +112,20 @@ function JoueurPage() {
         <>
           <h2>Statistiques</h2>
           <PlayerStats stats={details.stats} />
+
+          {details.palmares?.length > 0 && (
+            <>
+              <h2>Palmarès</h2>
+              <PlayerPalmares palmares={details.palmares} />
+            </>
+          )}
+
+          {details.surfaces?.surfaces.length > 0 && (
+            <>
+              <h2>Bilan par surface ({details.surfaces.annee})</h2>
+              <PlayerSurfaces surfaces={details.surfaces.surfaces} />
+            </>
+          )}
 
           <h2>Derniers résultats</h2>
           <PlayerResults resultats={details.derniersResultats} />
