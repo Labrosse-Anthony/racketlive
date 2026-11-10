@@ -26,7 +26,7 @@ function lireEnv() {
 
 const env = lireEnv()
 const CLE = env.RAPIDAPI_KEY
-const HOTE = env.RAPIDAPI_HOST
+const HOTE = (env.RAPIDAPI_HOST || '').trim().replace(/^https?:\/\//, '').replace(/\/.*$/, '')
 
 if (!CLE || !HOTE) {
   console.error('RAPIDAPI_KEY ou RAPIDAPI_HOST est manquant dans le fichier .env')
@@ -420,6 +420,7 @@ async function principal() {
   const aFaire = demandes.filter((d) => forcer || !existsSync(`${DOSSIER}/${d.fichier}`))
   const dejaLa = demandes.length - aFaire.length
 
+  console.log(`Adresse de l'API : ${HOTE}`)
   console.log(`Quota du jour : ${compteur.appels}/${LIMITE_PAR_JOUR} utilisées, ${restant()} restantes`)
   console.log(`Groupes : ${groupes.join(', ')}`)
   console.log(`${aFaire.length} fichier(s) à récupérer, ${dejaLa} déjà présent(s)\n`)
@@ -447,11 +448,15 @@ async function principal() {
     } catch (erreur) {
       if (erreur instanceof ErreurQuota) {
         console.error(`\n${erreur.message}`)
+        process.exitCode = 1 // l'étape est marquée en échec (utile pour GitHub Actions)
         break
       }
       // Une erreur sur un endpoint ne doit pas arrêter les autres
       echecs += 1
-      console.error(`ERREUR ${demande.fichier} : ${erreur.message} (${demande.chemin})`)
+      process.exitCode = 1 // l'étape est marquée en échec (utile pour GitHub Actions)
+      // « fetch failed » seul ne dit rien : la vraie raison est dans erreur.cause
+      const detail = erreur.cause ? ` [${erreur.cause.code || erreur.cause.message}]` : ''
+      console.error(`ERREUR ${demande.fichier} : ${erreur.message}${detail} (${demande.chemin})`)
       await pause(PAUSE_MS)
     }
   }
