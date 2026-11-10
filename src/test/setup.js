@@ -32,3 +32,6 @@ if (!window.matchMedia) {
     removeEventListener: () => {},
   })
 }
+
+// jsdom ne sait pas faire défiler la page : on remplace scrollTo par une fonction vide
+window.scrollTo = () => {}
