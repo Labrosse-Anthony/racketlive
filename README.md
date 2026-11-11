@@ -4,7 +4,7 @@ Site de tennis, pensé d'abord pour le mobile : calendrier des tournois, classem
 
 **Site en ligne : [racketlive.vercel.app](https://racketlive.vercel.app)**
 
-![Accueil de RacketLive sur mobile](docs/captures/accueil.png)
+![Accueil de RacketLive sur mobile](docs/captures/accueil.jpg)
 
 ## Fonctionnalités
 
@@ -18,9 +18,9 @@ Site de tennis, pensé d'abord pour le mobile : calendrier des tournois, classem
 - **PWA** : installable sur l'écran d'accueil du téléphone, pages déjà vues disponibles hors connexion
 - **Accessibilité** : lien d'évitement, navigation au clavier, contrastes, réduction des animations, messages d'erreur annoncés aux lecteurs d'écran
 
-| Calendrier | Classements | Tournoi |
+| Calendrier | Classements | Favoris |
 | --- | --- | --- |
-| ![Calendrier](docs/captures/calendrier.png) | ![Classements](docs/captures/classements.png) | ![Détail d'un tournoi](docs/captures/tournoi.png) |
+| ![Calendrier](docs/captures/calendrier.jpg) | ![Classements](docs/captures/classements.jpg) | ![Mes favoris](docs/captures/favoris.jpg) |
 
 ## Qualité
 
