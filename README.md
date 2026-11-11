@@ -4,7 +4,9 @@ Site de tennis, pensé d'abord pour le mobile : calendrier des tournois, classem
 
 **Site en ligne : [racketlive.vercel.app](https://racketlive.vercel.app)**
 
-![Accueil de RacketLive sur mobile](docs/captures/accueil.jpg)
+<p align="center">
+  <img src="docs/captures/accueil.jpg" alt="Accueil de RacketLive sur mobile" width="280">
+</p>
 
 ## Fonctionnalités
 
@@ -20,7 +22,7 @@ Site de tennis, pensé d'abord pour le mobile : calendrier des tournois, classem
 
 | Calendrier | Classements | Favoris |
 | --- | --- | --- |
-| ![Calendrier](docs/captures/calendrier.jpg) | ![Classements](docs/captures/classements.jpg) | ![Mes favoris](docs/captures/favoris.jpg)  |
+| <img src="docs/captures/calendrier.jpg" alt="Calendrier" width="220"> | <img src="docs/captures/classements.jpg" alt="Classements" width="220"> | <img src="docs/captures/favoris.jpg" alt="Mes favoris" width="220"> |
 
 ## Qualité
 
@@ -73,7 +75,7 @@ npm run convertir            # convertir les données brutes au format du site
 Le script de téléchargement a besoin d'un fichier `.env` à la racine du projet (jamais envoyé sur GitHub) :
 
 ```
-RAPIDAPI_KEY=ta_clé
+RAPIDAPI_KEY=la_clé
 RAPIDAPI_HOST=tennis-api-atp-wta-itf.p.rapidapi.com
 ```
 
@@ -83,7 +85,3 @@ Le forfait gratuit est limité à 50 requêtes par jour : le script compte les a
 
 Une action GitHub (`.github/workflows/mise-a-jour-donnees.yml`) télécharge chaque jour le calendrier, les classements et les résultats, les convertit et enregistre les changements. Vercel republie ensuite le site. Elle utilise deux secrets du dépôt, `RAPIDAPI_KEY` et `RAPIDAPI_HOST`, et consomme environ 31 requêtes par jour : évite les gros téléchargements manuels le même jour.
 
-## À venir
-
-- Matchs du jour sur l'accueil
-- Fiches joueurs plus complètes et évolution des classements
