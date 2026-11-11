@@ -20,7 +20,7 @@ Site de tennis, pensé d'abord pour le mobile : calendrier des tournois, classem
 
 | Calendrier | Classements | Favoris |
 | --- | --- | --- |
-| ![Calendrier](docs/captures/calendrier.jpg) | ![Classements](docs/captures/classements.jpg) | ![Mes favoris](docs/captures/favoris.jpg) |
+| ![Calendrier](docs/captures/calendrier.jpg) | ![Classements](docs/captures/classements.jpg) | ![Mes favoris](docs/captures/favoris.jpg)  |
 
 ## Qualité
 
