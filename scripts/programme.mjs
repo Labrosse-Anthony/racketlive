@@ -9,6 +9,9 @@ export function convertirMatch(match, tournoisParId, idsAvecFiche) {
   const nomTournoi = tournoisParId[match.tournamentId]
   if (!nomTournoi) return null
 
+  // Sans date ou sans l'un des joueurs, le match n'est pas affichable : on l'ignore
+  if (!match.startTime || !match.player1 || !match.player2) return null
+
   // Les doubles ont deux noms séparés par « / » : on ne garde que les simples
   if (match.player1.name.includes('/') || match.player2.name.includes('/')) return null
 

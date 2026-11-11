@@ -33,6 +33,11 @@ describe('convertirMatch', () => {
     expect(convertirMatch(match({ tournamentId: 1 }), tournois, fiches)).toBeNull()
   })
 
+  it('ignore un match sans date ou sans joueur', () => {
+    expect(convertirMatch(match({ startTime: null }), tournois, fiches)).toBeNull()
+    expect(convertirMatch(match({ player2: null }), tournois, fiches)).toBeNull()
+  })
+
   it('ignore les doubles', () => {
     const double = match({
       player1: { id: 5, name: 'A Un/B Deux', countryAcr: 'N/A' },
