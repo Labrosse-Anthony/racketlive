@@ -1,5 +1,5 @@
 {
-  "misAJour": "2026-11-09T15:08:53.817Z",
+  "misAJour": "2026-11-12T14:36:04.105Z",
   "atp": [
     {
       "id": 24008,
@@ -802,6 +802,13 @@
       "evolution": null
     },
     {
+      "id": 67792,
+      "nom": "Alexandra Eala",
+      "pays": "PH",
+      "points": 2392,
+      "evolution": null
+    },
+    {
       "id": 6019,
       "nom": "Sorana Cirstea",
       "pays": "RO",
@@ -816,17 +823,17 @@
       "evolution": null
     },
     {
-      "id": 67792,
-      "nom": "Alexandra Eala",
-      "pays": "PH",
-      "points": 2289,
-      "evolution": null
-    },
-    {
       "id": 49081,
       "nom": "Leylah Annie Fernandez",
       "pays": "CA",
       "points": 2201,
+      "evolution": null
+    },
+    {
+      "id": 11672,
+      "nom": "Madison Keys",
+      "pays": "US",
+      "points": 2175,
       "evolution": null
     },
     {
@@ -865,13 +872,6 @@
       "evolution": null
     },
     {
-      "id": 11672,
-      "nom": "Madison Keys",
-      "pays": "US",
-      "points": 1921,
-      "evolution": null
-    },
-    {
       "id": 16628,
       "nom": "Jelena Ostapenko",
       "pays": "LV",
@@ -886,6 +886,13 @@
       "evolution": null
     },
     {
+      "id": 42098,
+      "nom": "Emma Navarro",
+      "pays": "US",
+      "points": 1819,
+      "evolution": null
+    },
+    {
       "id": 40156,
       "nom": "Anastasia Potapova",
       "pays": "AT",
@@ -893,10 +900,10 @@
       "evolution": null
     },
     {
-      "id": 42098,
-      "nom": "Emma Navarro",
-      "pays": "US",
-      "points": 1794,
+      "id": 13541,
+      "nom": "Maria Sakkari",
+      "pays": "GR",
+      "points": 1779,
       "evolution": null
     },
     {
@@ -904,13 +911,6 @@
       "nom": "Nikola Bartunkova",
       "pays": "CZ",
       "points": 1711,
-      "evolution": null
-    },
-    {
-      "id": 13541,
-      "nom": "Maria Sakkari",
-      "pays": "GR",
-      "points": 1682,
       "evolution": null
     },
     {
@@ -952,7 +952,7 @@
       "id": 63749,
       "nom": "Talia Gibson",
       "pays": "AU",
-      "points": 1341,
+      "points": 1342,
       "evolution": null
     },
     {
@@ -995,6 +995,13 @@
       "nom": "Daria Snigur",
       "pays": "UA",
       "points": 1223,
+      "evolution": null
+    },
+    {
+      "id": 9357,
+      "nom": "Magda Linette",
+      "pays": "PL",
+      "points": 1176,
       "evolution": null
     },
     {
@@ -1043,7 +1050,7 @@
       "id": 14175,
       "nom": "Katie Boulter",
       "pays": "GB",
-      "points": 1115,
+      "points": 1125,
       "evolution": null
     },
     {
@@ -1089,13 +1096,6 @@
       "evolution": null
     },
     {
-      "id": 13706,
-      "nom": "Mayar Sherif",
-      "pays": "EG",
-      "points": 1085,
-      "evolution": null
-    },
-    {
       "id": 17142,
       "nom": "Paula Badosa Gibert",
       "pays": "ES",
@@ -1117,6 +1117,13 @@
       "evolution": null
     },
     {
+      "id": 60341,
+      "nom": "Janice Tjen",
+      "pays": "ID",
+      "points": 1033,
+      "evolution": null
+    },
+    {
       "id": 17774,
       "nom": "Elena Gabriela Ruse",
       "pays": "RO",
@@ -1131,17 +1138,24 @@
       "evolution": null
     },
     {
-      "id": 51696,
-      "nom": "Oleksandra Oliynykova",
-      "pays": "UA",
-      "points": 1022,
-      "evolution": null
-    },
-    {
       "id": 66626,
       "nom": "Lanlana Tararudee",
       "pays": "TH",
       "points": 1012,
+      "evolution": null
+    },
+    {
+      "id": 49991,
+      "nom": "Zeynep Sonmez",
+      "pays": "TR",
+      "points": 1011,
+      "evolution": null
+    },
+    {
+      "id": 13706,
+      "nom": "Mayar Sherif",
+      "pays": "EG",
+      "points": 1006,
       "evolution": null
     },
     {
@@ -1166,17 +1180,17 @@
       "evolution": null
     },
     {
-      "id": 49991,
-      "nom": "Zeynep Sonmez",
-      "pays": "TR",
-      "points": 987,
+      "id": 27804,
+      "nom": "Claire Liu",
+      "pays": "US",
+      "points": 972,
       "evolution": null
     },
     {
-      "id": 9357,
-      "nom": "Magda Linette",
-      "pays": "PL",
-      "points": 956,
+      "id": 51696,
+      "nom": "Oleksandra Oliynykova",
+      "pays": "UA",
+      "points": 957,
       "evolution": null
     },
     {
@@ -1222,10 +1236,10 @@
       "evolution": null
     },
     {
-      "id": 60341,
-      "nom": "Janice Tjen",
-      "pays": "ID",
-      "points": 900,
+      "id": 65417,
+      "nom": "Antonia Ruzic",
+      "pays": "HR",
+      "points": 898,
       "evolution": null
     },
     {
@@ -1264,24 +1278,10 @@
       "evolution": null
     },
     {
-      "id": 65417,
-      "nom": "Antonia Ruzic",
-      "pays": "HR",
-      "points": 862,
-      "evolution": null
-    },
-    {
       "id": 52646,
       "nom": "Alina Charaeva",
       "pays": "AM",
       "points": 859,
-      "evolution": null
-    },
-    {
-      "id": 70326,
-      "nom": "Taylah Preston",
-      "pays": "AU",
-      "points": 858,
       "evolution": null
     },
     {
@@ -1299,6 +1299,13 @@
       "evolution": null
     },
     {
+      "id": 60791,
+      "nom": "Polina Kudermetova",
+      "pays": "UZ",
+      "points": 852,
+      "evolution": null
+    },
+    {
       "id": 43866,
       "nom": "Panna Udvardy",
       "pays": "HU",
@@ -1309,7 +1316,35 @@
       "id": 73203,
       "nom": "Petra Marcinko",
       "pays": "HR",
-      "points": 835,
+      "points": 845,
+      "evolution": null
+    },
+    {
+      "id": 11959,
+      "nom": "Leolia Jeanjean",
+      "pays": "FR",
+      "points": 841,
+      "evolution": null
+    },
+    {
+      "id": 12842,
+      "nom": "Aliaksandra Sasnovich",
+      "pays": "BY",
+      "points": 839,
+      "evolution": null
+    },
+    {
+      "id": 70326,
+      "nom": "Taylah Preston",
+      "pays": "AU",
+      "points": 836,
+      "evolution": null
+    },
+    {
+      "id": 72414,
+      "nom": "Maya Joint",
+      "pays": "AU",
+      "points": 832,
       "evolution": null
     },
     {
@@ -1327,31 +1362,10 @@
       "evolution": null
     },
     {
-      "id": 72414,
-      "nom": "Maya Joint",
-      "pays": "AU",
-      "points": 817,
-      "evolution": null
-    },
-    {
-      "id": 11959,
-      "nom": "Leolia Jeanjean",
-      "pays": "FR",
-      "points": 816,
-      "evolution": null
-    },
-    {
       "id": 50943,
       "nom": "Sinja Kraus",
       "pays": "AT",
       "points": 814,
-      "evolution": null
-    },
-    {
-      "id": 60791,
-      "nom": "Polina Kudermetova",
-      "pays": "UZ",
-      "points": 813,
       "evolution": null
     },
     {
@@ -1376,13 +1390,6 @@
       "evolution": null
     },
     {
-      "id": 18403,
-      "nom": "Renata Zarazua",
-      "pays": "MX",
-      "points": 783,
-      "evolution": null
-    },
-    {
       "id": 38210,
       "nom": "Francesca Jones",
       "pays": "GB",
@@ -1390,17 +1397,10 @@
       "evolution": null
     },
     {
-      "id": 37266,
-      "nom": "Dayana Yastremska",
-      "pays": "UA",
-      "points": 770,
-      "evolution": null
-    },
-    {
-      "id": 57090,
-      "nom": "Jessica Bouzas Maneiro",
-      "pays": "ES",
-      "points": 769,
+      "id": 39226,
+      "nom": "Bianca Vanessa Andreescu",
+      "pays": "CA",
+      "points": 777,
       "evolution": null
     }
   ]

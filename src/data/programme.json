@@ -1,229 +1,134 @@
 [
   {
-    "id": "1238",
-    "date": "2026-10-15",
-    "tournoiId": 21356,
-    "tournoi": "Shanghai Rolex Masters",
+    "id": "1960836",
+    "date": "2026-11-12",
+    "tournoiId": 21363,
+    "tournoi": "BNP Paribas Nordic Open",
     "tour": "Quart de finale",
     "joueur1": {
-      "id": 24008,
-      "nom": "Alexander Zverev",
-      "pays": "DE",
-      "classe": true
-    },
-    "joueur2": {
-      "id": 39309,
-      "nom": "Alex De Minaur",
-      "pays": "AU",
-      "classe": true
-    }
-  },
-  {
-    "id": "1345",
-    "date": "2026-10-15",
-    "tournoiId": 21356,
-    "tournoi": "Shanghai Rolex Masters",
-    "tour": "Quart de finale",
-    "joueur1": {
-      "id": 87277,
-      "nom": "Arthur Gea",
-      "pays": "FR",
-      "classe": true
-    },
-    "joueur2": {
-      "id": 36519,
-      "nom": "Alejandro Davidovich Fokina",
-      "pays": "ES",
-      "classe": true
-    }
-  },
-  {
-    "id": "843",
-    "date": "2026-10-15",
-    "tournoiId": 16750,
-    "tournoi": "Wuhan Open",
-    "tour": "3e tour",
-    "joueur1": {
-      "id": 45866,
-      "nom": "Ann Li",
-      "pays": "US",
-      "classe": true
-    },
-    "joueur2": {
-      "id": 60341,
-      "nom": "Janice Tjen",
-      "pays": "ID",
-      "classe": true
-    }
-  },
-  {
-    "id": "861",
-    "date": "2026-10-15",
-    "tournoiId": 16750,
-    "tournoi": "Wuhan Open",
-    "tour": "3e tour",
-    "joueur1": {
-      "id": 64343,
-      "nom": "Ashlyn Krueger",
-      "pays": "US",
-      "classe": true
-    },
-    "joueur2": {
-      "id": 45854,
-      "nom": "Iga Swiatek",
-      "pays": "PL",
-      "classe": true
-    }
-  },
-  {
-    "id": "845",
-    "date": "2026-10-15",
-    "tournoiId": 16750,
-    "tournoi": "Wuhan Open",
-    "tour": "3e tour",
-    "joueur1": {
-      "id": 49081,
-      "nom": "Leylah Annie Fernandez",
-      "pays": "CA",
-      "classe": true
-    },
-    "joueur2": {
-      "id": 16628,
-      "nom": "Jelena Ostapenko",
-      "pays": "LV",
-      "classe": true
-    }
-  },
-  {
-    "id": "813",
-    "date": "2026-10-15",
-    "tournoiId": 16750,
-    "tournoi": "Wuhan Open",
-    "tour": "3e tour",
-    "joueur1": {
-      "id": 14362,
-      "nom": "Jasmine Paolini",
+      "id": 63572,
+      "nom": "Lorenzo Musetti",
       "pays": "IT",
       "classe": true
     },
     "joueur2": {
-      "id": 66591,
-      "nom": "Sonay Kartal",
-      "pays": "GB",
+      "id": 38911,
+      "nom": "Ugo Humbert",
+      "pays": "FR",
       "classe": true
     }
   },
   {
-    "id": "806",
-    "date": "2026-10-15",
-    "tournoiId": 16750,
-    "tournoi": "Wuhan Open",
-    "tour": "3e tour",
+    "id": "1973294",
+    "date": "2026-11-12",
+    "tournoiId": 21363,
+    "tournoi": "BNP Paribas Nordic Open",
+    "tour": "Quart de finale",
     "joueur1": {
-      "id": 11371,
-      "nom": "Elina Svitolina",
+      "id": 29932,
+      "nom": "Taylor Fritz",
+      "pays": "US",
+      "classe": true
+    },
+    "joueur2": {
+      "id": 69471,
+      "nom": "Holger Rune",
+      "pays": "DK",
+      "classe": false
+    }
+  },
+  {
+    "id": "1970178",
+    "date": "2026-11-12",
+    "tournoiId": 21363,
+    "tournoi": "BNP Paribas Nordic Open",
+    "tour": "Quart de finale",
+    "joueur1": {
+      "id": 52394,
+      "nom": "Thiago Agustin Tirante",
+      "pays": "AR",
+      "classe": true
+    },
+    "joueur2": {
+      "id": 64891,
+      "nom": "Alexander Shevchenko",
+      "pays": "KZ",
+      "classe": false
+    }
+  },
+  {
+    "id": "1069743",
+    "date": "2026-11-12",
+    "tournoiId": 16758,
+    "tournoi": "WTA Finals",
+    "tour": "Phase de poules",
+    "joueur1": {
+      "id": 11712,
+      "nom": "Jessica Pegula",
+      "pays": "US",
+      "classe": true
+    },
+    "joueur2": {
+      "id": 66597,
+      "nom": "Linda Noskova",
+      "pays": "CZ",
+      "classe": true
+    }
+  },
+  {
+    "id": "1255704",
+    "date": "2026-11-12",
+    "tournoiId": 16758,
+    "tournoi": "WTA Finals",
+    "tour": "Phase de poules",
+    "joueur1": {
+      "id": 47742,
+      "nom": "Marta Kostyuk",
       "pays": "UA",
       "classe": true
     },
     "joueur2": {
-      "id": 32308,
-      "nom": "Hanyu Guo",
-      "pays": "CN",
-      "classe": false
+      "id": 54663,
+      "nom": "Cori Gauff",
+      "pays": "US",
+      "classe": true
     }
   },
   {
-    "id": "883",
-    "date": "2026-10-15",
-    "tournoiId": 16750,
-    "tournoi": "Wuhan Open",
-    "tour": "3e tour",
+    "id": "1069744",
+    "date": "2026-11-13",
+    "tournoiId": 16758,
+    "tournoi": "WTA Finals",
+    "tour": "Phase de poules",
     "joueur1": {
-      "id": 80381,
-      "nom": "Iva Jovic",
-      "pays": "US",
+      "id": 18455,
+      "nom": "Aryna Sabalenka",
+      "pays": "BY",
       "classe": true
     },
     "joueur2": {
-      "id": 43323,
-      "nom": "Maja Chwalinska",
-      "pays": "PL",
+      "id": 11371,
+      "nom": "Elina Svitolina",
+      "pays": "UA",
       "classe": true
     }
   },
   {
-    "id": "825",
-    "date": "2026-10-15",
-    "tournoiId": 16750,
-    "tournoi": "Wuhan Open",
-    "tour": "3e tour",
+    "id": "1069756",
+    "date": "2026-11-13",
+    "tournoiId": 16758,
+    "tournoi": "WTA Finals",
+    "tour": "Phase de poules",
     "joueur1": {
+      "id": 77934,
+      "nom": "Mirra Andreeva",
+      "pays": "RU",
+      "classe": true
+    },
+    "joueur2": {
       "id": 18482,
       "nom": "Karolina Muchova",
       "pays": "CZ",
-      "classe": true
-    },
-    "joueur2": {
-      "id": 65911,
-      "nom": "Diana Shnaider",
-      "pays": "RU",
-      "classe": true
-    }
-  },
-  {
-    "id": "884",
-    "date": "2026-10-15",
-    "tournoiId": 16750,
-    "tournoi": "Wuhan Open",
-    "tour": "3e tour",
-    "joueur1": {
-      "id": 90390,
-      "nom": "Mia Pohankova",
-      "pays": "SK",
-      "classe": false
-    },
-    "joueur2": {
-      "id": 13541,
-      "nom": "Maria Sakkari",
-      "pays": "GR",
-      "classe": true
-    }
-  },
-  {
-    "id": "1367",
-    "date": "2026-10-16",
-    "tournoiId": 21356,
-    "tournoi": "Shanghai Rolex Masters",
-    "tour": "Quart de finale",
-    "joueur1": {
-      "id": 99691,
-      "nom": "Rafael Jodar",
-      "pays": "ES",
-      "classe": true
-    },
-    "joueur2": {
-      "id": 33648,
-      "nom": "Casper Ruud",
-      "pays": "NO",
-      "classe": true
-    }
-  },
-  {
-    "id": "1230",
-    "date": "2026-10-16",
-    "tournoiId": 21356,
-    "tournoi": "Shanghai Rolex Masters",
-    "tour": "Quart de finale",
-    "joueur1": {
-      "id": 22807,
-      "nom": "Daniil Medvedev",
-      "pays": "RU",
-      "classe": true
-    },
-    "joueur2": {
-      "id": 29935,
-      "nom": "Tommy Paul",
-      "pays": "US",
       "classe": true
     }
   }

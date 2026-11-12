@@ -1247,9 +1247,9 @@
     "nom": "WTA Finals",
     "circuit": "wta",
     "categorie": null,
-    "surface": "indoor",
-    "pays": "SA",
-    "ville": "Riyadh",
+    "surface": "dur",
+    "pays": "US",
+    "ville": "Indian Wells",
     "debut": "2026-11-09",
     "fin": "2026-11-15"
   }
