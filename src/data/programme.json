@@ -1,29 +1,10 @@
 [
   {
-    "id": "1960836",
-    "date": "2026-11-12",
+    "id": "2115368",
+    "date": "2026-11-14",
     "tournoiId": 21363,
     "tournoi": "BNP Paribas Nordic Open",
-    "tour": "Quart de finale",
-    "joueur1": {
-      "id": 63572,
-      "nom": "Lorenzo Musetti",
-      "pays": "IT",
-      "classe": true
-    },
-    "joueur2": {
-      "id": 38911,
-      "nom": "Ugo Humbert",
-      "pays": "FR",
-      "classe": true
-    }
-  },
-  {
-    "id": "1973294",
-    "date": "2026-11-12",
-    "tournoiId": 21363,
-    "tournoi": "BNP Paribas Nordic Open",
-    "tour": "Quart de finale",
+    "tour": "Finale",
     "joueur1": {
       "id": 29932,
       "nom": "Taylor Fritz",
@@ -31,79 +12,22 @@
       "classe": true
     },
     "joueur2": {
-      "id": 69471,
-      "nom": "Holger Rune",
-      "pays": "DK",
-      "classe": false
-    }
-  },
-  {
-    "id": "1970178",
-    "date": "2026-11-12",
-    "tournoiId": 21363,
-    "tournoi": "BNP Paribas Nordic Open",
-    "tour": "Quart de finale",
-    "joueur1": {
       "id": 52394,
       "nom": "Thiago Agustin Tirante",
       "pays": "AR",
       "classe": true
-    },
-    "joueur2": {
-      "id": 64891,
-      "nom": "Alexander Shevchenko",
-      "pays": "KZ",
-      "classe": false
     }
   },
   {
-    "id": "1069743",
-    "date": "2026-11-12",
+    "id": "1551122",
+    "date": "2026-11-14",
     "tournoiId": 16758,
     "tournoi": "WTA Finals",
-    "tour": "Phase de poules",
+    "tour": "Demi-finale",
     "joueur1": {
-      "id": 11712,
-      "nom": "Jessica Pegula",
-      "pays": "US",
-      "classe": true
-    },
-    "joueur2": {
       "id": 66597,
       "nom": "Linda Noskova",
       "pays": "CZ",
-      "classe": true
-    }
-  },
-  {
-    "id": "1255704",
-    "date": "2026-11-12",
-    "tournoiId": 16758,
-    "tournoi": "WTA Finals",
-    "tour": "Phase de poules",
-    "joueur1": {
-      "id": 47742,
-      "nom": "Marta Kostyuk",
-      "pays": "UA",
-      "classe": true
-    },
-    "joueur2": {
-      "id": 54663,
-      "nom": "Cori Gauff",
-      "pays": "US",
-      "classe": true
-    }
-  },
-  {
-    "id": "1069744",
-    "date": "2026-11-13",
-    "tournoiId": 16758,
-    "tournoi": "WTA Finals",
-    "tour": "Phase de poules",
-    "joueur1": {
-      "id": 18455,
-      "nom": "Aryna Sabalenka",
-      "pays": "BY",
       "classe": true
     },
     "joueur2": {
@@ -114,21 +38,21 @@
     }
   },
   {
-    "id": "1069756",
-    "date": "2026-11-13",
+    "id": "1508794",
+    "date": "2026-11-14",
     "tournoiId": 16758,
     "tournoi": "WTA Finals",
-    "tour": "Phase de poules",
+    "tour": "Demi-finale",
     "joueur1": {
-      "id": 77934,
-      "nom": "Mirra Andreeva",
-      "pays": "RU",
+      "id": 11712,
+      "nom": "Jessica Pegula",
+      "pays": "US",
       "classe": true
     },
     "joueur2": {
-      "id": 18482,
-      "nom": "Karolina Muchova",
-      "pays": "CZ",
+      "id": 77934,
+      "nom": "Mirra Andreeva",
+      "pays": "RU",
       "classe": true
     }
   }
