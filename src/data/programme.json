@@ -1,52 +1,14 @@
 [
   {
-    "id": "2115368",
-    "date": "2026-11-14",
-    "tournoiId": 21363,
-    "tournoi": "BNP Paribas Nordic Open",
-    "tour": "Finale",
-    "joueur1": {
-      "id": 29932,
-      "nom": "Taylor Fritz",
-      "pays": "US",
-      "classe": true
-    },
-    "joueur2": {
-      "id": 52394,
-      "nom": "Thiago Agustin Tirante",
-      "pays": "AR",
-      "classe": true
-    }
-  },
-  {
-    "id": "1551122",
-    "date": "2026-11-14",
+    "id": "1588976",
+    "date": "2026-11-15",
     "tournoiId": 16758,
     "tournoi": "WTA Finals",
-    "tour": "Demi-finale",
+    "tour": "Finale",
     "joueur1": {
-      "id": 66597,
-      "nom": "Linda Noskova",
-      "pays": "CZ",
-      "classe": true
-    },
-    "joueur2": {
       "id": 11371,
       "nom": "Elina Svitolina",
       "pays": "UA",
-      "classe": true
-    }
-  },
-  {
-    "id": "1508794",
-    "date": "2026-11-14",
-    "tournoiId": 16758,
-    "tournoi": "WTA Finals",
-    "tour": "Demi-finale",
-    "joueur1": {
-      "id": 11712,
-      "nom": "Jessica Pegula",
-      "pays": "US",
       "classe": true
     },
     "joueur2": {
