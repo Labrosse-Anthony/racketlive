@@ -1,25 +1,25 @@
 {
-  "misAJour": "2026-11-15T13:25:29.413Z",
+  "misAJour": "2026-11-16T14:43:59.024Z",
   "atp": [
     {
       "id": 24008,
       "nom": "Alexander Zverev",
       "pays": "DE",
-      "points": 9550,
+      "points": 9320,
       "evolution": null
     },
     {
       "id": 47275,
       "nom": "Jannik Sinner",
       "pays": "IT",
-      "points": 9450,
+      "points": 7950,
       "evolution": null
     },
     {
       "id": 68074,
       "nom": "Carlos Alcaraz",
       "pays": "ES",
-      "points": 7100,
+      "points": 6100,
       "evolution": null
     },
     {
@@ -58,17 +58,10 @@
       "evolution": null
     },
     {
-      "id": 39309,
-      "nom": "Alex De Minaur",
-      "pays": "AU",
-      "points": 3370,
-      "evolution": null
-    },
-    {
       "id": 29932,
       "nom": "Taylor Fritz",
       "pays": "US",
-      "points": 3285,
+      "points": 3300,
       "evolution": null
     },
     {
@@ -76,6 +69,13 @@
       "nom": "Rafael Jodar",
       "pays": "ES",
       "points": 3234,
+      "evolution": null
+    },
+    {
+      "id": 39309,
+      "nom": "Alex De Minaur",
+      "pays": "AU",
+      "points": 3170,
       "evolution": null
     },
     {
@@ -90,13 +90,6 @@
       "nom": "Tommy Paul",
       "pays": "US",
       "points": 2925,
-      "evolution": null
-    },
-    {
-      "id": 40434,
-      "nom": "Felix Auger Aliassime",
-      "pays": "CA",
-      "points": 2865,
       "evolution": null
     },
     {
@@ -118,6 +111,13 @@
       "nom": "Alejandro Davidovich Fokina",
       "pays": "ES",
       "points": 2500,
+      "evolution": null
+    },
+    {
+      "id": 40434,
+      "nom": "Felix Auger Aliassime",
+      "pays": "CA",
+      "points": 2465,
       "evolution": null
     },
     {
@@ -170,13 +170,6 @@
       "evolution": null
     },
     {
-      "id": 63572,
-      "nom": "Lorenzo Musetti",
-      "pays": "IT",
-      "points": 1895,
-      "evolution": null
-    },
-    {
       "id": 24245,
       "nom": "Alexander Bublik",
       "pays": "KZ",
@@ -191,6 +184,13 @@
       "evolution": null
     },
     {
+      "id": 63572,
+      "nom": "Lorenzo Musetti",
+      "pays": "IT",
+      "points": 1785,
+      "evolution": null
+    },
+    {
       "id": 88766,
       "nom": "Alexander Blockx",
       "pays": "BE",
@@ -201,7 +201,7 @@
       "id": 37532,
       "nom": "Tomas Martin Etcheverry",
       "pays": "AR",
-      "points": 1625,
+      "points": 1640,
       "evolution": null
     },
     {
@@ -215,21 +215,21 @@
       "id": 30087,
       "nom": "Alejandro Tabilo",
       "pays": "CL",
-      "points": 1525,
-      "evolution": null
-    },
-    {
-      "id": 79113,
-      "nom": "Ignacio Buse",
-      "pays": "PE",
-      "points": 1520,
+      "points": 1595,
       "evolution": null
     },
     {
       "id": 79065,
       "nom": "Arthur Fery",
       "pays": "GB",
-      "points": 1510,
+      "points": 1507,
+      "evolution": null
+    },
+    {
+      "id": 79113,
+      "nom": "Ignacio Buse",
+      "pays": "PE",
+      "points": 1495,
       "evolution": null
     },
     {
@@ -243,7 +243,7 @@
       "id": 92985,
       "nom": "Alex Michelsen",
       "pays": "US",
-      "points": 1460,
+      "points": 1480,
       "evolution": null
     },
     {
@@ -251,13 +251,6 @@
       "nom": "Stefanos Tsitsipas",
       "pays": "GR",
       "points": 1430,
-      "evolution": null
-    },
-    {
-      "id": 14177,
-      "nom": "Jan-Lennard Struff",
-      "pays": "DE",
-      "points": 1358,
       "evolution": null
     },
     {
@@ -272,6 +265,13 @@
       "nom": "Ugo Humbert",
       "pays": "FR",
       "points": 1320,
+      "evolution": null
+    },
+    {
+      "id": 14177,
+      "nom": "Jan-Lennard Struff",
+      "pays": "DE",
+      "points": 1296,
       "evolution": null
     },
     {
@@ -324,6 +324,13 @@
       "evolution": null
     },
     {
+      "id": 52394,
+      "nom": "Thiago Agustin Tirante",
+      "pays": "AR",
+      "points": 1197,
+      "evolution": null
+    },
+    {
       "id": 87277,
       "nom": "Arthur Gea",
       "pays": "FR",
@@ -334,7 +341,7 @@
       "id": 66828,
       "nom": "Mariano Navone",
       "pays": "AR",
-      "points": 1099,
+      "points": 1095,
       "evolution": null
     },
     {
@@ -352,10 +359,10 @@
       "evolution": null
     },
     {
-      "id": 52394,
-      "nom": "Thiago Agustin Tirante",
-      "pays": "AR",
-      "points": 1042,
+      "id": 27851,
+      "nom": "Cameron Norrie",
+      "pays": "GB",
+      "points": 1045,
       "evolution": null
     },
     {
@@ -363,13 +370,6 @@
       "nom": "Sebastian Baez",
       "pays": "AR",
       "points": 1040,
-      "evolution": null
-    },
-    {
-      "id": 27851,
-      "nom": "Cameron Norrie",
-      "pays": "GB",
-      "points": 1030,
       "evolution": null
     },
     {
@@ -446,7 +446,7 @@
       "id": 34337,
       "nom": "Miomir Kecmanovic",
       "pays": "RS",
-      "points": 859,
+      "points": 871,
       "evolution": null
     },
     {
@@ -499,17 +499,17 @@
       "evolution": null
     },
     {
+      "id": 29732,
+      "nom": "Daniel Altmaier",
+      "pays": "DE",
+      "points": 822,
+      "evolution": null
+    },
+    {
       "id": 34539,
       "nom": "Alex Molcan",
       "pays": "SK",
       "points": 820,
-      "evolution": null
-    },
-    {
-      "id": 29732,
-      "nom": "Daniel Altmaier",
-      "pays": "DE",
-      "points": 812,
       "evolution": null
     },
     {
@@ -527,17 +527,17 @@
       "evolution": null
     },
     {
-      "id": 11517,
-      "nom": "James Duckworth",
-      "pays": "AU",
-      "points": 774,
-      "evolution": null
-    },
-    {
       "id": 14432,
       "nom": "Pablo Carreno-Busta",
       "pays": "ES",
       "points": 773,
+      "evolution": null
+    },
+    {
+      "id": 11517,
+      "nom": "James Duckworth",
+      "pays": "AU",
+      "points": 772,
       "evolution": null
     },
     {
@@ -548,17 +548,17 @@
       "evolution": null
     },
     {
-      "id": 70705,
-      "nom": "Roman Andres Burruchaga",
-      "pays": "AR",
-      "points": 752,
-      "evolution": null
-    },
-    {
       "id": 79060,
       "nom": "Hamad Medjedovic",
       "pays": "RS",
       "points": 751,
+      "evolution": null
+    },
+    {
+      "id": 70705,
+      "nom": "Roman Andres Burruchaga",
+      "pays": "AR",
+      "points": 735,
       "evolution": null
     },
     {
@@ -590,17 +590,17 @@
       "evolution": null
     },
     {
-      "id": 65904,
-      "nom": "Kyrian Jacquet",
-      "pays": "FR",
-      "points": 684,
-      "evolution": null
-    },
-    {
       "id": 14716,
       "nom": "Nikoloz Basilashvili",
       "pays": "GE",
-      "points": 681,
+      "points": 688,
+      "evolution": null
+    },
+    {
+      "id": 65904,
+      "nom": "Kyrian Jacquet",
+      "pays": "FR",
+      "points": 680,
       "evolution": null
     },
     {
@@ -639,6 +639,13 @@
       "evolution": null
     },
     {
+      "id": 79068,
+      "nom": "Toby Samuel",
+      "pays": "GB",
+      "points": 647,
+      "evolution": null
+    },
+    {
       "id": 61667,
       "nom": "Bu Yunchaokete",
       "pays": "CN",
@@ -660,10 +667,10 @@
       "evolution": null
     },
     {
-      "id": 79068,
-      "nom": "Toby Samuel",
-      "pays": "GB",
-      "points": 624,
+      "id": 47021,
+      "nom": "Zsombor Piros",
+      "pays": "HU",
+      "points": 620,
       "evolution": null
     },
     {
@@ -674,6 +681,13 @@
       "evolution": null
     },
     {
+      "id": 87512,
+      "nom": "Michael Zheng",
+      "pays": "US",
+      "points": 616,
+      "evolution": null
+    },
+    {
       "id": 6101,
       "nom": "Marin Cilic",
       "pays": "HR",
@@ -681,24 +695,10 @@
       "evolution": null
     },
     {
-      "id": 36858,
-      "nom": "Thiago Seyboth Wild",
-      "pays": "BR",
+      "id": 64891,
+      "nom": "Alexander Shevchenko",
+      "pays": "KZ",
       "points": 609,
-      "evolution": null
-    },
-    {
-      "id": 47021,
-      "nom": "Zsombor Piros",
-      "pays": "HU",
-      "points": 604,
-      "evolution": null
-    },
-    {
-      "id": 87512,
-      "nom": "Michael Zheng",
-      "pays": "US",
-      "points": 594,
       "evolution": null
     }
   ],
@@ -711,38 +711,45 @@
       "evolution": null
     },
     {
-      "id": 18455,
-      "nom": "Aryna Sabalenka",
-      "pays": "BY",
-      "points": 6485,
-      "evolution": null
-    },
-    {
       "id": 77934,
       "nom": "Mirra Andreeva",
       "pays": "RU",
-      "points": 6306,
+      "points": 7806,
+      "evolution": null
+    },
+    {
+      "id": 18455,
+      "nom": "Aryna Sabalenka",
+      "pays": "BY",
+      "points": 6685,
       "evolution": null
     },
     {
       "id": 54663,
       "nom": "Cori Gauff",
       "pays": "US",
-      "points": 5763,
+      "points": 6163,
       "evolution": null
     },
     {
       "id": 11712,
       "nom": "Jessica Pegula",
       "pays": "US",
-      "points": 5760,
+      "points": 6160,
       "evolution": null
     },
     {
       "id": 11371,
       "nom": "Elina Svitolina",
       "pays": "UA",
-      "points": 5121,
+      "points": 5921,
+      "evolution": null
+    },
+    {
+      "id": 66597,
+      "nom": "Linda Noskova",
+      "pays": "CZ",
+      "points": 4743,
       "evolution": null
     },
     {
@@ -750,13 +757,6 @@
       "nom": "Karolina Muchova",
       "pays": "CZ",
       "points": 4665,
-      "evolution": null
-    },
-    {
-      "id": 66597,
-      "nom": "Linda Noskova",
-      "pays": "CZ",
-      "points": 4343,
       "evolution": null
     },
     {
@@ -1131,13 +1131,6 @@
       "evolution": null
     },
     {
-      "id": 14694,
-      "nom": "Tamara Korpatsch",
-      "pays": "DE",
-      "points": 1032,
-      "evolution": null
-    },
-    {
       "id": 66626,
       "nom": "Lanlana Tararudee",
       "pays": "TH",
@@ -1170,6 +1163,13 @@
       "nom": "Caty McNally",
       "pays": "US",
       "points": 999,
+      "evolution": null
+    },
+    {
+      "id": 14694,
+      "nom": "Tamara Korpatsch",
+      "pays": "DE",
+      "points": 997,
       "evolution": null
     },
     {
@@ -1233,6 +1233,13 @@
       "nom": "Anna Bondar",
       "pays": "HU",
       "points": 913,
+      "evolution": null
+    },
+    {
+      "id": 39226,
+      "nom": "Bianca Vanessa Andreescu",
+      "pays": "CA",
+      "points": 900,
       "evolution": null
     },
     {
@@ -1334,13 +1341,6 @@
       "evolution": null
     },
     {
-      "id": 70326,
-      "nom": "Taylah Preston",
-      "pays": "AU",
-      "points": 836,
-      "evolution": null
-    },
-    {
       "id": 72414,
       "nom": "Maya Joint",
       "pays": "AU",
@@ -1359,6 +1359,13 @@
       "nom": "Viktorija Golubic",
       "pays": "CH",
       "points": 831,
+      "evolution": null
+    },
+    {
+      "id": 70326,
+      "nom": "Taylah Preston",
+      "pays": "AU",
+      "points": 828,
       "evolution": null
     },
     {
@@ -1394,13 +1401,6 @@
       "nom": "Francesca Jones",
       "pays": "GB",
       "points": 778,
-      "evolution": null
-    },
-    {
-      "id": 39226,
-      "nom": "Bianca Vanessa Andreescu",
-      "pays": "CA",
-      "points": 777,
       "evolution": null
     }
   ]
